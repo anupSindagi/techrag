@@ -2,9 +2,10 @@ import asyncio
 import json
 import logging
 import os
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
+import uuid as uuid_lib
 
 from dotenv import load_dotenv
 
@@ -23,6 +24,7 @@ class RawEpisode:
     source: EpisodeType
     source_description: str
     reference_time: datetime
+    uuid: str = field(default_factory=lambda: str(uuid_lib.uuid4()))
 
 load_dotenv()
 
