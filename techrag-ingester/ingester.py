@@ -2,7 +2,6 @@ import asyncio
 import json
 import logging
 import os
-from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -15,16 +14,6 @@ from graphiti_core.embedder.openai import OpenAIEmbedder, OpenAIEmbedderConfig
 from graphiti_core.cross_encoder.openai_reranker_client import OpenAIRerankerClient
 from graphiti_core.nodes import EpisodeType
 from graphiti_core.utils.maintenance.graph_data_operations import clear_data
-
-
-@dataclass
-class RawEpisode:
-    name: str
-    content: str
-    source: EpisodeType
-    source_description: str
-    reference_time: datetime
-    uuid: str | None = None
 
 load_dotenv()
 
@@ -77,39 +66,34 @@ def load_episodes_from_file(file_path: Path) -> list[dict]:
     return episodes
 
 
-async def ingest_episodes_batch(graphiti: Graphiti, episodes: list[dict], batch_size: int = 5):
-    """Ingest episodes in batches."""
+async def ingest_episodes(graphiti: Graphiti, episodes: list[dict], delay_seconds: int = 20):
+    """Ingest episodes one at a time with delay."""
     total = len(episodes)
-    failed_batches = []
+    failed_episodes = []
     
-    for i in range(0, total, batch_size):
-        batch = episodes[i:i + batch_size]
-        batch_num = i // batch_size + 1
-        total_batches = (total + batch_size - 1) // batch_size
+    for i, ep in enumerate(episodes):
+        episode_num = i + 1
         
-        # Prepare bulk episodes using RawEpisode objects
-        bulk_episodes = [
-            RawEpisode(
+        try:
+            await graphiti.add_episode(
                 name=ep['name'],
-                content=ep['content'],
+                episode_body=ep['content'],
                 source=ep['type'],
                 source_description=ep['description'],
                 reference_time=datetime.now(timezone.utc),
             )
-            for ep in batch
-        ]
-        
-        try:
-            # Bulk add episodes
-            await graphiti.add_episode_bulk(bulk_episodes)
-            logger.info(f'Ingested batch {batch_num}/{total_batches} ({len(batch)} episodes)')
+            logger.info(f'Ingested episode {episode_num}/{total}: {ep["name"]}')
         except Exception as e:
-            logger.error(f'Failed batch {batch_num}/{total_batches}: {e}')
-            failed_batches.append(batch_num)
-            continue
+            logger.error(f'Failed episode {episode_num}/{total} ({ep["name"]}): {e}')
+            failed_episodes.append(ep['name'])
+        
+        # Wait before next episode
+        if episode_num < total:
+            logger.info(f'Waiting {delay_seconds} seconds...')
+            await asyncio.sleep(delay_seconds)
     
-    if failed_batches:
-        logger.warning(f'Failed batches: {failed_batches}')
+    if failed_episodes:
+        logger.warning(f'Failed episodes: {len(failed_episodes)}')
 
 
 async def main():
@@ -128,7 +112,7 @@ async def main():
             config=LLMConfig(
                 api_key=os.environ.get('GROQ_API_KEY'),
                 model="openai/gpt-oss-20b",
-                small_model="llama-3.1-8b-instant"
+                small_model="openai/gpt-oss-20b"
             )
         ),
         embedder=OpenAIEmbedder(
@@ -165,8 +149,8 @@ async def main():
         
         logger.info(f'Total episodes to ingest: {len(all_episodes)}')
         
-        # Ingest episodes in batches of 5
-        await ingest_episodes_batch(graphiti, all_episodes, batch_size=1)
+        # Ingest episodes one at a time with 20 second delay
+        await ingest_episodes(graphiti, all_episodes, delay_seconds=20)
         
         logger.info('Ingestion complete!')
         
