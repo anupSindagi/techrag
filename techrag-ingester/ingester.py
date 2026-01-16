@@ -29,7 +29,7 @@ class RawEpisode:
 load_dotenv()
 
 # Set semaphore limit for concurrency control
-os.environ['SEMAPHORE_LIMIT'] = '5'
+os.environ['SEMAPHORE_LIMIT'] = '2'
 
 # Configure logging
 logging.basicConfig(
@@ -127,7 +127,7 @@ async def main():
         llm_client=GroqClient(
             config=LLMConfig(
                 api_key=os.environ.get('GROQ_API_KEY'),
-                model="llama-3.1-8b-instant",
+                model="meta-llama/llama-4-scout-17b-16e-instruct",
                 small_model="llama-3.1-8b-instant"
             )
         ),
@@ -166,7 +166,7 @@ async def main():
         logger.info(f'Total episodes to ingest: {len(all_episodes)}')
         
         # Ingest episodes in batches of 5
-        await ingest_episodes_batch(graphiti, all_episodes, batch_size=5)
+        await ingest_episodes_batch(graphiti, all_episodes, batch_size=3)
         
         logger.info('Ingestion complete!')
         
