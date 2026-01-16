@@ -1,0 +1,10 @@
+requests
+pyhtml2pdf
+docling
+langchain-text-splitters
+tiktoken
+groq
+python-dotenv
+torch
+markdownify
+json-repair

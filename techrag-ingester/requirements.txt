@@ -1,0 +1,3 @@
+graphiti-core[falkordb,groq]
+python-dotenv
+openai

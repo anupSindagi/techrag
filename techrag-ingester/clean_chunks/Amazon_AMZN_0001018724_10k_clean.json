@@ -1,0 +1,1749 @@
+[
+  {
+    "info": "The excerpt consists of a series of XBRL element tags covering assets, segments, intangible assets, and various senior unsecured notes, but contains no substantive narrative or quantitative disclosures relevant to investors.",
+    "data": {},
+    "chunk_id": 3
+  },
+  {
+    "info": "Amazon.com, Inc. filed its 2024 Form 10‑K as a large accelerated, well‑known seasoned issuer, confirming its three‑segment structure (North America, International, AWS) and its customer‑centric strategy across consumers, sellers, developers, enterprises, creators and advertisers. The filing notes the company’s extensive global fulfillment, retail and device businesses and its continued emphasis on operational excellence and long‑term thinking.",
+    "data": {
+      "non_affiliate_voting_stock_market_value_2024": 1815014489485,
+      "common_shares_outstanding_2025": 10597729352
+    },
+    "chunk_id": 7
+  },
+  {
+    "info": "Amazon serves consumers through online and physical stores, devices, and Prime subscription, while also providing platforms for sellers, developers, content creators, and advertisers; it highlights intense competition across retail, cloud, media and logistics, and emphasizes risks from international expansion, regulatory environments, and geopolitical factors. The company notes a workforce of about 1.556 million employees and over 240 k employees participating in its Career Choice program.",
+    "data": {
+      "employees_2024": 1556000,
+      "career_choice_participants": 240000
+    },
+    "chunk_id": 8
+  },
+  {
+    "info": "The company faces material regulatory and compliance risks in China and India, including potential fines, license revocations, or operational shutdowns, and is exposed to trade, data protection, and geopolitical factors affecting China‑based sellers and suppliers. Retail demand is highly seasonal, with a concentration of sales in the fourth quarter, creating cash flow swings and pressure on inventory, fulfillment, and shipping capacity; over‑ or under‑stocking could hurt profitability. Fraudulent or unlawful seller activity may increase A‑to‑Z Guarantee costs. Intellectual‑property protection challenges and potential infringement claims add legal and financial exposure. Foreign‑exchange fluctuations affect international operations and foreign‑currency cash holdings. Rapid global expansion strains management, systems, and controls, increasing risk of operational inefficiencies, fulfillment and data‑center capacity mismatches, and higher costs. System outages, cyber‑security incidents, and data loss could impair services and reputation. Loss of senior‑management or key technical staff, as well as competition for talent, pose staffing risks. Supplier concentration, especially for semiconductors and other components, and reliance on limited commercial partners create supply‑chain and revenue‑share vulnerabilities.",
+    "data": {},
+    "chunk_id": 9
+  },
+  {
+    "info": "The company highlights material risks across its commercial agreements and strategic alliances, noting dependence on partner sales, infrastructure constraints, and potential termination or unfavorable amendments that could impact revenue. It also flags integration and impairment risks from acquisitions and investments, significant inventory exposure, payment‑processing fees and regulatory compliance costs, and heightened legal, antitrust, and product‑liability litigation. Additional concerns include volatile stock price, evolving government regulations, tax exposure—including new digital taxes and contested foreign tax positions—and cybersecurity threats. These factors could adversely affect operating results and cash flows.",
+    "data": {},
+    "chunk_id": 10
+  },
+  {
+    "info": "The filing describes robust cybersecurity governance with a chief security officer reporting to the CEO and board oversight by a Security Committee, and provides details on a substantial global property footprint of 701,974 thousand leased and 67,440 thousand owned square feet, including 618 North America and 27 International stores. Segment breakdown shows 457,104 leased and 20,741 owned square feet in North America, 166,673 leased and 11,741 owned internationally, and 24,875 leased and 24,052 owned for AWS. Shareholder count was 12,135 as of January 29 2025, and total shares outstanding plus awards increased to 10.9 billion in 2024 (10.8 billion in 2023). The company notes an inventory valuation impact of $365 million for each 1% increase in allowance.",
+    "data": {
+      "total_leased_sqft": 701974,
+      "total_owned_sqft": 67440,
+      "na_stores": 618,
+      "intl_stores": 27,
+      "na_leased_sqft": 457104,
+      "na_owned_sqft": 20741,
+      "intl_leased_sqft": 166673,
+      "intl_owned_sqft": 11741,
+      "aws_leased_sqft": 24875,
+      "aws_owned_sqft": 24052,
+      "segment_total_leased_sqft": 648652,
+      "segment_total_owned_sqft": 56534,
+      "shareholders_of_record": 12135,
+      "total_shares_outstanding_2023": 10800000000,
+      "total_shares_outstanding_2024": 10900000000,
+      "inventory_valuation_additional_cost_per_1pct": 365000000,
+      "chief_security_officer_experience_years": 15
+    },
+    "chunk_id": 11
+  },
+  {
+    "info": "The company highlighted material inventory valuation risk, noting a $365 million cost of sales impact per 1% additional allowance, and ongoing tax controversies that could affect results. Liquidity remains strong with cash and marketable securities of $101.2 billion (2024) and operating cash flow rising to $115.9 billion, while cash capital expenditures increased to $77.7 billion. Net sales grew 11% to $637.959 billion, driven by North America, International and AWS segments, with AWS sales up 19%. Cost‑of‑sales as a share of revenue fell to 51.1%, and operating expenses rose modestly. The firm invested in convertible notes ($1.3 billion in Q4 2024) and reduced debt issuance in 2024. Foreign currency balances and restricted cash also rose, supporting continued operational flexibility.",
+    "data": {
+      "inventory_valuation_allowance_cost_per_percent": 365000000,
+      "operating_cash_flow_2023": 84946000000,
+      "operating_cash_flow_2024": 115877000000,
+      "investing_cash_flow_2023": -49833000000,
+      "investing_cash_flow_2024": -94342000000,
+      "financing_cash_flow_2023": -15879000000,
+      "financing_cash_flow_2024": -11812000000,
+      "cash_balances_fair_value_2023": 86800000000,
+      "cash_balances_fair_value_2024": 101200000000,
+      "foreign_currency_balances_2023": 23500000000,
+      "foreign_currency_balances_2024": 25500000000,
+      "capital_expenditures_2023": 48100000000,
+      "capital_expenditures_2024": 77700000000,
+      "acquisition_payments_2023": 5800000000,
+      "acquisition_payments_2024": 7100000000,
+      "convertible_note_investment_2023_q3": 1250000000,
+      "convertible_note_investment_2024_q1": 2750000000,
+      "convertible_note_investment_2024_q4": 1300000000,
+      "convertible_note_future_investment_2025": 2700000000,
+      "debt_proceeds_2023": 18100000000,
+      "debt_proceeds_2024": 5100000000,
+      "debt_payments_2023": 34000000000,
+      "debt_payments_2024": 17000000000,
+      "finance_lease_ppe_2023": 642000000,
+      "finance_lease_ppe_2024": 854000000,
+      "foreign_subsidiary_cash_2024": 6300000000,
+      "income_taxes_paid_2023": 11200000000,
+      "income_taxes_paid_2024": 12300000000,
+      "restricted_cash_2023": 503000000,
+      "restricted_cash_2024": 3500000000,
+      "north_america_sales_2023": 352828000000,
+      "north_america_sales_2024": 387497000000,
+      "international_sales_2023": 131200000000,
+      "international_sales_2024": 142906000000,
+      "aws_sales_2023": 90757000000,
+      "aws_sales_2024": 107556000000,
+      "consolidated_sales_2023": 574785000000,
+      "consolidated_sales_2024": 637959000000,
+      "consolidated_yoy_growth_percent_2024": 11,
+      "cost_of_sales_2023": 304739000000,
+      "cost_of_sales_2024": 326288000000,
+      "fulfillment_cost_2023": 90619000000,
+      "fulfillment_cost_2024": 98505000000,
+      "tech_infra_cost_2023": 85622000000,
+      "tech_infra_cost_2024": 88544000000,
+      "sales_marketing_cost_2023": 44370000000,
+      "sales_marketing_cost_2024": 43907000000,
+      "ga_cost_2023": 11816000000,
+      "ga_cost_2024": 11359000000,
+      "other_op_expense_2023": 767000000,
+      "other_op_expense_2024": 763000000,
+      "total_operating_expenses_2023": 537933000000,
+      "total_operating_expenses_2024": 569366000000,
+      "cost_of_sales_percent_2023": 53.0,
+      "cost_of_sales_percent_2024": 51.1,
+      "fulfillment_percent_2023": 15.8,
+      "fulfillment_percent_2024": 15.4,
+      "tech_infra_percent_2023": 14.9,
+      "tech_infra_percent_2024": 13.9,
+      "sales_marketing_percent_2023": 7.7,
+      "sales_marketing_percent_2024": 6.9,
+      "ga_percent_2023": 2.1,
+      "ga_percent_2024": 1.8,
+      "other_op_percent_2023": 0.1,
+      "other_op_percent_2024": 0.1,
+      "shipping_costs_2023": 89500000000,
+      "shipping_costs_2024": 95800000000
+    },
+    "chunk_id": 12
+  },
+  {
+    "info": "Shipping costs rose to $95.8B in 2024 from $89.5B in 2023 and are expected to keep increasing, while foreign‑exchange gains reduced fulfillment costs by $223M and technology/infrastructure costs by $244M. Operating income grew sharply, with North America income rising to $24.967B, AWS to $39.834B, and consolidated operating income up from $36.9B to $68.6B. Interest income increased to $4.7B and interest expense fell to $2.4B, and long‑term debt was cut to $52.6B. Tax provision rose to $9.3B. Free cash flow improved to $38.2B, and free cash flow after principal repayments reached $35.5B, reflecting continued investment in fulfillment and technology while seeking efficiency gains.",
+    "data": {
+      "shipping_cost_2023": 89500000000,
+      "shipping_cost_2024": 95800000000,
+      "fulfillment_fx_reduction_2024": 223000000,
+      "technology_infra_fx_reduction_2024": 244000000,
+      "sales_and_marketing_fx_reduction_2024": 263000000,
+      "other_operating_expense_2023": 767000000,
+      "other_operating_expense_2024": 763000000,
+      "operating_income_north_america_2023": 14877000000,
+      "operating_income_north_america_2024": 24967000000,
+      "operating_income_international_2023": -2656000000,
+      "operating_income_international_2024": 3792000000,
+      "operating_income_aws_2023": 24631000000,
+      "operating_income_aws_2024": 39834000000,
+      "operating_income_consolidated_2023": 36852000000,
+      "operating_income_consolidated_2024": 68593000000,
+      "interest_income_2023": 2900000000,
+      "interest_income_2024": 4700000000,
+      "interest_expense_2023": 3200000000,
+      "interest_expense_2024": 2400000000,
+      "lease_liabilities_2023": 77300000000,
+      "lease_liabilities_2024": 78300000000,
+      "long_term_debt_2023": 58300000000,
+      "long_term_debt_2024": 52600000000,
+      "other_income_net_2023": 938000000,
+      "other_income_net_2024": -2300000000,
+      "equity_securities_gain_2023": 797000000,
+      "equity_securities_gain_2024": -1600000000,
+      "tax_provision_2023": 7100000000,
+      "tax_provision_2024": 9300000000,
+      "net_cash_operating_2023": 84946000000,
+      "net_cash_operating_2024": 115877000000,
+      "purchases_ppe_2023": -48133000000,
+      "purchases_ppe_2024": -77658000000,
+      "free_cash_flow_2023": 36813000000,
+      "free_cash_flow_2024": 38219000000,
+      "net_cash_investing_2023": -49833000000,
+      "net_cash_investing_2024": -94342000000,
+      "net_cash_financing_2023": -15879000000,
+      "net_cash_financing_2024": -11812000000,
+      "principal_repayments_finance_leases_2023": -4384000000,
+      "principal_repayments_finance_leases_2024": -2043000000,
+      "principal_repayments_financing_obligations_2023": -271000000,
+      "principal_repayments_financing_obligations_2024": -669000000,
+      "free_cash_flow_less_principal_2023": 32158000000,
+      "free_cash_flow_less_principal_2024": 35507000000,
+      "equipment_finance_leases_2023": -310000000,
+      "equipment_finance_leases_2024": -572000000,
+      "principal_rep_other_finance_leases_2023": -683000000,
+      "principal_rep_other_finance_leases_2024": -767000000,
+      "free_cash_flow_less_equipment_2023": 35549000000,
+      "free_cash_flow_less_equipment_2024": 36211000000
+    },
+    "chunk_id": 13
+  },
+  {
+    "info": "The filing highlights limitations of its free cash flow metrics and emphasizes the material impact of foreign exchange fluctuations on net sales, operating expenses and income. Management provided Q1 2025 guidance forecasting net sales of $151‑$155.5 billion (5‑9% growth) with a $2.1 billion adverse FX effect and noted a $1.5 billion leap‑year boost in Q1 2024. Market risk exposures include interest‑rate risk on investment‑grade securities and significant foreign‑exchange risk, with the International segment’s sales down $1.8 billion in 2024 and potential FX‑related losses on $25.5 billion of foreign‑denominated funds and intercompany balances. Equity investments total $22.1 billion, including $4.6 billion in publicly‑traded equity, while long‑term debt carries a face value of $58 billion.",
+    "data": {
+      "equipment_finance_leases_2023": 642000000,
+      "equipment_finance_leases_2024": 854000000,
+      "principal_repayments_finance_leases_2023": 4384000000,
+      "principal_repayments_finance_leases_2024": 2043000000,
+      "net_sales_reported_2023": 574785,
+      "net_sales_exchange_effect_2023": 71,
+      "net_sales_at_prior_year_rates_2023": 574856,
+      "net_sales_reported_2024": 637959,
+      "net_sales_exchange_effect_2024": 2335,
+      "net_sales_at_prior_year_rates_2024": 640294,
+      "operating_expenses_reported_2023": 537933,
+      "operating_expenses_exchange_effect_2023": 531,
+      "operating_expenses_at_prior_year_rates_2023": 538464,
+      "operating_expenses_reported_2024": 569366,
+      "operating_expenses_exchange_effect_2024": 2466,
+      "operating_expenses_at_prior_year_rates_2024": 571832,
+      "operating_income_reported_2023": 36852,
+      "operating_income_exchange_effect_2023": -460,
+      "operating_income_at_prior_year_rates_2023": 36392,
+      "operating_income_reported_2024": 68593,
+      "operating_income_exchange_effect_2024": -131,
+      "operating_income_at_prior_year_rates_2024": 68462,
+      "q1_2025_net_sales_low": 151000000000,
+      "q1_2025_net_sales_high": 155500000000,
+      "q1_2025_sales_growth_low_pct": 5,
+      "q1_2025_sales_growth_high_pct": 9,
+      "q1_2025_fx_impact": 2100000000,
+      "q1_2025_leap_year_impact": 1500000000,
+      "q1_2025_operating_income_low": 14000000000,
+      "q1_2025_operating_income_high": 18000000000,
+      "q1_2024_operating_income": 15300000000,
+      "cash_equivalents_and_marketable_debt_2024": 84362,
+      "money_market_funds_2024": 28282,
+      "corporate_debt_securities_2024": 47908,
+      "us_gov_securities_2024": 1986,
+      "asset_backed_securities_2024": 450,
+      "foreign_gov_securities_2024": 151,
+      "other_debt_securities_2024": 44,
+      "long_term_debt_face_value_2024": 58000000000,
+      "international_segment_sales_decrease_2024": 1800000000,
+      "foreign_funds_balance_2024": 25500000000,
+      "fx_adverse_5pct_loss_funds": 1300000000,
+      "fx_adverse_10pct_loss_funds": 2600000000,
+      "fx_adverse_20pct_loss_funds": 5100000000,
+      "intercompany_balances_loss_5pct": 305000000,
+      "intercompany_balances_loss_10pct": 605000000,
+      "intercompany_balances_loss_20pct": 1200000000,
+      "equity_investments_total_2024": 22100000000,
+      "equity_warrant_public_2024": 4600000000
+    },
+    "chunk_id": 14
+  },
+  {
+    "info": "Auditor issued an unqualified opinion for FY 2024 and 2023 and highlighted a $6.5 billion accrued tax contingency. Cash balances rose from $54.3 billion in 2022 to $82.3 billion in 2024. Net income turned positive and increased to $59.2 billion in 2024, with operating income climbing to $68.6 billion. The company repurchased $6 billion of common stock in 2022 and continues to manage significant tax position judgments.",
+    "data": {
+      "tax_accrued_liabilities": 6500000000,
+      "cash_begin_2022": 36477,
+      "cash_begin_2023": 54253,
+      "cash_begin_2024": 73890,
+      "cash_end_2022": 54253,
+      "cash_end_2023": 73890,
+      "cash_end_2024": 82312,
+      "net_income_2022": -2722,
+      "net_income_2023": 30425,
+      "net_income_2024": 59248,
+      "operating_income_2022": 12248,
+      "operating_income_2023": 36852,
+      "operating_income_2024": 68593,
+      "total_net_sales_2022": 513983,
+      "total_net_sales_2023": 574785,
+      "total_net_sales_2024": 637959,
+      "total_operating_expenses_2022": 501735,
+      "total_operating_expenses_2023": 537933,
+      "total_operating_expenses_2024": 569366,
+      "cost_of_sales_2022": 288831,
+      "cost_of_sales_2023": 304739,
+      "cost_of_sales_2024": 326288,
+      "fulfillment_expense_2022": 84299,
+      "fulfillment_expense_2023": 90619,
+      "fulfillment_expense_2024": 98505,
+      "technology_infrastructure_expense_2022": 73213,
+      "technology_infrastructure_expense_2023": 85622,
+      "technology_infrastructure_expense_2024": 88544,
+      "sales_and_marketing_expense_2022": 42238,
+      "sales_and_marketing_expense_2023": 44370,
+      "sales_and_marketing_expense_2024": 43907,
+      "general_administrative_expense_2022": 11891,
+      "general_administrative_expense_2023": 11816,
+      "general_administrative_expense_2024": 11359,
+      "depreciation_amortization_2022": 41921,
+      "depreciation_amortization_2023": 48663,
+      "depreciation_amortization_2024": 52795,
+      "stock_based_compensation_2022": 19621,
+      "stock_based_compensation_2023": 24023,
+      "stock_based_compensation_2024": 22011,
+      "non_operating_expense_income_2022": 16966,
+      "non_operating_expense_income_2023": -748,
+      "non_operating_expense_income_2024": 2012,
+      "deferred_income_taxes_2022": -8148,
+      "deferred_income_taxes_2023": -5876,
+      "deferred_income_taxes_2024": -4648,
+      "inventories_change_2022": -2592,
+      "inventories_change_2023": 1449,
+      "inventories_change_2024": -1884,
+      "accounts_receivable_change_2022": -8622,
+      "accounts_receivable_change_2023": -8348,
+      "accounts_receivable_change_2024": -3249,
+      "other_assets_change_2022": -13275,
+      "other_assets_change_2023": -12265,
+      "other_assets_change_2024": -14483,
+      "accounts_payable_change_2022": 2945,
+      "accounts_payable_change_2023": 5473,
+      "accounts_payable_change_2024": 2972,
+      "accrued_expenses_change_2022": -1558,
+      "accrued_expenses_change_2023": -2428,
+      "accrued_expenses_change_2024": -2904,
+      "unearned_revenue_change_2022": 2216,
+      "unearned_revenue_change_2023": 4578,
+      "unearned_revenue_change_2024": 4007,
+      "net_cash_from_operating_activities_2022": 46752,
+      "net_cash_from_operating_activities_2023": 84946,
+      "net_cash_from_operating_activities_2024": 115877,
+      "purchases_property_equipment_2022": -63645,
+      "purchases_property_equipment_2023": -52729,
+      "purchases_property_equipment_2024": -82999,
+      "proceeds_property_equipment_sales_2022": 5324,
+      "proceeds_property_equipment_sales_2023": 4596,
+      "proceeds_property_equipment_sales_2024": 5341,
+      "acquisitions_net_2022": -8316,
+      "acquisitions_net_2023": -5839,
+      "acquisitions_net_2024": -7082,
+      "sales_marketable_securities_2022": 31601,
+      "sales_marketable_securities_2023": 5627,
+      "sales_marketable_securities_2024": 16403,
+      "purchases_marketable_securities_2022": -2565,
+      "purchases_marketable_securities_2023": -1488,
+      "purchases_marketable_securities_2024": -26005,
+      "net_cash_from_investing_activities_2022": -37601,
+      "net_cash_from_investing_activities_2023": -49833,
+      "net_cash_from_investing_activities_2024": -94342,
+      "common_stock_repurchased_2022": -6000,
+      "proceeds_short_term_debt_2022": 41553,
+      "proceeds_short_term_debt_2023": 18129,
+      "proceeds_short_term_debt_2024": 5142,
+      "repayments_short_term_debt_2022": -37554,
+      "repayments_short_term_debt_2023": -25677,
+      "repayments_short_term_debt_2024": -5060,
+      "proceeds_long_term_debt_2022": 21166,
+      "repayments_long_term_debt_2022": -1258,
+      "repayments_long_term_debt_2023": -3676,
+      "repayments_long_term_debt_2024": -9182,
+      "principal_repayments_finance_leases_2022": -7941,
+      "principal_repayments_finance_leases_2023": -4384,
+      "principal_repayments_finance_leases_2024": -2043,
+      "principal_repayments_financing_obligations_2022": -248,
+      "principal_repayments_financing_obligations_2023": -271,
+      "principal_repayments_financing_obligations_2024": -669,
+      "net_cash_from_financing_activities_2022": 9718,
+      "net_cash_from_financing_activities_2023": -15879,
+      "net_cash_from_financing_activities_2024": -11812,
+      "foreign_currency_effect_2022": -1093,
+      "foreign_currency_effect_2023": 403,
+      "foreign_currency_effect_2024": -1301,
+      "net_increase_cash_2022": 17776,
+      "net_increase_cash_2023": 19637,
+      "net_increase_cash_2024": 8422,
+      "basic_eps_2022": -0.27,
+      "basic_eps_2023": 2.95,
+      "basic_eps_2024": 5.66,
+      "diluted_eps_2022": -0.27,
+      "diluted_eps_2023": 2.9,
+      "diluted_eps_2024": 5.53,
+      "basic_shares_2022": 10189,
+      "basic_shares_2023": 10304,
+      "basic_shares_2024": 10473,
+      "diluted_shares_2022": 10189,
+      "diluted_shares_2023": 10492,
+      "diluted_shares_2024": 10721
+    },
+    "chunk_id": 15
+  },
+  {
+    "info": "Net income rebounded from a $2.7 billion loss in 2022 to $30.4 billion in 2023 and $59.2 billion in 2024, driving comprehensive income and equity growth. Total assets rose to $624.9 billion and stockholders’ equity to $285.97 billion. Cash, marketable securities, inventories and receivables all increased modestly. The company disclosed upcoming accounting impacts: extending heavy‑equipment useful lives is expected to add ~$0.9 billion to 2025 operating income, shortening server equipment lives will reduce it by ~$0.7 billion, and $920 million of accelerated depreciation plus a $0.6 billion operating‑income drag are anticipated in 2025. A 20‑for‑1 stock split was completed in 2022.",
+    "data": {
+      "net_income_2022": -2722000000,
+      "net_income_2023": 30425000000,
+      "net_income_2024": 59248000000,
+      "comprehensive_income_2022": -5833000000,
+      "comprehensive_income_2023": 31872000000,
+      "comprehensive_income_2024": 62254000000,
+      "total_assets_2022": 527854000000,
+      "total_assets_2024": 624894000000,
+      "cash_2022": 73387000000,
+      "cash_2024": 78779000000,
+      "marketable_securities_2022": 13393000000,
+      "marketable_securities_2024": 22423000000,
+      "inventories_2022": 33318000000,
+      "inventories_2024": 34214000000,
+      "accounts_receivable_2022": 52253000000,
+      "accounts_receivable_2024": 55451000000,
+      "property_and_equipment_2022": 204177000000,
+      "property_and_equipment_2024": 252665000000,
+      "operating_leases_2022": 72513000000,
+      "operating_leases_2024": 76141000000,
+      "goodwill_2022": 22789000000,
+      "goodwill_2024": 23074000000,
+      "other_assets_2022": 56024000000,
+      "other_assets_2024": 82147000000,
+      "accounts_payable_2022": 84981000000,
+      "accounts_payable_2024": 94363000000,
+      "accrued_expenses_2022": 64709000000,
+      "accrued_expenses_2024": 66965000000,
+      "unearned_revenue_2022": 15227000000,
+      "unearned_revenue_2024": 18103000000,
+      "long_term_lease_liabilities_2022": 77297000000,
+      "long_term_lease_liabilities_2024": 78277000000,
+      "long_term_debt_2022": 58314000000,
+      "long_term_debt_2024": 52623000000,
+      "other_long_term_liabilities_2022": 25451000000,
+      "other_long_term_liabilities_2024": 28593000000,
+      "common_stock_2023": 109000000,
+      "treasury_stock_2023": -7837000000,
+      "additional_paid_in_capital_2023": 99025000000,
+      "accumulated_other_comprehensive_income_2023": -3040000000,
+      "retained_earnings_2023": 113618000000,
+      "total_equity_2023": 201875000000,
+      "total_equity_2024": 285970000000,
+      "operating_income_impact_heavy_equipment_2025": 900000000,
+      "operating_income_impact_servers_life_2025": -700000000,
+      "operating_income_impact_accelerated_depreciation_2025": -920000000,
+      "operating_income_impact_additional_depreciation_2025": -600000000
+    },
+    "chunk_id": 16
+  },
+  {
+    "info": "The company is extending the useful life of heavy equipment to 13 years, boosting 2025 operating income by about $0.9 billion, while shortening server equipment life to five years will cut 2025 operating income by $0.7 billion and accelerated depreciation of $0.92 billion in Q4 2024 adds another $0.6 billion hit. Prior server life changes reduced depreciation expense by $3.2 billion and lifted net income by $2.5 billion in 2024. 2022 saw $1.1 billion of property impairments, $480 million of contract termination costs and $720 million of severance charges. Return‑allowance liabilities remained around $1.4 billion with similar additions and deductions each year. Advertising spend rose to $21.4 billion in 2024. Cash outflows for interest, operating leases and taxes increased year‑over‑year. The Rivian equity stake fair value fell to $2.1 billion in 2024, reflecting a $1.6 billion loss for the year.",
+    "data": {
+      "heavy_eq_useful_life_old_years": 10,
+      "heavy_eq_useful_life_new_years": 13,
+      "heavy_eq_operating_income_increase_2025": 900000000,
+      "server_eq_useful_life_old_years": 6,
+      "server_eq_useful_life_new_years": 5,
+      "server_eq_operating_income_decrease_2025": 700000000,
+      "accelerated_depreciation_charges_q4_2024": 920000000,
+      "operating_income_decrease_2025_from_accel_depr": 600000000,
+      "prior_server_life_change_old_years": 5,
+      "prior_server_life_change_new_years": 6,
+      "depreciation_amortization_reduction_2024": 3200000000,
+      "net_income_benefit_2024": 2500000000,
+      "net_income_per_share_basic_2024": 0.23,
+      "impairments_2022_total": 1100000000,
+      "impairments_2022_q4": 720000000,
+      "termination_expenses_2022": 480000000,
+      "severance_costs_2022_total": 720000000,
+      "severance_costs_2022_q4": 640000000,
+      "return_allowance_liability_2022": 1300000000,
+      "return_allowance_liability_2023": 1400000000,
+      "return_allowance_liability_2024": 1400000000,
+      "return_allowance_additions_2022": 5500000000,
+      "return_allowance_additions_2023": 5200000000,
+      "return_allowance_additions_2024": 5500000000,
+      "return_allowance_deductions_2022": 5200000000,
+      "return_allowance_deductions_2023": 5100000000,
+      "return_allowance_deductions_2024": 5500000000,
+      "inventory_assets_return_rights_2022": 948000000,
+      "inventory_assets_return_rights_2023": 992000000,
+      "inventory_assets_return_rights_2024": 998000000,
+      "advertising_expense_2022": 20600000000,
+      "advertising_expense_2023": 20300000000,
+      "advertising_expense_2024": 21400000000,
+      "cash_interest_debt_2022": 1561000000,
+      "cash_interest_debt_2023": 2608000000,
+      "cash_interest_debt_2024": 1858000000,
+      "cash_operating_leases_2022": 8633000000,
+      "cash_operating_leases_2023": 10453000000,
+      "cash_operating_leases_2024": 12341000000,
+      "cash_interest_finance_leases_2022": 374000000,
+      "cash_interest_finance_leases_2023": 308000000,
+      "cash_interest_finance_leases_2024": 287000000,
+      "cash_interest_financing_obligations_2022": 207000000,
+      "cash_interest_financing_obligations_2023": 196000000,
+      "cash_interest_financing_obligations_2024": 219000000,
+      "cash_income_taxes_2022": 6035000000,
+      "cash_income_taxes_2023": 11179000000,
+      "cash_income_taxes_2024": 12308000000,
+      "assets_acquired_operating_leases_2022": 18800000000,
+      "assets_acquired_operating_leases_2023": 14052000000,
+      "assets_acquired_operating_leases_2024": 15424000000,
+      "property_equipment_acquired_finance_leases_2022": 675000000,
+      "property_equipment_acquired_finance_leases_2023": 642000000,
+      "property_equipment_acquired_finance_leases_2024": 854000000,
+      "property_equipment_recognized_build_to_suit_2022": 3187000000,
+      "property_equipment_recognized_build_to_suit_2023": 357000000,
+      "property_equipment_recognized_build_to_suit_2024": 97000000,
+      "property_equipment_derecognized_build_to_suit_2022": 5158000000,
+      "property_equipment_derecognized_build_to_suit_2023": 1374000000,
+      "basic_shares_used_2022": 10189,
+      "basic_shares_used_2023": 10304,
+      "basic_shares_used_2024": 10473,
+      "dilutive_stock_awards_2023": 188,
+      "dilutive_stock_awards_2024": 248,
+      "diluted_shares_used_2022": 10189,
+      "diluted_shares_used_2023": 10492,
+      "diluted_shares_used_2024": 10721,
+      "other_income_net_2022": -16806000000,
+      "other_income_net_2023": 938000000,
+      "other_income_net_2024": -2250000000,
+      "marketable_eq_securities_gain_loss_2022": -13870000000,
+      "marketable_eq_securities_gain_loss_2023": 984000000,
+      "marketable_eq_securities_gain_loss_2024": -1278000000,
+      "equity_warrant_gain_loss_2022": -2132000000,
+      "equity_warrant_gain_loss_2023": 26000000,
+      "equity_warrant_gain_loss_2024": -192000000,
+      "upward_adjustments_private_companies_2022": 76000000,
+      "upward_adjustments_private_companies_2023": 40000000,
+      "upward_adjustments_private_companies_2024": 49000000,
+      "foreign_currency_gain_loss_2022": -34000000,
+      "foreign_currency_gain_loss_2023": 65000000,
+      "foreign_currency_gain_loss_2024": -40800000,
+      "other_net_2022": -54000000,
+      "other_net_2023": -17700000,
+      "other_net_2024": -42100000,
+      "rivian_fair_value_2023": 3700000000,
+      "rivian_fair_value_2024": 2100000000,
+      "rivian_valuation_gain_loss_2022": -12700000000,
+      "rivian_valuation_gain_loss_2023": 797000000,
+      "rivian_valuation_gain_loss_2024": -1600000000
+    },
+    "chunk_id": 17
+  },
+  {
+    "info": "The company reports sizable and growing receivables across customers, vendors and other parties, with vendor receivables rising sharply in 2024. Inventory write‑downs remain at $3.0 billion, while allowance for doubtful accounts and related adjustments have increased each year. Convertible note investments total over $5.8 billion with a fair‑value of $13.8 billion as of year‑end 2024, and equity investments and warrants have risen. Self‑insurance liabilities and payroll obligations grew, and unearned revenue increased to $24.6 billion, indicating higher pre‑payments for AWS and Prime services. No goodwill impairment was recorded.",
+    "data": {
+      "inventory_write_down_2023": 3000000000,
+      "inventory_write_down_2024": 3000000000,
+      "customer_receivables_2023": 34100000000,
+      "customer_receivables_2024": 34300000000,
+      "vendor_receivables_2023": 8500000000,
+      "vendor_receivables_2024": 11600000000,
+      "other_receivables_2023": 4300000000,
+      "other_receivables_2024": 3400000000,
+      "prepaid_expenses_2023": 5400000000,
+      "prepaid_expenses_2024": 6300000000,
+      "allowance_doubtful_2022": 1400000000,
+      "allowance_doubtful_2023": 1700000000,
+      "allowance_doubtful_2024": 2000000000,
+      "allowance_additions_2022": 1600000000,
+      "allowance_additions_2023": 1900000000,
+      "allowance_additions_2024": 1900000000,
+      "allowance_deductions_2022": 1300000000,
+      "allowance_deductions_2023": 1600000000,
+      "allowance_deductions_2024": 1600000000,
+      "capitalized_video_music_2023": 17400000000,
+      "capitalized_video_music_2024": 19600000000,
+      "video_music_expense_2023": 18900000000,
+      "video_music_expense_2024": 20400000000,
+      "weighted_avg_life_video_content": 3.1,
+      "convertible_note_investment_q3_2023": 1250000000,
+      "convertible_note_investment_q1_2024": 2750000000,
+      "convertible_note_investment_q4_2024": 1300000000,
+      "convertible_note_future_investment_by_q4_2025": 2700000000,
+      "convertible_notes_fair_value_2024": 13800000000,
+      "equity_investments_private_2023": 754000000,
+      "equity_investments_private_2024": 989000000,
+      "equity_investments_significant_2023": 614000000,
+      "equity_investments_significant_2024": 1200000000,
+      "equity_warrants_2023": 2200000000,
+      "equity_warrants_2024": 2700000000,
+      "payroll_liabilities_2023": 7700000000,
+      "payroll_liabilities_2024": 7500000000,
+      "gift_card_liabilities_2023": 5300000000,
+      "gift_card_liabilities_2024": 5400000000,
+      "self_insurance_liabilities_2023": 6300000000,
+      "self_insurance_liabilities_2024": 8500000000,
+      "unearned_revenue_total_2023": 20900000000,
+      "unearned_revenue_recognized_2024": 14200000000,
+      "unearned_revenue_total_2024": 24600000000,
+      "unearned_revenue_longterm_2023": 5700000000,
+      "unearned_revenue_longterm_2024": 6500000000
+    },
+    "chunk_id": 18
+  },
+  {
+    "info": "Self-insurance liabilities rose to $8.5 billion in 2024 from $6.3 billion in 2023, with a $1.3 billion reserve increase in Q4 2022; unearned revenue grew to $24.6 billion in 2024 (up from $20.9 billion in 2023) and $6.5 billion is recorded in other long‑term liabilities. AWS contractual commitments not yet recognized reached $177 billion as of 12/31/2024 with a 4.1‑year weighted average remaining life. Intercompany balance gains/losses were $386 million (2022), –$329 million (2023) and $413 million (2024). Cash, cash equivalents and marketable securities increased to $101.2 billion in 2024 from $86.78 billion in 2023, with cash balances rising to $17.1 billion. Property and equipment net rose to $252.7 billion in 2024 from $204.2 billion in 2023. Finance‑lease assets remain substantial at $56.5 billion (2024) and accumulated amortization $41.8 billion. The company is preparing to adopt new FASB accounting standards on income‑tax and expense disclosures in the coming years.",
+    "data": {
+      "self_insurance_reserves_increase_q4_2022": 1300000000,
+      "self_insurance_liabilities_2023": 6300000000,
+      "self_insurance_liabilities_2024": 8500000000,
+      "unearned_revenue_2023": 20900000000,
+      "unearned_revenue_recognized_2024": 14200000000,
+      "unearned_revenue_2024": 24600000000,
+      "unearned_revenue_other_long_term_liabilities_2023": 5700000000,
+      "unearned_revenue_other_long_term_liabilities_2024": 6500000000,
+      "aws_commitments_not_recognized_2024": 177000000000,
+      "weighted_average_remaining_life_years": 4.1,
+      "intercompany_gain_2022": 386000000,
+      "intercompany_loss_2023": -329000000,
+      "intercompany_gain_2024": 413000000,
+      "cash_2023": 11706000000,
+      "cash_2024": 17055000000,
+      "money_market_funds_2023": 39160000000,
+      "money_market_funds_2024": 28282000000,
+      "equity_securities_2023": 4658000000,
+      "equity_securities_2024": 3318000000,
+      "foreign_gov_securities_2023": 505000000,
+      "foreign_gov_securities_2024": 177000000,
+      "us_gov_securities_2023": 1789000000,
+      "us_gov_securities_2024": 3452000000,
+      "corporate_debt_securities_2023": 27996000000,
+      "corporate_debt_securities_2024": 50959000000,
+      "asset_backed_securities_2023": 1707000000,
+      "asset_backed_securities_2024": 1539000000,
+      "other_debt_securities_2023": 108000000,
+      "other_debt_securities_2024": 68000000,
+      "total_estimated_fair_value_2023": 87283000000,
+      "total_estimated_fair_value_2024": 104735000000,
+      "realized_gains_2022": 43000000,
+      "realized_gains_2023": 2000000,
+      "realized_gains_2024": 3000000,
+      "realized_losses_2022": 341000000,
+      "realized_losses_2023": 67000000,
+      "realized_losses_2024": 10000000,
+      "contractual_maturities_amortized_cost_2024": 84477000000,
+      "contractual_maturities_estimated_fair_value_2024": 84362000000,
+      "cash_flow_cash_and_eq_2023": 73387000000,
+      "cash_flow_cash_and_eq_2024": 78779000000,
+      "restricted_cash_accounts_receivable_2023": 497000000,
+      "restricted_cash_accounts_receivable_2024": 247000000,
+      "restricted_cash_other_assets_2023": 6000000,
+      "restricted_cash_other_assets_2024": 3286000000,
+      "total_cash_cash_flow_2023": 73890000000,
+      "total_cash_cash_flow_2024": 82312000000,
+      "property_eq_net_2023": 204177000000,
+      "property_eq_net_2024": 252665000000,
+      "depreciation_amortization_2022": 24900000000,
+      "depreciation_amortization_2023": 30200000000,
+      "depreciation_amortization_2024": 32100000000,
+      "finance_lease_amortization_2022": 6100000000,
+      "finance_lease_amortization_2023": 5900000000,
+      "finance_lease_amortization_2024": 3900000000,
+      "finance_lease_assets_2023": 62500000000,
+      "finance_lease_assets_2024": 56500000000,
+      "finance_lease_accum_amort_2023": 44700000000,
+      "finance_lease_accum_amort_2024": 41800000000,
+      "total_cash_marketable_2023": 86780000000,
+      "total_cash_marketable_2024": 101202000000
+    },
+    "chunk_id": 19
+  },
+  {
+    "info": "Depreciation and amortization expense increased to $32.1 B in 2024, while finance‑lease amortization of property and equipment declined. Finance‑lease assets total $56.5 B (2024) with $41.8 B accumulated amortization. Total lease cost rose modestly to $18.6 B in 2024 and long‑term lease liabilities grew to $78.3 B. Weighted lease terms shortened slightly and discount rates rose. Acquisition activity remained modest – $6.1 B MGM purchase in 2022, $3.5 B One Medical in 2023 and $780 M aggregate in 2024 – driving goodwill to $23.1 B. Net acquired intangible assets rose to $8.6 B and future amortization of these assets is projected at $7.44 B through 2029. Unsecured senior notes outstanding total $58.0 B as of year‑end 2024.",
+    "data": {
+      "depr_amort_2022": 24900000000,
+      "depr_amort_2023": 30200000000,
+      "depr_amort_2024": 32100000000,
+      "finance_lease_amort_asset_2022": 6100000000,
+      "finance_lease_amort_asset_2023": 5900000000,
+      "finance_lease_amort_asset_2024": 3900000000,
+      "finance_lease_assets_gross_2023": 62500000000,
+      "finance_lease_assets_gross_2024": 56500000000,
+      "finance_lease_amort_accum_2023": 44700000000,
+      "finance_lease_amort_accum_2024": 41800000000,
+      "operating_lease_cost_2022": 8847000000,
+      "operating_lease_cost_2023": 10550000000,
+      "operating_lease_cost_2024": 11961000000,
+      "lease_amort_lease_assets_2022": 6097000000,
+      "lease_amort_lease_assets_2023": 5899000000,
+      "lease_amort_lease_assets_2024": 3866000000,
+      "lease_interest_2022": 361000000,
+      "lease_interest_2023": 304000000,
+      "lease_interest_2024": 285000000,
+      "finance_lease_cost_2022": 6458000000,
+      "finance_lease_cost_2023": 6203000000,
+      "finance_lease_cost_2024": 4151000000,
+      "variable_lease_cost_2022": 1852000000,
+      "variable_lease_cost_2023": 2165000000,
+      "variable_lease_cost_2024": 2465000000,
+      "total_lease_cost_2022": 17157000000,
+      "total_lease_cost_2023": 18918000000,
+      "total_lease_cost_2024": 18577000000,
+      "weighted_term_operating_2023": 11.3,
+      "weighted_term_operating_2024": 10.6,
+      "weighted_term_finance_2023": 11.9,
+      "weighted_term_finance_2024": 11.9,
+      "discount_rate_operating_2023": 3.3,
+      "discount_rate_operating_2024": 3.5,
+      "discount_rate_finance_2023": 2.7,
+      "discount_rate_finance_2024": 3.0,
+      "lease_gross_operating_2023": 90777000000,
+      "lease_gross_finance_2023": 14106000000,
+      "lease_gross_total_2023": 104883000000,
+      "lease_gross_operating_2024": 95294000000,
+      "lease_gross_finance_2024": 12520000000,
+      "lease_gross_total_2024": 107814000000,
+      "lease_present_value_operating_2023": 75639000000,
+      "lease_present_value_finance_2023": 12109000000,
+      "lease_present_value_total_2023": 87748000000,
+      "lease_present_value_operating_2024": 79596000000,
+      "lease_present_value_finance_2024": 10602000000,
+      "lease_present_value_total_2024": 90198000000,
+      "lease_long_term_operating_2023": 67220000000,
+      "lease_long_term_finance_2023": 10077000000,
+      "lease_long_term_total_2023": 77297000000,
+      "lease_long_term_operating_2024": 69050000000,
+      "lease_long_term_finance_2024": 9227000000,
+      "lease_long_term_total_2024": 78277000000,
+      "acquisition_mgm_cash_2022": 6100000000,
+      "acquisition_mgm_debt_assumed_2022": 2500000000,
+      "acquisition_mgm_video_content_2022": 3400000000,
+      "acquisition_mgm_goodwill_2022": 4900000000,
+      "acquisition_other_cash_2022": 141000000,
+      "acquisition_onemedical_cash_2023": 3500000000,
+      "acquisition_onemedical_intangible_2023": 1300000000,
+      "acquisition_onemedical_goodwill_2023": 2500000000,
+      "acquisition_2024_cash_total": 780000000,
+      "goodwill_consolidated_2023": 22789000000,
+      "goodwill_acquisition_activity_2023": 320000000,
+      "goodwill_other_adjustments_2023": -35000000,
+      "goodwill_consolidated_2024": 23074000000,
+      "goodwill_acquisition_activity_2024": 320000000,
+      "goodwill_other_adjustments_2024": -35000000,
+      "intangible_acquired_gross_2023": 10082000000,
+      "intangible_amortization_2023": -2395000000,
+      "intangible_acquired_net_2023": 7687000000,
+      "intangible_acquired_gross_2024": 11569000000,
+      "intangible_amortization_2024": -2967000000,
+      "intangible_acquired_net_2024": 8602000000,
+      "finite_intangible_amort_exp_2022": 604000000,
+      "finite_intangible_amort_exp_2023": 706000000,
+      "finite_intangible_amort_exp_2024": 838000000,
+      "future_amort_2025": 994000000,
+      "future_amort_2026": 918000000,
+      "future_amort_2027": 796000000,
+      "future_amort_2028": 632000000,
+      "future_amort_2029": 615000000,
+      "future_amort_thereafter": 3484000000,
+      "future_amort_total": 7439000000,
+      "senior_notes_outstanding_2024": 58000000000
+    },
+    "chunk_id": 20
+  },
+  {
+    "info": "Amortization expense for finite-lived intangibles increased to $838 million in 2024, with projected amortization of $7.44 billion through 2029 and thereafter. Unsecured senior notes total $58 billion, with a combined weighted‑average remaining life of 13.4 years and fair value declining to $50.2 billion in 2024. Long‑term debt fell to $52.6 billion, and scheduled principal repayments of $58 billion are set through 2029 and beyond. The company maintains a $15 billion revolving credit facility and a $5 billion short‑term credit facility, both unused, while other short‑term borrowings are $151 million. Total contractual commitments across debt, leases and purchases amount to $333 billion. A $525 million jury award (plus $148 million interest) in a patent infringement case is being appealed.",
+    "data": {
+      "amortization_expense_2022": 604000000,
+      "amortization_expense_2023": 706000000,
+      "amortization_expense_2024": 838000000,
+      "future_amortization_2025": 994000000,
+      "future_amortization_2026": 918000000,
+      "future_amortization_2027": 796000000,
+      "future_amortization_2028": 632000000,
+      "future_amortization_2029": 615000000,
+      "future_amortization_thereafter": 3484000000,
+      "future_amortization_total": 7439000000,
+      "unsecured_senior_notes_outstanding": 58000000000,
+      "total_face_value_long_term_debt_2023": 67182000000,
+      "total_face_value_long_term_debt_2024": 58000000000,
+      "unamortized_discount_2023": -374000000,
+      "unamortized_discount_2024": -360000000,
+      "current_portion_long_term_debt_2023": -8494000000,
+      "current_portion_long_term_debt_2024": -5017000000,
+      "long_term_debt_2023": 58314000000,
+      "long_term_debt_2024": 52623000000,
+      "weighted_average_life_notes_combined": 13.4,
+      "fair_value_notes_2023": 60600000000,
+      "fair_value_notes_2024": 50200000000,
+      "credit_facility_borrowings_2023": 682000000,
+      "credit_facility_collateral_2023": 806000000,
+      "future_principal_payment_2025": 5000000000,
+      "future_principal_payment_2026": 2750000000,
+      "future_principal_payment_2027": 8750000000,
+      "future_principal_payment_2028": 2250000000,
+      "future_principal_payment_2029": 3000000000,
+      "future_principal_payment_thereafter": 36250000000,
+      "future_principal_payment_total": 58000000000,
+      "term_loan_amount": 8000000000,
+      "commercial_paper_capacity_usd": 20000000000,
+      "commercial_paper_capacity_eur": 3000000000,
+      "revolving_credit_facility_amount": 15000000000,
+      "short_term_credit_agreement_amount": 5000000000,
+      "other_short_term_borrowings_2023": 147000000,
+      "other_short_term_borrowings_2024": 151000000,
+      "unused_letters_of_credit_2024": 8300000000,
+      "non_cancellable_current_financing_obligations_2023": 271000000,
+      "non_cancellable_current_financing_obligations_2024": 312000000,
+      "other_long_term_liabilities_financing_2023": 6600000000,
+      "other_long_term_liabilities_financing_2024": 7100000000,
+      "commitments": [
+        {
+          "category": "long_term_debt_principal_and_interest",
+          "2025": 6858000000,
+          "2026": 4458000000,
+          "2027": 10404000000,
+          "2028": 3644000000,
+          "2029": 4344000000,
+          "thereafter": 55831000000,
+          "total": 85539000000
+        },
+        {
+          "category": "operating_lease_liabilities",
+          "2025": 12002000000,
+          "2026": 11023000000,
+          "2027": 10087000000,
+          "2028": 9205000000,
+          "2029": 8534000000,
+          "thereafter": 44443000000,
+          "total": 95294000000
+        },
+        {
+          "category": "finance_lease_liabilities_including_interest",
+          "2025": 1491000000,
+          "2026": 1495000000,
+          "2027": 1317000000,
+          "2028": 1114000000,
+          "2029": 1022000000,
+          "thereafter": 6081000000,
+          "total": 12520000000
+        },
+        {
+          "category": "financing_obligations_including_interest",
+          "2025": 511000000,
+          "2026": 515000000,
+          "2027": 523000000,
+          "2028": 531000000,
+          "2029": 540000000,
+          "thereafter": 6397000000,
+          "total": 9017000000
+        },
+        {
+          "category": "leases_not_yet_commenced",
+          "2025": 2695000000,
+          "2026": 3691000000,
+          "2027": 5011000000,
+          "2028": 4253000000,
+          "2029": 4286000000,
+          "thereafter": 41691000000,
+          "total": 61627000000
+        },
+        {
+          "category": "unconditional_purchase_obligations",
+          "2025": 8536000000,
+          "2026": 7941000000,
+          "2027": 5413000000,
+          "2028": 4321000000,
+          "2029": 3868000000,
+          "thereafter": 20296000000,
+          "total": 50375000000
+        },
+        {
+          "category": "other_commitments",
+          "2025": 2739000000,
+          "2026": 1470000000,
+          "2027": 1016000000,
+          "2028": 923000000,
+          "2029": 1025000000,
+          "thereafter": 11456000000,
+          "total": 18629000000
+        },
+        {
+          "category": "total_commitments",
+          "2025": 34832000000,
+          "2026": 30593000000,
+          "2027": 33771000000,
+          "2028": 23991000000,
+          "2029": 23619000000,
+          "thereafter": 186195000000,
+          "total": 333001000000
+        }
+      ],
+      "legal_award_jury": 525000000,
+      "legal_award_prejudgment_interest": 148000000
+    },
+    "chunk_id": 21
+  },
+  {
+    "info": "The company faces multiple ongoing legal matters, including a $525 million jury award (plus $148 million interest) in the Kove case, potential damages up to $267 million in the Alexa patent suit, and EU fines of €746 million and €1.13 billion. Stock repurchase activity ceased after a $6.0 billion buyback in 2022, leaving $6.1 billion unused. Stock‑based compensation expense remained high at $19.6 billion (2022) to $22.0 billion (2024). Net unrecognized compensation cost stands at $16.2 billion. Income tax provision turned from a $3.2 billion benefit in 2022 to a $9.3 billion expense in 2024, with cash tax payments rising to $12.3 billion.",
+    "data": {
+      "legal_damage_range_2023_low": 140000000,
+      "legal_damage_range_2023_high": 267000000,
+      "legal_award_kove": 525000000,
+      "prejudgment_interest_kove": 148000000,
+      "broadband_damage_range_low": 166000000,
+      "broadband_damage_range_high": 986000000,
+      "fine_cnpd_eur": 746000000,
+      "fine_ica_eur": 1130000000,
+      "preferred_stock_authorized_shares": 500000000,
+      "common_shares_outstanding_2022": 10600000000,
+      "common_shares_outstanding_2023": 10800000000,
+      "common_shares_outstanding_2024": 10900000000,
+      "repurchase_authorized_usd": 10000000000,
+      "repurchased_shares_2022": 46200000,
+      "repurchased_amount_usd_2022": 6000000000,
+      "repurchase_remaining_usd_2024": 6100000000,
+      "stock_comp_expense_2022_usd": 19621000000,
+      "stock_comp_expense_2023_usd": 24023000000,
+      "stock_comp_expense_2024_usd": 22011000000,
+      "tax_benefit_2022_usd": 4300000000,
+      "tax_benefit_2023_usd": 5400000000,
+      "tax_benefit_2024_usd": 5000000000,
+      "net_unrec_comp_cost_usd": 16200000000,
+      "rsu_fair_value_vested_2022_usd": 12800000000,
+      "rsu_fair_value_vested_2023_usd": 17600000000,
+      "rsu_fair_value_vested_2024_usd": 39600000000,
+      "common_stock_future_issuance_shares": 1500000000,
+      "income_tax_provision_2022_usd": -3200000000,
+      "income_tax_provision_2023_usd": 7100000000,
+      "income_tax_provision_2024_usd": 9300000000,
+      "income_tax_cash_paid_2022_usd": 6000000000,
+      "income_tax_cash_paid_2023_usd": 11200000000,
+      "income_tax_cash_paid_2024_usd": 12300000000
+    },
+    "chunk_id": 22
+  },
+  {
+    "info": "RSU fair value vested surged from $12.8B in 2022 to $39.6B in 2024 and the company retains the ability to issue 1.5B additional shares. Net tax provision flipped from a $3.2B benefit in 2022 to a $9.3B expense in 2024, with cash tax payments rising to $12.3B. Federal, state and international tax components show larger current liabilities and deferred amounts, while deferred tax assets net rose to $55.0B. Gross tax contingencies grew to $6.5B by year‑end 2024. The firm faces ongoing tax examinations and disputes in several jurisdictions, representing material tax‑related risk.",
+    "data": {
+      "fair_value_rsu_2022": 12800000000,
+      "fair_value_rsu_2023": 17600000000,
+      "fair_value_rsu_2024": 39600000000,
+      "common_stock_future_issuance_shares": 1500000000,
+      "net_tax_provision_2022": -3200000000,
+      "net_tax_provision_2023": 7100000000,
+      "net_tax_provision_2024": 9300000000,
+      "cash_paid_income_taxes_2022": 6000000000,
+      "cash_paid_income_taxes_2023": 11200000000,
+      "cash_paid_income_taxes_2024": 12300000000,
+      "us_federal_current_2022": 2175000000,
+      "us_federal_deferred_2022": -6686000000,
+      "us_federal_total_2022": -4511000000,
+      "us_federal_current_2023": 8652000000,
+      "us_federal_deferred_2023": -5505000000,
+      "us_federal_total_2023": 3147000000,
+      "us_federal_current_2024": 9039000000,
+      "us_federal_deferred_2024": -4101000000,
+      "us_federal_total_2024": 4938000000,
+      "us_state_current_2022": 1074000000,
+      "us_state_deferred_2022": -1302000000,
+      "us_state_total_2022": -228000000,
+      "us_state_current_2023": 2158000000,
+      "us_state_deferred_2023": -498000000,
+      "us_state_total_2023": 1660000000,
+      "us_state_current_2024": 2109000000,
+      "us_state_deferred_2024": -453000000,
+      "us_state_total_2024": 1656000000,
+      "international_current_2022": 1682000000,
+      "international_deferred_2022": -160000000,
+      "international_total_2022": 1522000000,
+      "international_current_2023": 2186000000,
+      "international_deferred_2023": 127000000,
+      "international_total_2023": 2313000000,
+      "international_current_2024": 2765000000,
+      "international_deferred_2024": -94000000,
+      "international_total_2024": 2671000000,
+      "provision_income_taxes_net_2022": -3217000000,
+      "provision_income_taxes_net_2023": 7120000000,
+      "provision_income_taxes_net_2024": 9265000000,
+      "us_pretax_income_2022": -8225000000,
+      "us_pretax_income_2023": 32328000000,
+      "us_pretax_income_2024": 61947000000,
+      "international_pretax_income_2022": 2289000000,
+      "international_pretax_income_2023": 5229000000,
+      "international_pretax_income_2024": 6667000000,
+      "income_before_taxes_2022": -5936000000,
+      "income_before_taxes_2023": 37557000000,
+      "income_before_taxes_2024": 68614000000,
+      "taxes_at_federal_statutory_rate_2022": -1246000000,
+      "taxes_at_federal_statutory_rate_2023": 7887000000,
+      "taxes_at_federal_statutory_rate_2024": 14409000000,
+      "tax_impact_foreign_earnings_2022": -370000000,
+      "tax_impact_foreign_earnings_2023": 594000000,
+      "tax_impact_foreign_earnings_2024": 199000000,
+      "state_taxes_net_2022": -173000000,
+      "state_taxes_net_2023": 1307000000,
+      "state_taxes_net_2024": 1306000000,
+      "tax_credits_2022": -1006000000,
+      "tax_credits_2023": -2362000000,
+      "tax_credits_2024": -2805000000,
+      "stock_based_compensation_tax_2022": 612000000,
+      "stock_based_compensation_tax_2023": 1047000000,
+      "stock_based_compensation_tax_2024": -1688000000,
+      "foreign_income_deduction_2022": -1258000000,
+      "foreign_income_deduction_2023": -1429000000,
+      "foreign_income_deduction_2024": -2379000000,
+      "other_tax_items_2022": 224000000,
+      "other_tax_items_2023": 76000000,
+      "other_tax_items_2024": 223000000,
+      "deferred_tax_assets_gross_2023": 50599000000,
+      "deferred_tax_assets_gross_2024": 59938000000,
+      "valuation_allowances_2023": -4811000000,
+      "valuation_allowances_2024": -4893000000,
+      "deferred_tax_assets_net_2023": 45788000000,
+      "deferred_tax_assets_net_2024": 55045000000,
+      "deferred_tax_liabilities_depreciation_2023": -12454000000,
+      "deferred_tax_liabilities_depreciation_2024": -16240000000,
+      "deferred_tax_liabilities_operating_lease_2023": -18648000000,
+      "deferred_tax_liabilities_operating_lease_2024": -19517000000,
+      "deferred_tax_liabilities_other_2023": -1489000000,
+      "deferred_tax_liabilities_other_2024": -3323000000,
+      "net_deferred_tax_assets_2023": 13197000000,
+      "net_deferred_tax_assets_2024": 15965000000,
+      "gross_tax_contingencies_jan1_2022": 3242000000,
+      "gross_tax_contingencies_jan1_2023": 4002000000,
+      "gross_tax_contingencies_jan1_2024": 5228000000,
+      "gross_increases_prior_periods_2022": 274000000,
+      "gross_increases_prior_periods_2023": 440000000,
+      "gross_increases_prior_periods_2024": 154000000,
+      "gross_decreases_prior_periods_2022": -172000000,
+      "gross_decreases_prior_periods_2023": -38000000,
+      "gross_decreases_prior_periods_2024": -129000000,
+      "gross_increases_current_period_2022": 706000000,
+      "gross_increases_current_period_2023": 1009000000,
+      "gross_increases_current_period_2024": 1392000000,
+      "settlements_tax_authorities_2022": -20000000,
+      "settlements_tax_authorities_2023": -106000000,
+      "settlements_tax_authorities_2024": -9000000,
+      "lapse_statute_limitations_2022": -28000000,
+      "lapse_statute_limitations_2023": -79000000,
+      "lapse_statute_limitations_2024": -151000000,
+      "gross_tax_contingencies_dec31_2022": 4002000000,
+      "gross_tax_contingencies_dec31_2023": 5228000000,
+      "gross_tax_contingencies_dec31_2024": 6485000000,
+      "accrued_interest_penalties_2023": 194000000,
+      "accrued_interest_penalties_2024": 316000000,
+      "interest_penalties_recognized_2022": -7000000,
+      "interest_penalties_recognized_2023": 91000000,
+      "interest_penalties_recognized_2024": 121000000,
+      "foreign_nol_carryforwards_2024": 9900000000
+    },
+    "chunk_id": 23
+  },
+  {
+    "info": "Net sales grew across all three reportable segments, with North America reaching $387.5B, International turning from a loss to a $3.8B profit, and AWS accelerating to $107.6B revenue and $39.8B operating income in 2024. Consolidated net income rose from a $2.7B loss in 2022 to $59.2B in 2024. Segment assets and property‑equipment balances increased, especially AWS assets (up to $155.9B) and net additions to property and equipment (up to $53.3B in AWS). Depreciation rose modestly. Income tax benefit shifted to a provision. Overall, the data highlight strong top‑line growth, improving profitability and expanding infrastructure investments.",
+    "data": {
+      "segment_financials": [
+        {
+          "segment": "North America",
+          "year": 2022,
+          "net_sales": 315880,
+          "operating_expenses": 318727,
+          "operating_income": -2847
+        },
+        {
+          "segment": "North America",
+          "year": 2023,
+          "net_sales": 352828,
+          "operating_expenses": 337951,
+          "operating_income": 14877
+        },
+        {
+          "segment": "North America",
+          "year": 2024,
+          "net_sales": 387497,
+          "operating_expenses": 362530,
+          "operating_income": 24967
+        },
+        {
+          "segment": "International",
+          "year": 2022,
+          "net_sales": 118007,
+          "operating_expenses": 125753,
+          "operating_income": -7746
+        },
+        {
+          "segment": "International",
+          "year": 2023,
+          "net_sales": 131200,
+          "operating_expenses": 133856,
+          "operating_income": -2656
+        },
+        {
+          "segment": "International",
+          "year": 2024,
+          "net_sales": 142906,
+          "operating_expenses": 139114,
+          "operating_income": 3792
+        },
+        {
+          "segment": "AWS",
+          "year": 2022,
+          "net_sales": 80096,
+          "operating_expenses": 57255,
+          "operating_income": 22841
+        },
+        {
+          "segment": "AWS",
+          "year": 2023,
+          "net_sales": 90757,
+          "operating_expenses": 66126,
+          "operating_income": 24631
+        },
+        {
+          "segment": "AWS",
+          "year": 2024,
+          "net_sales": 107556,
+          "operating_expenses": 67722,
+          "operating_income": 39834
+        },
+        {
+          "segment": "Consolidated",
+          "year": 2022,
+          "net_sales": 513983,
+          "operating_expenses": 501735,
+          "operating_income": 12248
+        },
+        {
+          "segment": "Consolidated",
+          "year": 2023,
+          "net_sales": 574785,
+          "operating_expenses": 537933,
+          "operating_income": 36852
+        },
+        {
+          "segment": "Consolidated",
+          "year": 2024,
+          "net_sales": 637959,
+          "operating_expenses": 569366,
+          "operating_income": 68593
+        }
+      ],
+      "consolidated_other": [
+        {
+          "year": 2022,
+          "total_non_operating_income": -18184,
+          "income_tax_benefit": 3217,
+          "equity_method_investment": -3,
+          "net_income": -2722
+        },
+        {
+          "year": 2023,
+          "total_non_operating_income": 705,
+          "income_tax_provision": -7120,
+          "equity_method_investment": -12,
+          "net_income": 30425
+        },
+        {
+          "year": 2024,
+          "total_non_operating_income": 21,
+          "income_tax_provision": -9265,
+          "equity_method_investment": -101,
+          "net_income": 59248
+        }
+      ],
+      "sales_by_product": [
+        {
+          "product_category": "Online stores",
+          "year": 2022,
+          "net_sales": 220004
+        },
+        {
+          "product_category": "Online stores",
+          "year": 2023,
+          "net_sales": 231872
+        },
+        {
+          "product_category": "Online stores",
+          "year": 2024,
+          "net_sales": 247029
+        },
+        {
+          "product_category": "Physical stores",
+          "year": 2022,
+          "net_sales": 18963
+        },
+        {
+          "product_category": "Physical stores",
+          "year": 2023,
+          "net_sales": 20030
+        },
+        {
+          "product_category": "Physical stores",
+          "year": 2024,
+          "net_sales": 21215
+        },
+        {
+          "product_category": "Third-party seller services",
+          "year": 2022,
+          "net_sales": 117716
+        },
+        {
+          "product_category": "Third-party seller services",
+          "year": 2023,
+          "net_sales": 140053
+        },
+        {
+          "product_category": "Third-party seller services",
+          "year": 2024,
+          "net_sales": 156146
+        },
+        {
+          "product_category": "Advertising services",
+          "year": 2022,
+          "net_sales": 37739
+        },
+        {
+          "product_category": "Advertising services",
+          "year": 2023,
+          "net_sales": 46906
+        },
+        {
+          "product_category": "Advertising services",
+          "year": 2024,
+          "net_sales": 56214
+        },
+        {
+          "product_category": "Subscription services",
+          "year": 2022,
+          "net_sales": 35218
+        },
+        {
+          "product_category": "Subscription services",
+          "year": 2023,
+          "net_sales": 40209
+        },
+        {
+          "product_category": "Subscription services",
+          "year": 2024,
+          "net_sales": 44374
+        },
+        {
+          "product_category": "AWS",
+          "year": 2022,
+          "net_sales": 80096
+        },
+        {
+          "product_category": "AWS",
+          "year": 2023,
+          "net_sales": 90757
+        },
+        {
+          "product_category": "AWS",
+          "year": 2024,
+          "net_sales": 107556
+        },
+        {
+          "product_category": "Other",
+          "year": 2022,
+          "net_sales": 4247
+        },
+        {
+          "product_category": "Other",
+          "year": 2023,
+          "net_sales": 4958
+        },
+        {
+          "product_category": "Other",
+          "year": 2024,
+          "net_sales": 5425
+        }
+      ],
+      "sales_by_country": [
+        {
+          "country": "United States",
+          "year": 2022,
+          "net_sales": 356113
+        },
+        {
+          "country": "United States",
+          "year": 2023,
+          "net_sales": 395637
+        },
+        {
+          "country": "United States",
+          "year": 2024,
+          "net_sales": 438015
+        },
+        {
+          "country": "Germany",
+          "year": 2022,
+          "net_sales": 33598
+        },
+        {
+          "country": "Germany",
+          "year": 2023,
+          "net_sales": 37588
+        },
+        {
+          "country": "Germany",
+          "year": 2024,
+          "net_sales": 40856
+        },
+        {
+          "country": "United Kingdom",
+          "year": 2022,
+          "net_sales": 30074
+        },
+        {
+          "country": "United Kingdom",
+          "year": 2023,
+          "net_sales": 33591
+        },
+        {
+          "country": "United Kingdom",
+          "year": 2024,
+          "net_sales": 37855
+        },
+        {
+          "country": "Japan",
+          "year": 2022,
+          "net_sales": 24396
+        },
+        {
+          "country": "Japan",
+          "year": 2023,
+          "net_sales": 26002
+        },
+        {
+          "country": "Japan",
+          "year": 2024,
+          "net_sales": 27401
+        },
+        {
+          "country": "Rest of world",
+          "year": 2022,
+          "net_sales": 69802
+        },
+        {
+          "country": "Rest of world",
+          "year": 2023,
+          "net_sales": 81967
+        },
+        {
+          "country": "Rest of world",
+          "year": 2024,
+          "net_sales": 93832
+        }
+      ],
+      "segment_assets": [
+        {
+          "segment": "North America",
+          "year": 2022,
+          "assets": 185268
+        },
+        {
+          "segment": "North America",
+          "year": 2023,
+          "assets": 196029
+        },
+        {
+          "segment": "North America",
+          "year": 2024,
+          "assets": 210120
+        },
+        {
+          "segment": "International",
+          "year": 2022,
+          "assets": 64666
+        },
+        {
+          "segment": "International",
+          "year": 2023,
+          "assets": 69718
+        },
+        {
+          "segment": "International",
+          "year": 2024,
+          "assets": 69487
+        },
+        {
+          "segment": "AWS",
+          "year": 2022,
+          "assets": 88491
+        },
+        {
+          "segment": "AWS",
+          "year": 2023,
+          "assets": 108533
+        },
+        {
+          "segment": "AWS",
+          "year": 2024,
+          "assets": 155953
+        },
+        {
+          "segment": "Corporate",
+          "year": 2022,
+          "assets": 124250
+        },
+        {
+          "segment": "Corporate",
+          "year": 2023,
+          "assets": 153574
+        },
+        {
+          "segment": "Corporate",
+          "year": 2024,
+          "assets": 189334
+        },
+        {
+          "segment": "Consolidated",
+          "year": 2022,
+          "assets": 462675
+        },
+        {
+          "segment": "Consolidated",
+          "year": 2023,
+          "assets": 527854
+        },
+        {
+          "segment": "Consolidated",
+          "year": 2024,
+          "assets": 624894
+        }
+      ],
+      "property_and_equipment": [
+        {
+          "segment": "North America",
+          "year": 2022,
+          "p_and_e": 90076
+        },
+        {
+          "segment": "North America",
+          "year": 2023,
+          "p_and_e": 93632
+        },
+        {
+          "segment": "North America",
+          "year": 2024,
+          "p_and_e": 103041
+        },
+        {
+          "segment": "International",
+          "year": 2022,
+          "p_and_e": 23347
+        },
+        {
+          "segment": "International",
+          "year": 2023,
+          "p_and_e": 24357
+        },
+        {
+          "segment": "International",
+          "year": 2024,
+          "p_and_e": 25618
+        },
+        {
+          "segment": "AWS",
+          "year": 2022,
+          "p_and_e": 60324
+        },
+        {
+          "segment": "AWS",
+          "year": 2023,
+          "p_and_e": 72701
+        },
+        {
+          "segment": "AWS",
+          "year": 2024,
+          "p_and_e": 110683
+        },
+        {
+          "segment": "Corporate",
+          "year": 2022,
+          "p_and_e": 12968
+        },
+        {
+          "segment": "Corporate",
+          "year": 2023,
+          "p_and_e": 13487
+        },
+        {
+          "segment": "Corporate",
+          "year": 2024,
+          "p_and_e": 13323
+        },
+        {
+          "segment": "Consolidated",
+          "year": 2022,
+          "p_and_e": 186715
+        },
+        {
+          "segment": "Consolidated",
+          "year": 2023,
+          "p_and_e": 204177
+        },
+        {
+          "segment": "Consolidated",
+          "year": 2024,
+          "p_and_e": 252665
+        }
+      ],
+      "capex_additions": [
+        {
+          "segment": "North America",
+          "year": 2022,
+          "additions": 23682
+        },
+        {
+          "segment": "North America",
+          "year": 2023,
+          "additions": 17529
+        },
+        {
+          "segment": "North America",
+          "year": 2024,
+          "additions": 24348
+        },
+        {
+          "segment": "International",
+          "year": 2022,
+          "additions": 6711
+        },
+        {
+          "segment": "International",
+          "year": 2023,
+          "additions": 4144
+        },
+        {
+          "segment": "International",
+          "year": 2024,
+          "additions": 6643
+        },
+        {
+          "segment": "AWS",
+          "year": 2022,
+          "additions": 27755
+        },
+        {
+          "segment": "AWS",
+          "year": 2023,
+          "additions": 24843
+        },
+        {
+          "segment": "AWS",
+          "year": 2024,
+          "additions": 53267
+        },
+        {
+          "segment": "Corporate",
+          "year": 2022,
+          "additions": 2688
+        },
+        {
+          "segment": "Corporate",
+          "year": 2023,
+          "additions": 1828
+        },
+        {
+          "segment": "Corporate",
+          "year": 2024,
+          "additions": 1494
+        },
+        {
+          "segment": "Consolidated",
+          "year": 2022,
+          "additions": 60836
+        },
+        {
+          "segment": "Consolidated",
+          "year": 2023,
+          "additions": 48344
+        },
+        {
+          "segment": "Consolidated",
+          "year": 2024,
+          "additions": 85752
+        }
+      ],
+      "depreciation": [
+        {
+          "segment": "North America",
+          "year": 2022,
+          "depr": 11565
+        },
+        {
+          "segment": "North America",
+          "year": 2023,
+          "depr": 13678
+        },
+        {
+          "segment": "North America",
+          "year": 2024,
+          "depr": 14285
+        },
+        {
+          "segment": "International",
+          "year": 2022,
+          "depr": 3483
+        },
+        {
+          "segment": "International",
+          "year": 2023,
+          "depr": 4016
+        },
+        {
+          "segment": "International",
+          "year": 2024,
+          "depr": 4462
+        },
+        {
+          "segment": "AWS",
+          "year": 2022,
+          "depr": 9876
+        },
+        {
+          "segment": "AWS",
+          "year": 2023,
+          "depr": 12531
+        },
+        {
+          "segment": "AWS",
+          "year": 2024,
+          "depr": 13320
+        },
+        {
+          "segment": "Consolidated",
+          "year": 2022,
+          "depr": 24924
+        },
+        {
+          "segment": "Consolidated",
+          "year": 2023,
+          "depr": 30225
+        },
+        {
+          "segment": "Consolidated",
+          "year": 2024,
+          "depr": 32067
+        }
+      ],
+      "property_equipment_leases_us": [
+        {
+          "year": 2022,
+          "value": 180.0
+        },
+        {
+          "year": 2023,
+          "value": 196.0
+        },
+        {
+          "year": 2024,
+          "value": 241.6
+        }
+      ],
+      "property_equipment_leases_non_us": [
+        {
+          "year": 2022,
+          "value": 72.9
+        },
+        {
+          "year": 2023,
+          "value": 80.7
+        },
+        {
+          "year": 2024,
+          "value": 87.2
+        }
+      ]
+    },
+    "chunk_id": 24
+  },
+  {
+    "info": "Management affirmed effective disclosure and internal controls as of Dec 31 2024, with Ernst & Young confirming an unqualified opinion. Consolidated revenue rose from 24,924 million in 2022 to 32,067 million in 2024, driven by growth in North America, International and AWS segments. Senior executives adopted 10b5‑1 trading plans to sell up to 158,970 shares (Herrington), 16,938 shares (Reynolds), 32,370 shares (Olsavsky), 87,070 shares (Zapolsky) and 80,400 shares (Jassy) through 2025.",
+    "data": {
+      "north_america_2022": 11565,
+      "north_america_2023": 13678,
+      "north_america_2024": 14285,
+      "international_2022": 3483,
+      "international_2023": 4016,
+      "international_2024": 4462,
+      "aws_2022": 9876,
+      "aws_2023": 12531,
+      "aws_2024": 13320,
+      "consolidated_2022": 24924,
+      "consolidated_2023": 30225,
+      "consolidated_2024": 32067,
+      "trading_plan_shares_herrington": 158970,
+      "trading_plan_shares_reynolds": 16938,
+      "trading_plan_shares_olsavsky": 32370,
+      "trading_plan_shares_zapolsky": 87070,
+      "trading_plan_shares_jassy": 80400
+    },
+    "chunk_id": 25
+  },
+  {
+    "info": "The filing lists multiple debt notes with interest rates ranging from 0.25% to 4.7% and maturities through 2061, references recent five‑year and 364‑day revolving credit agreements dated November 1 2023 and October 30 2024, and includes executive signatures dated February 6 2025.",
+    "data": {
+      "debt_notes": [
+        {
+          "interest_rate": 0.4,
+          "due_year": 2023
+        },
+        {
+          "interest_rate": 0.8,
+          "due_year": 2025
+        },
+        {
+          "interest_rate": 1.2,
+          "due_year": 2027
+        },
+        {
+          "interest_rate": 1.5,
+          "due_year": 2030
+        },
+        {
+          "interest_rate": 2.5,
+          "due_year": 2050
+        },
+        {
+          "interest_rate": 2.7,
+          "due_year": 2060
+        },
+        {
+          "interest_rate": 0.25,
+          "due_year": 2023
+        },
+        {
+          "interest_rate": 0.45,
+          "due_year": 2024
+        },
+        {
+          "interest_rate": 1.0,
+          "due_year": 2026
+        },
+        {
+          "interest_rate": 1.65,
+          "due_year": 2028
+        },
+        {
+          "interest_rate": 2.1,
+          "due_year": 2031
+        },
+        {
+          "interest_rate": 2.875,
+          "due_year": 2041
+        },
+        {
+          "interest_rate": 3.1,
+          "due_year": 2051
+        },
+        {
+          "interest_rate": 3.25,
+          "due_year": 2061
+        },
+        {
+          "interest_rate": 4.7,
+          "due_year": 2024
+        },
+        {
+          "interest_rate": 4.6,
+          "due_year": 2025
+        },
+        {
+          "interest_rate": 4.55,
+          "due_year": 2027
+        },
+        {
+          "interest_rate": 4.65,
+          "due_year": 2029
+        },
+        {
+          "interest_rate": 4.7,
+          "due_year": 2032
+        }
+      ],
+      "revolving_agreement_5yr_year": 2023,
+      "revolving_agreement_364day_year": 2024,
+      "signature_date_year": 2025
+    },
+    "chunk_id": 26
+  }
+]
