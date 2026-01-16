@@ -29,7 +29,7 @@ class RawEpisode:
 load_dotenv()
 
 # Set semaphore limit for concurrency control
-os.environ['SEMAPHORE_LIMIT'] = '2'
+os.environ['SEMAPHORE_LIMIT'] = '1'
 
 # Configure logging
 logging.basicConfig(
@@ -166,7 +166,7 @@ async def main():
         logger.info(f'Total episodes to ingest: {len(all_episodes)}')
         
         # Ingest episodes in batches of 5
-        await ingest_episodes_batch(graphiti, all_episodes, batch_size=3)
+        await ingest_episodes_batch(graphiti, all_episodes, batch_size=1)
         
         logger.info('Ingestion complete!')
         
