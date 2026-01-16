@@ -13,6 +13,7 @@ from graphiti_core.llm_client.groq_client import GroqClient, LLMConfig
 from graphiti_core.embedder.openai import OpenAIEmbedder, OpenAIEmbedderConfig
 from graphiti_core.cross_encoder.openai_reranker_client import OpenAIRerankerClient
 from graphiti_core.nodes import EpisodeType
+from graphiti_core.types import RawEpisode
 
 load_dotenv()
 
@@ -72,15 +73,15 @@ async def ingest_episodes_batch(graphiti: Graphiti, episodes: list[dict], batch_
     for i in range(0, total, batch_size):
         batch = episodes[i:i + batch_size]
         
-        # Prepare bulk episodes
+        # Prepare bulk episodes using RawEpisode objects
         bulk_episodes = [
-            {
-                'name': ep['name'],
-                'episode_body': ep['content'],
-                'source': ep['type'],
-                'source_description': ep['description'],
-                'reference_time': datetime.now(timezone.utc),
-            }
+            RawEpisode(
+                name=ep['name'],
+                episode_body=ep['content'],
+                source=ep['type'],
+                source_description=ep['description'],
+                reference_time=datetime.now(timezone.utc),
+            )
             for ep in batch
         ]
         
