@@ -15,7 +15,7 @@ from markdownify import markdownify as md
 # from docling.backend.pypdfium2_backend import PyPdfiumDocumentBackend
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import tiktoken
-from groq import AsyncGroq
+from openai import AsyncOpenAI
 from json_repair import repair_json
 # import torch
 
@@ -24,7 +24,7 @@ load_dotenv()
 # SEC requires proper User-Agent
 SEC_HEADERS = {"User-Agent": "YourCompany your-email@example.com"}
 
-GROQ_MODEL = "openai/gpt-oss-120b"
+OPENAI_MODEL = "gpt-5-nano"
 
 # Base output directory
 OUTPUT_DIR = Path("sec_documents")
@@ -215,14 +215,14 @@ def chunk_markdown(md_path: Path, file_prefix: str):
 
 
 
-async def process_single_chunk(client: AsyncGroq, instructions: str, chunk: dict, total_chunks: int):
-    """Process a single chunk with Groq asynchronously."""
+async def process_single_chunk(client: AsyncOpenAI, instructions: str, chunk: dict, total_chunks: int):
+    """Process a single chunk with OpenAI asynchronously."""
     chunk_id = chunk["id"]
     chunk_text = chunk["text"]
     
     try:
         completion = await client.chat.completions.create(
-            model=GROQ_MODEL,
+            model=OPENAI_MODEL,
             messages=[
                 {"role": "system", "content": instructions},
                 {"role": "user", "content": chunk_text}
@@ -271,10 +271,10 @@ async def process_single_chunk(client: AsyncGroq, instructions: str, chunk: dict
 
 
 async def clean_chunks_with_groq_async(chunks_path: Path, file_prefix: str, batch_size: int = 10):
-    """Process chunks through Groq to extract structured JSON (async with batching)."""
+    """Process chunks through OpenAI to extract structured JSON (async with batching)."""
     output_path = OUTPUT_DIR / "clean_chunks" / f"{file_prefix}_10k_clean.json"
     
-    print(f"Cleaning chunks with Groq ({GROQ_MODEL}) - batch size {batch_size}...")
+    print(f"Cleaning chunks with OpenAI ({OPENAI_MODEL}) - batch size {batch_size}...")
     
     # Load instructions prompt
     with open("prompt_extract.md", "r", encoding="utf-8") as f:
@@ -284,8 +284,8 @@ async def clean_chunks_with_groq_async(chunks_path: Path, file_prefix: str, batc
     with open(chunks_path, "r", encoding="utf-8") as f:
         chunks = json.load(f)
     
-    # Initialize async Groq client
-    client = AsyncGroq()
+    # Initialize async OpenAI client
+    client = AsyncOpenAI()
     
     all_cleaned = []
     total_chunks = len(chunks)
@@ -328,7 +328,7 @@ async def clean_chunks_with_groq_async(chunks_path: Path, file_prefix: str, batc
 
 
 def clean_chunks_with_groq(chunks_path: Path, file_prefix: str):
-    """Wrapper to run async clean_chunks_with_groq."""
+    """Wrapper to run async clean_chunks_with_openai."""
     return asyncio.run(clean_chunks_with_groq_async(chunks_path, file_prefix, batch_size=5))
 
 

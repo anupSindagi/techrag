@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 from graphiti_core import Graphiti
 from graphiti_core.driver.falkordb_driver import FalkorDriver
-from graphiti_core.llm_client.groq_client import GroqClient, LLMConfig
+from graphiti_core.llm_client.openai_client import OpenAIClient, LLMConfig
 from graphiti_core.embedder.openai import OpenAIEmbedder, OpenAIEmbedderConfig
 from graphiti_core.cross_encoder.openai_reranker_client import OpenAIRerankerClient
 from graphiti_core.nodes import EpisodeType
@@ -18,7 +18,7 @@ from graphiti_core.utils.maintenance.graph_data_operations import clear_data
 load_dotenv()
 
 # Set semaphore limit for concurrency control
-os.environ['SEMAPHORE_LIMIT'] = '1'
+os.environ['SEMAPHORE_LIMIT'] = '3'
 
 # Configure logging
 logging.basicConfig(
@@ -108,11 +108,11 @@ async def main():
     # Configure Graphiti with FalkorDB + Groq LLM + OpenAI embeddings/reranking
     graphiti = Graphiti(
         graph_driver=falkor_driver,
-        llm_client=GroqClient(
+        llm_client=OpenAIClient(
             config=LLMConfig(
-                api_key=os.environ.get('GROQ_API_KEY'),
-                model="openai/gpt-oss-120b",
-                small_model="openai/gpt-oss-20b"
+                api_key=os.environ.get('OPENAI_API_KEY'),
+                model="gpt-5-nano",
+                small_model="gpt-5-nano"
             )
         ),
         embedder=OpenAIEmbedder(
@@ -124,7 +124,7 @@ async def main():
         cross_encoder=OpenAIRerankerClient(
             config=LLMConfig(
                 api_key=os.environ.get('OPENAI_API_KEY'),
-                model="gpt-4.1-nano"
+                model="gpt-5-nano"
             )
         )
     )

@@ -1,0 +1,72 @@
+[
+  {
+    "Symbol": "GOOGL",
+    "Security": "Alphabet Inc. (Class A)",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Interactive Media & Services",
+    "Headquarters Location": "Mountain View, California",
+    "Date added": "2006-04-03",
+    "CIK": "0001652044",
+    "Founded": "1998"
+  },
+  {
+    "Symbol": "AMZN",
+    "Security": "Amazon",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Broadline Retail",
+    "Headquarters Location": "Seattle, Washington",
+    "Date added": "2005-11-18",
+    "CIK": "0001018724",
+    "Founded": "1994"
+  },
+  {
+    "Symbol": "AAPL",
+    "Security": "Apple Inc.",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "Headquarters Location": "Cupertino, California",
+    "Date added": "1982-11-30",
+    "CIK": "0000320193",
+    "Founded": "1977"
+  },
+  {
+    "Symbol": "META",
+    "Security": "Meta Platforms",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Interactive Media & Services",
+    "Headquarters Location": "Menlo Park, California",
+    "Date added": "2013-12-23",
+    "CIK": "0001326801",
+    "Founded": "2004"
+  },
+  {
+    "Symbol": "MSFT",
+    "Security": "Microsoft",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Systems Software",
+    "Headquarters Location": "Redmond, Washington",
+    "Date added": "1994-06-01",
+    "CIK": "0000789019",
+    "Founded": "1975"
+  },
+  {
+    "Symbol": "NVDA",
+    "Security": "Nvidia",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "Headquarters Location": "Santa Clara, California",
+    "Date added": "2001-11-30",
+    "CIK": "0001045810",
+    "Founded": "1993"
+  },
+  {
+    "Symbol": "TSLA",
+    "Security": "Tesla, Inc.",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Automobile Manufacturers",
+    "Headquarters Location": "Austin, Texas",
+    "Date added": "2020-12-21",
+    "CIK": "0001318605",
+    "Founded": "2003"
+  }
+]

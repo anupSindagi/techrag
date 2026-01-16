@@ -1,10 +1,7 @@
 requests
-pyhtml2pdf
-docling
 langchain-text-splitters
 tiktoken
-groq
+openai
 python-dotenv
-torch
 markdownify
 json-repair

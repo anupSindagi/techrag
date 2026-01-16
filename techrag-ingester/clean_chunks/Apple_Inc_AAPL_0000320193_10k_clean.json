@@ -1,282 +1,372 @@
 [
   {
-    "info": "",
+    "info": "Apple's 2025 Form 10-K shows a diversified product strategy across iPhone, Mac, iPad, wearables and services, with ongoing updates to product lines and ecosystems; the filing emphasizes forward-looking statements and risks tied to macroeconomic conditions, tariffs and other factors that could affect results.",
     "data": {
-      "notes": [
-        {
-          "coupon": 0.0,
-          "due_year": 2025
-        },
-        {
-          "coupon": 1.625,
-          "due_year": 2026
-        },
-        {
-          "coupon": 2.0,
-          "due_year": 2027
-        },
-        {
-          "coupon": 1.375,
-          "due_year": 2029
-        },
-        {
-          "coupon": 3.05,
-          "due_year": 2029
-        },
-        {
-          "coupon": 0.5,
-          "due_year": 2031
-        },
-        {
-          "coupon": 3.6,
-          "due_year": 2042
-        }
-      ]
-    },
-    "chunk_id": 0
-  },
-  {
-    "info": "Apple filed its 2025 Form 10‑K as a large accelerated filer; the filing notes an aggregate market value of non‑affiliate stock of approximately $3.253 trillion as of March 28 2025 and 14.776 billion shares of common stock outstanding as of October 17 2025, underscoring its large scale.",
-    "data": {
-      "market_value_non_affiliates": 3253431000000,
-      "common_shares_outstanding": 14776353000
+      "fiscal_year_end_year": 2025,
+      "fiscal_year_end_month": 9,
+      "fiscal_year_end_day": 27,
+      "shares_outstanding_oct_17_2025": 14776353000,
+      "market_value_non_affiliates_march_28_2025": 3253431000000,
+      "zip_code": 95014,
+      "phone_number": 4089961010,
+      "irs_employer_identification_no": 942404110,
+      "common_stock_par_value_per_share": 1e-05
     },
     "chunk_id": 1
   },
   {
-    "info": "Apple highlights its extensive product and services portfolio across smartphones, computers, tablets, wearables and digital services, while emphasizing intense competition, supply‑chain constraints, macroeconomic and geopolitical risks, and the impact of new tariffs. In 2025, net sales were split 40% direct and 60% indirect distribution, and the workforce stood at about 166,000 full‑time employees.",
+    "info": "Apple warns of ongoing macroeconomic, geopolitical and trade risks that could dampen demand or disrupt supply chains, including tariffs announced in 2025 and potential future restrictions. The business relies on outsourced manufacturing and a mix of single/limited-source components, exposing it to supply disruptions, costs and commodity swings. Competitive dynamics remain intense with price pressure and rapid product cycles, underscoring the importance of continual innovation across iPhone, Mac, iPad, wearables and services and a broad IP/licensing framework. The company faces risks from natural disasters, pandemics and cybersecurity, which could affect manufacturing, logistics and demand. Apple generates most sales outside the U.S., with a 40% direct and 60% indirect channel mix in 2025, and had about 166,000 full-time-equivalent employees as of Sept 27, 2025. The fiscal year is a 52- or 53-week period ending on the last Saturday of September.",
     "data": {
-      "distribution_direct_percent": 40,
-      "distribution_indirect_percent": 60,
-      "employees_fte": 166000
+      "fiscal_weeks_min": 52,
+      "fiscal_weeks_max": 53,
+      "tariffs_start_year": 2025,
+      "tariffs_start_quarter": 2,
+      "employees_sep27_2025": 166000,
+      "direct_channel_share_2025": 40,
+      "indirect_channel_share_2025": 60
     },
     "chunk_id": 2
   },
   {
-    "info": "Apple faces extensive supply chain and manufacturing risks—including dependence on single‑source suppliers in Asia, potential industrial accidents, pandemics, and semiconductor shortages—while intense global competition pressures margins and requires continual R&D and IP protection. Additional concerns include design and manufacturing defects, inventory write‑downs, reliance on third‑party developers and content licensing, talent retention challenges, reseller and carrier dynamics, and heightened cybersecurity and data breach threats.",
+    "info": "Supply chain and manufacturing disruption risks from events, accidents, pandemics, and reliance on single-source and outsourced suppliers; potential cost increases, delays, and demand impact; dependency on third-party IP and software developers with licensing and platform risk; intense global competition, rapid tech change, and required ongoing R&D with uncertain returns; operational risks from IT outages and cybersecurity, plus regulatory and talent recruitment constraints; reliance on carriers and resellers; and risk of inventory write-downs or obsolescence affecting results and stock price.",
     "data": {
-      "purchase_obligation_period_days": 150
+      "purchase_obligations_period_days": 150
     },
     "chunk_id": 3
   },
   {
-    "info": "The company highlights significant data security and third‑party ransomware risks, extensive legal and regulatory exposure—including antitrust lawsuits, investigations under the EU Digital Markets Act, and privacy/AI compliance challenges—and notes that insurance may not fully cover potential losses. It also warns of financial pressures from volatile gross margins, foreign‑exchange fluctuations, and the potential impact of fines or remediation costs on results and stock price.",
+    "info": "Concise investor-focused risk summary: data security and privacy risks with potential reputational, financial and operational impacts; dependence on third parties and suppliers; frequent malicious attacks and evolving regulatory landscape including DMA; ongoing patent and antitrust matters, particularly licensing arrangements with Google and remedies ordered by the court in 2025; potential increases in costs and changes to business practices; regulatory changes could affect margins and stock price.",
     "data": {
-      "google_antitrust_violation_date": 20240805,
-      "court_order_date": 20250902
+      "google_antitrust_ruling_year_2024": 2024,
+      "court_order_year_2025": 2025
     },
     "chunk_id": 4
   },
   {
-    "info": "Foreign‑currency fluctuations pose margin risk; credit exposure exists in trade and vendor receivables, especially internationally. Ongoing tax uncertainties and potential changes in rates are highlighted. Significant legal matters include a €500 million EU DMA fine, potential fines up to 10 % of net sales, a U.S. DOJ antitrust suit, and continued Epic Games litigation with recent injunctions. The company repurchased 89,498 k shares in Q3 2025 at average prices rising from $210.43 to $238.56, drawing on $110 billion and $100 billion share‑repurchase programs (with $19.8 billion and $221 million utilized). Shareholder count stands at 22,429. Stock has risen from $100 in 2020 to $234 in 2025 (five‑year cumulative return). Product launches span new Mac, iPhone, iPad and OS updates.",
+    "info": "FX and tax risk management implications, credit risk in receivables and vendor prepayments, and regulatory/legal headwinds (EU DMA fines with potential 10% of worldwide net sales, €500 million fine; DOJ and Epic antitrust litigation) are highlighted alongside active stock repurchase programs and ongoing product cadence announcements. The company also notes stock price volatility and a growing shareholder base, with detailed 2025 share repurchase activity and performance context.",
     "data": {
-      "fine_eur": 500000000,
-      "share_repurchases_shares_june_aug2_2025": 33265,
-      "average_price_june_aug2_2025": 210.43,
-      "share_repurchases_shares_aug3_aug30_2025": 28986,
-      "average_price_aug3_aug30_2025": 224.25,
-      "share_repurchases_shares_aug31_sep27_2025": 27247,
-      "average_price_aug31_sep27_2025": 238.56,
-      "total_shares_repurchased": 89498,
-      "total_repurchase_dollar_value": 99779,
-      "program_may2024_amount": 110000000000,
-      "program_may2024_utilized": 19800000000,
-      "program_may2025_amount": 100000000000,
-      "program_may2025_utilized": 221000000,
-      "shareholders_record": 22429,
-      "stock_cumulative_return_2020": 100,
-      "stock_cumulative_return_2021": 132,
-      "stock_cumulative_return_2022": 136,
-      "stock_cumulative_return_2023": 155,
-      "stock_cumulative_return_2024": 208,
-      "stock_cumulative_return_2025": 234
+      "shareholders_oct_17_2025": 22429,
+      "repurchase_shares_june_29_2025_to_aug_2_2025": 33365,
+      "repurchase_avg_price_june_29_2025_to_aug_2_2025": 210.43,
+      "repurchase_shares_aug_3_2025_to_aug_30_2025": 28986,
+      "repurchase_avg_price_aug_3_2025_to_aug_30_2025": 224.25,
+      "repurchase_shares_aug_31_2025_to_sep_27_2025": 27247,
+      "repurchase_avg_price_aug_31_2025_to_sep_27_2025": 238.56,
+      "total_shares_purchased_all_periods_thousands": 89498,
+      "total_dollar_value_shares_purchased_millions": 99779,
+      "dma_art5_4_fine_euros": 500000000,
+      "dma_final_penalty_cap_percent_of_sales": 10,
+      "may_2024_stock_repurchase_cap_dollars": 110000000000,
+      "used_final_may_2024_program_in_q4_2025_dollars": 19800000000,
+      "may_2025_stock_repurchase_cap_dollars": 100000000000,
+      "may_2025_program_used_as_of_sep_27_2025_dollars": 221000000,
+      "stock_performance_table": [
+        {
+          "year": "Sep-2020",
+          "apple": 100,
+          "sp500": 100,
+          "dow_jones_ust_tech": 100
+        },
+        {
+          "year": "Sep-2021",
+          "apple": 132,
+          "sp500": 137,
+          "dow_jones_ust_tech": 147
+        },
+        {
+          "year": "Sep-2022",
+          "apple": 136,
+          "sp500": 115,
+          "dow_jones_ust_tech": 107
+        },
+        {
+          "year": "Sep-2023",
+          "apple": 155,
+          "sp500": 136,
+          "dow_jones_ust_tech": 147
+        },
+        {
+          "year": "Sep-2024",
+          "apple": 208,
+          "sp500": 185,
+          "dow_jones_ust_tech": 220
+        },
+        {
+          "year": "Sep-2025",
+          "apple": 234,
+          "sp500": 217,
+          "dow_jones_ust_tech": 287
+        }
+      ]
     },
     "chunk_id": 5
   },
   {
-    "info": "Fiscal 2025 saw multiple new hardware and software launches across all quarters, including MacBook Pro, iPhone 16e, iOS 26, iPhone 17 series, Apple Watch Series 11 and AirPods Pro 3. Net sales grew 6% to $416.2 billion, driven by strong iPhone, Mac, iPad and Services performance, while Wearables declined. Regional growth varied: Americas +7%, Europe +10%, Japan +15%, Rest of Asia Pacific +10% and Greater China –4%. Services sales jumped 14% to $109.2 billion. Gross margin improved to 46.9% ($195.2 billion) despite a lower products margin percentage, while Services margin percentage rose to 75.4%. R&D and SG&A expenses increased 10% and 6% respectively, total operating expenses up 8%. Provision for income taxes fell sharply to $20.7 billion, lowering the effective tax rate to 15.6%. The company holds $132.4 billion in cash and equivalents, $91.3 billion of debt ( $12.4 billion current), $8.0 billion of commercial paper, and significant lease, manufacturing and other purchase obligations. New U.S. tariffs introduced in Q2 2025 and potential reciprocal measures pose ongoing supply‑chain and margin risks.",
+    "info": "Apple's 2025 MD&A discusses product/service announcements through 2025, macro tariffs and currency risks, and 2025 vs 2024 performance. Segment results show 2025 total net sales of 416161 with regional and category drivers (Americas 178353, Europe 111032, Greater China 64377, Japan 28703, Rest of Asia Pacific 33696). Product mix drivers show iPhone leading with 2025 net sales of 209586 and total net sales 416161; Services strong at 109158; gross margin total 195201 with products 112887 and services 82314; total gross margin margin 46.9% (products 36.8%, services 75.4%). 2025 operating expenses rose to 62151 (R&D 34550; SG&A 27601). Tax provision 20719 with an effective tax rate of 15.6% and statutory rate 21%. Liquidity remained strong with cash and marketable securities totaling 132.4 billion; debt obligations include 91.3B notes with 12.4B due in 12 months, 8.0B commercial paper; leases 16.8B with 2.6B due in 12 months; manufacturing obligations 56.2B with 55.4B due in 12 months; other purchase obligations 14.8B with 7.0B due in 12 months; deemed repatriation tax payable 8.8B due within 12 months. Fiscal weeks were 52 in 2025 and 2024 (53 in 2023).",
     "data": {
-      "total_net_sales_2025": 416161,
-      "total_net_sales_2024": 391035,
-      "total_net_sales_2023": 383285,
-      "net_sales_americas_2025": 178353,
-      "net_sales_americas_2024": 167045,
-      "net_sales_americas_2023": 162560,
-      "net_sales_europe_2025": 111032,
-      "net_sales_europe_2024": 101328,
-      "net_sales_europe_2023": 94294,
-      "net_sales_greater_china_2025": 64377,
-      "net_sales_greater_china_2024": 66952,
-      "net_sales_greater_china_2023": 72559,
-      "net_sales_japan_2025": 28703,
-      "net_sales_japan_2024": 25052,
-      "net_sales_japan_2023": 24257,
-      "net_sales_rest_asia_pacific_2025": 33696,
-      "net_sales_rest_asia_pacific_2024": 30658,
-      "net_sales_rest_asia_pacific_2023": 29615,
-      "iPhone_sales_2025": 209586,
-      "iPhone_sales_2024": 201183,
-      "iPhone_sales_2023": 200583,
-      "mac_sales_2025": 33708,
-      "mac_sales_2024": 29984,
-      "mac_sales_2023": 29357,
-      "ipad_sales_2025": 28023,
-      "ipad_sales_2024": 26694,
-      "ipad_sales_2023": 28300,
-      "wearables_home_accessories_sales_2025": 35686,
-      "wearables_home_accessories_sales_2024": 37005,
-      "wearables_home_accessories_sales_2023": 39845,
-      "services_sales_2025": 109158,
-      "services_sales_2024": 96169,
-      "services_sales_2023": 85200,
-      "total_gross_margin_2025": 195201,
-      "total_gross_margin_2024": 180683,
-      "total_gross_margin_2023": 169148,
-      "products_gross_margin_2025": 112887,
-      "products_gross_margin_2024": 109633,
-      "products_gross_margin_2023": 108803,
-      "services_gross_margin_2025": 82314,
-      "services_gross_margin_2024": 71050,
-      "services_gross_margin_2023": 60345,
-      "total_gross_margin_pct_2025": 46.9,
-      "total_gross_margin_pct_2024": 46.2,
-      "total_gross_margin_pct_2023": 44.1,
-      "products_gross_margin_pct_2025": 36.8,
-      "products_gross_margin_pct_2024": 37.2,
-      "products_gross_margin_pct_2023": 36.5,
-      "services_gross_margin_pct_2025": 75.4,
-      "services_gross_margin_pct_2024": 73.9,
-      "services_gross_margin_pct_2023": 70.8,
-      "r_and_d_expense_2025": 34550,
-      "r_and_d_expense_2024": 31370,
-      "r_and_d_expense_2023": 29915,
-      "sg_and_a_expense_2025": 27601,
-      "sg_and_a_expense_2024": 26097,
-      "sg_and_a_expense_2023": 24932,
-      "total_operating_expense_2025": 62151,
-      "total_operating_expense_2024": 57467,
-      "total_operating_expense_2023": 54847,
-      "provision_income_taxes_2025": 20719,
-      "provision_income_taxes_2024": 29749,
-      "provision_income_taxes_2023": 16741,
-      "effective_tax_rate_2025": 15.6,
-      "effective_tax_rate_2024": 24.1,
-      "effective_tax_rate_2023": 14.7,
-      "statutory_tax_rate": 21,
-      "cash_and_equivalents_2025": 132400,
-      "debt_principal_outstanding_2025": 91300,
-      "debt_current_maturity_2025": 12400,
-      "interest_payments_total_2025": 37000,
-      "interest_payments_current_2025": 2600,
-      "commercial_paper_outstanding_2025": 8000,
-      "lease_obligations_total_2025": 16800,
-      "lease_obligations_current_2025": 2600,
-      "manufacturing_purchase_obligations_total_2025": 56200,
-      "manufacturing_purchase_obligations_current_2025": 55400,
-      "other_purchase_obligations_total_2025": 14800,
-      "other_purchase_obligations_current_2025": 7000,
-      "deemed_repatriation_tax_payable_2025": 8800
+      "segment_sales_by_region": [
+        {
+          "region": "Americas",
+          "2025": 178353,
+          "2024": 167045,
+          "2023": 162560
+        },
+        {
+          "region": "Europe",
+          "2025": 111032,
+          "2024": 101328,
+          "2023": 94294
+        },
+        {
+          "region": "Greater China",
+          "2025": 64377,
+          "2024": 66952,
+          "2023": 72559
+        },
+        {
+          "region": "Japan",
+          "2025": 28703,
+          "2024": 25052,
+          "2023": 24257
+        },
+        {
+          "region": "Rest of Asia Pacific",
+          "2025": 33696,
+          "2024": 30658,
+          "2023": 29615
+        }
+      ],
+      "total_net_sales_by_year": [
+        {
+          "year": 2025,
+          "value": 416161
+        },
+        {
+          "year": 2024,
+          "value": 391035
+        },
+        {
+          "year": 2023,
+          "value": 383285
+        }
+      ],
+      "product_sales_by_category": [
+        {
+          "category": "iPhone",
+          "2025": 209586,
+          "2024": 201183,
+          "2023": 200583
+        },
+        {
+          "category": "Mac",
+          "2025": 33708,
+          "2024": 29984,
+          "2023": 29357
+        },
+        {
+          "category": "iPad",
+          "2025": 28023,
+          "2024": 26694,
+          "2023": 28300
+        },
+        {
+          "category": "Wearables_Home_and_Accessories",
+          "2025": 35686,
+          "2024": 37005,
+          "2023": 39845
+        },
+        {
+          "category": "Services",
+          "2025": 109158,
+          "2024": 96169,
+          "2023": 85200
+        },
+        {
+          "category": "Total",
+          "2025": 416161,
+          "2024": 391035,
+          "2023": 383285
+        }
+      ],
+      "gross_margin_by_category": [
+        {
+          "category": "Products",
+          "2025": 112887,
+          "2024": 109633,
+          "2023": 108803
+        },
+        {
+          "category": "Services",
+          "2025": 82314,
+          "2024": 71050,
+          "2023": 60345
+        },
+        {
+          "category": "Total",
+          "2025": 195201,
+          "2024": 180683,
+          "2023": 169148
+        }
+      ],
+      "gross_margin_percentage_by_category": [
+        {
+          "category": "Products",
+          "2025": 36.8,
+          "2024": 37.2,
+          "2023": 36.5
+        },
+        {
+          "category": "Services",
+          "2025": 75.4,
+          "2024": 73.9,
+          "2023": 70.8
+        },
+        {
+          "category": "Total",
+          "2025": 46.9,
+          "2024": 46.2,
+          "2023": 44.1
+        }
+      ],
+      "operating_expenses_by_year": [
+        {
+          "year": 2025,
+          "R&D": 34550,
+          "SG&A": 27601,
+          "Total": 62151
+        },
+        {
+          "year": 2024,
+          "R&D": 31370,
+          "SG&A": 26097,
+          "Total": 57467
+        },
+        {
+          "year": 2023,
+          "R&D": 29915,
+          "SG&A": 24932,
+          "Total": 54847
+        }
+      ],
+      "income_tax_provision_by_year": [
+        {
+          "year": 2025,
+          "provision": 20719
+        },
+        {
+          "year": 2024,
+          "provision": 29749
+        },
+        {
+          "year": 2023,
+          "provision": 16741
+        }
+      ],
+      "effective_tax_rate_by_year": [
+        {
+          "year": 2025,
+          "rate": 15.6
+        },
+        {
+          "year": 2024,
+          "rate": 24.1
+        },
+        {
+          "year": 2023,
+          "rate": 14.7
+        }
+      ],
+      "statutory_federal_income_tax_rate_by_year": [
+        {
+          "year": 2025,
+          "rate": 21
+        },
+        {
+          "year": 2024,
+          "rate": 21
+        },
+        {
+          "year": 2023,
+          "rate": 21
+        }
+      ],
+      "cash_and_equivalents_and_marketable_securities_as_of_2025_09_27": 132400000000,
+      "outstanding_fixed_rate_notes_principal": 91300000000,
+      "notes_payable_within_12_months": 12400000000,
+      "future_interest_payments": 37000000000,
+      "interest_payable_within_12_months": 2600000000,
+      "commercial_paper_outstanding": 8000000000,
+      "lease_obligations_total": 16800000000,
+      "lease_obligations_within_12_months": 2600000000,
+      "manufacturing_purchase_obligations_total": 56200000000,
+      "manufacturing_purchase_obligations_within_12_months": 55400000000,
+      "other_purchase_obligations_total": 14800000000,
+      "other_purchase_obligations_within_12_months": 7000000000,
+      "deemed_repatriation_tax_payable": 8800000000,
+      "fiscal_weeks": {
+        "2025": 52,
+        "2024": 52,
+        "2023": 53
+      }
     },
     "chunk_id": 6
   },
   {
-    "info": "Apple reports substantial contractual cash obligations totaling over $300 billion, including $91.3 billion of debt, $16.8 billion of lease commitments and $56.2 billion of manufacturing purchase obligations, with a large share due within 12 months. The company launched a $100 billion share repurchase program, bought back $89.3 billion of stock in 2025 and raised its quarterly dividend to $0.26. Interest‑rate sensitivity analysis shows a $2.4 billion decline in investment‑portfolio fair value and a $129 million increase in term‑debt interest expense for a 100‑basis‑point rise. Foreign‑exchange VAR indicates a potential one‑day loss of $590 million. Operationally, net sales grew to $416 billion in 2025, driven by product and services growth, with operating income of $133 billion and net income of $112 billion. Management highlighted ongoing accounting standard updates and market‑risk exposures.",
+    "info": "Company's material cash requirements as of Sept 27, 2025 include debt obligations, leases, and various purchase commitments, along with a deemed repatriation tax payable, and a substantial capital-return program. Highlights: aggregate fixed-rate notes principal $91.3B with $12.4B due within 12 months; future interest payments $37.0B with $2.6B due within 12 months; $8.0B commercial paper outstanding (all due within 12 months); fixed lease obligations $16.8B with $2.6B due within 12 months; manufacturing purchase obligations $56.2B with $55.4B due within 12 months; other purchase obligations $14.8B with $7.0B due within 12 months; deemed repatriation tax payable $8.8B due within 12 months. Capital return program: quarterly dividend $0.26 per share; May 2025 announced share repurchase program up to $100B; during 2025 repurchased $89.3B of common stock and paid dividends and dividend equivalents of $15.4B.",
     "data": {
-      "debt_principal_total": 91300000000,
-      "debt_principal_12m": 12400000000,
-      "debt_interest_total": 37000000000,
-      "debt_interest_12m": 2600000000,
-      "commercial_paper_outstanding": 8000000000,
-      "commercial_paper_12m": 8000000000,
-      "lease_obligations_total": 16800000000,
-      "lease_obligations_12m": 2600000000,
-      "manufacturing_purchase_obligations_total": 56200000000,
-      "manufacturing_purchase_obligations_12m": 55400000000,
-      "other_purchase_obligations_total": 14800000000,
-      "other_purchase_obligations_12m": 7000000000,
-      "deemed_repatriation_tax": 8800000000,
-      "quarterly_dividend": 0.26,
-      "share_repurchase_program_max": 100000000000,
-      "share_repurchased_2025": 89300000000,
-      "dividends_paid_2025": 15400000000,
-      "interest_rate_impact_investment_fair_value_decline_2025": 2416000000,
-      "interest_rate_impact_investment_fair_value_decline_2024": 2755000000,
-      "interest_rate_impact_term_debt_interest_expense_increase_2025": 129000000,
-      "interest_rate_impact_term_debt_interest_expense_increase_2024": 139000000,
-      "fx_var_max_loss_2025": 590000000,
-      "fx_var_max_loss_2024": 538000000,
-      "net_sales_products_2025": 307003,
-      "net_sales_services_2025": 109158,
-      "total_net_sales_2025": 416161,
-      "net_sales_products_2024": 294866,
-      "net_sales_services_2024": 96169,
-      "total_net_sales_2024": 391035,
-      "net_sales_products_2023": 298085,
-      "net_sales_services_2023": 85200,
-      "total_net_sales_2023": 383285,
-      "cost_of_sales_products_2025": 194116,
-      "cost_of_sales_services_2025": 26844,
-      "total_cost_of_sales_2025": 220960,
-      "cost_of_sales_products_2024": 185233,
-      "cost_of_sales_services_2024": 25119,
-      "total_cost_of_sales_2024": 210352,
-      "cost_of_sales_products_2023": 189282,
-      "cost_of_sales_services_2023": 24855,
-      "total_cost_of_sales_2023": 214137,
-      "gross_margin_2025": 195201,
-      "gross_margin_2024": 180683,
-      "gross_margin_2023": 169148,
-      "research_and_development_expense_2025": 34550,
-      "research_and_development_expense_2024": 31370,
-      "research_and_development_expense_2023": 29915,
-      "sg_and_a_expense_2025": 27601,
-      "sg_and_a_expense_2024": 26097,
-      "sg_and_a_expense_2023": 24932,
-      "total_operating_expenses_2025": 62151,
-      "total_operating_expenses_2024": 57467,
-      "total_operating_expenses_2023": 54847,
-      "operating_income_2025": 133050,
-      "operating_income_2024": 123216,
-      "operating_income_2023": 114301,
-      "other_income_expense_net_2025": -321,
-      "other_income_expense_net_2024": 269,
-      "other_income_expense_net_2023": -565,
-      "income_before_tax_2025": 132729,
-      "income_before_tax_2024": 123485,
-      "income_before_tax_2023": 113736,
-      "provision_for_income_taxes_2025": 20719,
-      "provision_for_income_taxes_2024": 29749,
-      "provision_for_income_taxes_2023": 16741,
-      "net_income_2025": 112010,
-      "net_income_2024": 93736,
-      "net_income_2023": 96995,
-      "basic_eps_2025": 7.49,
-      "basic_eps_2024": 6.11,
-      "basic_eps_2023": 6.16,
-      "diluted_eps_2025": 7.46,
-      "diluted_eps_2024": 6.08,
-      "diluted_eps_2023": 6.13,
-      "basic_shares_2025": 14948500,
-      "basic_shares_2024": 15343783,
-      "basic_shares_2023": 15744231,
-      "diluted_shares_2025": 15004697,
-      "diluted_shares_2024": 15408095,
-      "diluted_shares_2023": 15812547
+      "notes_principal_sep27_2025": 91300000000,
+      "notes_payable_within_12m": 12400000000,
+      "future_interest_total": 37000000000,
+      "interest_payable_within_12m": 2600000000,
+      "commercial_paper_outstanding_sep27_2025": 8000000000,
+      "commercial_paper_within_12m": 8000000000,
+      "lease_fixed_obligations_sep27_2025": 16800000000,
+      "lease_payments_within_12m": 2600000000,
+      "manufacturing_purchase_obligations_sep27_2025": 56200000000,
+      "manufacturing_purchase_obligations_within_12m": 55400000000,
+      "other_purchase_obligations_sep27_2025": 14800000000,
+      "other_purchase_obligations_within_12m": 7000000000,
+      "deemed_repatriation_tax_payable_sep27_2025": 8800000000,
+      "dividend_per_share_quarterly_sep27_2025": 0.26,
+      "share_repurchase_program_capital_return_may_2025": 100000000000,
+      "stock_repurchases_2025": 89300000000,
+      "dividends_paid_2025": 15400000000
     },
     "chunk_id": 7
   },
   {
-    "info": "Net income rose to $112,010 million in 2025 from $93,736 million in 2024, while total comprehensive income increased to $113,611 million. Cash and cash equivalents grew to $35,934 million, but current marketable securities fell to $18,763 million. Total liabilities declined to $285,508 million from $308,030 million, driven by lower commercial paper and term debt. Shareholders’ equity expanded to $73,733 million, aided by share repurchases of $90,052 million and a higher dividend of $1.02 per share.",
+    "info": "Apple 2025 results show strong profitability with net income of $112.01B and total comprehensive income of $113.61B. Key balance sheet highlights include cash and cash equivalents of $35.93B, total assets of $359.24B, and total liabilities of $285.51B, with total shareholders’ equity of $73.73B. The company continued a sizable capital-return program, including repurchases of $90.05B and dividends per share of $1.02 in 2025. OCI components reflect movements across foreign currency translation and derivatives, with total OCI of $1.60B for 2025. Net income for 2024 was $93.736B and 2023 was $96.995B.",
     "data": {
       "net_income_2025": 112010,
       "net_income_2024": 93736,
       "net_income_2023": 96995,
+      "change_foreign_currency_translation_2025": -267,
+      "change_foreign_currency_translation_2024": 395,
+      "change_foreign_currency_translation_2023": -765,
+      "derivative_instruments_fair_value_change_2025": 849,
+      "derivative_instruments_fair_value_change_2024": -832,
+      "derivative_instruments_fair_value_change_2023": 323,
+      "derivative_adjustment_gains_losses_realized_2025": -212,
+      "derivative_adjustment_gains_losses_realized_2024": -1337,
+      "derivative_adjustment_gains_losses_realized_2023": -1717,
+      "total_change_in_unrealized_gains_losses_derivative_instruments_2025": 637,
+      "total_change_in_unrealized_gains_losses_derivative_instruments_2024": -2169,
+      "total_change_in_unrealized_gains_losses_derivative_instruments_2023": -1394,
+      "marketable_debt_securities_fair_value_change_2025": 817,
+      "marketable_debt_securities_fair_value_change_2024": 5850,
+      "marketable_debt_securities_fair_value_change_2023": 1563,
+      "marketable_debt_securities_adjustment_for_realized_gains_losses_2025": 414,
+      "marketable_debt_securities_adjustment_for_realized_gains_losses_2024": 204,
+      "marketable_debt_securities_adjustment_for_realized_gains_losses_2023": 253,
+      "total_change_in_unrealized_gains_losses_marketable_debt_securities_2025": 1231,
+      "total_change_in_unrealized_gains_losses_marketable_debt_securities_2024": 6054,
+      "total_change_in_unrealized_gains_losses_marketable_debt_securities_2023": 1816,
+      "total_other_comprehensive_income_loss_2025": 1601,
+      "total_other_comprehensive_income_loss_2024": 4280,
+      "total_other_comprehensive_income_loss_2023": -343,
       "total_comprehensive_income_2025": 113611,
       "total_comprehensive_income_2024": 98016,
       "total_comprehensive_income_2023": 96652,
-      "other_comprehensive_income_2025": 1601,
-      "other_comprehensive_income_2024": 4280,
-      "other_comprehensive_income_2023": -343,
       "cash_and_cash_equivalents_2025": 35934,
       "cash_and_cash_equivalents_2024": 29943,
       "marketable_securities_current_2025": 18763,
@@ -293,8 +383,8 @@
       "total_current_assets_2024": 152987,
       "marketable_securities_non_current_2025": 77723,
       "marketable_securities_non_current_2024": 91479,
-      "property_plant_equipment_net_2025": 49834,
-      "property_plant_equipment_net_2024": 45680,
+      "property_plant_and_equipment_net_2025": 49834,
+      "property_plant_and_equipment_net_2024": 45680,
       "other_non_current_assets_2025": 83727,
       "other_non_current_assets_2024": 74834,
       "total_non_current_assets_2025": 211284,
@@ -321,637 +411,1213 @@
       "total_non_current_liabilities_2024": 131638,
       "total_liabilities_2025": 285508,
       "total_liabilities_2024": 308030,
-      "common_stock_and_apic_2025": 93568,
-      "common_stock_and_apic_2024": 83276,
-      "accumulated_deficit_2025": -14264,
-      "accumulated_deficit_2024": -19154,
-      "accumulated_other_comprehensive_loss_2025": -5571,
-      "accumulated_other_comprehensive_loss_2024": -7172,
-      "total_shareholders_equity_2025": 73733,
-      "total_shareholders_equity_2024": 56950,
+      "common_stock_and_additional_paid_in_capital_beginning_2025": 83276,
+      "common_stock_and_additional_paid_in_capital_beginning_2024": 73812,
+      "common_stock_and_additional_paid_in_capital_ending_2025": 93568,
+      "common_stock_and_additional_paid_in_capital_ending_2024": 83276,
+      "accumulated_deficit_beginning_2025": -19154,
+      "accumulated_deficit_beginning_2024": -214,
+      "accumulated_deficit_beginning_2023": -3068,
+      "net_income_mentioned_2025_deficit": 112010,
       "dividends_declared_2025": -15413,
       "dividends_declared_2024": -15218,
+      "dividends_declared_2023": -14996,
+      "accumulated_deficit_ending_2025": -14264,
+      "accumulated_deficit_ending_2024": -19154,
+      "accumulated_deficit_ending_2023": -214,
+      "accumulated_other_comprehensive_loss_beginning_2025": -7172,
+      "accumulated_other_comprehensive_loss_beginning_2024": -11452,
+      "accumulated_other_comprehensive_loss_beginning_2023": -1109,
+      "accumulated_other_comprehensive_loss_ending_2025": -5571,
+      "accumulated_other_comprehensive_loss_ending_2024": -7172,
+      "accumulated_other_comprehensive_loss_ending_2023": -11452,
+      "total_shareholders_equity_ending_2025": 73733,
+      "total_shareholders_equity_ending_2024": 56950,
+      "total_shareholders_equity_ending_2023": 62146,
       "dividends_per_share_2025": 1.02,
       "dividends_per_share_2024": 0.98,
-      "common_stock_repurposed_2025": -90052,
-      "common_stock_repurposed_2024": -95846
+      "dividends_per_share_2023": 0.94
     },
     "chunk_id": 8
   },
   {
-    "info": "Apple posted record net income of $112.0B in FY2025, supported by $416.2B total net sales with iPhone sales of $209.6B and services revenue of $109.2B. Operating cash flow remained robust at $111.5B, while investing activities generated $15.2B and financing activities used $120.7B, including $90.7B of stock repurchases. Total deferred revenue rose to $13.7B, with 66% expected within one year. Basic EPS increased to $7.49 and diluted EPS to $7.46. The company adopted the new FASB segment reporting standard (ASU 2023‑07).",
+    "info": "Apple's 2025 Form 10-K highlights: fiscal years 2025 and 2024 span 52 weeks each, with 2023 spanning 53 weeks. Total net sales reached 416,161 million in 2025, led by iPhone (209,586), Services (109,158), and a large Services component; 2024 net sales were 391,035 million. Ending cash and equivalents stood at 35,934 million, and cash generated by operating activities was 111,482 million in 2025. Deferred revenue totaled 13.7 billion at 9/27/2025, with 66% expected to be realized within a year. Share repurchases totaled 90,711 million in 2025 and dividends were 15,421 million. Net income was 112,010 million for 2025 with basic/diluted EPS of 7.49/7.46; 24 million RSUs were excluded from diluted EPS in 2023. This note coverages key metrics, including operating, investing, and financing activities and per-year revenue by product, as well as the relationship between deferred revenue and revenue recognition.",
     "data": {
-      "cash_begin_2025": 29943,
-      "cash_begin_2024": 30737,
-      "cash_begin_2023": 24977,
-      "cash_end_2025": 35934,
-      "cash_end_2024": 29943,
-      "cash_end_2023": 30737,
-      "net_income_2025": 112010,
-      "net_income_2024": 93736,
-      "net_income_2023": 96995,
-      "operating_cash_2025": 111482,
-      "operating_cash_2024": 118254,
-      "operating_cash_2023": 110543,
-      "investing_cash_2025": 15195,
-      "investing_cash_2024": 2935,
-      "investing_cash_2023": 3705,
-      "financing_cash_2025": -120686,
-      "financing_cash_2024": -121983,
-      "financing_cash_2023": -108488,
-      "repurchases_2025": -90711,
-      "repurchases_2024": -94949,
-      "repurchases_2023": -77550,
-      "total_net_sales_2025": 416161,
-      "total_net_sales_2024": 391035,
-      "total_net_sales_2023": 383285,
-      "iphone_sales_2025": 209586,
-      "iphone_sales_2024": 201183,
-      "iphone_sales_2023": 200583,
-      "mac_sales_2025": 33708,
-      "mac_sales_2024": 29984,
-      "mac_sales_2023": 29357,
-      "ipad_sales_2025": 28023,
-      "ipad_sales_2024": 26694,
-      "ipad_sales_2023": 28300,
-      "wearables_sales_2025": 35686,
-      "wearables_sales_2024": 37005,
-      "wearables_sales_2023": 39845,
-      "services_sales_2025": 109158,
-      "services_sales_2024": 96169,
-      "services_sales_2023": 85200,
-      "deferred_revenue_beginning_2025": 8229,
-      "deferred_revenue_beginning_2024": 7728,
-      "deferred_revenue_beginning_2023": 8169,
-      "total_deferred_revenue_2025": 13700,
-      "total_deferred_revenue_2024": 12800,
-      "basic_eps_2025": 7.49,
-      "basic_eps_2024": 6.11,
-      "basic_eps_2023": 6.16,
-      "diluted_eps_2025": 7.46,
-      "diluted_eps_2024": 6.08,
-      "diluted_eps_2023": 6.13,
-      "basic_shares_2025": 14948500,
-      "basic_shares_2024": 15343783,
-      "basic_shares_2023": 15744231,
-      "diluted_shares_2025": 15004697,
-      "diluted_shares_2024": 15408095,
-      "diluted_shares_2023": 15812547,
-      "share_based_award_effect_2025": 56197,
-      "share_based_award_effect_2024": 64312,
-      "share_based_award_effect_2023": 68316,
-      "cash_tax_paid_2025": 43369,
-      "cash_tax_paid_2024": 26102,
-      "cash_tax_paid_2023": 18679
+      "fiscal_year_weeks": [
+        {
+          "year": 2025,
+          "weeks": 52
+        },
+        {
+          "year": 2024,
+          "weeks": 52
+        },
+        {
+          "year": 2023,
+          "weeks": 53
+        }
+      ],
+      "beginning_cash_balances": [
+        {
+          "year": 2025,
+          "amount": 29943000000
+        },
+        {
+          "year": 2024,
+          "amount": 30737000000
+        },
+        {
+          "year": 2023,
+          "amount": 24977000000
+        }
+      ],
+      "net_income": [
+        {
+          "year": 2025,
+          "amount": 112010000000
+        },
+        {
+          "year": 2024,
+          "amount": 93736000000
+        },
+        {
+          "year": 2023,
+          "amount": 96995000000
+        }
+      ],
+      "depreciation_and_amortization": [
+        {
+          "year": 2025,
+          "amount": 11698000000
+        },
+        {
+          "year": 2024,
+          "amount": 11445000000
+        },
+        {
+          "year": 2023,
+          "amount": 11519000000
+        }
+      ],
+      "share_based_compensation": [
+        {
+          "year": 2025,
+          "amount": 12863000000
+        },
+        {
+          "year": 2024,
+          "amount": 11688000000
+        },
+        {
+          "year": 2023,
+          "amount": 10833000000
+        }
+      ],
+      "other_operating_adjustments": [
+        {
+          "year": 2025,
+          "amount": -89000000
+        },
+        {
+          "year": 2024,
+          "amount": -2266000000
+        },
+        {
+          "year": 2023,
+          "amount": -2227000000
+        }
+      ],
+      "operating_assets_liabilities_changes": {
+        "accounts_receivable_net": [
+          {
+            "year": 2025,
+            "amount": -6682000000
+          },
+          {
+            "year": 2024,
+            "amount": -3788000000
+          },
+          {
+            "year": 2023,
+            "amount": -1688000000
+          }
+        ],
+        "vendor_non_trade_receivables": [
+          {
+            "year": 2025,
+            "amount": -347000000
+          },
+          {
+            "year": 2024,
+            "amount": -1356000000
+          },
+          {
+            "year": 2023,
+            "amount": 1271000000
+          }
+        ],
+        "inventories": [
+          {
+            "year": 2025,
+            "amount": 1400000000
+          },
+          {
+            "year": 2024,
+            "amount": -1046000000
+          },
+          {
+            "year": 2023,
+            "amount": -1618000000
+          }
+        ],
+        "other_current_and_non_current_assets": [
+          {
+            "year": 2025,
+            "amount": -9197000000
+          },
+          {
+            "year": 2024,
+            "amount": -11731000000
+          },
+          {
+            "year": 2023,
+            "amount": -5684000000
+          }
+        ],
+        "accounts_payable": [
+          {
+            "year": 2025,
+            "amount": 902000000
+          },
+          {
+            "year": 2024,
+            "amount": 6020000000
+          },
+          {
+            "year": 2023,
+            "amount": -1889000000
+          }
+        ],
+        "other_current_and_non_current_liabilities": [
+          {
+            "year": 2025,
+            "amount": -11076000000
+          },
+          {
+            "year": 2024,
+            "amount": 15552000000
+          },
+          {
+            "year": 2023,
+            "amount": 3031000000
+          }
+        ],
+        "cash_generated_by_operating_activities": [
+          {
+            "year": 2025,
+            "amount": 111482000000
+          },
+          {
+            "year": 2024,
+            "amount": 118254000000
+          },
+          {
+            "year": 2023,
+            "amount": 110543000000
+          }
+        ]
+      },
+      "investing_activities": {
+        "purchases_of_marketable_securities": [
+          {
+            "year": 2025,
+            "amount": -24407000000
+          },
+          {
+            "year": 2024,
+            "amount": -48656000000
+          },
+          {
+            "year": 2023,
+            "amount": -29513000000
+          }
+        ],
+        "proceeds_from_maturities_of_marketable_securities": [
+          {
+            "year": 2025,
+            "amount": 40907000000
+          },
+          {
+            "year": 2024,
+            "amount": 51211000000
+          },
+          {
+            "year": 2023,
+            "amount": 39686000000
+          }
+        ],
+        "proceeds_from_sales_of_marketable_securities": [
+          {
+            "year": 2025,
+            "amount": 12890000000
+          },
+          {
+            "year": 2024,
+            "amount": 11135000000
+          },
+          {
+            "year": 2023,
+            "amount": 5828000000
+          }
+        ],
+        "payments_for_acquisition_of_property_plant_and_equipment": [
+          {
+            "year": 2025,
+            "amount": -12715000000
+          },
+          {
+            "year": 2024,
+            "amount": -9447000000
+          },
+          {
+            "year": 2023,
+            "amount": -10959000000
+          }
+        ],
+        "other_investing_activities": [
+          {
+            "year": 2025,
+            "amount": -1480000000
+          },
+          {
+            "year": 2024,
+            "amount": -1308000000
+          },
+          {
+            "year": 2023,
+            "amount": -1337000000
+          }
+        ],
+        "cash_generated_by_investing_activities": [
+          {
+            "year": 2025,
+            "amount": 15195000000
+          },
+          {
+            "year": 2024,
+            "amount": 2935000000
+          },
+          {
+            "year": 2023,
+            "amount": 3705000000
+          }
+        ]
+      },
+      "financing_activities": {
+        "taxes_related_to_net_share_settlement_of_equity_awards": [
+          {
+            "year": 2025,
+            "amount": -5960000000
+          },
+          {
+            "year": 2024,
+            "amount": -5441000000
+          },
+          {
+            "year": 2023,
+            "amount": -5431000000
+          }
+        ],
+        "dividends_and_dividend_equivalents": [
+          {
+            "year": 2025,
+            "amount": -15421000000
+          },
+          {
+            "year": 2024,
+            "amount": -15234000000
+          },
+          {
+            "year": 2023,
+            "amount": -15025000000
+          }
+        ],
+        "repurchases_of_common_stock": [
+          {
+            "year": 2025,
+            "amount": -90711000000
+          },
+          {
+            "year": 2024,
+            "amount": -94949000000
+          },
+          {
+            "year": 2023,
+            "amount": -77550000000
+          }
+        ],
+        "proceeds_from_issuance_of_term_debt_net": [
+          {
+            "year": 2025,
+            "amount": 4481000000
+          },
+          {
+            "year": 2023,
+            "amount": 5228000000
+          }
+        ],
+        "repayments_of_term_debt": [
+          {
+            "year": 2025,
+            "amount": -10932000000
+          },
+          {
+            "year": 2024,
+            "amount": -9958000000
+          },
+          {
+            "year": 2023,
+            "amount": -11151000000
+          }
+        ],
+        "proceeds_from_and_repayments_of_commercial_paper_net": [
+          {
+            "year": 2025,
+            "amount": -2032000000
+          },
+          {
+            "year": 2024,
+            "amount": 3960000000
+          },
+          {
+            "year": 2023,
+            "amount": -3978000000
+          }
+        ],
+        "other_financing_activities": [
+          {
+            "year": 2025,
+            "amount": -111000000
+          },
+          {
+            "year": 2024,
+            "amount": -361000000
+          },
+          {
+            "year": 2023,
+            "amount": -581000000
+          }
+        ],
+        "cash_used_in_financing_activities": [
+          {
+            "year": 2025,
+            "amount": -120686000000
+          },
+          {
+            "year": 2024,
+            "amount": -121983000000
+          },
+          {
+            "year": 2023,
+            "amount": -108488000000
+          }
+        ]
+      },
+      "net_change_in_cash_and_cash_equivalents": [
+        {
+          "year": 2025,
+          "amount": 5991000000
+        },
+        {
+          "year": 2024,
+          "amount": -794000000
+        },
+        {
+          "year": 2023,
+          "amount": 5760000000
+        }
+      ],
+      "ending_cash_and_cash_equivalents_at_period_end": [
+        {
+          "year": 2025,
+          "amount": 35934000000
+        },
+        {
+          "year": 2024,
+          "amount": 29943000000
+        },
+        {
+          "year": 2023,
+          "amount": 30737000000
+        }
+      ],
+      "supplemental_cash_flow_disclosures": {
+        "cash_paid_for_income_taxes_net": [
+          {
+            "year": 2025,
+            "amount": 43369000000
+          },
+          {
+            "year": 2024,
+            "amount": 26102000000
+          },
+          {
+            "year": 2023,
+            "amount": 18679000000
+          }
+        ]
+      },
+      "revenue_note": {
+        "disaggregated_net_sales": [
+          {
+            "year": 2025,
+            "iPhone": 209586000000,
+            "Mac": 33708000000,
+            "iPad": 28023000000,
+            "Wearables": 35686000000,
+            "Services": 109158000000,
+            "Total_net_sales": 416161000000
+          },
+          {
+            "year": 2024,
+            "iPhone": 201183000000,
+            "Mac": 29984000000,
+            "iPad": 26694000000,
+            "Wearables": 37005000000,
+            "Services": 96169000000,
+            "Total_net_sales": 391035000000
+          },
+          {
+            "year": 2023,
+            "iPhone": 200583000000,
+            "Mac": 29357000000,
+            "iPad": 28300000000,
+            "Wearables": 39845000000,
+            "Services": 85200000000,
+            "Total_net_sales": 383285000000
+          }
+        ],
+        "beginning_deferred_revenue_by_period_start": [
+          {
+            "year": 2025,
+            "amount": 8229000000
+          },
+          {
+            "year": 2024,
+            "amount": 7728000000
+          },
+          {
+            "year": 2023,
+            "amount": 8169000000
+          }
+        ],
+        "as_of_def_revenue_total": [
+          {
+            "year": 2025,
+            "amount": 13700000000
+          },
+          {
+            "year": 2024,
+            "amount": 12800000000
+          }
+        ],
+        "deferred_revenue_realization_expectations_percentages": [
+          {
+            "category": "less_than_one_year",
+            "percentage": 66
+          },
+          {
+            "category": "one_to_two_years",
+            "percentage": 23
+          },
+          {
+            "category": "two_to_three_years",
+            "percentage": 9
+          },
+          {
+            "category": "greater_than_three_years",
+            "percentage": 2
+          }
+        ]
+      },
+      "note_eps": {
+        "earnings_per_share": [
+          {
+            "year": 2025,
+            "net_income": 112010000000,
+            "basic_eps": 7.49,
+            "diluted_eps": 7.46
+          },
+          {
+            "year": 2024,
+            "net_income": 93736000000,
+            "basic_eps": 6.11,
+            "diluted_eps": 6.08
+          },
+          {
+            "year": 2023,
+            "net_income": 96995000000,
+            "basic_eps": 6.16,
+            "diluted_eps": 6.13
+          }
+        ],
+        "weighted_average_shares": [
+          {
+            "year": 2025,
+            "basic": 14948500,
+            "diluted": 15004697
+          },
+          {
+            "year": 2024,
+            "basic": 15343783,
+            "diluted": 15408095
+          },
+          {
+            "year": 2023,
+            "basic": 15744231,
+            "diluted": 15812547
+          }
+        ],
+        "diluted_eps_note": {
+          "excluded_rsus_millions_for_2023": 24
+        }
+      },
+      "note_significant_policies": {
+        "photography": "Basis of presentation includes management estimates; fiscal year ends on last Saturday of September; 52 weeks in 2025 and 2024; 53 weeks in 2023."
+      }
     },
     "chunk_id": 9
   },
   {
-    "info": "24 million RSUs were excluded from diluted EPS for 2023 as antidilutive. Cash and cash equivalents were $28.267 billion in 2025 and $27.199 billion in 2024, with $2.6 billion of restricted cash and $13.2 billion of restricted marketable securities held in escrow for state‑aid obligations. The company holds large marketable debt securities, with 80% of non‑current marketable debt (excluding MBS) maturing in 1‑5 years and most mortgage‑backed securities (>70%) beyond 10 years. Derivative notional amounts total $62.647 billion in foreign‑exchange hedges and $12.875 billion in interest‑rate hedges for 2025, plus $109.079 billion of non‑designated foreign‑exchange contracts. Term debt subject to fair‑value hedges amounts to $12.6 billion current and $13.5 billion non‑current. Trade receivables are moderately concentrated, with a single customer representing 12% and carriers 34% (2025) of balances.",
+    "info": "RSUs: ~24 million antidilutive for 2023, excluded from diluted EPS. The note covers liquidity and risk management: escrowed cash and marketable securities; maturity profiles for non-current marketable debt securities and mortgage-/asset-backed securities; derivative hedging (designated and non-designated) with large notional amounts; term-debt fair value hedges and FX hedges with up to 17-year horizons.",
     "data": {
-      "rsu_excluded_2023": 24000000,
-      "cash_and_cash_equivalents_2025": 28267000,
-      "cash_and_cash_equivalents_2024": 27199000,
-      "money_market_funds_2025": 5272000,
-      "money_market_funds_2024": 778000,
-      "mutual_funds_2025": 679000,
-      "mutual_funds_2024": 515000,
-      "subtotal_adjusted_cost_2025": 5951000,
-      "subtotal_adjusted_cost_2024": 1293000,
-      "us_treasury_securities_2025": 16074000,
-      "us_treasury_securities_2024": 16150000,
-      "us_agency_securities_2025": 5269000,
-      "us_agency_securities_2024": 5431000,
-      "non_us_government_securities_2025": 6586000,
-      "non_us_government_securities_2024": 17959000,
-      "certificates_of_deposit_2025": 917000,
-      "certificates_of_deposit_2024": 873000,
-      "commercial_paper_2025": 100000,
-      "commercial_paper_2024": 1066000,
-      "corporate_debt_securities_2025": 47210000,
-      "corporate_debt_securities_2024": 65622000,
-      "municipal_securities_2025": 207000,
-      "municipal_securities_2024": 412000,
-      "mortgage_asset_backed_securities_2025": 24130000,
-      "mortgage_asset_backed_securities_2024": 24595000,
-      "total_adjusted_cost_2025": 134711000,
-      "total_adjusted_cost_2024": 160600000,
-      "unrealized_gains_2025": 736000,
-      "unrealized_gains_2024": 688000,
-      "unrealized_losses_2025": -3027000,
-      "unrealized_losses_2024": -4638000,
-      "fair_value_cash_and_equivalents_2025": 132420000,
-      "fair_value_cash_and_equivalents_2024": 156650000,
-      "fair_value_current_marketable_securities_2025": 35934000,
-      "fair_value_current_marketable_securities_2024": 29943000,
-      "fair_value_non_current_marketable_securities_2025": 18763000,
-      "fair_value_non_current_marketable_securities_2024": 35228000,
-      "total_fair_value_2025": 77723000,
-      "total_fair_value_2024": 91479000,
-      "restricted_cash_escrow_2024": 2600000000,
-      "restricted_marketable_securities_escrow_2024": 13200000000,
-      "non_current_marketable_debt_maturity_1_5_percent": 80,
-      "non_current_marketable_debt_maturity_5_10_percent": 15,
-      "non_current_marketable_debt_maturity_gt10_percent": 5,
-      "non_current_mortgage_backed_maturity_1_5_percent": 13,
-      "non_current_mortgage_backed_maturity_5_10_percent": 14,
-      "non_current_mortgage_backed_maturity_gt10_percent": 73,
-      "derivative_foreign_exchange_designated_2025": 62647000,
-      "derivative_interest_rate_designated_2025": 12875000,
-      "derivative_foreign_exchange_nondesignated_2025": 109079000,
-      "derivative_foreign_exchange_designated_2024": 64069000,
-      "derivative_interest_rate_designated_2024": 14575000,
-      "derivative_foreign_exchange_nondesignated_2024": 91493000,
-      "term_debt_fair_value_hedge_current": 12600000000,
-      "term_debt_fair_value_hedge_non_current": 13500000000,
-      "trade_receivables_concentration_customer_percent": 12,
-      "trade_receivables_carriers_percent_2025": 34,
-      "trade_receivables_carriers_percent_2024": 38
+      "antidilutive_rsu_2023": 24000000,
+      "as_of_2025_09_27": 20250927,
+      "as_of_2024_09_28": 20240928,
+      "non_current_marketable_debt_securities_maturity_1_5_years_pct_2025": 80,
+      "non_current_marketable_debt_securities_maturity_5_10_years_pct_2025": 15,
+      "non_current_marketable_debt_securities_maturity_gt_10_years_pct_2025": 5,
+      "non_current_mortgage_backed_securities_maturity_1_5_years_pct_2025": 13,
+      "non_current_mortgage_backed_securities_maturity_5_10_years_pct_2025": 14,
+      "non_current_mortgage_backed_securities_maturity_gt_10_years_pct_2025": 73,
+      "hedge_max_length_term_debt_fx_years": 17,
+      "term_debt_fair_value_hedges_2025": 12600000000,
+      "term_debt_fair_value_hedges_2024": 13500000000,
+      "escrow_cash_equivalents_escrow_2024": 2600000000,
+      "escrow_current_marketable_securities_escrow_2024": 13200000000,
+      "cash_and_cash_equivalents_2025": 28267000000,
+      "cash_and_cash_equivalents_2024": 27199000000,
+      "derivative_notional_fx_designated_2025": 62647,
+      "derivative_notional_ir_designated_2025": 12875,
+      "derivative_notional_fx_not_designated_2025": 109079,
+      "derivative_notional_fx_designated_2024": 64069,
+      "derivative_notional_ir_designated_2024": 14575,
+      "derivative_notional_fx_not_designated_2024": 91493
     },
     "chunk_id": 10
   },
   {
-    "info": "Apple reported increased hedge positions, with FX contracts designated as hedges at $62.6 bn and non‑hedged FX at $109.1 bn in 2025; term debt subject to fair‑value hedges totals $12.6 bn (current) and $13.5 bn (non‑current). Trade receivables show concentration – one customer represents 12% and third‑party carriers 34% of balances. Vendor non‑trade receivables are dominated by two vendors (46% and 23%). Net property, plant and equipment rose to $49.8 bn. Income tax provision fell sharply to $20.7 bn in 2025 from $29.7 bn in 2024, driven by a $10.2 bn one‑time state‑aid charge in Q4 2024 and a lower effective tax rate of 15.6% versus 24.1% in 2024. Lease costs increased, with variable payments up to $16.1 bn in 2025. Unrecognized tax benefits remain high at $23.2 bn, with a potential $6 bn reduction possible.",
+    "info": "Investor-relevant items include derivative exposure (designated and non-designated hedges) and related debt hedging, significant receivables concentration risk (top customer >=10% of trade receivables at 12%; cellular carriers 34%/38%), a large PPE base with substantial depreciation, and notable tax matters (ECJ State Aid decision leading to a $10.2B net one-time tax charge in 2024; ongoing tax provisions, credits, and large unrecognized tax benefits), plus sizable deferred tax assets/liabilities and lease-related obligations.",
     "data": {
-      "derivative_hedge_fx_2025": 62647,
-      "derivative_hedge_fx_2024": 64069,
-      "derivative_hedge_ir_2025": 12875,
-      "derivative_hedge_ir_2024": 14575,
-      "derivative_nonhedge_fx_2025": 109079,
-      "derivative_nonhedge_fx_2024": 91493,
-      "term_debt_current_fairvalue_hedge_2025": 12600,
-      "term_debt_noncurrent_fairvalue_hedge_2025": 13500,
-      "trade_receivables_top_customer_percent": 12,
-      "third_party_carriers_receivables_percent_2025": 34,
-      "third_party_carriers_receivables_percent_2024": 38,
-      "vendor_nontrade_receivables_vendor1_percent_2025": 46,
-      "vendor_nontrade_receivables_vendor2_percent_2025": 23,
-      "vendor_nontrade_receivables_vendor1_percent_2024": 44,
-      "vendor_nontrade_receivables_vendor2_percent_2024": 23,
-      "ppe_gross_2025": 125848,
-      "ppe_gross_2024": 119128,
-      "ppe_accumulated_depreciation_2025": 76014,
-      "ppe_accumulated_depreciation_2024": 73448,
-      "ppe_net_2025": 49834,
-      "ppe_net_2024": 45680,
-      "depreciation_expense_2025": 8000,
-      "depreciation_expense_2024": 8200,
-      "depreciation_expense_2023": 8500,
-      "deferred_tax_assets_2025": 20777,
-      "deferred_tax_assets_2024": 19499,
-      "other_non_current_assets_2025": 62950,
-      "other_non_current_assets_2024": 55335,
-      "total_other_non_current_assets_2025": 83727,
-      "total_other_non_current_assets_2024": 74834,
-      "income_taxes_payable_2025": 13016,
-      "income_taxes_payable_2024": 26601,
-      "accrued_distribution_marketing_2025": 8919,
-      "accrued_distribution_marketing_2024": 7679,
-      "other_current_liabilities_2025": 44452,
-      "other_current_liabilities_2024": 44024,
-      "total_other_current_liabilities_2025": 66387,
-      "total_other_current_liabilities_2024": 78304,
-      "state_aid_one_time_income_tax_charge_net_2024_q4": 10200,
-      "state_aid_additional_tax_payable_2024": 15800,
-      "foreign_tax_credit_offset_2024": 4800,
-      "unrecognized_tax_benefits_decrease_2024": 823,
-      "provision_income_taxes_federal_current_2025": 11487,
-      "provision_income_taxes_federal_current_2024": 5571,
-      "provision_income_taxes_federal_current_2023": 9445,
-      "provision_income_taxes_federal_deferred_2025": -1804,
-      "provision_income_taxes_federal_deferred_2024": -3080,
-      "provision_income_taxes_federal_deferred_2023": -3644,
-      "provision_income_taxes_federal_total_2025": 9683,
-      "provision_income_taxes_federal_total_2024": 2491,
-      "provision_income_taxes_federal_total_2023": 5801,
-      "provision_income_taxes_state_current_2025": 1680,
-      "provision_income_taxes_state_current_2024": 1726,
-      "provision_income_taxes_state_current_2023": 1570,
-      "provision_income_taxes_state_deferred_2025": -139,
-      "provision_income_taxes_state_deferred_2024": -298,
-      "provision_income_taxes_state_deferred_2023": -49,
-      "provision_income_taxes_state_total_2025": 1541,
-      "provision_income_taxes_state_total_2024": 1428,
-      "provision_income_taxes_state_total_2023": 1521,
-      "provision_income_taxes_foreign_current_2025": 8891,
-      "provision_income_taxes_foreign_current_2024": 25483,
-      "provision_income_taxes_foreign_current_2023": 8750,
-      "provision_income_taxes_foreign_deferred_2025": 604,
-      "provision_income_taxes_foreign_deferred_2024": 347,
-      "provision_income_taxes_foreign_deferred_2023": 669,
-      "provision_income_taxes_foreign_total_2025": 9495,
-      "provision_income_taxes_foreign_total_2024": 25830,
-      "provision_income_taxes_foreign_total_2023": 9419,
-      "provision_income_taxes_total_2025": 20719,
-      "provision_income_taxes_total_2024": 29749,
-      "provision_income_taxes_total_2023": 16741,
-      "foreign_pretax_earnings_2025": 82000,
-      "foreign_pretax_earnings_2024": 77300,
-      "foreign_pretax_earnings_2023": 72900,
-      "computed_expected_tax_2025": 27873,
-      "computed_expected_tax_2024": 25932,
-      "computed_expected_tax_2023": 23885,
-      "earnings_of_foreign_subs_2025": -8120,
-      "earnings_of_foreign_subs_2024": -5311,
-      "earnings_of_foreign_subs_2023": -5744,
-      "change_valuation_allowance_2025": 2091,
-      "research_dev_credit_net_2025": -1049,
-      "research_dev_credit_net_2024": -1397,
-      "research_dev_credit_net_2023": -1212,
-      "impact_state_aid_2025": -486,
-      "impact_state_aid_2024": 10246,
-      "other_tax_item_2025": 410,
-      "other_tax_item_2024": 279,
-      "other_tax_item_2023": -188,
-      "effective_tax_rate_2025": 15.6,
-      "effective_tax_rate_2024": 24.1,
-      "effective_tax_rate_2023": 14.7,
-      "total_deferred_tax_assets_2025": 38417,
-      "valuation_allowance_2025": 10966,
-      "valuation_allowance_2024": 8866,
-      "total_deferred_tax_assets_net_2025": 27451,
-      "total_deferred_tax_assets_net_2024": 26007,
-      "deferred_tax_liabilities_depreciation_2025": 3276,
-      "deferred_tax_liabilities_depreciation_2024": 2551,
-      "deferred_tax_liabilities_right_of_use_2025": 2300,
-      "deferred_tax_liabilities_right_of_use_2024": 2125,
-      "deferred_tax_liabilities_minimum_tax_foreign_earnings_2025": 1217,
-      "deferred_tax_liabilities_minimum_tax_foreign_earnings_2024": 1674,
-      "deferred_tax_liabilities_other_2025": 678,
-      "deferred_tax_liabilities_other_2024": 455,
-      "total_deferred_tax_liabilities_2025": 7471,
-      "total_deferred_tax_liabilities_2024": 6805,
-      "net_deferred_tax_assets_2025": 19980,
-      "net_deferred_tax_assets_2024": 19202,
-      "foreign_tax_credit_carryforwards_ireland_2025": 4700,
-      "foreign_tax_credit_carryforwards_california_2025": 4000,
-      "gross_unrecognized_tax_benefits_2025": 23200,
-      "gross_unrecognized_tax_benefits_2024": 22000,
-      "gross_unrecognized_tax_benefits_2023": 19454,
-      "gross_unrecognized_tax_benefits_potential_decrease_next_12mo": 6000,
-      "lease_fixed_payments_2025": 2100,
-      "lease_fixed_payments_2024": 2000,
-      "lease_fixed_payments_2023": 2000,
-      "lease_variable_payments_2025": 16100,
-      "lease_variable_payments_2024": 13800,
-      "lease_variable_payments_2023": 13900,
-      "lease_fixed_cash_payments_2025": 2100,
-      "lease_fixed_cash_payments_2024": 1900,
-      "lease_fixed_cash_payments_2023": 1900,
-      "lease_noncash_rou_2025": 2800,
-      "lease_noncash_rou_2024": 1000,
-      "lease_noncash_rou_2023": 2100
-    },
-    "chunk_id": 11
-  },
-  {
-    "info": "The Company faces potential tax exposure of up to $6 billion as gross unrecognized tax benefits may decline within 12 months. Lease expenses remain material, with fixed operating lease costs of $2.1 billion in 2025 and variable lease costs of $16.1 billion, and total lease liabilities of $13.7 billion. Commercial paper outstanding fell to $8.0 billion in 2025 (down from $10.0 billion) with a weighted‑average rate of 4.19%. Term debt principal stands at $91.3 billion, with sizable principal repayments scheduled through 2030 and a fair value of $80.4 billion. The Company repurchased 402 million shares for $89.3 billion in 2025. RSU activity shows 73.5 million units granted in 2025 at an average grant‑date fair value of $226.68.",
-    "data": {
-      "potential_tax_benefit_decrease_12mo": 6000000000,
+      "deriv_fx_designated_notional_2025": 62647000000,
+      "deriv_fx_designated_notional_2024": 64069000000,
+      "deriv_ir_designated_notional_2025": 12875000000,
+      "deriv_ir_designated_notional_2024": 14575000000,
+      "deriv_fx_not_designated_notional_2025": 109079000000,
+      "deriv_fx_not_designated_notional_2024": 91493000000,
+      "debt_fair_value_hedges_2025": 12600000000,
+      "debt_fair_value_hedges_2024": 13500000000,
+      "top_trade_receivable_threshold_pct": 10,
+      "top_trade_receivable_share_pct_2025": 12,
+      "cellular_network_carriers_share_trade_receivables_2025_pct": 34,
+      "cellular_network_carriers_share_trade_receivables_2024_pct": 38,
+      "vendor_non_trade_receivables_share_vendor1_2025_pct": 46,
+      "vendor_non_trade_receivables_share_vendor2_2025_pct": 23,
+      "vendor_non_trade_receivables_share_vendor1_2024_pct": 44,
+      "vendor_non_trade_receivables_share_vendor2_2024_pct": 23,
+      "pp_e_land_buildings_2025": 27337000000,
+      "pp_e_machinery_equipment_2025": 83420000000,
+      "pp_e_leasehold_improvements_2025": 15091000000,
+      "pp_e_gross_2025": 125848000000,
+      "pp_e_accum_depreciation_2025": 76014000000,
+      "pp_e_net_2025": 49834000000,
+      "pp_e_land_buildings_2024": 24690000000,
+      "pp_e_machinery_equipment_2024": 80205000000,
+      "pp_e_leasehold_improvements_2024": 14233000000,
+      "pp_e_gross_2024": 119128000000,
+      "pp_e_accum_depreciation_2024": 73448000000,
+      "pp_e_net_2024": 45680000000,
+      "depreciation_expense_2025": 8000000000,
+      "depreciation_expense_2024": 8200000000,
+      "depreciation_expense_2023": 8500000000,
+      "deferred_tax_assets_2025": 38417000000,
+      "deferred_tax_assets_2024": 34873000000,
+      "valuation_allowance_2025": 10966000000,
+      "valuation_allowance_2024": 8866000000,
+      "deferred_tax_assets_net_2025": 27451000000,
+      "deferred_tax_assets_net_2024": 26007000000,
+      "deferred_tax_liabilities_2025": 7471000000,
+      "deferred_tax_liabilities_2024": 6805000000,
+      "net_deferred_tax_assets_2025": 19980000000,
+      "net_deferred_tax_assets_2024": 19202000000,
+      "foreign_tax_credit_carryforwards_ireland_2025": 4700000000,
+      "california_rd_credit_carryforwards_2025": 4000000000,
+      "gross_unrecognized_tax_benefits_2025": 23200000000,
+      "unrecognized_tax_benefits_impact_rate_2025": 10600000000,
+      "gross_unrecognized_tax_benefits_2024": 22000000000,
+      "unrecognized_tax_benefits_impact_rate_2024": 10800000000,
+      "uncertainty_potential_decrease_12months_2025": 6000000000,
       "lease_fixed_cost_2025": 2100000000,
       "lease_fixed_cost_2024": 2000000000,
       "lease_fixed_cost_2023": 2000000000,
       "lease_variable_cost_2025": 16100000000,
       "lease_variable_cost_2024": 13800000000,
       "lease_variable_cost_2023": 13900000000,
-      "lease_fixed_cash_2025": 2100000000,
-      "lease_fixed_cash_2024": 1900000000,
-      "lease_fixed_cash_2023": 1900000000,
-      "lease_rou_noncash_2025": 2800000000,
-      "lease_rou_noncash_2024": 1000000000,
-      "lease_rou_noncash_2023": 2100000000,
-      "rou_assets_total_2025": 12238000000,
-      "rou_assets_total_2024": 11303000000,
-      "finance_lease_assets_2025": 1033000000,
-      "finance_lease_assets_2024": 1069000000,
-      "lease_liab_operating_2025": 1579000000,
-      "lease_liab_operating_2024": 1488000000,
-      "other_current_liabilities_2025": 10911000000,
-      "other_current_liabilities_2024": 10046000000,
-      "finance_lease_liab_2025": 538000000,
-      "finance_lease_liab_2024": 144000000,
-      "other_noncurrent_liabilities_2025": 692000000,
-      "other_noncurrent_liabilities_2024": 752000000,
-      "total_lease_liabilities_2025": 13720000000,
-      "total_lease_liabilities_2024": 12430000000,
-      "lease_maturities": [
-        {
-          "year": 2026,
-          "operating_maturity": 1967000000,
-          "finance_maturity": 563000000,
-          "total_maturity": 2530000000
-        },
-        {
-          "year": 2027,
-          "operating_maturity": 1988000000,
-          "finance_maturity": 73000000,
-          "total_maturity": 2061000000
-        },
-        {
-          "year": 2028,
-          "operating_maturity": 1848000000,
-          "finance_maturity": 51000000,
-          "total_maturity": 1899000000
-        },
-        {
-          "year": 2029,
-          "operating_maturity": 1585000000,
-          "finance_maturity": 48000000,
-          "total_maturity": 1633000000
-        },
-        {
-          "year": 2030,
-          "operating_maturity": 1381000000,
-          "finance_maturity": 43000000,
-          "total_maturity": 1424000000
-        },
-        {
-          "year": "Thereafter",
-          "operating_maturity": 5956000000,
-          "finance_maturity": 801000000,
-          "total_maturity": 6757000000
-        }
-      ],
-      "lease_term_avg_2025": 9.8,
-      "lease_term_avg_2024": 10.3,
-      "lease_discount_rate_2025": 3.4,
-      "lease_discount_rate_2024": 3.1,
-      "additional_fixed_obligations_2025": 523000000,
-      "commercial_paper_outstanding_2025": 8000000000,
-      "commercial_paper_outstanding_2024": 10000000000,
-      "cp_interest_rate_2025": 4.19,
-      "cp_interest_rate_2024": 5.0,
-      "cp_net_cash_2025": -5820000000,
-      "cp_net_cash_2024": 3960000000,
-      "cp_net_cash_2023": -1333000000,
-      "cp_proceeds_2025": 5836000000,
-      "cp_repayments_2025": -2048000000,
-      "cp_net_proceeds_2025": 3788000000,
-      "cp_total_net_2025": -2032000000,
-      "cp_total_net_2024": 3960000000,
-      "cp_total_net_2023": -3978000000,
-      "term_debt_principal_2025": 91281000000,
-      "term_debt_principal_2024": 97341000000,
-      "unamortized_premium_discount_2025": -309000000,
-      "unamortized_premium_discount_2024": -321000000,
-      "hedge_fair_value_adj_2025": -294000000,
-      "hedge_fair_value_adj_2024": -358000000,
-      "total_term_debt_2025": 90678000000,
-      "total_term_debt_2024": 96662000000,
-      "current_portion_term_debt_2025": -12350000000,
-      "current_portion_term_debt_2024": -10912000000,
-      "noncurrent_portion_term_debt_2025": 78328000000,
-      "noncurrent_portion_term_debt_2024": 85750000000,
-      "future_principal_payments": [
-        {
-          "year": 2026,
-          "amount": 12393000000
-        },
-        {
-          "year": 2027,
-          "amount": 10078000000
-        },
-        {
-          "year": 2028,
-          "amount": 9300000000
-        },
-        {
-          "year": 2029,
-          "amount": 5235000000
-        },
-        {
-          "year": 2030,
-          "amount": 4972000000
-        },
-        {
-          "year": "Thereafter",
-          "amount": 49303000000
-        }
-      ],
-      "notes_fair_value_2025": 80400000000,
-      "notes_fair_value_2024": 88400000000,
-      "shares_repurchased_2025": 402000000,
-      "share_repurchase_amount_2025": 89300000000,
-      "common_stock_begin_2025": 15116786000,
-      "common_stock_end_2025": 14773260000,
-      "common_stock_repurchased_2025": 401672000,
-      "common_stock_issued_2025": 58146000,
-      "rsu_balance_2024": 163326000,
-      "rsu_granted_2025": 73466000,
-      "rsu_vested_2025": -76845000,
-      "rsu_forfeited_2025": -8373000,
-      "rsu_balance_2025": 151574000,
-      "rsu_fair_value_granted_2025": 226.68,
-      "rsu_fair_value_vested_2025": 159.85,
-      "rsu_fair_value_forfeited_2025": 183.03,
-      "rsu_fair_value_balance_2025": 189.75
+      "lease_fixed_cash_payments_operating_lease_2025": 2100000000,
+      "lease_fixed_cash_payments_operating_lease_2024": 1900000000,
+      "lease_fixed_cash_payments_operating_lease_2023": 1900000000,
+      "rou_noncash_activities_2025": 2800000000,
+      "rou_noncash_activities_2024": 1000000000,
+      "rou_noncash_activities_2023": 2100000000,
+      "net_one_time_tax_charge_2024": 10200000000,
+      "one_time_tax_payable_ireland_2024": 15800000000,
+      "foreign_tax_credit_benefit_2024": 4800000000,
+      "unrecognized_tax_benefits_reduction_2024": 823000000,
+      "foreign_pretax_earnings_2025": 82000000000,
+      "foreign_pretax_earnings_2024": 77300000000,
+      "foreign_pretax_earnings_2023": 72900000000,
+      "tax_provision_income_taxes_2025": 20719,
+      "tax_provision_income_taxes_2024": 29749,
+      "tax_provision_income_taxes_2023": 16741,
+      "effective_tax_rate_2025": 15.6,
+      "effective_tax_rate_2024": 24.1,
+      "effective_tax_rate_2023": 14.7,
+      "income_taxes_payable_2025": 13016,
+      "income_taxes_payable_2024": 26501,
+      "income_taxes_payable_2023": "other_current_liabilities_2025",
+      "other_current_liabilities_2024": 78304,
+      "other_non_current_assets_2025": 83727,
+      "other_non_current_assets_2024": 74834,
+      "capitalized_research_and_development_2025": 15041000000,
+      "capitalized_research_and_development_2024": 10739000000,
+      "tax_credit_carryforwards_2025": 8643000000,
+      "tax_credit_carryforwards_2024": 8856000000,
+      "accrued_liabilities_and_other_reserves_2025": 6154000000,
+      "accrued_liabilities_and_other_reserves_2024": 6114000000,
+      "deferred_revenue_2025": 2953000000,
+      "deferred_revenue_2024": 3413000000,
+      "lease_liabilities_2025": 2577000000,
+      "lease_liabilities_2024": 2410000000,
+      "other_deferrable_assets_2025": 3049000000,
+      "other_deferrable_assets_2024": 3341000000,
+      "net_deferred_tax_assets_2025_final": 19980000000,
+      "net_deferred_tax_assets_2024_final": 19202000000
+    },
+    "chunk_id": 11
+  },
+  {
+    "info": "Apple's 2025 Form 10-K highlights potential tax exposure relief up to 6000000000, a sizable lease footprint with total right-of-use assets 12238 and total lease liabilities 13720 (in millions) as of 9/27/2025, a weighted-average lease term of 9.8 years and discount rate 3.4%, plus fixed cash lease payments 2100 in 2025 and noncash ROU additions of 2800. The CP program shows 8000 outstanding in 2025 at 4.19% vs 10000 at 2024 at 5.00%, with total term debt principal 91281 in 2025 and 97341 in 2024, current portion 12350 (2025) and 10912 (2024), non-current 78328 (2025) and 85750 (2024). Notes fair value was 80400000000 in 2025 vs 88400000000 in 2024. Share buybacks totaled 89300000000 in 2025 for 401672 thousand shares. RSU balance was 151574 thousand as of 9/27/2025, with 73466 RSUs granted in 2025, 76845 vested, 8373 forfeited; grant-date value per RSU was 189.75 for 2025, with prior RSUs granted valued at 173.78 (2024) and 150.87 (2023).",
+    "data": {
+      "tax_benefits_potential_decrease_12m": 6000000000,
+      "lease": {
+        "total_right_of_use_assets_2025": 12238,
+        "total_right_of_use_assets_2024": 11303,
+        "operating_right_of_use_assets_2025": 11205,
+        "operating_right_of_use_assets_2024": 10234,
+        "finance_right_of_use_assets_2025": 1033,
+        "finance_right_of_use_assets_2024": 1069,
+        "total_lease_liabilities_2025": 13720,
+        "total_lease_liabilities_2024": 12430,
+        "operating_lease_liabilities_2025": 1579,
+        "operating_lease_liabilities_2024": 1488,
+        "other_current_liabilities_lease_2025": 1579,
+        "other_current_liabilities_lease_2024": 1488,
+        "other_non_current_liabilities_lease_2025": 10911,
+        "other_non_current_liabilities_lease_2024": 10046,
+        "finance_liabilities_current_2025": 538,
+        "finance_liabilities_current_2024": 144,
+        "finance_liabilities_non_current_2025": 692,
+        "finance_liabilities_non_current_2024": 752,
+        "lease_maturity_schedule": [
+          {
+            "year": "2026",
+            "operating": 1967,
+            "finance": 563,
+            "total": 2530
+          },
+          {
+            "year": "2027",
+            "operating": 1988,
+            "finance": 73,
+            "total": 2061
+          },
+          {
+            "year": "2028",
+            "operating": 1848,
+            "finance": 51,
+            "total": 1899
+          },
+          {
+            "year": "2029",
+            "operating": 1585,
+            "finance": 48,
+            "total": 1633
+          },
+          {
+            "year": "2030",
+            "operating": 1381,
+            "finance": 43,
+            "total": 1424
+          },
+          {
+            "year": "Thereafter",
+            "operating": 5956,
+            "finance": 801,
+            "total": 6757
+          }
+        ]
+      },
+      "lease_not_yet_commenced_fixed_payment_obligations_2025": 523,
+      "commercial_paper": {
+        "outstanding_2025": 8000,
+        "outstanding_2024": 10000,
+        "average_interest_rate_2025": 4.19,
+        "average_interest_rate_2024": 5.0,
+        "net_cash_flows_2025": -5820,
+        "net_cash_flows_2024": 3960,
+        "net_cash_flows_2023": -1333,
+        "maturities_90_days_or_less_net_2025": -5820
+      },
+      "term_debt": {
+        "total_principal_2025": 91281,
+        "total_principal_2024": 97341,
+        "current_portion_2025": 12350,
+        "current_portion_2024": 10912,
+        "non_current_2025": 78328,
+        "non_current_2024": 85750,
+        "total_2025": 90678,
+        "total_2024": 96662,
+        "unamortized_premium_discount_2025": -309,
+        "unamortized_premium_discount_2024": -321,
+        "hedge_adjustments_2025": -294,
+        "hedge_adjustments_2024": -358,
+        "notes_fair_value_2025": 80400000000,
+        "notes_fair_value_2024": 88400000000,
+        "total_term_debt_fair_value_2025": 80400000000,
+        "total_term_debt_fair_value_2024": 88400000000
+      },
+      "notes_fair_value_as_of_2025": 80400000000,
+      "notes_fair_value_as_of_2024": 88400000000,
+      "share_repurchase_2025": {
+        "shares_thousands": 401672,
+        "value_usd": 89300000000
+      },
+      "common_stock_outstanding": {
+        "begin_2025_thousands": 15116786,
+        "end_2025_thousands": 14773260,
+        "end_2024_thousands": 15116786,
+        "end_2023_thousands": 15550061
+      },
+      "rsu_activity_2025": {
+        "balance_2025_thousands": 151574,
+        "granted_2025_thousands": 73466,
+        "vested_2025_thousands": 76845,
+        "forfeited_2025_thousands": 8373,
+        "balance_2024_thousands": 163326
+      },
+      "rsu_grant_values_2025": 189.75,
+      "rsu_grant_values_2024": 173.78,
+      "rsu_grant_values_2023": 150.87
     },
     "chunk_id": 12
   },
   {
-    "info": "RSU activity shows a decrease in outstanding units from 163,326 (thousand) at end‑2024 to 151,574 at end‑2025, with significant vesting (76,845) and associated tax cash payments of $6.1 billion in 2025. Share‑based compensation expense rose to $12.9 billion in 2025, while unrecognized compensation cost of $21.8 billion will be amortized over 2.5 years. Unconditional purchase obligations total $13.3 billion, with the bulk due in 2026‑2028. Net sales grew to $416.2 billion in 2025, driven by strong Americas and Greater China performance, yielding operating income of $133.1 billion. The company highlights supply‑chain concentration risks, component shortages and legal contingencies as material considerations.",
+    "info": "RSU activity in 2025 shows a net decrease in outstanding RSUs with new grants, vesting, and forfeitures; substantial vesting-date value is recognized, with tax-withholding impacting cash taxes. The company holds large unrecognized RSU cost to be amortized over ~2.5 years. Unconditional purchase obligations total $13,308 million, with major due dates 2026–2030. Segment results reflect strong regional net sales and operating income in 2025, with a notable corporate charge reducing total operating income. Concentrations in supply and manufacturing remain notable, with most hardware produced via outsourcing partners in Asia and components sourced from single/limited suppliers. 2025 country- and region-level data show continued geographic mix and growth drivers across Americas, EMEA, Greater China, Japan and Rest of Asia Pacific.",
     "data": {
-      "rsu_balance_2024_sep28": 163326,
-      "rsu_balance_fair_value_2024_sep28": 158.73,
-      "rsu_granted": 73466,
-      "rsu_granted_fair_value": 226.68,
-      "rsu_vested": 76845,
-      "rsu_vested_fair_value": 159.85,
-      "rsu_forfeited": 8373,
-      "rsu_forfeited_fair_value": 183.03,
-      "rsu_balance_2025_sep27": 151574,
-      "rsu_balance_fair_value_2025_sep27": 189.75,
-      "weighted_avg_grant_fair_value_2024": 173.78,
-      "weighted_avg_grant_fair_value_2023": 150.87,
-      "vesting_date_fair_value_2025": 17100000000,
-      "vesting_date_fair_value_2024": 15800000000,
-      "vesting_date_fair_value_2023": 15900000000,
+      "rsu_start_balance_thousands": 163326,
+      "rsu_granted_thousands": 73466,
+      "rsu_vested_thousands": -76845,
+      "rsu_forfeited_thousands": -8373,
+      "rsu_end_balance_thousands": 151574,
+      "rsu_grant_fair_value_per_rsu_granted_2024": 226.68,
+      "rsu_balance_fair_value_per_rsu_ending": 189.75,
+      "rsu_vested_fair_value_per_rsu": 159.85,
+      "rsu_forfeited_fair_value_per_rsu": 183.03,
+      "rsu_avg_grant_fv_2024": 173.78,
+      "rsu_avg_grant_fv_2023": 150.87,
+      "rsu_vesting_date_total_fv_2025": 17100000000,
+      "rsu_vesting_date_total_fv_2024": 15800000000,
+      "rsu_vesting_date_total_fv_2023": 15900000000,
       "tax_payments_2025": 6100000000,
       "tax_payments_2024": 5600000000,
       "tax_payments_2023": 5600000000,
-      "unrecognized_comp_cost_2025": 21800000000,
-      "unrecognized_comp_cost_period_years": 2.5,
-      "share_based_comp_expense_2025": 12863,
-      "share_based_comp_expense_2024": 11688,
-      "share_based_comp_expense_2023": 10833,
-      "share_based_tax_benefit_2025": -3602,
-      "share_based_tax_benefit_2024": -3350,
-      "share_based_tax_benefit_2023": -3421,
-      "unconditional_purchase_obligations_2026": 4752,
-      "unconditional_purchase_obligations_2027": 3708,
-      "unconditional_purchase_obligations_2028": 1981,
-      "unconditional_purchase_obligations_2029": 1306,
-      "unconditional_purchase_obligations_2030": 788,
-      "unconditional_purchase_obligations_thereafter": 773,
-      "unconditional_total_obligations": 13308,
-      "net_sales_americas_2025": 178353,
-      "net_sales_europe_2025": 111032,
-      "net_sales_greater_china_2025": 64377,
-      "net_sales_japan_2025": 28703,
-      "net_sales_rest_asia_pacific_2025": 33696,
-      "net_sales_total_2025": 416161,
-      "cost_of_sales_total_2025": 220960,
-      "research_and_development_expense_2025": 34550,
-      "selling_and_marketing_expense_2025": 19524,
-      "general_and_administrative_expense_2025": 8077,
-      "operating_income_2025": 133050,
-      "net_sales_americas_2024": 167045,
-      "net_sales_europe_2024": 101328,
-      "net_sales_greater_china_2024": 66952,
-      "net_sales_japan_2024": 25052,
-      "net_sales_rest_asia_pacific_2024": 30658,
-      "net_sales_total_2024": 391035,
-      "cost_of_sales_total_2024": 210352,
-      "research_and_development_expense_2024": 31370,
-      "selling_and_marketing_expense_2024": 18639,
-      "general_and_administrative_expense_2024": 7458,
-      "operating_income_2024": 123216,
-      "net_sales_americas_2023": 162560,
-      "net_sales_europe_2023": 94294,
-      "net_sales_greater_china_2023": 72559,
-      "net_sales_japan_2023": 24257,
-      "net_sales_rest_asia_pacific_2023": 29615,
-      "net_sales_total_2023": 383285,
-      "cost_of_sales_total_2023": 214137,
-      "research_and_development_expense_2023": 29915,
-      "selling_and_marketing_expense_2023": 18260,
-      "general_and_administrative_expense_2023": 6672,
-      "operating_income_2023": 114301,
-      "country_us_net_sales_2025": 151790,
-      "country_china_net_sales_2025": 64377,
-      "country_other_net_sales_2025": 199994,
-      "country_us_net_sales_2024": 142196,
-      "country_china_net_sales_2024": 66952,
-      "country_other_net_sales_2024": 181887,
-      "country_us_net_sales_2023": 138573,
-      "country_china_net_sales_2023": 72559,
-      "country_other_net_sales_2023": 172153
+      "unrecognized_compensation_cost_outstanding_rsus": 21800000000,
+      "unrecognized_cost_amortization_period_years": 2.5,
+      "unconditional_purchase_obligations_total": 13308000000,
+      "purchase_obligations_by_year": [
+        {
+          "year": 2026,
+          "amount": 4752000000
+        },
+        {
+          "year": 2027,
+          "amount": 3708000000
+        },
+        {
+          "year": 2028,
+          "amount": 1981000000
+        },
+        {
+          "year": 2029,
+          "amount": 1306000000
+        },
+        {
+          "year": 2030,
+          "amount": 788000000
+        }
+      ],
+      "segment_net_sales_2025": [
+        {
+          "segment": "Americas",
+          "net_sales": 178353
+        },
+        {
+          "segment": "Europe",
+          "net_sales": 111032
+        },
+        {
+          "segment": "Greater China",
+          "net_sales": 64377
+        },
+        {
+          "segment": "Japan",
+          "net_sales": 28703
+        },
+        {
+          "segment": "Rest of Asia Pacific",
+          "net_sales": 33696
+        },
+        {
+          "segment": "Total",
+          "net_sales": 416161
+        }
+      ],
+      "segment_operating_income_2025": [
+        {
+          "segment": "Americas",
+          "operating_income": 72480
+        },
+        {
+          "segment": "Europe",
+          "operating_income": 47739
+        },
+        {
+          "segment": "Greater China",
+          "operating_income": 26917
+        },
+        {
+          "segment": "Japan",
+          "operating_income": 13955
+        },
+        {
+          "segment": "Rest of Asia Pacific",
+          "operating_income": 14586
+        },
+        {
+          "segment": "Corporate",
+          "operating_income": -42627
+        },
+        {
+          "segment": "Total",
+          "operating_income": 133050
+        }
+      ],
+      "segment_net_sales_2024": [
+        {
+          "segment": "Americas",
+          "net_sales": 167045
+        },
+        {
+          "segment": "Europe",
+          "net_sales": 101328
+        },
+        {
+          "segment": "Greater China",
+          "net_sales": 66952
+        },
+        {
+          "segment": "Japan",
+          "net_sales": 25052
+        },
+        {
+          "segment": "Rest of Asia Pacific",
+          "net_sales": 30658
+        },
+        {
+          "segment": "Total",
+          "net_sales": 391035
+        }
+      ],
+      "segment_operating_income_2024": [
+        {
+          "segment": "Americas",
+          "operating_income": 67656
+        },
+        {
+          "segment": "Europe",
+          "operating_income": 41790
+        },
+        {
+          "segment": "Greater China",
+          "operating_income": 27082
+        },
+        {
+          "segment": "Japan",
+          "operating_income": 12454
+        },
+        {
+          "segment": "Rest of Asia Pacific",
+          "operating_income": -38828
+        },
+        {
+          "segment": "Total",
+          "operating_income": 123216
+        }
+      ],
+      "segment_net_sales_2023": [
+        {
+          "segment": "Americas",
+          "net_sales": 162560
+        },
+        {
+          "segment": "Europe",
+          "net_sales": 94294
+        },
+        {
+          "segment": "Greater China",
+          "net_sales": 72559
+        },
+        {
+          "segment": "Japan",
+          "net_sales": 24257
+        },
+        {
+          "segment": "Rest of Asia Pacific",
+          "net_sales": 29615
+        },
+        {
+          "segment": "Total",
+          "net_sales": 383285
+        }
+      ],
+      "segment_operating_income_2023": [
+        {
+          "segment": "Americas",
+          "operating_income": 60508
+        },
+        {
+          "segment": "Europe",
+          "operating_income": 36098
+        },
+        {
+          "segment": "Greater China",
+          "operating_income": 30328
+        },
+        {
+          "segment": "Japan",
+          "operating_income": 11888
+        },
+        {
+          "segment": "Rest of Asia Pacific",
+          "operating_income": -36587
+        },
+        {
+          "segment": "Total",
+          "operating_income": 114301
+        }
+      ],
+      "net_sales_by_country_2025": [
+        {
+          "country": "United States",
+          "net_sales": 151790
+        },
+        {
+          "country": "China",
+          "net_sales": 64377
+        },
+        {
+          "country": "Other",
+          "net_sales": 199994
+        },
+        {
+          "country": "Total",
+          "net_sales": 416161
+        }
+      ],
+      "net_sales_by_country_2024": [
+        {
+          "country": "United States",
+          "net_sales": 142196
+        },
+        {
+          "country": "China",
+          "net_sales": 66952
+        },
+        {
+          "country": "Other",
+          "net_sales": 181887
+        },
+        {
+          "country": "Total",
+          "net_sales": 391035
+        }
+      ],
+      "net_sales_by_country_2023": [
+        {
+          "country": "United States",
+          "net_sales": 138573
+        },
+        {
+          "country": "China",
+          "net_sales": 72559
+        },
+        {
+          "country": "Other",
+          "net_sales": 172153
+        },
+        {
+          "country": "Total",
+          "net_sales": 383285
+        }
+      ]
     },
     "chunk_id": 13
   },
   {
-    "info": "Apple reported net sales of $416.2B in 2025, up from $391.0B in 2024 and $383.3B in 2023, with growth in the U.S., China and other regions. Long‑lived assets rose to $49.8B in 2025 from $45.7B in 2024. The audit gave an unqualified opinion and confirmed effective internal control. Uncertain tax positions total $23.2B of unrecognized benefits, $10.6B of which could affect the effective tax rate. A senior accounting leadership transition is planned for Jan 1 2026.",
+    "info": "Apple's 2025 geographic net sales total 416,161 million with the U.S. at 151,790; China at 64,377; and Other countries at 199,994, implying continued strong U.S. and international demand; 2024 net sales were 391,035 with the U.S. 142,196; China 66,952; Other 181,887; 2023 net sales 383,285 with the U.S. 138,573; China 72,559; Other 172,153. Long-lived assets totaled 49,834 in 2025, up from 45,680 in 2024; U.S. long-lived assets 40,274 (2025) vs 35,664 (2024); China 3,617 (2025) vs 4,797 (2024); Other 5,943 (2025) vs 5,219 (2024). China includes Hong Kong and Taiwan.",
     "data": {
-      "net_sales_total_2025": 416161,
-      "net_sales_total_2024": 391035,
-      "net_sales_total_2023": 383285,
-      "net_sales_us_2025": 151790,
-      "net_sales_us_2024": 142196,
-      "net_sales_us_2023": 138573,
-      "net_sales_china_2025": 64377,
-      "net_sales_china_2024": 66952,
-      "net_sales_china_2023": 72559,
-      "net_sales_other_2025": 199994,
-      "net_sales_other_2024": 181887,
-      "net_sales_other_2023": 172153,
-      "long_lived_assets_total_2025": 49834,
-      "long_lived_assets_total_2024": 45680,
-      "long_lived_assets_us_2025": 40274,
-      "long_lived_assets_us_2024": 35664,
-      "long_lived_assets_china_2025": 3617,
-      "long_lived_assets_china_2024": 4797,
-      "long_lived_assets_other_2025": 5943,
-      "long_lived_assets_other_2024": 5219,
-      "unrecognized_tax_benefits_total": 23200000000,
-      "unrecognized_tax_benefits_impact": 10600000000
+      "net_sales": [
+        {
+          "country": "U.S.",
+          "2025": 151790,
+          "2024": 142196,
+          "2023": 138573
+        },
+        {
+          "country": "China (1)",
+          "2025": 64377,
+          "2024": 66952,
+          "2023": 72559
+        },
+        {
+          "country": "Other countries",
+          "2025": 199994,
+          "2024": 181887,
+          "2023": 172153
+        },
+        {
+          "country": "Total net sales",
+          "2025": 416161,
+          "2024": 391035,
+          "2023": 383285
+        }
+      ],
+      "long_lived_assets": [
+        {
+          "country": "U.S.",
+          "2025": 40274,
+          "2024": 35664
+        },
+        {
+          "country": "China (1)",
+          "2025": 3617,
+          "2024": 4797
+        },
+        {
+          "country": "Other countries",
+          "2025": 5943,
+          "2024": 5219
+        },
+        {
+          "country": "Total long-lived assets",
+          "2025": 49834,
+          "2024": 45680
+        }
+      ]
     },
     "chunk_id": 14
   },
   {
-    "info": "The 10-K exhibit section lists incorporation documents, updated bylaws and a series of Officer’s Certificates documenting Apple’s issuance of numerous global notes with varied interest rates and maturities, reflecting ongoing debt financing activities.",
+    "info": "Exhibits for Apple Inc. 2025 Form 10-K are listed; financial statement schedules are omitted; many exhibits are incorporated by reference; includes restated charter/articles, bylaws, indentures, officer’s certificates, and filing dates from 2013–2024.",
     "data": {
-      "exhibit_count": 27,
-      "interest_rates": [
-        0.45,
-        1.0,
-        2.4,
-        3.85,
-        1.05,
-        2.1,
-        2.85,
-        3.45,
-        4.45,
-        1.0,
-        1.625,
-        1.55,
-        2.15,
-        2.5,
-        3.45,
-        0.9,
-        2.0,
-        2.7,
+      "pcaob_firm_id": 42,
+      "form_pages": [
+        54,
+        55
+      ],
+      "exhibit_numbers": [
+        3.1,
         3.2,
-        4.375,
-        3.05,
-        3.6,
-        1.375,
-        2.0,
-        1.3,
-        1.7,
-        2.25,
-        2.85,
-        3.25,
+        4.1,
+        4.2,
+        4.3,
+        4.4,
         4.5,
-        4.65,
-        1.1,
-        1.55,
-        2.45,
-        3.85,
-        1.55,
-        1.9,
-        2.5,
-        3.0,
-        3.35,
-        4.25,
-        1.8,
-        2.3,
-        2.85,
-        3.2,
-        0.875,
-        1.375,
-        3.0,
-        1.5,
-        2.1,
-        2.9,
-        3.75,
-        1.8,
-        2.0,
-        2.4,
-        2.75,
-        3.0,
-        3.75,
-        1.7,
-        1.8,
-        2.05,
-        2.2,
-        2.95,
-        0.0,
-        0.5,
-        0.75,
-        1.125,
-        1.65,
-        2.65,
-        0.55,
-        1.25,
-        2.4,
-        2.55,
-        0.7,
-        1.2,
-        1.65,
-        2.375,
-        2.65,
-        2.8,
-        1.4,
-        1.7,
-        2.7,
-        2.85
+        4.6,
+        4.7,
+        4.8,
+        4.9,
+        4.1,
+        4.11,
+        4.12,
+        4.13,
+        4.14,
+        4.15,
+        4.16,
+        4.17,
+        4.18,
+        4.19,
+        4.2,
+        4.21,
+        4.22,
+        4.23,
+        4.24,
+        4.25
       ]
     },
     "chunk_id": 15
   },
   {
-    "info": "The filing lists numerous exhibit references—including indentures, officer certificates, employee stock and compensation plans—and is signed by CFO Kevan Parekh and CEO Tim Cook on October 31, 2025.",
-    "data": {},
+    "info": "Apple's 2025 Form 10-K exhibits list debt issuances (notes due 2026, 2028, 2029, 2030, 2032, 2033, 2052, 2053, 2062) with coupon rates ranging from 3.250% to 4.421%, alongside amendments to the Employee Stock Purchase Plan (as of November 2024) and a Deferred Compensation Plan. The filing includes Inline XBRL exhibits and standard governance documents; signing date is October 31, 2025.",
+    "data": {
+      "indenture_date": 20211028,
+      "indenture_filing_date": 20211029,
+      "notes_2029_coupon": 3.25,
+      "notes_2032_coupon": 3.35,
+      "notes_2052_coupon": 3.95,
+      "notes_2062_coupon": 4.1,
+      "notes_2026_coupon": 4.421,
+      "notes_2028_coupon": 4.0,
+      "notes_2030_coupon": 4.15,
+      "notes_2033_coupon": 4.3,
+      "notes_2053_coupon": 4.85,
+      "def_comp_plan_date": 20180823,
+      "eps_plan_filing_date": 20241228,
+      "eps_plan_as_of_date": 20241106,
+      "indemnification_filing_date": 20090627,
+      "stock_purchase_plan_filing_date": 20241228,
+      "stock_purchase_plan_as_of_date": 20241106,
+      "signing_date": 20251031
+    },
     "chunk_id": 16
+  },
+  {
+    "info": "",
+    "data": {
+      "date_signed": 20251031,
+      "start_page": 57,
+      "end_page": 58
+    },
+    "chunk_id": 17
   }
 ]

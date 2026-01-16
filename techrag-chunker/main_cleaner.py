@@ -4,7 +4,7 @@ from pipeline import process_10k
 
 def main():
     # Load S&P 500 companies
-    with open("sp500_tech.json", "r", encoding="utf-8") as f:
+    with open("mag7.json", "r", encoding="utf-8") as f:
         companies = json.load(f)
     
     print(f"Found {len(companies)} companies to process\n")
