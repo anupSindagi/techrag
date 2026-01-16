@@ -18,7 +18,7 @@ from graphiti_core.utils.maintenance.graph_data_operations import clear_data
 load_dotenv()
 
 # Set semaphore limit for concurrency control
-os.environ['SEMAPHORE_LIMIT'] = '2'
+os.environ['SEMAPHORE_LIMIT'] = '1'
 
 # Configure logging
 logging.basicConfig(
