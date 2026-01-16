@@ -86,6 +86,7 @@ async def ingest_episodes(graphiti: Graphiti, episodes: list[dict], delay_second
         except Exception as e:
             logger.error(f'Failed episode {episode_num}/{total} ({ep["name"]}): {e}')
             failed_episodes.append(ep['name'])
+            await asyncio.sleep(delay_seconds)
         
         # Wait before next episode
         if episode_num < total:
@@ -150,7 +151,7 @@ async def main():
         logger.info(f'Total episodes to ingest: {len(all_episodes)}')
         
         # Ingest episodes one at a time with 20 second delay
-        await ingest_episodes(graphiti, all_episodes, delay_seconds=0)
+        await ingest_episodes(graphiti, all_episodes, delay_seconds=15)
         
         logger.info('Ingestion complete!')
         
