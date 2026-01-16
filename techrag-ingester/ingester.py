@@ -2,10 +2,9 @@ import asyncio
 import json
 import logging
 import os
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-import uuid as uuid_lib
 
 from dotenv import load_dotenv
 
@@ -15,6 +14,7 @@ from graphiti_core.llm_client.groq_client import GroqClient, LLMConfig
 from graphiti_core.embedder.openai import OpenAIEmbedder, OpenAIEmbedderConfig
 from graphiti_core.cross_encoder.openai_reranker_client import OpenAIRerankerClient
 from graphiti_core.nodes import EpisodeType
+from graphiti_core.utils.maintenance.graph_data_operations import clear_data
 
 
 @dataclass
@@ -24,7 +24,7 @@ class RawEpisode:
     source: EpisodeType
     source_description: str
     reference_time: datetime
-    uuid: str = field(default_factory=lambda: str(uuid_lib.uuid4()))
+    uuid: str | None = None
 
 load_dotenv()
 
@@ -136,6 +136,10 @@ async def main():
     )
 
     try:
+        # Clear existing data from the database
+        logger.info('Clearing existing data...')
+        await clear_data(graphiti.driver)
+        
         # Initialize the graph database with graphiti's indices
         logger.info('Building indices and constraints...')
         await graphiti.build_indices_and_constraints()
