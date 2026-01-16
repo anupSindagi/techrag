@@ -2,6 +2,7 @@ import asyncio
 import json
 import logging
 import os
+from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -13,7 +14,15 @@ from graphiti_core.llm_client.groq_client import GroqClient, LLMConfig
 from graphiti_core.embedder.openai import OpenAIEmbedder, OpenAIEmbedderConfig
 from graphiti_core.cross_encoder.openai_reranker_client import OpenAIRerankerClient
 from graphiti_core.nodes import EpisodeType
-from graphiti_core.types import RawEpisode
+
+
+@dataclass
+class RawEpisode:
+    name: str
+    content: str
+    source: EpisodeType
+    source_description: str
+    reference_time: datetime
 
 load_dotenv()
 
@@ -77,7 +86,7 @@ async def ingest_episodes_batch(graphiti: Graphiti, episodes: list[dict], batch_
         bulk_episodes = [
             RawEpisode(
                 name=ep['name'],
-                episode_body=ep['content'],
+                content=ep['content'],
                 source=ep['type'],
                 source_description=ep['description'],
                 reference_time=datetime.now(timezone.utc),
