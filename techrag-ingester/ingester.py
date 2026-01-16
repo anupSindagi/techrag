@@ -80,9 +80,12 @@ def load_episodes_from_file(file_path: Path) -> list[dict]:
 async def ingest_episodes_batch(graphiti: Graphiti, episodes: list[dict], batch_size: int = 5):
     """Ingest episodes in batches."""
     total = len(episodes)
+    failed_batches = []
     
     for i in range(0, total, batch_size):
         batch = episodes[i:i + batch_size]
+        batch_num = i // batch_size + 1
+        total_batches = (total + batch_size - 1) // batch_size
         
         # Prepare bulk episodes using RawEpisode objects
         bulk_episodes = [
@@ -96,10 +99,17 @@ async def ingest_episodes_batch(graphiti: Graphiti, episodes: list[dict], batch_
             for ep in batch
         ]
         
-        # Bulk add episodes
-        await graphiti.add_episode_bulk(bulk_episodes)
-        
-        logger.info(f'Ingested batch {i // batch_size + 1}/{(total + batch_size - 1) // batch_size} ({len(batch)} episodes)')
+        try:
+            # Bulk add episodes
+            await graphiti.add_episode_bulk(bulk_episodes)
+            logger.info(f'Ingested batch {batch_num}/{total_batches} ({len(batch)} episodes)')
+        except Exception as e:
+            logger.error(f'Failed batch {batch_num}/{total_batches}: {e}')
+            failed_batches.append(batch_num)
+            continue
+    
+    if failed_batches:
+        logger.warning(f'Failed batches: {failed_batches}')
 
 
 async def main():
