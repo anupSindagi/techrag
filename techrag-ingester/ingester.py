@@ -127,7 +127,7 @@ async def main():
         llm_client=GroqClient(
             config=LLMConfig(
                 api_key=os.environ.get('GROQ_API_KEY'),
-                model="meta-llama/llama-4-scout-17b-16e-instruct",
+                model="openai/gpt-oss-20b",
                 small_model="llama-3.1-8b-instant"
             )
         ),
