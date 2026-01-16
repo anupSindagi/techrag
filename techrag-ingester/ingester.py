@@ -18,7 +18,7 @@ from graphiti_core.utils.maintenance.graph_data_operations import clear_data
 load_dotenv()
 
 # Set semaphore limit for concurrency control
-os.environ['SEMAPHORE_LIMIT'] = '3'
+os.environ['SEMAPHORE_LIMIT'] = '5'
 
 # Configure logging
 logging.basicConfig(
@@ -150,7 +150,7 @@ async def main():
         logger.info(f'Total episodes to ingest: {len(all_episodes)}')
         
         # Ingest episodes one at a time with 20 second delay
-        await ingest_episodes(graphiti, all_episodes, delay_seconds=10)
+        await ingest_episodes(graphiti, all_episodes, delay_seconds=0)
         
         logger.info('Ingestion complete!')
         
