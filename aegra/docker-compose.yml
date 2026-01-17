@@ -32,13 +32,13 @@ services:
       postgres:
         condition: service_healthy
     volumes:
-      - .aegra/aegra.json:/app/aegra.json:ro
-      - .aegra/graphs:/app/graphs:ro
-      - .aegra/src:/app/src:ro # for hot reload support of server
-      - .aegra/auth.py:/app/auth.py:ro
-      - .aegra/alembic:/app/alembic:ro # for migrations
+      - ./aegra/aegra.json:/app/aegra.json:ro
+      - ./aegra/graphs:/app/graphs:ro
+      - ./aegra/src:/app/src:ro # for hot reload support of server
+      - ./aegra/auth.py:/app/auth.py:ro
+      - ./aegra/alembic:/app/alembic:ro # for migrations
       # Mount custom route files dynamically (add your custom routes file here)
-      - .aegra/custom_routes_example.py:/app/custom_routes_example.py:ro
+      - ./aegra/custom_routes_example.py:/app/custom_routes_example.py:ro
     command: >
       sh -c "
         echo 'Running database migrations...' &&
