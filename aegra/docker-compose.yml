@@ -15,6 +15,8 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
+    networks:
+      - dokploy-network
   # Aegra Server
   aegra:
     build:
@@ -79,6 +81,8 @@ services:
       - redis_data:/data
     profiles:
       - redis
+    networks:
+      - dokploy-network
 volumes:
   postgres_data:
   redis_data:
