@@ -8,6 +8,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from graphiti_core import Graphiti
+from graphiti_core.driver.neo4j_driver import Neo4jDriver
 from graphiti_core.llm_client.openai_client import OpenAIClient, LLMConfig
 from graphiti_core.embedder.openai import OpenAIEmbedder, OpenAIEmbedderConfig
 from graphiti_core.cross_encoder.openai_reranker_client import OpenAIRerankerClient
@@ -97,16 +98,16 @@ async def ingest_episodes(graphiti: Graphiti, episodes: list[dict], delay_second
 
 
 async def main():
-    # Neo4j connection configuration
-    neo4j_uri = 'bolt://neo4j:7687'
-    neo4j_user = 'neo4j'
-    neo4j_password = 'password123'
+    # Neo4j connection via driver
+    neo4j_driver = Neo4jDriver(
+        uri='bolt://neo4j:7687',
+        user='neo4j',
+        password='password123'
+    )
 
     # Configure Graphiti with Neo4j + OpenAI LLM + OpenAI embeddings/reranking
     graphiti = Graphiti(
-        neo4j_uri=neo4j_uri,
-        neo4j_user=neo4j_user,
-        neo4j_password=neo4j_password,
+        graph_driver=neo4j_driver,
         llm_client=OpenAIClient(
             config=LLMConfig(
                 api_key=os.environ.get('OPENAI_API_KEY'),
