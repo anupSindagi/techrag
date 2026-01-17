@@ -28,17 +28,18 @@ services:
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
       - POSTGRES_DB=${POSTGRES_DB}
       - PORT=${PORT:-8000}
+      - AEGRA_CONFIG=${AEGRA_CONFIG:-/app/aegra.json}
     depends_on:
       postgres:
         condition: service_healthy
     volumes:
-      - ./aegra/aegra.json:/app/aegra.json:ro
-      - ./aegra/graphs:/app/graphs:ro
-      - ./aegra/src:/app/src:ro # for hot reload support of server
-      - ./aegra/auth.py:/app/auth.py:ro
-      - ./aegra/alembic:/app/alembic:ro # for migrations
+      - ./aegra.json:/app/aegra.json:ro
+      - ./graphs:/app/graphs:ro
+      - ./src:/app/src:ro # for hot reload support of server
+      - ./auth.py:/app/auth.py:ro
+      - ./alembic:/app/alembic:ro # for migrations
       # Mount custom route files dynamically (add your custom routes file here)
-      - ./aegra/custom_routes_example.py:/app/custom_routes_example.py:ro
+      - ./custom_routes_example.py:/app/custom_routes_example.py:ro
     command: >
       sh -c "
         echo 'Running database migrations...' &&
