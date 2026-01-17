@@ -23,12 +23,35 @@ services:
     ports:
       - "${PORT:-8000}:${PORT:-8000}"
     environment:
-      - POSTGRES_HOST=postgres
+      - PROJECT_NAME=${PROJECT_NAME:-Aegra}
+      - VERSION=${VERSION:-0.1.0}
+      - DEBUG=${DEBUG:-true}
+      - AEGRA_CONFIG=${AEGRA_CONFIG:-/app/aegra.json}
       - POSTGRES_USER=${POSTGRES_USER}
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
       - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=${POSTGRES_PORT:-5432}
+      - DATABASE_URL=${DATABASE_URL:-postgresql+asyncpg://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}}
+      - DATABASE_ECHO=${DATABASE_ECHO:-false}
+      - SQLALCHEMY_POOL_SIZE=${SQLALCHEMY_POOL_SIZE:-2}
+      - SQLALCHEMY_MAX_OVERFLOW=${SQLALCHEMY_MAX_OVERFLOW:-0}
+      - LANGGRAPH_MIN_POOL_SIZE=${LANGGRAPH_MIN_POOL_SIZE:-1}
+      - LANGGRAPH_MAX_POOL_SIZE=${LANGGRAPH_MAX_POOL_SIZE:-6}
+      - AUTH_TYPE=${AUTH_TYPE:-noop}
+      - HOST=${HOST:-0.0.0.0}
       - PORT=${PORT:-8000}
-      - AEGRA_CONFIG=${AEGRA_CONFIG:-/app/aegra.json}
+      - SERVER_URL=${SERVER_URL:-http://localhost:8000}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - ENV_MODE=${ENV_MODE:-PRODUCTION}
+      - LOG_VERBOSITY=${LOG_VERBOSITY:-standard}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - TOGETHER_API_KEY=${TOGETHER_API_KEY}
+      - LANGFUSE_LOGGING=${LANGFUSE_LOGGING:-false}
+      - LANGFUSE_SECRET_KEY=${LANGFUSE_SECRET_KEY}
+      - LANGFUSE_PUBLIC_KEY=${LANGFUSE_PUBLIC_KEY}
+      - LANGFUSE_HOST=${LANGFUSE_HOST:-https://cloud.langfuse.com}
     depends_on:
       postgres:
         condition: service_healthy
