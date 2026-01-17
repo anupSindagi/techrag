@@ -1,982 +1,230 @@
 [
   {
-    "info": "The text lists multiple long-term debt issuance values (13, 9, 8, 7, 5) across 2024–2025, plus references to fair value inputs Level 1–3, various debt/securities categories, hedging-related items, and a recurring share repurchase program named TwentyTwentyOne. It also mentions Microsoft Cloud and Activision Blizzard Inc as entities in the filing, indicating a ledger-like catalog of financial statement line items rather than narrative management discussion.",
-    "data": {
-      "debt_issuance": [
-        {
-          "value": 13,
-          "year": 2025
-        },
-        {
-          "value": 9,
-          "year": 2024
-        },
-        {
-          "value": 8,
-          "year": 2025
-        },
-        {
-          "value": 7,
-          "year": 2024
-        },
-        {
-          "value": 5,
-          "year": 2025
-        }
-      ]
-    },
-    "chunk_id": 2
-  },
-  {
-    "info": "Investor-relevant highlights include ongoing capital allocation and investment accounting references: issuance of long-term debt and unsecured debt; extensive use of fair value inputs Level 1/2/3 for securities and investments; multiple share repurchase programs; hedging activities including designated cash flow hedges and foreign exchange contracts; and references to non-operating income/expense and accumulated OCI. Mentions of Microsoft, LinkedIn Corporation, Activision Blizzard, Dynamics products, and other segments indicate cross-business financing, investments, and strategic considerations; no monetary figures are provided in this chunk.",
+    "info": "As of December 31, 2024, the aggregate market value of the registrant’s common stock held by non-affiliates of the registrant was $3.1 trillion based on the closing sale price as reported on the NASDAQ National Market System.",
     "data": {},
-    "chunk_id": 3
-  },
-  {
-    "info": "Investor-relevant observations: The text chunk lists numerous corporate actions and financial instruments across several entities and product lines, including multiple issuances of long-term debt and debt securities, hedging-related designations (designated as hedging instrument, foreign exchange contracts, cash flow hedging), references to secured terms, and several share repurchase programs across various years. It also references several business segments (Intelligent Cloud, Productivity and Business Processes, Dynamics Products and Cloud Services, Server Products and Cloud Services) and notable entities such as Activision Blizzard Inc and OpenAI Global LLC. Overall, the content indicates ongoing financing activities, hedging and risk-management strategies, and capital-return programs, but contains no explicit monetary figures in this chunk.",
-    "data": {},
-    "chunk_id": 4
-  },
-  {
-    "info": "Microsoft-specific US GAAP tag metadata including asset-backed securities, debt/equity securities, fair value inputs Level 2/3, hedging instruments (fair value hedging, interest rate contracts, foreign exchange contracts), equity compensation (restricted stock, employee stock), debt issuance, share repurchase programs (TwentyTwentyOne, TwentyTwentyFour), and segment references (More Personal Computing, Productivity And Business Processes, Windows And Devices). It reads as a taxonomy of financial instruments and corporate actions rather than a narrative with metrics.",
-    "data": {},
-    "chunk_id": 6
-  },
-  {
-    "info": "Cross-year Microsoft-related accounting items referenced (debt issuances, equity components, hedging, translation adjustments and OCI) across multiple years, with segments including More Personal Computing, Intelligent Cloud, Productivity and Business Processes, and Gaming; mentions acquisitions (LinkedIn, Activision Blizzard) and capital actions (share repurchase programs, dividends), indicating ongoing debt financing, hedging activity, and a cloud-centric, diversified product strategy.",
-    "data": {},
-    "chunk_id": 7
-  },
-  {
-    "info": "A dense list of Microsoft-related financial instruments and corporate actions, including debt issuances, a 2.625% note due May 2033, a continuing share repurchase program for 2021 and 2024, and references to us-gaap securities, fair value inputs Level1/Level2, and key segments such as More Personal Computing and Intelligent Cloud, with Activision Blizzard Inc as a Microsoft subsidiary.",
-    "data": {
-      "note_rate_percent_2033": 2.625,
-      "note_due_year_2033": 2033,
-      "share_repurchase_years": [
-        2021,
-        2024
-      ]
-    },
-    "chunk_id": 8
-  },
-  {
-    "info": "Microsoft's 2025 Form 10-K describes three reportable segments (Productivity and Business Processes, Intelligent Cloud, More Personal Computing) with segment changes implemented in fiscal 2025, a strategy focusing on cloud, AI-enabled productivity, and personal computing, sustainability goals including carbon negative by 2030, and key investor metrics such as 7.433166379 billion shares outstanding as of July 24, 2025 and a non-affiliates market value around 3.1 trillion.",
-    "data": {
-      "fiscal_year_end": 2025,
-      "fiscal_year_end_date": 20250630,
-      "shares_outstanding": 7433166379,
-      "shares_outstanding_as_of_date": 20250724,
-      "market_value_non_affiliates": 3100000000000,
-      "market_value_as_of_date": 20241231,
-      "par_value_per_share": 6.25e-06,
-      "notes_due_2028_coupon_percent": 3.125,
-      "notes_due_2033_coupon_percent": 2.625
-    },
     "chunk_id": 9
   },
   {
-    "info": "Microsoft reorganized its operating segments in Aug 2024 to align management focus, with FY2025 reflecting updated Productivity and Business Processes, Intelligent Cloud, and More Personal Computing structures. Growth drivers include AI-enabled Microsoft 365 Commercial offerings, Azure and other cloud services, LinkedIn monetization, and Dynamics, while competition spans cloud, Windows, and gaming. The company highlights supplier concentration and potential supply chain risks for datacenters and devices, emphasizes ongoing R&D and a broad direct/partner go-to-market model, and employs about 228,000 people as of 6/30/2025 with a diverse geographic and functional mix.",
-    "data": {
-      "as_of_date": 20250630,
-      "employees_total": 228000,
-      "employees_us": 125000,
-      "employees_intl": 103000,
-      "employees_operations": 89000,
-      "employees_rnd": 80000,
-      "employees_sales_marketing": 44000,
-      "employees_admin": 15000
-    },
-    "chunk_id": 10
-  },
-  {
-    "info": "Microsoft faces intense and evolving competition across platforms, cloud, and AI, with substantial ongoing investment in AI infrastructure and cloud services that can compress near-term margins. Success depends on scale of platform ecosystems, developer engagement, cross-device compatibility, and security/compliance. Regulatory regimes (EU DMA/DSA) and risks related to AI misuse add ongoing compliance and reputational considerations. Licensing options and diversified distribution channels support go-to-market, while leadership changes in 2025 reflect ongoing governance and executive transitions.",
-    "data": {
-      "executive_officers": [
-        {
-          "name": "Satya Nadella",
-          "age": 57,
-          "role": "Chairman and Chief Executive Officer",
-          "ceo_since": 2014,
-          "chairman_since": 2021
-        },
-        {
-          "name": "Judson B. Althoff",
-          "age": 52,
-          "role": "Executive Vice President and Chief Commercial Officer",
-          "appointed_year": 2021
-        },
-        {
-          "name": "Amy L. Coleman",
-          "age": 53,
-          "role": "Executive Vice President and Chief Human Resources Officer",
-          "appointed_year": 2025
-        },
-        {
-          "name": "Kathleen T. Hogan",
-          "age": 59,
-          "role": "Executive Vice President, Office of Strategy and Transformation",
-          "appointed_year": 2025
-        },
-        {
-          "name": "Amy E. Hood",
-          "age": 53,
-          "role": "Executive Vice President and Chief Financial Officer",
-          "evp_cfo_appointed_year": 2013
-        },
-        {
-          "name": "Takeshi Numoto",
-          "age": 54,
-          "role": "Executive Vice President and Chief Marketing Officer",
-          "appointed_year": 2023
-        },
-        {
-          "name": "Bradford L. Smith",
-          "age": 66,
-          "role": "Vice Chair and President",
-          "appointed_year": 2021
-        }
-      ],
-      "nadella_join_year": 1992,
-      "license_programs": [
-        {
-          "name": "Enterprise Agreement",
-          "term_years": 3
-        },
-        {
-          "name": "Open Value",
-          "term_years": 3
-        }
-      ],
-      "oem_categories": 2,
-      "as_of_year": 2025
-    },
+    "info": "Our operations and financial results are subject to various risks and uncertainties, including those described below, that could adversely affect our business, operations, financial condition, results of operations, liquidity, and the trading price of our common stock.",
+    "data": {},
     "chunk_id": 11
   },
   {
-    "info": "Risks and strategic updates: competitive pressures and investments in cloud-based and AI services may compress margins and threaten revenue growth if execution or user uptake falters; ongoing high costs for infrastructure, R&D, marketing, and incentives may reduce profitability; success depends on delivering compelling cloud/AI offerings, cross-device performance, developer engagement, reliability, security/compliance, and platform-agnostic reach across ecosystems; acquisitions and partnerships (Activision Blizzard in Oct 2023; OpenAI partnership announced Jan 2023) pose integration, ROI, and governance risks; cybersecurity, data privacy, and platform-abuse risks could harm revenue, raise costs, or cause reputational/regulatory harm, necessitating substantial mitigation and governance investments.",
-    "data": {
-      "activision_acq_year": 2023,
-      "activision_acq_month": 10,
-      "openai_partnership_announcement_year": 2023,
-      "openai_partnership_announcement_month": 1
-    },
+    "info": "For example, in October 2023 we completed our acquisition of Activision Blizzard, Inc. (“Activision Blizzard”).",
+    "data": {},
     "chunk_id": 12
   },
   {
-    "info": "Regulatory, security, and tax risks across AI, content moderation, data privacy, and government contracts; operational risks from datacenter infrastructure, supply chain for hardware, and software quality; ongoing IRS audits with large proposed tax adjustments; and sustainability goals to become carbon negative, water positive, and zero waste by 2030.",
-    "data": {
-      "nopa_irs_years": [
-        2004,
-        2013
-      ],
-      "nopa_irs_additional_tax_payment": 28900000000,
-      "carbon_negative_by_2030": 2030,
-      "water_positive_by_2030": 2030,
-      "zero_waste_by_2030": 2030
-    },
+    "info": "In the NOPAs, the IRS is seeking an additional tax payment of $28.9 billion plus penalties and interest.",
+    "data": {},
     "chunk_id": 13
   },
   {
-    "info": "Broad investor-relevant risks include reputational damage from product/privacy/AI issues; macroeconomic and geopolitical headwinds affecting IT spending, supplier/distributor stability, customer liquidity, and currency/sanctions exposure; international operations and talent retention challenges; and climate/resource cost concerns. Microsoft maintains a robust cybersecurity program (Secure Future Initiative) with board governance and a Security Development Lifecycle, tracking 84 trillion signals daily and over 1,500 threat actors (including 600 nation-state, 300 cybercriminal, 200 influence groups) with ~10,000 experts in a Cyber Defense Operations Center; current risk is not believed to be material. The company has a sizable global footprint (15 million sq ft total; 12 owned, 3 leased; 530 acres owned) and 77,014 shareholders of record as of July 24, 2025. Capital return activity includes Q4 2025 share repurchases totaling 7,520,493 shares and remaining authorization around 59,350, 58,293, and 57,349.",
-    "data": {
-      "signals_per_day": 84000000000000,
-      "threat_actors_total": 1500,
-      "nation_state_actors": 600,
-      "cybercriminal_groups": 300,
-      "influence_operation_groups": 200,
-      "security_experts": 10000,
-      "holders_record_2025_07_24": 77014,
-      "us_owned_sqft_mill": 34,
-      "us_leased_sqft_mill": 23,
-      "us_total_sqft_mill": 57,
-      "intl_owned_sqft_mill": 13,
-      "intl_leased_sqft_mill": 27,
-      "intl_total_sqft_mill": 40,
-      "total_owned_sqft_mill": 47,
-      "total_leased_sqft_mill": 50,
-      "grand_total_sqft_mill": 97,
-      "total_space_sqft_mill": 15,
-      "owned_space_sqft_mill": 12,
-      "leased_space_sqft_mill": 3,
-      "land_acres_owned": 530,
-      "q4_april_shares_purchased": 3180776,
-      "q4_april_avg_price": 376.9,
-      "q4_may_shares_purchased": 2360700,
-      "q4_may_avg_price": 448.01,
-      "q4_june_shares_purchased": 1979017,
-      "q4_june_avg_price": 476.78,
-      "q4_total_shares_purchased": 7520493,
-      "q4_remaining_program_value_april": 59350,
-      "q4_remaining_program_value_may": 58293,
-      "q4_remaining_program_value_june": 57349
-    },
+    "info": "Following are our monthly share repurchases for the fourth quarter of fiscal year 2025:",
+    "data": {},
     "chunk_id": 14
   },
   {
-    "info": "Capital returns and revenue mix: Microsoft authorized a cash-based share repurchase program up to 60B (approved Sep 16, 2024), commenced Apr 2025 with no expiration; 9.4B returned to shareholders in Q4 FY2025; May 2025 acquisition-related share issuance of 117,623 shares. FY2025 revenue rose 15% to 281.724B, led by cloud and AI strength (Microsoft Cloud up 23% to 168.9B; Azure growth 34%; Microsoft 365 Commercial cloud up 15%). Profitability strengthened with operating income up 17% and net income up 16%; gross margin up 13% to 193.893B, with Microsoft Cloud gross margin at 69% as AI infrastructure scales. OpenAI partnership remains a core strategic element integrated into Azure. Risks cited include foreign exchange, supply chain and competitive dynamics.",
+    "info": "On September 16, 2024, our Board of Directors approved a share repurchase program authorizing up to $60.0 billion in share repurchases. This share repurchase program commenced in April 2025, following completion of the program approved on September 14, 2021, has no expiration date, and may be terminated at any time. We returned $9.4 billion to shareholders in the form of share repurchases and dividends in the fourth quarter of fiscal year 2025. In May 2025, as consideration for the acquisition of a business, we issued 117,623 shares of common stock to the seller in connection with the closing in reliance on exemption from the registration requirements of the Securities Act of 1933 pursuant to Section 4(a)(2) thereof because the issuance of securities did not involve a public offering.",
     "data": {
-      "repurchase_authorization_usd": 60000000000,
-      "repurchase_commenced_year_month": 202504,
-      "repurchase_approval_date_yyyymmdd": 20240916,
-      "total_return_q4_2025_usd": 9400000000,
-      "dividends_q4_2025_per_share_usd": 0.83,
-      "dividends_q4_2025_total_usd_millions": 6170,
-      "acquisition_shares_issued_may_2025": 117623,
-      "revenue_2025_usd": 281724,
-      "revenue_2024_usd": 245122,
-      "gross_margin_2025_usd": 193893,
-      "gross_margin_2024_usd": 171008,
-      "cost_of_revenue_increase_2025_usd": 13700000000,
-      "operating_income_2025_usd": 128528,
-      "operating_income_2024_usd": 109433,
-      "net_income_2025_usd": 101832,
-      "net_income_2024_usd": 88136,
-      "eps_2025": 13.64,
-      "eps_2024": 11.8,
-      "microsoft_cloud_revenue_2025_usd": 168900000000,
-      "microsoft_cloud_growth_pct_2025": 23,
-      "microsoft_365_commercial_revenue_growth_pct_2025": 14,
-      "microsoft_365_commercial_cloud_revenue_growth_pct_2025": 15,
-      "microsoft_365_consumer_revenue_growth_pct_2025": 11,
-      "linkedin_revenue_growth_pct_2025": 9,
-      "dynamics_365_revenue_growth_pct_2025": 19,
-      "azure_and_other_cloud_services_revenue_growth_pct_2025": 34,
-      "windows_oem_devices_revenue_growth_pct_2025": 3,
-      "xbox_content_services_growth_pct_2025": 16,
-      "search_ad_growth_pct_ex_tac_2025": 20,
-      "microsoft_cloud_gross_margin_pct_2025": 69,
-      "overall_revenue_growth_pct_2025_vs_2024": 15,
-      "gross_margin_growth_pct_2025_vs_2024": 13,
-      "operating_income_growth_pct_2025_vs_2024": 17,
-      "net_income_growth_pct_2025_vs_2024": 16,
-      "eps_growth_pct_2025_vs_2024": 16
+      "revenue_2025": 281724000000,
+      "revenue_2024": 245122000000,
+      "gross_margin_2025": 193893000000,
+      "gross_margin_2024": 171008000000,
+      "operating_income_2025": 128528000000,
+      "operating_income_2024": 109433000000,
+      "net_income_2025": 101832000000,
+      "net_income_2024": 88136000000,
+      "diluted_eps_2025": 13.64,
+      "diluted_eps_2024": 11.8
     },
     "chunk_id": 15
   },
   {
-    "info": "FY2025 revenue rose 15% to $281.7B, led by Microsoft Cloud (Intelligent Cloud) growth and cross-segment momentum. Intelligent Cloud revenue grew 21% to $106.265B, Productivity and Business Processes 13% to $120.810B, and More Personal Computing 7% to $54.649B, with Azure strength and 365-driven cloud demand underpinning results. Gross margin increased by $22.9B (13%), while cost of revenue rose $13.7B (19%). Operating expenses grew $3.8B (6%), yielding total operating income of $128.528B, up 17%. The company notes AI infrastructure scaling affecting gross margin percentages (Microsoft Cloud margin declined to 69%). Activision Blizzard integration supported higher investments in Gaming and related advertising. The fiscal year includes tax considerations: effective tax rate of 18% in both years, Pillar Two global minimum tax at 15%, and OBBBA affecting 14% GILTI from fiscal year 2027. Net other income (expense), including IRS NOPA exposure of $28.9B, remains a focus. Segment-level margins remained healthy, with Intelligent Cloud and Gaming/IP contributing to operating income growth across the board. R&D, Sales & Marketing, and General & Administrative expenses rose in aggregate, reflecting cloud and AI investments and the Activision Blizzard integration.",
+    "info": "Revenue increased 36.6 billion or 15% with growth across each of our segments.",
     "data": {
-      "revenue_2025": 281724000000,
-      "revenue_2024": 245122000000,
-      "revenue_change_2025_vs_2024": 36600000000,
-      "revenue_change_pct_2025_vs_2024": 15,
-      "cost_of_revenue_2025": 87831000000,
-      "cost_of_revenue_2024": 74114000000,
-      "operating_expenses_2025": 65365000000,
-      "operating_expenses_2024": 61575000000,
-      "operating_income_2025": 128528000000,
-      "operating_income_2024": 109433000000,
-      "operating_income_change_2025_vs_2024": 19100000000,
-      "operating_income_change_pct_2025_vs_2024": 17,
-      "gross_margin_increase_2025_vs_2024": 22900000000,
-      "gross_margin_change_pct_2025_vs_2024": 13,
-      "net_other_income_expense_2025": -4901000000,
-      "net_other_income_expense_2024": -1646000000,
+      "revenue_2025_total": 281724,
+      "revenue_2024_total": 245122,
+      "cost_of_revenue_total_2025": 87831,
+      "cost_of_revenue_total_2024": 74114,
+      "operating_expenses_total_2025": 65365,
+      "operating_expenses_total_2024": 61575,
+      "operating_income_total_2025": 128528,
+      "operating_income_total_2024": 109433,
+      "productivity_and_business_processes_revenue_2025": 120810,
+      "productivity_and_business_processes_revenue_2024": 106820,
+      "productivity_and_business_processes_cost_of_revenue_2025": 22422,
+      "productivity_and_business_processes_cost_of_revenue_2024": 19611,
+      "productivity_and_business_processes_operating_income_2025": 69773,
+      "productivity_and_business_processes_operating_income_2024": 59661,
+      "intelligent_cloud_revenue_2025": 106265,
+      "intelligent_cloud_revenue_2024": 87464,
+      "intelligent_cloud_cost_of_revenue_2025": 40171,
+      "intelligent_cloud_cost_of_revenue_2024": 29611,
+      "intelligent_cloud_operating_income_2025": 44589,
+      "intelligent_cloud_operating_income_2024": 37813,
+      "more_personal_computing_revenue_2025": 54649,
+      "more_personal_computing_revenue_2024": 50838,
+      "more_personal_computing_cost_of_revenue_2025": 25238,
+      "more_personal_computing_cost_of_revenue_2024": 24892,
+      "more_personal_computing_operating_income_2025": 14166,
+      "more_personal_computing_operating_income_2024": 11959,
+      "research_and_development_2025": 32488,
+      "research_and_development_2024": 29510,
+      "sales_and_marketing_2025": 25654,
+      "sales_and_marketing_2024": 24456,
+      "general_and_administrative_2025": 7223,
+      "general_and_administrative_2024": 7609,
+      "interest_and_dividends_income_2025": 2647,
+      "interest_expense_2025": -2385,
+      "net_recognized_losses_on_investments_2025": -349,
+      "net_losses_on_derivatives_2025": -260,
+      "net_gains_losses_on_foreign_currency_remeasurements_2025": 171,
+      "other_net_2025": -4725,
+      "total_other_income_expense_2025": -4901,
+      "interest_and_dividends_income_2024": 3157,
+      "interest_expense_2024": -2935,
+      "net_recognized_losses_on_investments_2024": -118,
+      "net_losses_on_derivatives_2024": -187,
+      "net_gains_losses_on_foreign_currency_remeasurements_2024": -244,
+      "other_net_2024": -1319,
+      "total_other_income_expense_2024": -1646,
       "effective_tax_rate_2025": 18,
       "effective_tax_rate_2024": 18,
       "us_income_before_taxes_2025": 69200000000,
       "foreign_income_before_taxes_2025": 54400000000,
       "us_income_before_taxes_2024": 62900000000,
-      "foreign_income_before_taxes_2024": 44900000000,
-      "pillar_two_minimum_tax_rate": 15,
-      "obbba_effective_tax_rate_2027": 14,
-      "irs_nopa_adjustment_amount": 28900000000,
-      "segments": [
-        {
-          "name": "Productivity and Business Processes",
-          "revenue_2025": 120810000000,
-          "revenue_2024": 106820000000,
-          "cost_of_revenue_2025": 22422000000,
-          "cost_of_revenue_2024": 19611000000,
-          "operating_expenses_2025": 28615000000,
-          "operating_expenses_2024": 27548000000,
-          "operating_income_2025": 69773000000,
-          "operating_income_2024": 59661000000,
-          "revenue_change_pct_2025_vs_2024": 13,
-          "cost_of_revenue_change_pct_2025_vs_2024": 14,
-          "operating_expenses_change_pct_2025_vs_2024": 4,
-          "operating_income_change_pct_2025_vs_2024": 17
-        },
-        {
-          "name": "Intelligent Cloud",
-          "revenue_2025": 106265000000,
-          "revenue_2024": 87464000000,
-          "cost_of_revenue_2025": 40171000000,
-          "cost_of_revenue_2024": 29611000000,
-          "operating_expenses_2025": 21505000000,
-          "operating_expenses_2024": 20040000000,
-          "operating_income_2025": 44589000000,
-          "operating_income_2024": 37813000000,
-          "revenue_change_pct_2025_vs_2024": 21,
-          "cost_of_revenue_change_pct_2025_vs_2024": 36,
-          "operating_expenses_change_pct_2025_vs_2024": 7,
-          "operating_income_change_pct_2025_vs_2024": 18
-        },
-        {
-          "name": "More Personal Computing",
-          "revenue_2025": 54649000000,
-          "revenue_2024": 50838000000,
-          "cost_of_revenue_2025": 25238000000,
-          "cost_of_revenue_2024": 24892000000,
-          "operating_expenses_2025": 15245000000,
-          "operating_expenses_2024": 13987000000,
-          "operating_income_2025": 14166000000,
-          "operating_income_2024": 11959000000,
-          "revenue_change_pct_2025_vs_2024": 7,
-          "cost_of_revenue_change_pct_2025_vs_2024": 1,
-          "operating_expenses_change_pct_2025_vs_2024": 9,
-          "operating_income_change_pct_2025_vs_2024": 18
-        }
-      ],
-      "rnd_2025": 32488000000,
-      "rnd_2024": 29510000000,
-      "rnd_pct_of_rev_2025": 12,
-      "rnd_pct_of_rev_2024": 12,
-      "sales_and_marketing_2025": 25654000000,
-      "sales_and_marketing_2024": 24456000000,
-      "sales_and_marketing_pct_of_rev_2025": 9,
-      "sales_and_marketing_pct_of_rev_2024": 10,
-      "general_and_administrative_2025": 7223000000,
-      "general_and_administrative_2024": 7609000000,
-      "gna_pct_of_rev_2025": 3,
-      "gna_pct_of_rev_2024": 3,
-      "other_income_expense_net_by_line": [
-        {
-          "item": "Interest and dividends income",
-          "2025": 2647,
-          "2024": 3157
-        },
-        {
-          "item": "Interest expense",
-          "2025": -2385,
-          "2024": -2935
-        },
-        {
-          "item": "Net recognized losses on investments",
-          "2025": -349,
-          "2024": -118
-        },
-        {
-          "item": "Net losses on derivatives",
-          "2025": -260,
-          "2024": -187
-        },
-        {
-          "item": "Net gains (losses) on foreign currency remeasurements",
-          "2025": 171,
-          "2024": -244
-        },
-        {
-          "item": "Other, net",
-          "2025": -4725,
-          "2024": -1319
-        },
-        {
-          "item": "Total",
-          "2025": -4901,
-          "2024": -1646
-        }
-      ],
-      "income_tax_notes": {
-        "irs_nopa_adjustment_details": 28900000000
-      }
+      "foreign_income_before_taxes_2024": 44900000000
     },
     "chunk_id": 16
   },
   {
-    "info": "Microsoft discusses tax policy exposure from Pillar Two (15% global minimum tax beginning 2025) and OBBBA (14% GILTI effective 2027), with monitoring for potential impacts; ongoing IRS transfer-pricing audits seek $28.9B; no material near-term impact expected; strong liquidity evidenced by $94.6B in cash and short-term investments as of 6/30/2025 and $15.4B in equity investments, supported by robust cash flows (FY2025 operating cash flow $136.2B); continued share repurchases and dividends; sizable contractual obligations across debt, leases, and commitments; ongoing investments in cloud and AI infrastructure; liquidity planned to fund operations for at least 12 months.",
+    "info": "We are currently assessing the One Big Beautiful Bill Act (“OBBBA”) which was enacted on July 4, 2025. The OBBBA provides a U.S. global intangible low-taxed income effective tax rate of 14% effective fiscal year 2027 for Microsoft. It also provides bonus depreciation for certain assets placed into service after January 19, 2025 and an election to expense U.S. incurred research or experimental expenditures. While we do not currently estimate a material impact to our consolidated financial statements, we continue to monitor the impact as countries implement legislation and the OECD provides additional guidance. We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, material capital expenditures, and the transition tax related to the TCJA, for at least the next 12 months and thereafter for the foreseeable future. Cash, cash equivalents, and short-term investments totaled $94.6 billion and $75.5 billion as of June 30, 2025 and 2024, respectively. Equity and other investments were $15.4 billion and $14.6 billion as of June 30, 2025 and 2024, respectively. Cash from operations increased $17.6 billion to $136.2 billion for fiscal year 2025, primarily due to an increase in cash received from customers, offset in part by an increase in cash paid to suppliers and employees and cash used to pay income taxes. Cash used in financing increased $13.9 billion to $51.7 billion for fiscal year 2025, primarily due to a $9.5 billion increase in cash used for repayments of debt, net of proceeds. Cash used in investing decreased $24.4 billion to $72.6 billion for fiscal year 2025, primarily due to a $63.2 billion decrease in cash used for acquisitions of companies, net of cash acquired and divestitures, and purchases of intangible and other assets, offset in part by a $22.3 billion increase in cash used in net investment purchases, sales, and maturities, and a $20.1 billion increase in additions to property and equipment. During fiscal years 2025 and 2024, we repurchased 31 million shares and 32 million shares of our common stock for $13.0 billion and $12.0 billion, respectively. As of June 30, 2025, $57.3 billion remained of our $60 billion share repurchase program. Dividends During fiscal years 2025 and 2024, our Board of Directors declared dividends totaling $24.7 billion and $22.3 billion, respectively. We will continue to invest in capital expenditures to support growth in our cloud offerings and our investments in AI infrastructure and training. We have not engaged in any related party transactions or arrangements with unconsolidated entities or other persons that are reasonably likely to materially affect liquidity or the availability of capital resources. We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, material capital expenditures, and the transition tax related to the TCJA, for at least the next 12 months and thereafter for the foreseeable future.",
     "data": {
-      "pillar_two_min_tax_rate_percent": 15,
-      "pillar_two_applies_fiscal_year": 2025,
-      "obbba_ibt_rate_percent": 14,
-      "obbba_ibt_effective_year": 2027,
-      "nopas_related_adjustment_amount_billion": 28.9,
-      "transition_tax_eighth_installment_amount_billion": 4.4,
-      "transition_tax_percent_years_1_to_5": 8,
-      "transition_tax_percent_year6": 15,
-      "transition_tax_percent_year7": 20,
-      "transition_tax_percent_year8": 25,
-      "cash_and_short_term_investments_6_30_2025_billion": 94.6,
-      "cash_and_short_term_investments_6_30_2024_billion": 75.5,
-      "equity_and_other_investments_6_30_2025_billion": 15.4,
-      "equity_and_other_investments_6_30_2024_billion": 14.6,
-      "cash_from_operations_fy2025_billion": 136.2,
-      "cash_from_operations_increase_billion": 17.6,
-      "cash_used_in_financing_fy2025_billion": 51.7,
-      "cash_used_in_financing_increase_billion": 13.9,
-      "cash_used_in_investing_fy2025_billion": 72.6,
-      "cash_used_in_investing_decrease_billion": 24.4,
-      "acquisitions_cash_outflow_change_fy2025_billion": 63.2,
-      "net_investment_purchases_sales_maturities_fy2025_billion": 22.3,
-      "additions_to_property_and_equipment_fy2025_billion": 20.1,
-      "shares_reacquired_2025_millions": 31,
-      "share_repurchase_amount_2025_billion": 13.0,
-      "shares_reacquired_2024_millions": 32,
-      "share_repurchase_amount_2024_billion": 12.0,
-      "share_repurchase_program_total_billion": 60,
-      "share_repurchase_program_remaining_as_of_2025_06_30_billion": 57.3,
-      "dividends_2025_billion": 24.7,
-      "dividends_2024_billion": 22.3,
-      "lt_debt_principal_payments_2026_millions": 3000,
-      "lt_debt_principal_payments_thereafter_millions": 46206,
-      "lt_debt_principal_payments_total_millions": 49206,
-      "lt_debt_interest_payments_2026_millions": 1509,
-      "lt_debt_interest_payments_thereafter_millions": 25527,
-      "lt_debt_interest_payments_total_millions": 27036,
-      "construction_commitments_2026_millions": 26859,
-      "construction_commitments_thereafter_millions": 5290,
-      "construction_commitments_total_millions": 32149,
-      "operating_and_finance_leases_2026_millions": 12798,
-      "leases_thereafter_millions": 165903,
-      "leases_total_millions": 178701,
-      "purchase_commitments_2026_millions": 103940,
-      "purchase_commitments_thereafter_millions": 6013,
-      "purchase_commitments_total_millions": 109953,
-      "total_contractual_obligations_2026_millions": 148106,
-      "total_contractual_obligations_thereafter_millions": 248939,
-      "total_contractual_obligations_total_millions": 397045,
-      "unearned_revenue_total_millions": 67265,
-      "unearned_revenue_three_months_ending_2025_09_30_millions": 25191,
-      "unearned_revenue_three_months_ending_2025_12_31_millions": 19733,
-      "unearned_revenue_three_months_ending_2026_03_31_millions": 13742,
-      "unearned_revenue_three_months_ending_2026_06_30_millions": 5889,
-      "unearned_revenue_thereafter_millions": 2710,
-      "liquidity_funding_horizon_months": 12
+      "cash_and_short_term_investments_2025": 94600000000,
+      "cash_and_short_term_investments_2024": 75500000000,
+      "equity_and_other_investments_2025": 15400000000,
+      "equity_and_other_investments_2024": 14600000000,
+      "cash_from_operations_2025": 136200000000,
+      "cash_used_in_financing_2025": 51700000000,
+      "cash_used_in_investing_2025": 72600000000,
+      "repurchased_shares_2025": 13000000000,
+      "dividends_declared_2025": 24700000000,
+      "share_repurchase_program_remaining_2025": 57300000000,
+      "contractual_obligations_total_2026": 148106000000,
+      "contractual_obligations_total_thereafter": 248939000000,
+      "contractual_obligations_total_all_periods": 397045000000,
+      "long_term_debt_principal_payments_2026": 3000000000,
+      "long_term_debt_interest_payments_2026": 1509000000,
+      "construction_commitments_2026": 26859000000,
+      "operating_and_finance_leases_2026": 12798000000,
+      "purchase_commitments_2026": 103940000000
     },
     "chunk_id": 17
   },
   {
-    "info": "The company highlights legal and tax contingencies with potential impacts; management asserts responsibility for internal controls; market risk exposure to FX, interest rates, credit, and equities is monitored with sensitivity analysis showing potential negative impacts on earnings and fair value at the 2025 horizon. 2025 total revenue was 281724, with 2024 at 245122 and 2023 at 211915. Gross margin was 193893 in 2025, and net income rose to 101832 with basic EPS of 13.70 and diluted EPS of 13.64. Comprehensive income for 2025 was 104075, supported by OCI gains from investments and derivatives and offset by translation adjustments and derivative exposures.",
+    "info": "Management is responsible for the preparation of the consolidated financial statements and related information that are presented in this report. The consolidated financial statements, which include amounts based on management’s estimates and judgments, have been prepared in conformity with accounting principles generally accepted in the United States of America. The Company designs and maintains accounting and internal control systems to provide reasonable assurance at reasonable cost that assets are safeguarded against loss from unauthorized use or disposition, and that the financial records are reliable for preparing consolidated financial statements and maintaining accountability for assets. These systems are augmented by written policies, an organizational structure providing division of responsibilities, careful selection and training of qualified personnel, and a program of internal audits. The Company engaged Deloitte & Touche LLP, an independent registered public accounting firm, to audit and render an opinion on the consolidated financial statements and internal control over financial reporting in accordance with the standards of the Public Company Accounting Oversight Board (United States). The Board of Directors, through its Audit Committee, consisting solely of independent directors of the Company, meets periodically with management, internal auditors, and our independent registered public accounting firm to ensure that each is meeting its responsibilities and to discuss matters concerning internal controls and financial reporting. Deloitte & Touche LLP and the internal auditors each have full and free access to the Audit Committee.",
     "data": {
-      "income_statement": [
-        {
-          "year": 2025,
-          "total_revenue": 281724,
-          "product_revenue": 63946,
-          "service_and_other_revenue": 217778,
-          "total_cost_of_revenue": 87831,
-          "cost_of_revenue_product": 13501,
-          "cost_of_revenue_service_and_other": 74330,
-          "gross_margin": 193893,
-          "R&D": 32488,
-          "S&M": 25654,
-          "G&A": 7223,
-          "operating_income": 128528,
-          "other_income_expense": -4901,
-          "income_before_taxes": 123627,
-          "tax_provision": 21795,
-          "net_income": 101832,
-          "EPS_basic": 13.7,
-          "EPS_diluted": 13.64,
-          "basic_shares": 7433,
-          "diluted_shares": 7465
-        },
-        {
-          "year": 2024,
-          "total_revenue": 245122,
-          "product_revenue": 64773,
-          "service_and_other_revenue": 180349,
-          "total_cost_of_revenue": 74114,
-          "cost_of_revenue_product": 15272,
-          "cost_of_revenue_service_and_other": 58842,
-          "gross_margin": 171008,
-          "R&D": 29510,
-          "S&M": 24456,
-          "G&A": 7609,
-          "operating_income": 109433,
-          "other_income_expense": -1646,
-          "income_before_taxes": 107787,
-          "tax_provision": 19651,
-          "net_income": 88136,
-          "EPS_basic": 11.86,
-          "EPS_diluted": 11.8,
-          "basic_shares": 7431,
-          "diluted_shares": 7469
-        },
-        {
-          "year": 2023,
-          "total_revenue": 211915,
-          "product_revenue": 64699,
-          "service_and_other_revenue": 147216,
-          "total_cost_of_revenue": 65863,
-          "cost_of_revenue_product": 17804,
-          "cost_of_revenue_service_and_other": 48059,
-          "gross_margin": 146052,
-          "R&D": 27195,
-          "S&M": 22759,
-          "G&A": 7575,
-          "operating_income": 88523,
-          "other_income_expense": 788,
-          "income_before_taxes": 89311,
-          "tax_provision": 16950,
-          "net_income": 72361,
-          "EPS_basic": 9.72,
-          "EPS_diluted": 9.68,
-          "basic_shares": 7446,
-          "diluted_shares": 7472
-        }
-      ],
-      "comprehensive_income_statements": [
-        {
-          "year": 2025,
-          "net_income": 101832,
-          "OCI_total": 2243,
-          "OCI_derivatives": -5,
-          "OCI_investments": 1574,
-          "OCI_translation": 674,
-          "comprehensive_income": 104075
-        },
-        {
-          "year": 2024,
-          "net_income": 88136,
-          "OCI_total": 753,
-          "OCI_derivatives": 24,
-          "OCI_investments": 957,
-          "OCI_translation": -228,
-          "comprehensive_income": 88889
-        },
-        {
-          "year": 2023,
-          "net_income": 72361,
-          "OCI_total": -1665,
-          "OCI_derivatives": -14,
-          "OCI_investments": -1444,
-          "OCI_translation": -207,
-          "comprehensive_income": 70696
-        }
-      ],
-      "market_risk": [
-        {
-          "category": "Foreign currency - Revenue",
-          "impact_2025_millions": -11596
-        },
-        {
-          "category": "Foreign currency - Investments",
-          "impact_2025_millions": -17
-        },
-        {
-          "category": "Interest rate",
-          "impact_2025_millions": -1415
-        },
-        {
-          "category": "Credit",
-          "impact_2025_millions": -436
-        },
-        {
-          "category": "Equity",
-          "impact_2025_millions": -1213
-        }
-      ]
+      "revenue_2025": 281724,
+      "revenue_2024": 245122,
+      "revenue_2023": 211915,
+      "net_income_2025": 101832,
+      "net_income_2024": 88136,
+      "net_income_2023": 72361,
+      "earnings_per_share_basic_2025": 13.7,
+      "earnings_per_share_basic_2024": 11.86,
+      "earnings_per_share_basic_2023": 9.72,
+      "earnings_per_share_diluted_2025": 13.64,
+      "earnings_per_share_diluted_2024": 11.8,
+      "earnings_per_share_diluted_2023": 9.68,
+      "weighted_average_shares_basic_2025": 7433,
+      "weighted_average_shares_basic_2024": 7431,
+      "weighted_average_shares_basic_2023": 7446,
+      "weighted_average_shares_diluted_2025": 7465,
+      "weighted_average_shares_diluted_2024": 7469,
+      "weighted_average_shares_diluted_2023": 7472,
+      "gross_margin_2025": 193893,
+      "gross_margin_2024": 171008,
+      "gross_margin_2023": 146052,
+      "operating_income_2025": 128528,
+      "operating_income_2024": 109433,
+      "operating_income_2023": 88523,
+      "income_before_income_taxes_2025": 123627,
+      "income_before_income_taxes_2024": 107787,
+      "income_before_income_taxes_2023": 89311,
+      "provision_for_income_taxes_2025": 21795,
+      "provision_for_income_taxes_2024": 19651,
+      "provision_for_income_taxes_2023": 16950
     },
     "chunk_id": 18
   },
   {
-    "info": "2025 shows solid earnings growth and strong cash generation. Net income rose to 101,832, operating cash flow was 136,162, and ending cash grew to 30,242. Total assets stood at 619,003 with liabilities at 275,524, including 0 short-term debt and long-term debt of 40,152. Stockholders' equity increased to 343,479, driven by retained earnings of 237,731 and common equity of 109,095, offset by accumulated other comprehensive loss of 3,347. Financing yielded a net outflow of 51,699, driven by share repurchases (18,420) and dividends (24,082); investing consumed 72,599. Figures are in millions.",
+    "info": "Total assets |  | $ | 619,003 |  |  | $ | 512,163 |",
     "data": {
-      "balance_sheet": [
-        {
-          "item": "Total assets",
-          "2025": 619003,
-          "2024": 512163
-        },
-        {
-          "item": "Cash and cash equivalents",
-          "2025": 30242,
-          "2024": 18315
-        },
-        {
-          "item": "Short-term investments",
-          "2025": 64323,
-          "2024": 57228
-        },
-        {
-          "item": "Total cash, cash equivalents, and short-term investments",
-          "2025": 94565,
-          "2024": 75543
-        },
-        {
-          "item": "Accounts receivable, net",
-          "2025": 69905,
-          "2024": 56924
-        },
-        {
-          "item": "Inventories",
-          "2025": 938,
-          "2024": 1246
-        },
-        {
-          "item": "Other current assets",
-          "2025": 25723,
-          "2024": 26021
-        },
-        {
-          "item": "Total current assets",
-          "2025": 191131,
-          "2024": 159734
-        },
-        {
-          "item": "Property and equipment, net",
-          "2025": 204966,
-          "2024": 135591
-        },
-        {
-          "item": "Operating lease right-of-use assets",
-          "2025": 24823,
-          "2024": 18961
-        },
-        {
-          "item": "Equity and other investments",
-          "2025": 15405,
-          "2024": 14600
-        },
-        {
-          "item": "Goodwill",
-          "2025": 119509,
-          "2024": 119220
-        },
-        {
-          "item": "Intangible assets, net",
-          "2025": 22604,
-          "2024": 27597
-        },
-        {
-          "item": "Other long-term assets",
-          "2025": 40565,
-          "2024": 36460
-        },
-        {
-          "item": "Current liabilities - Accounts payable",
-          "2025": 27724,
-          "2024": 21996
-        },
-        {
-          "item": "Current liabilities - Short-term debt",
-          "2025": 0,
-          "2024": 6693
-        },
-        {
-          "item": "Current liabilities - Current portion of long-term debt",
-          "2025": 2999,
-          "2024": 2249
-        },
-        {
-          "item": "Current liabilities - Accrued compensation",
-          "2025": 13709,
-          "2024": 12564
-        },
-        {
-          "item": "Current liabilities - Short-term income taxes",
-          "2025": 7211,
-          "2024": 5017
-        },
-        {
-          "item": "Current liabilities - Short-term unearned revenue",
-          "2025": 64555,
-          "2024": 57582
-        },
-        {
-          "item": "Current liabilities - Other current liabilities",
-          "2025": 25020,
-          "2024": 19185
-        },
-        {
-          "item": "Total current liabilities",
-          "2025": 141218,
-          "2024": 125286
-        },
-        {
-          "item": "Long-term debt",
-          "2025": 40152,
-          "2024": 42688
-        },
-        {
-          "item": "Long-term income taxes",
-          "2025": 25986,
-          "2024": 27931
-        },
-        {
-          "item": "Long-term unearned revenue",
-          "2025": 2710,
-          "2024": 2602
-        },
-        {
-          "item": "Deferred income taxes",
-          "2025": 2835,
-          "2024": 2618
-        },
-        {
-          "item": "Operating lease liabilities",
-          "2025": 17437,
-          "2024": 15497
-        },
-        {
-          "item": "Other long-term liabilities",
-          "2025": 45186,
-          "2024": 27064
-        },
-        {
-          "item": "Total liabilities",
-          "2025": 275524,
-          "2024": 243686
-        },
-        {
-          "item": "Common stock and paid-in capital",
-          "2025": 109095,
-          "2024": 100923
-        },
-        {
-          "item": "Retained earnings",
-          "2025": 237731,
-          "2024": 173144
-        },
-        {
-          "item": "Accumulated other comprehensive loss",
-          "2025": -3347,
-          "2024": -5590
-        },
-        {
-          "item": "Total stockholders' equity",
-          "2025": 343479,
-          "2024": 268477
-        }
-      ],
-      "cash_flows": [
-        {
-          "item": "Net income",
-          "2025": 101832,
-          "2024": 88136,
-          "2023": 72361
-        },
-        {
-          "item": "Depreciation, amortization, and other",
-          "2025": 34153,
-          "2024": 22287,
-          "2023": 13861
-        },
-        {
-          "item": "Stock-based compensation expense",
-          "2025": 11974,
-          "2024": 10734,
-          "2023": 9611
-        },
-        {
-          "item": "Net recognized losses on investments and derivatives",
-          "2025": 609,
-          "2024": 305,
-          "2023": 196
-        },
-        {
-          "item": "Deferred income taxes",
-          "2025": -7056,
-          "2024": -4738,
-          "2023": -6059
-        },
-        {
-          "item": "Accounts receivable",
-          "2025": -10581,
-          "2024": -7191,
-          "2023": -4087
-        },
-        {
-          "item": "Inventories",
-          "2025": 309,
-          "2024": 1284,
-          "2023": 1242
-        },
-        {
-          "item": "Other current assets",
-          "2025": -3044,
-          "2024": -1648,
-          "2023": -1991
-        },
-        {
-          "item": "Other long-term assets",
-          "2025": -2950,
-          "2024": -6817,
-          "2023": -2833
-        },
-        {
-          "item": "Accounts payable",
-          "2025": 569,
-          "2024": 3545,
-          "2023": -2721
-        },
-        {
-          "item": "Unearned revenue",
-          "2025": 5438,
-          "2024": 5348,
-          "2023": 5535
-        },
-        {
-          "item": "Income taxes",
-          "2025": -38,
-          "2024": 1687,
-          "2023": -358
-        },
-        {
-          "item": "Other current liabilities",
-          "2025": 5922,
-          "2024": 4867,
-          "2023": 2272
-        },
-        {
-          "item": "Other long-term liabilities",
-          "2025": -975,
-          "2024": 749,
-          "2023": 553
-        },
-        {
-          "item": "Net cash from operations",
-          "2025": 136162,
-          "2024": 118548,
-          "2023": 87582
-        },
-        {
-          "item": "Proceeds from issuance (repayments) of debt, maturities of 90 days or less, net",
-          "2025": -5746,
-          "2024": 5250,
-          "2023": 0
-        },
-        {
-          "item": "Proceeds from issuance of debt",
-          "2025": 0,
-          "2024": 24395,
-          "2023": 0
-        },
-        {
-          "item": "Repayments of debt",
-          "2025": -3216,
-          "2024": -29070,
-          "2023": -2750
-        },
-        {
-          "item": "Common stock issued",
-          "2025": 2056,
-          "2024": 2002,
-          "2023": 1866
-        },
-        {
-          "item": "Common stock repurchased",
-          "2025": -18420,
-          "2024": -17254,
-          "2023": -22245
-        },
-        {
-          "item": "Common stock cash dividends paid",
-          "2025": -24082,
-          "2024": -21771,
-          "2023": -19800
-        },
-        {
-          "item": "Other, net",
-          "2025": -2291,
-          "2024": -1309,
-          "2023": -1006
-        },
-        {
-          "item": "Net cash used in financing",
-          "2025": -51699,
-          "2024": -37757,
-          "2023": -43935
-        },
-        {
-          "item": "Additions to property and equipment (Investing)",
-          "2025": -64551,
-          "2024": -44477,
-          "2023": -28107
-        },
-        {
-          "item": "Acquisition of companies, net of cash acquired and divestitures, and purchases of intangible and other assets",
-          "2025": -5978,
-          "2024": -69132,
-          "2023": -1670
-        },
-        {
-          "item": "Purchases of investments",
-          "2025": -29775,
-          "2024": -17732,
-          "2023": -37651
-        },
-        {
-          "item": "Maturities of investments",
-          "2025": 16079,
-          "2024": 24775,
-          "2023": 33510
-        },
-        {
-          "item": "Sales of investments",
-          "2025": 9309,
-          "2024": 10894,
-          "2023": 14354
-        },
-        {
-          "item": "Other, net",
-          "2025": 2317,
-          "2024": -1298,
-          "2023": -3116
-        },
-        {
-          "item": "Net cash used in investing",
-          "2025": -72599,
-          "2024": -96970,
-          "2023": -22680
-        },
-        {
-          "item": "Effect of foreign exchange rates on cash and cash equivalents",
-          "2025": 63,
-          "2024": -210,
-          "2023": -194
-        },
-        {
-          "item": "Net change in cash and cash equivalents",
-          "2025": 11927,
-          "2024": -16389,
-          "2023": 20773
-        },
-        {
-          "item": "Cash and cash equivalents, beginning of period",
-          "2025": 18315,
-          "2024": 34704,
-          "2023": 13931
-        },
-        {
-          "item": "Cash and cash equivalents, end of period",
-          "2025": 30242,
-          "2024": 18315,
-          "2023": 34704
-        }
-      ],
-      "stockholders_equity": [
-        {
-          "item": "Common stock and paid-in capital",
-          "2025": 109095,
-          "2024": 100923
-        },
-        {
-          "item": "Retained earnings",
-          "2025": 237731,
-          "2024": 173144
-        },
-        {
-          "item": "Accumulated other comprehensive loss",
-          "2025": -3347,
-          "2024": -5590
-        },
-        {
-          "item": "Total stockholders' equity",
-          "2025": 343479,
-          "2024": 268477
-        }
-      ]
+      "total_assets_2025": 619003,
+      "total_assets_2024": 512163,
+      "total_current_assets_2025": 191131,
+      "total_current_assets_2024": 159734,
+      "cash_and_cash_equivalents_2025": 30242,
+      "short_term_investments_2025": 64323,
+      "total_cash_equivalents_and_short_term_investments_2025": 94565,
+      "accounts_receivable_net_2025": 69905,
+      "inventories_2025": 938,
+      "other_current_assets_2025": 25723,
+      "total_current_liabilities_2025": 141218,
+      "accounts_payable_2025": 27724,
+      "short_term_debt_2025": 0,
+      "current_portion_of_long_term_debt_2025": 2999,
+      "accrued_compensation_2025": 13709,
+      "short_term_income_taxes_2025": 7211,
+      "short_term_unearned_revenue_2025": 64555,
+      "other_current_liabilities_2025": 25020,
+      "total_liabilities_2025": 275524,
+      "long_term_debt_2025": 40152,
+      "long_term_income_taxes_2025": 25986,
+      "long_term_unearned_revenue_2025": 2710,
+      "deferred_income_taxes_2025": 2835,
+      "operating_lease_liabilities_2025": 17437,
+      "other_long_term_liabilities_2025": 45186,
+      "total_stockholders_equity_2025": 343479,
+      "common_stock_and_paid_in_capital_2025": 109095,
+      "retained_earnings_2025": 237731,
+      "accumulated_other_comprehensive_loss_2025": -3347,
+      "total_liabilities_and_stockholders_equity_2025": 619003,
+      "common_stock_and_paid_in_capital_2024": 100923,
+      "retained_earnings_2024": 173144,
+      "accumulated_other_comprehensive_loss_2024": -5590,
+      "total_stockholders_equity_2024": 268477,
+      "accrued_compensation_2024": 12564,
+      "short_term_income_taxes_2024": 5017,
+      "short_term_unearned_revenue_2024": 57582,
+      "other_current_liabilities_2024": 19185,
+      "accounts_payable_2024": 21996,
+      "short_term_debt_2024": 6693,
+      "current_portion_of_long_term_debt_2024": 2249,
+      "total_current_liabilities_2024": 125286,
+      "long_term_debt_2024": 42688,
+      "long_term_income_taxes_2024": 27931,
+      "long_term_unearned_revenue_2024": 2602,
+      "deferred_income_taxes_2024": 2618,
+      "operating_lease_liabilities_2024": 15497,
+      "other_long_term_liabilities_2024": 27064,
+      "total_liabilities_2024": 243686
     },
     "chunk_id": 19
   },
   {
-    "info": "Stockholders' equity grew to about 343.5B in 2025, driven by net income of 101.8B and retained earnings of 237.7B, with common stock ending at 109.1B. Issuances (2.056B) were largely offset by share repurchases (5.856B) and cash dividends totaling 24.677B. Accumulated other comprehensive loss remained negative at year-end (-3.347B). Advertising expense and key balance-sheet items (receivables, segment changes) are noted in Note 1.",
+    "info": "In August 2024, we announced changes to the composition of our segments.",
     "data": {
-      "common_stock_begin_balance_2025": 100923000000,
-      "common_stock_begin_balance_2024": 93718000000,
-      "common_stock_begin_balance_2023": 86939000000,
+      "long_term_accounts_receivable_2025": 5200000000,
+      "long_term_accounts_receivable_2024": 4900000000,
+      "other_receivables_server_components_2025": 8200000000,
+      "other_receivables_server_components_2024": 10500000000,
+      "financing_receivables_net_2025": 4300000000,
+      "financing_receivables_net_2024": 4500000000,
+      "advertising_expense_2025": 2100000000,
+      "advertising_expense_2024": 1700000000,
+      "advertising_expense_2023": 904000000,
       "common_stock_issued_2025": 2056000000,
       "common_stock_issued_2024": 2002000000,
       "common_stock_issued_2023": 1866000000,
@@ -989,1483 +237,393 @@
       "other_net_2025": -2000000,
       "other_net_2024": 181000000,
       "other_net_2023": -2000000,
-      "balance_end_common_stock_and_paid_in_capital_2025": 109095000000,
-      "balance_end_common_stock_and_paid_in_capital_2024": 100923000000,
-      "balance_end_common_stock_and_paid_in_capital_2023": 93718000000,
-      "retained_balance_begin_2025": 173144000000,
-      "retained_balance_begin_2024": 118848000000,
-      "retained_balance_begin_2023": 84281000000,
-      "net_income_2025": 101832000000,
-      "net_income_2024": 88136000000,
-      "net_income_2023": 72361000000,
-      "dividends_cash_common_2025": -24677000000,
-      "dividends_cash_common_2024": -22293000000,
-      "dividends_cash_common_2023": -20226000000,
-      "common_stock_repurchased_retained_2025": -12568000000,
-      "common_stock_repurchased_retained_2024": -11547000000,
-      "common_stock_repurchased_retained_2023": -17568000000,
-      "balance_end_retained_2025": 237731000000,
-      "balance_end_retained_2024": 173144000000,
-      "balance_end_retained_2023": 118848000000,
-      "balance_begin_AOCI_2025": -5590000000,
-      "balance_begin_AOCI_2024": -6343000000,
-      "balance_begin_AOCI_2023": -4678000000,
-      "OCI_increase_2025": 2243000000,
-      "OCI_increase_2024": 753000000,
-      "OCI_increase_2023": -1665000000,
-      "balance_end_AOCI_2025": -3347000000,
-      "balance_end_AOCI_2024": -5590000000,
-      "balance_end_AOCI_2023": -6343000000,
-      "total_stockholders_equity_2025": 343479000000,
-      "total_stockholders_equity_2024": 268477000000,
-      "total_stockholders_equity_2023": 206223000000,
-      "dividends_per_share_2025": 3.32,
-      "dividends_per_share_2024": 3.0,
-      "dividends_per_share_2023": 2.72,
-      "advertising_expense_2025": 2100000000,
-      "advertising_expense_2024": 1700000000,
-      "advertising_expense_2023": 904000000,
-      "long_term_accounts_receivable_net_2025": 5200000000,
-      "long_term_accounts_receivable_net_2024": 4900000000,
-      "other_receivables_server_components_2025": 8200000000,
-      "other_receivables_server_components_2024": 10500000000,
-      "financing_receivables_net_2025": 4300000000,
-      "financing_receivables_net_2024": 4500000000
+      "balance_end_of_period_common_stock_and_paid_in_capital_2025": 109095000000,
+      "balance_end_of_period_common_stock_and_paid_in_capital_2024": 100923000000,
+      "balance_end_of_period_common_stock_and_paid_in_capital_2023": 93718000000,
+      "balance_beginning_of_period_retained_earnings_2025": 237731000000,
+      "balance_beginning_of_period_retained_earnings_2024": 173144000000,
+      "balance_beginning_of_period_retained_earnings_2023": 118848000000,
+      "net_income_retained_earnings_2025": 101832000000,
+      "net_income_retained_earnings_2024": 88136000000,
+      "net_income_retained_earnings_2023": 72361000000,
+      "common_stock_cash_dividends_2025": -24677000000,
+      "common_stock_cash_dividends_2024": -22293000000,
+      "common_stock_cash_dividends_2023": -20226000000,
+      "accumulated_other_comprehensive_loss_end_of_period_2025": -3347000000,
+      "accumulated_other_comprehensive_loss_end_of_period_2024": -5590000000,
+      "accumulated_other_comprehensive_loss_end_of_period_2023": -6343000000,
+      "total_stockholders_equity_end_of_period_2025": 343479000000,
+      "total_stockholders_equity_end_of_period_2024": 268477000000,
+      "total_stockholders_equity_end_of_period_2023": 206223000000
     },
     "chunk_id": 20
   },
   {
-    "info": "Investment framework and key drivers: cash equivalents; debt and equity investments; impairment testing and OCI effects; fair value hierarchy levels; equity investments carried at fair value or under the equity method; VIEs evaluated but not consolidated; investment in OpenAI Global, LLC with total funding commitments; derivatives and hedge accounting treatment; leases, goodwill, and intangible assets accounting; related party exposure with Inflection AI; forthcoming accounting guidance on segment disclosures and income tax disclosures; and notable 2025 investment gains, losses, impairments, and interest income/expense.",
+    "info": "We have an investment in OpenAI Global, LLC (“OpenAI”) and have made total funding commitments of $13 billion. The investment is accounted for under the equity method of accounting. In March 2024, we entered into an agreement with Inflection AI, Inc. (“Inflection”), pursuant to which we obtained a non-exclusive license to Inflection’s intellectual property. Reid Hoffman, a member of our Board of Directors, is a co-founder of and serves on the board of directors of Inflection. As of the date of the agreement with Inflection, Reprogrammed Interchange LLC (“Reprogrammed”) and entities affiliated with Greylock Ventures (“Greylock”) each held less than a 10% equity interest in Inflection. Mr. Hoffman may be deemed to beneficially own the shares held by Reprogrammed and Greylock by virtue of his relationship with such entities. Mr. Hoffman did not participate in any portions of the meetings of our Board of Directors or any committee thereof to review and approve the transaction with Inflection. We have determined we are not the primary beneficiary of any of our VIE investments. We adopted the standard beginning with our annual reporting for fiscal year 2025.",
     "data": {
-      "openai_investment_commitments": 13000000000,
-      "debt_investments_total_2025": -17,
-      "debt_investments_realized_gains_sales_avail_for_sale_2025": 40,
-      "debt_investments_realized_losses_sales_avail_for_sale_2025": -65,
-      "debt_investments_impairments_credit_losses_2025": 8,
-      "debt_investments_realized_gains_sales_avail_for_sale_2024": 22,
-      "debt_investments_realized_losses_sales_avail_for_sale_2024": -98,
-      "debt_investments_impairments_credit_losses_2024": 23,
-      "debt_investments_total_2024": -53,
-      "debt_investments_realized_gains_sales_avail_for_sale_2023": 36,
-      "debt_investments_realized_losses_sales_avail_for_sale_2023": -124,
-      "debt_investments_impairments_credit_losses_2023": -10,
-      "debt_investments_total_2023": -98,
-      "equity_investments_net_realized_gains_sold_2025": 83,
-      "equity_investments_net_unrealized_gains_held_2025": 536,
-      "equity_investments_impairments_2025": -951,
-      "equity_investments_total_2025": -332,
-      "equity_investments_net_realized_gains_sold_2024": 18,
-      "equity_investments_net_unrealized_gains_held_2024": 146,
-      "equity_investments_impairments_2024": -229,
-      "equity_investments_total_2024": -65,
-      "equity_investments_net_realized_gains_sold_2023": 75,
-      "equity_investments_net_unrealized_gains_held_2023": 303,
-      "equity_investments_impairments_2023": -20,
-      "equity_investments_total_2023": 358,
-      "interest_income_2025": 2647,
-      "interest_expense_2025": -2385,
-      "other_income_expense_total_2025": -4901,
-      "interest_income_2024": 3157,
-      "interest_expense_2024": -2935,
-      "other_income_expense_total_2024": -1646,
-      "interest_income_2023": 2994,
-      "interest_expense_2023": -1968,
-      "other_income_expense_total_2023": 788
+      "openai_investment_total_funding_commitments": 13000000000,
+      "net_income_2025": 101832,
+      "net_income_2024": 88136,
+      "net_income_2023": 72361,
+      "weighted_average_outstanding_shares_basic_2025": 7433,
+      "weighted_average_outstanding_shares_basic_2024": 7431,
+      "weighted_average_outstanding_shares_basic_2023": 7446,
+      "dilutive_effect_stock_based_awards_2025": 32,
+      "dilutive_effect_stock_based_awards_2024": 38,
+      "dilutive_effect_stock_based_awards_2023": 26,
+      "common_stock_and_common_stock_equivalents_2025": 7465,
+      "common_stock_and_common_stock_equivalents_2024": 7469,
+      "common_stock_and_common_stock_equivalents_2023": 7472,
+      "eps_basic_2025": 13.7,
+      "eps_basic_2024": 11.86,
+      "eps_basic_2023": 9.72,
+      "eps_diluted_2025": 13.64,
+      "eps_diluted_2024": 11.8,
+      "eps_diluted_2023": 9.68,
+      "realized_gains_from_sales_available_for_sale_2025": 40,
+      "realized_gains_from_sales_available_for_sale_2024": 22,
+      "realized_gains_from_sales_available_for_sale_2023": 36,
+      "realized_losses_from_sales_available_for_sale_2025": -65,
+      "realized_losses_from_sales_available_for_sale_2024": -98,
+      "realized_losses_from_sales_available_for_sale_2023": -124,
+      "impairments_and_allowance_for_credit_losses_2025": 8,
+      "impairments_and_allowance_for_credit_losses_2024": 23,
+      "impairments_and_allowance_for_credit_losses_2023": -10,
+      "total_gains_losses_investments_available_for_sale_2025": -17,
+      "total_gains_losses_investments_available_for_sale_2024": -53,
+      "total_gains_losses_investments_available_for_sale_2023": -98,
+      "net_realized_gains_equity_investments_sold_2025": 83,
+      "net_realized_gains_equity_investments_sold_2024": 18,
+      "net_realized_gains_equity_investments_sold_2023": 75,
+      "net_unrealized_gains_investments_still_held_2025": 536,
+      "net_unrealized_gains_investments_still_held_2024": 146,
+      "net_unrealized_gains_investments_still_held_2023": 303,
+      "impairments_investments_2025": -951,
+      "impairments_investments_2024": -229,
+      "impairments_investments_2023": -20,
+      "total_investment_impacts_2025": -332,
+      "total_investment_impacts_2024": -65,
+      "total_investment_impacts_2023": 358
     },
     "chunk_id": 21
   },
   {
-    "info": "Net recognized gains (losses) on equity investments: 2025 realized gains 83M, unrealized gains on investments held 536M, impairments (951)M; 2024 realized gains 18M, unrealized gains on investments held 146M, impairments (229)M; 2023 realized gains 75M, unrealized gains on investments held 303M, impairments (20)M; total by year: -332M (2025), -65M (2024), 358M (2023).",
+    "info": "Net recognized gains (losses) on equity investments were as follows:",
     "data": {
-      "net_realized_gains_2025": 83000000,
-      "net_realized_gains_2024": 18000000,
-      "net_realized_gains_2023": 75000000,
-      "net_unrealized_gains_held_2025": 536000000,
-      "net_unrealized_gains_held_2024": 146000000,
-      "net_unrealized_gains_held_2023": 303000000,
-      "impairments_investments_2025": -951000000,
-      "impairments_investments_2024": -229000000,
-      "impairments_investments_2023": -20000000,
-      "total_investment_gains_2025": -332000000,
-      "total_investment_gains_2024": -65000000,
-      "total_investment_gains_2023": 358000000
+      "cash_2025": 11711000000,
+      "cash_2024": 11711000000,
+      "cash_2023": 0
     },
     "chunk_id": 22
   },
   {
-    "info": "Unrealized losses on debt investments as of June 30, 2025, across multiple categories; U.S. government and agency securities exhibit the largest total unrealized losses, followed by corporate notes; breakdown by tenure and security type is provided inside Note 5.",
+    "info": "As of June 30, 2025 and 2024, equity investments without readily determinable fair values measured at cost with adjustments for observable changes in price or impairments were $2.9 billion and $3.9 billion, respectively.",
     "data": {
-      "debt_investments_by_category": [
-        {
-          "category": "U.S. government and agency securities",
-          "lt12m_fair_value": 2569,
-          "lt12m_unrealized_losses": -51,
-          "gt12m_fair_value": 34608,
-          "gt12m_unrealized_losses": -1411,
-          "total_fair_value": 37177,
-          "total_unrealized_losses": -1462
-        },
-        {
-          "category": "Foreign government bonds",
-          "lt12m_fair_value": 43,
-          "lt12m_unrealized_losses": -2,
-          "gt12m_fair_value": 106,
-          "gt12m_unrealized_losses": -7,
-          "total_fair_value": 149,
-          "total_unrealized_losses": -9
-        },
-        {
-          "category": "Mortgage- and asset-backed securities",
-          "lt12m_fair_value": 841,
-          "lt12m_unrealized_losses": -4,
-          "gt12m_fair_value": 189,
-          "gt12m_unrealized_losses": -23,
-          "total_fair_value": 1030,
-          "total_unrealized_losses": -27
-        },
-        {
-          "category": "Corporate notes and bonds (Level 2)",
-          "lt12m_fair_value": 1107,
-          "lt12m_unrealized_losses": -8,
-          "gt12m_fair_value": 3105,
-          "gt12m_unrealized_losses": -98,
-          "total_fair_value": 4212,
-          "total_unrealized_losses": -106
-        },
-        {
-          "category": "Corporate notes and bonds (Level 3)",
-          "lt12m_fair_value": 1641,
-          "lt12m_unrealized_losses": 0,
-          "gt12m_fair_value": 1640,
-          "gt12m_unrealized_losses": -1,
-          "total_fair_value": 3281,
-          "total_unrealized_losses": -1
-        }
-      ]
+      "equity_investments_without_readily_determinable_fair_values_2025": 2900000000,
+      "equity_investments_without_readily_determinable_fair_values_2024": 3900000000,
+      "equity_investments_measured_using_equity_method_2025": 6000000000,
+      "equity_investments_measured_using_equity_method_2024": 6000000000
     },
     "chunk_id": 23
   },
   {
-    "info": "Unrealized fixed-income losses are driven by interest-rate moves; management views remaining losses as not impairments. Debt investments mature across one year to 10 years; total adjusted cost 85,589 and estimated fair value 84,259 as of Jun 30, 2025. Long-term unsecured debt rated AAA with cash investments exceeding $1.0B. Derivative programs use FX, rate, equity, and credit instruments for hedging and diversification, with designated and non-designated contracts; notional and fair-value data provided for June 30, 2025 and 2024; gross derivatives assets 758 and liabilities 1,837 (2025) vs 331 and 800 (2024); net derivatives positions 500 (assets) and (1,676) (liabilities) for 2025; 180 and (752) for 2024.",
-    "data": {
-      "debt_investment_maturities": [
-        {
-          "period": "Due in one year or less",
-          "adjusted_cost_basis": 35108,
-          "estimated_fair_value": 34952
-        },
-        {
-          "period": "Due after one year through five years",
-          "adjusted_cost_basis": 42460,
-          "estimated_fair_value": 41481
-        },
-        {
-          "period": "Due after five years through 10 years",
-          "adjusted_cost_basis": 6530,
-          "estimated_fair_value": 6424
-        },
-        {
-          "period": "Due after 10 years",
-          "adjusted_cost_basis": 1491,
-          "estimated_fair_value": 1402
-        },
-        {
-          "period": "Total",
-          "adjusted_cost_basis": 85589,
-          "estimated_fair_value": 84259
-        }
-      ],
-      "debt_rating_and_cash": {
-        "long_term_unsecured_debt_rating": "AAA",
-        "cash_investments_billion": 1.0
-      },
-      "derivative_notional_outstanding": [
-        {
-          "category": "Designated as Hedging Instruments",
-          "instrument": "Foreign exchange contracts purchased",
-          "notional_2025": 1492,
-          "notional_2024": 1492
-        },
-        {
-          "category": "Designated as Hedging Instruments",
-          "instrument": "Interest rate contracts purchased",
-          "notional_2025": 1150,
-          "notional_2024": 1100
-        },
-        {
-          "category": "Not Designated as Hedging Instruments",
-          "instrument": "Foreign exchange contracts purchased",
-          "notional_2025": 15214,
-          "notional_2024": 7167
-        },
-        {
-          "category": "Not Designated as Hedging Instruments",
-          "instrument": "Foreign exchange contracts sold",
-          "notional_2025": 43307,
-          "notional_2024": 31793
-        },
-        {
-          "category": "Not Designated as Hedging Instruments",
-          "instrument": "Equity contracts purchased",
-          "notional_2025": 5434,
-          "notional_2024": 4016
-        },
-        {
-          "category": "Not Designated as Hedging Instruments",
-          "instrument": "Equity contracts sold",
-          "notional_2025": 2189,
-          "notional_2024": 2165
-        },
-        {
-          "category": "Not Designated as Hedging Instruments",
-          "instrument": "Other contracts purchased",
-          "notional_2025": 2769,
-          "notional_2024": 2113
-        },
-        {
-          "category": "Not Designated as Hedging Instruments",
-          "instrument": "Other contracts sold",
-          "notional_2025": 1242,
-          "notional_2024": 811
-        }
-      ],
-      "fair_value_designated_derivatives": [
-        {
-          "instrument": "Foreign exchange contracts",
-          "designated": true,
-          "assets_2025": 89,
-          "liabilities_2025": -44,
-          "assets_2024": 24,
-          "liabilities_2024": -76
-        },
-        {
-          "instrument": "Interest rate contracts",
-          "designated": true,
-          "assets_2025": 15,
-          "liabilities_2025": 0,
-          "assets_2024": 19,
-          "liabilities_2024": 0
-        }
-      ],
-      "fair_value_not_designated_derivatives": [
-        {
-          "instrument": "Foreign exchange contracts",
-          "designated": false,
-          "assets_2025": 248,
-          "liabilities_2025": -809,
-          "assets_2024": 213,
-          "liabilities_2024": -230
-        },
-        {
-          "instrument": "Equity contracts",
-          "designated": false,
-          "assets_2025": 385,
-          "liabilities_2025": -983,
-          "assets_2024": 63,
-          "liabilities_2024": -491
-        },
-        {
-          "instrument": "Other contracts",
-          "designated": false,
-          "assets_2025": 21,
-          "liabilities_2025": -1,
-          "assets_2024": 12,
-          "liabilities_2024": -3
-        }
-      ],
-      "net_derivatives": {
-        "2025_assets": 500,
-        "2025_liabilities": -1676,
-        "2024_assets": 180,
-        "2024_liabilities": -752
-      },
-      "gross_derivatives_master_netting": {
-        "2025_assets": 452000000,
-        "2025_liabilities": 1800000000,
-        "2024_assets": 304000000,
-        "2024_liabilities": 800000000
-      },
-      "fair_value_gross_derivatives": {
-        "assets_2025": 758,
-        "liabilities_2025": -1837,
-        "assets_2024": 331,
-        "liabilities_2024": -800
-      }
-    },
+    "info": "Unrealized losses from fixed-income securities are primarily attributable to changes in interest rates.\nManagement does not believe any remaining unrealized losses represent impairments based on our evaluation of available evidence.",
+    "data": {},
     "chunk_id": 24
   },
   {
-    "info": "Microsoft completed its Activision Blizzard acquisition in 2023 for 75.4 billion, allocating goodwill of 51,001 and intangible assets of 21,969 with cash of 12,976 (net of debt and taxes as shown). No goodwill impairment was identified in the latest tests, and accumulated goodwill impairment stood at 11.3 billion. The company is investing heavily in datacenters, with 32.1 billion committed for construction. Depreciation expense was 22.0 billion in 2025, 15.2 in 2024, and 11.0 in 2023. Purchases of property and equipment remaining in accounts payable stood at 6.9 billion (2025), 4.3 billion (2024), and 3.8 billion (2023). Pro forma results for the combined company show 2024 revenue of 247,442 million and 2023 revenue of 219,790 million, with net income of 88,308 million and 71,383 million respectively, and diluted earnings per share of 11.82 and 9.55. The company also reports various derivative gains/losses across designated and non-designated hedges, including cash flow hedges and foreign exchange/equity/other contracts, with amounts reclassified from OCI and effectiveness assessments disclosed. Intangible assets 2025/2024 total net carrying amounts are 22,604 and 27,597 respectively, with category detail provided ( Marketing-related, Technology-based, Customer-related, Contract-based ). Goodwill allocations by segment show 2023 total 67,886; 2024 total 119,220; 2025 total 119,509, with impairment tests on May 1 showing no impairment in 2025, 2024, or 2023 and accumulated goodwill impairment of 11.3 billion as of 2025 and 2024.",
+    "info": "On October 13, 2023, we completed our acquisition of Activision Blizzard, Inc. (“Activision Blizzard”) for a total purchase price of $75.4 billion, consisting primarily of cash.",
     "data": {
-      "activision_blizzard_acquisition": {
-        "acquisition_date": 20231013,
-        "purchase_price_millions": 75400,
-        "cash_and_cash_equivalents_millions": 12976,
-        "goodwill_allocated_millions": 51001,
-        "intangible_assets_allocated_millions": 21969,
-        "other_assets_allocated_millions": 2503,
-        "long_term_debt_allocated_millions": -2799,
-        "long_term_income_taxes_allocated_millions": -1946,
-        "deferred_income_taxes_allocated_millions": -4676,
-        "other_liabilities_allocated_millions": -3620,
-        "total_purchase_price_allocated_millions": 75408
-      },
-      "pro_forma_results_millions": {
-        "period_2024": {
-          "revenue_millions": 247442,
-          "net_income_millions": 88308,
-          "diluted_eps": 11.82
-        },
-        "period_2023": {
-          "revenue_millions": 219790,
-          "net_income_millions": 71383,
-          "diluted_eps": 9.55
-        }
-      },
-      "depreciation_expense_millions": {
-        "2025": 22000,
-        "2024": 15200,
-        "2023": 11000
-      },
-      "purchases_remaining_accounts_payable_millions": {
-        "2025": 6900,
-        "2024": 4300,
-        "2023": 3800
-      },
-      "committed_capex_datacenters_millions": 32100,
-      "deferred_assets_impairment": {
-        "accumulated_goodwill_impairment_millions": 11300,
-        "last_impairment_test_dates": [
-          "May 1 2025",
-          "May 1 2024",
-          "May 1 2023"
-        ],
-        "impairment_test_result": "No impairment identified"
-      },
-      "intangible_assets_by_category": {
-        "categories": [
-          {
-            "category": "Marketing-related",
-            "gross_2025_millions": 16502,
-            "accumulated_amort_2025_millions": 3901,
-            "net_2025_millions": 12601,
-            "gross_2024_millions": 16500,
-            "accumulated_amort_2024_millions": 3101,
-            "net_2024_millions": 13399
-          },
-          {
-            "category": "Technology-based",
-            "gross_2025_millions": 22560,
-            "accumulated_amort_2025_millions": 14959,
-            "net_2025_millions": 7601,
-            "gross_2024_millions": 21913,
-            "accumulated_amort_2024_millions": 10741,
-            "net_2024_millions": 11172
-          },
-          {
-            "category": "Customer-related",
-            "gross_2025_millions": 4278,
-            "accumulated_amort_2025_millions": 2050,
-            "net_2025_millions": 2228,
-            "gross_2024_millions": 6038,
-            "accumulated_amort_2024_millions": 3051,
-            "net_2024_millions": 2987
-          },
-          {
-            "category": "Contract-based",
-            "gross_2025_millions": 217,
-            "accumulated_amort_2025_millions": 43,
-            "net_2025_millions": 174,
-            "gross_2024_millions": 58,
-            "accumulated_amort_2024_millions": 19,
-            "net_2024_millions": 39
-          }
-        ],
-        "totals": {
-          "gross_2025_millions": 43557,
-          "accumulated_amort_2025_millions": 20953,
-          "net_2025_millions": 22604,
-          "gross_2024_millions": 44509,
-          "accumulated_amort_2024_millions": 16912,
-          "net_2024_millions": 27597
-        }
-      },
-      "intangible_assets_by_periods": [
-        {
-          "year_end": "2025-06-30",
-          "gross_total_millions": 43557,
-          "accumulated_amort_total_millions": 20953,
-          "net_total_millions": 22604
-        },
-        {
-          "year_end": "2024-06-30",
-          "gross_total_millions": 44509,
-          "accumulated_amort_total_millions": 16912,
-          "net_total_millions": 27597
-        }
-      ],
-      "goodwill_by_segment": {
-        "totals_millions_by_year": {
-          "2023_total": 67886,
-          "2024_total": 119220,
-          "2025_total": 119509
-        },
-        "segments": [
-          {
-            "segment": "Productivity and Business Processes",
-            "2023_millions": 31359,
-            "2024_millions": 31361,
-            "2025_millions": 31457
-          },
-          {
-            "segment": "Intelligent Cloud",
-            "2023_millions": 25676,
-            "2024_millions": 25648,
-            "2025_millions": 25689
-          },
-          {
-            "segment": "More Personal Computing",
-            "2023_millions": 10851,
-            "2024_millions": 62211,
-            "2025_millions": 62363
-          }
-        ],
-        "impairment_tests": {
-          "last_test_dates_may_1": [
-            2025,
-            2024,
-            2023
-          ],
-          "result": "No impairment identified"
-        }
-      },
-      "gains_losses_derivatives_not_designated_ci": {
-        "foreign_exchange_contracts": {
-          "year_2025_millions": -938,
-          "year_2024_millions": 367,
-          "year_2023_millions": -73
-        },
-        "equity_contracts": {
-          "year_2025_millions": -266,
-          "year_2024_millions": -177,
-          "year_2023_millions": -420
-        },
-        "other_contracts": {
-          "year_2025_millions": 21,
-          "year_2024_millions": -15,
-          "year_2023_millions": -41
-        }
-      },
-      "gains_losses_derivatives_designated_fv_cash_flow": {
-        "foreign_exchange_contracts": {
-          "2025_millions": 5,
-          "2024_millions": -23,
-          "2023_millions": -65
-        },
-        "hedged_items_fv": {
-          "2025_millions": -45,
-          "2024_millions": -25,
-          "2023_millions": 38
-        }
-      },
-      "gains_losses_derivatives_designated_cash_flow_reclassifications": [
-        {
-          "year": 2025,
-          "amount_reclassified_from_oci_millions": 103
-        },
-        {
-          "year": 2024,
-          "amount_reclassified_from_oci_millions": -48
-        },
-        {
-          "year": 2023,
-          "amount_reclassified_from_oci_millions": 61
-        }
-      ],
-      "gains_losses_derivatives_designated_in_ci_effectiveness": [
-        {
-          "year": 2025,
-          "amount_in_effectiveness_assessment_millions": 77
-        },
-        {
-          "year": 2024,
-          "amount_in_effectiveness_assessment_millions": -14
-        },
-        {
-          "year": 2023,
-          "amount_in_effectiveness_assessment_millions": 34
-        }
-      ],
-      "property_and_equipment": {
-        "2025_6_30": {
-          "land_millions": 9338,
-          "buildings_and_improvements_millions": 137921,
-          "leasehold_improvements_millions": 12117,
-          "computer_equipment_and_software_millions": 132836,
-          "furniture_and_equipment_millions": 6407,
-          "total_cost_millions": 298619,
-          "accumulated_depreciation_millions": -93653,
-          "net_value_millions": 204966
-        },
-        "2024_6_30": {
-          "land_millions": 8163,
-          "buildings_and_improvements_millions": 93943,
-          "leasehold_improvements_millions": 9594,
-          "computer_equipment_and_software_millions": 93780,
-          "furniture_and_equipment_millions": 6532,
-          "total_cost_millions": 212012,
-          "accumulated_depreciation_millions": -76421,
-          "net_value_millions": 135591
-        }
-      },
-      "note_6_depreciation_and_capex": {
-        "depreciation_expense_millions": {
-          "2025": 22000,
-          "2024": 15200,
-          "2023": 11000
-        },
-        "purchases_inAccounts_payable_millions": {
-          "2025": 6900,
-          "2024": 4300,
-          "2023": 3800
-        },
-        "committed_capex_construction_millions": 32100
-      },
-      "note_7_business_combinations": {
-        "activision_blizzard_acquisition_date": "2023-10-13",
-        "purchase_price_millions": 75408,
-        "allocation": {
-          "cash_and_cash_equivalents_millions": 12976,
-          "goodwill_millions": 51001,
-          "intangible_assets_millions": 21969,
-          "other_assets_millions": 2503,
-          "long_term_debt_millions": -2799,
-          "long_term_income_taxes_millions": -1946,
-          "deferred_income_taxes_millions": -4676,
-          "other_liabilities_millions": -3620
-        }
-      }
+      "acquisition_purchase_price_total": 75408,
+      "cash_and_cash_equivalents": 12976,
+      "goodwill": 51001,
+      "intangible_assets": 21969,
+      "other_assets": 2503,
+      "long_term_debt": -2799,
+      "long_term_income_taxes": -1946,
+      "deferred_income_taxes": -4676,
+      "other_liabilities": -3620,
+      "total_purchase_price": 75408,
+      "pro_forma_revenue_2024": 247442,
+      "pro_forma_revenue_2023": 219790,
+      "pro_forma_net_income_2024": 88308,
+      "pro_forma_net_income_2023": 71383,
+      "pro_forma_diluted_eps_2024": 11.82,
+      "pro_forma_diluted_eps_2023": 9.55,
+      "accumulated_goodwill_impairment_millions_june_30_2025": 11300,
+      "accumulated_goodwill_impairment_millions_june_30_2024": 11300,
+      "depreciation_expense_2025": 22000,
+      "depreciation_expense_2024": 15200,
+      "depreciation_expense_2023": 11000,
+      "purchases_pp_e_remaining_accounts_payable_2025": 6.9,
+      "purchases_pp_e_remaining_accounts_payable_2024": 4.3,
+      "purchases_pp_e_remaining_accounts_payable_2023": 3.8,
+      "capital_expenditures_committed_buildings_total": 32.1,
+      "total_net_property_and_equipment_june_30_2025": 204966,
+      "total_net_property_and_equipment_june_30_2024": 135591,
+      "land_june_30_2025": 9338,
+      "land_june_30_2024": 8163,
+      "buildings_and_improvements_june_30_2025": 137921,
+      "buildings_and_improvements_june_30_2024": 93943,
+      "leasehold_improvements_june_30_2025": 12117,
+      "leasehold_improvements_june_30_2024": 9594,
+      "computer_equipment_and_software_june_30_2025": 132836,
+      "computer_equipment_and_software_june_30_2024": 93780,
+      "furniture_and_equipment_june_30_2025": 6407,
+      "furniture_and_equipment_june_30_2024": 6532,
+      "total_cost_june_30_2025": 298619,
+      "accumulated_depreciation_june_30_2025": -93653,
+      "accumulated_depreciation_june_30_2024": -76421,
+      "intangible_marketing_related_gross_june_30_2025": 16502,
+      "intangible_marketing_related_accum_amortization_june_30_2025": -3901,
+      "intangible_marketing_related_net_june_30_2025": 12601,
+      "intangible_technology_based_gross_june_30_2025": 22560,
+      "intangible_technology_based_accum_amortization_june_30_2025": -14959,
+      "intangible_technology_based_net_june_30_2025": 7601,
+      "intangible_customer_related_gross_june_30_2025": 4278,
+      "intangible_customer_related_accum_amortization_june_30_2025": -2050,
+      "intangible_customer_related_net_june_30_2025": 2228,
+      "intangible_contract_based_gross_june_30_2025": 217,
+      "intangible_contract_based_accum_amortization_june_30_2025": -43,
+      "intangible_contract_based_net_june_30_2025": 174,
+      "intangible_total_gross_june_30_2025": 43557,
+      "intangible_total_accum_amortization_june_30_2025": -20953,
+      "intangible_total_net_june_30_2025": 22604,
+      "intangible_total_gross_june_30_2024": 44509,
+      "intangible_total_accum_amortization_june_30_2024": -16912,
+      "intangible_total_net_june_30_2024": 27597
     },
     "chunk_id": 25
   },
   {
-    "info": "No impairment or residual value issues with intangible assets. The filing shows a sizable, multi-year debt maturity profile with no 2025 commercial paper and 6.7B outstanding in 2024 at 5.4%, substantial intangible amortization in 2025 (6.0B) and total future amortization (22.604B); pre-tax income of 123.627B in 2025 with a total provision for income taxes of 21.795B, including current taxes (US federal 14.086B, state/local 3.342B, foreign 11.423B) and deferred taxes (net -7.056B). US and foreign pre-tax components for 2025 were 69.212B and 54.415B respectively (with analogous figures for 2024/2023). Long-term debt totals around 40.152B for 2025 (with current portion -2.999B) and 42.688B for 2024; total debt reported as 43.151B (2025) and 44.937B (2024); fair value of long-term debt around 40.4B (2025) and 42.3B (2024). Debt maturities (2026–2030 and thereafter) sum to 49.206B, with 2026: 3.0B, 2027: 9.25B, 2028: 0, 2029: 2.054B, 2030: 0, Thereafter: 34.902B; no commercial paper outstanding in 2025 and 6.7B in 2024. Interest paid on debt: 1.6B (2025), 1.7B (2024), 1.7B (2023).",
+    "info": "No material impairments of intangible assets were identified during fiscal years 2025, 2024, or 2023. We estimate that we have no significant residual value related to our intangible assets. Intangible assets amortization expense was $6.0 billion, $4.8 billion, and $2.5 billion for fiscal years 2025, 2024, and 2023, respectively. As of June 30, 2025 and 2024, the estimated fair value of long-term debt, including the current portion, was $40.4 billion and $42.3 billion, respectively. The estimated fair values are based on Level 2 inputs. Debt in the table above is comprised of senior unsecured obligations and ranks equally with our other outstanding obligations. Interest is paid semi-annually, except for the Euro-denominated debt, which is paid annually. Cash paid for interest on our debt for fiscal years 2025, 2024, and 2023 was $1.6 billion, $1.7 billion, and $1.7 billion, respectively. As of June 30, 2025, we had no commercial paper issued or outstanding. As of June 30, 2024, we had $6.7 billion of commercial paper issued and outstanding, with a weighted average interest rate of 5.4% and maturities ranging from 28 days to 152 days.",
     "data": {
-      "amortization_2025": 6000000000,
-      "amortization_2024": 4800000000,
-      "amortization_2023": 2500000000,
-      "commercial_paper_outstanding_2025": 0,
-      "commercial_paper_outstanding_2024": 6700000000,
-      "commercial_paper_avg_rate_2024": 5.4,
-      "commercial_paper_maturity_min_days_2024": 28,
-      "commercial_paper_maturity_max_days_2024": 152,
-      "total_debt_2025": 43151,
-      "total_debt_2024": 44937,
-      "current_portion_long_term_debt_2025": -2999,
-      "current_portion_long_term_debt_2024": -2249,
-      "long_term_debt_2025": 40152,
-      "long_term_debt_2024": 42688,
-      "fair_value_long_term_debt_2025": 40400,
-      "fair_value_long_term_debt_2024": 42300,
-      "total_face_value_2025": 49206,
-      "total_face_value_2024": 51221,
-      "unamortized_discount_and_issuance_costs_2025": -1155,
-      "unamortized_discount_and_issuance_costs_2024": -1227,
-      "hedge_fair_value_adjustments_2025": -36,
-      "hedge_fair_value_adjustments_2024": -81,
-      "premium_on_debt_exchange_2025": -4864,
-      "premium_on_debt_exchange_2024": -4976,
-      "debt_maturities": [
-        {
-          "year": 2026,
-          "amount": 3000000000
-        },
-        {
-          "year": 2027,
-          "amount": 9250000000
-        },
-        {
-          "year": 2028,
-          "amount": 0
-        },
-        {
-          "year": 2029,
-          "amount": 2054000000
-        },
-        {
-          "year": 2030,
-          "amount": 0
-        },
-        {
-          "year": "Thereafter",
-          "amount": 34902000000
-        }
-      ],
-      "interest_paid_2025": 1600000000,
-      "interest_paid_2024": 1700000000,
-      "interest_paid_2023": 1700000000,
-      "income_before_taxes_2025": 123627000000,
-      "income_before_taxes_2024": 107787000000,
-      "income_before_taxes_2023": 89311000000,
-      "us_income_before_taxes_2025": 69212000000,
-      "foreign_income_before_taxes_2025": 54415000000,
-      "us_income_before_taxes_2024": 62886000000,
-      "foreign_income_before_taxes_2024": 44901000000,
-      "us_income_before_taxes_2023": 52917000000,
-      "foreign_income_before_taxes_2023": 36394000000,
-      "current_taxes_total_2025": 28851000000,
-      "current_taxes_total_2024": 24389000000,
-      "current_taxes_total_2023": 23009000000,
-      "current_taxes_federal_2025": 14086000000,
-      "current_taxes_state_local_2025": 3342000000,
-      "current_taxes_foreign_2025": 11423000000,
-      "current_taxes_federal_2024": 12165000000,
-      "current_taxes_state_local_2024": 2366000000,
-      "current_taxes_foreign_2024": 9858000000,
-      "current_taxes_federal_2023": 14009000000,
-      "current_taxes_state_local_2023": 2322000000,
-      "current_taxes_foreign_2023": 6678000000,
-      "deferred_taxes_total_2025": -7056000000,
-      "deferred_taxes_total_2024": -4738000000,
-      "deferred_taxes_total_2023": -6059000000,
-      "deferred_taxes_federal_2025": -6250000000,
-      "deferred_taxes_state_local_2025": -1087000000,
-      "deferred_taxes_foreign_2025": 2810000000,
-      "deferred_taxes_federal_2024": -4791000000,
-      "deferred_taxes_state_local_2024": -379000000,
-      "deferred_taxes_foreign_2024": 4320000000,
-      "deferred_taxes_federal_2023": -6146000000,
-      "deferred_taxes_state_local_2023": -477000000,
-      "deferred_taxes_foreign_2023": 5640000000,
-      "provision_for_income_taxes_2025": 21795000000,
-      "provision_for_income_taxes_2024": 19651000000,
-      "provision_for_income_taxes_2023": 16950000000
+      "long_term_debt_june_30_2025": 40152,
+      "long_term_debt_june_30_2024": 42688,
+      "current_portion_of_long_term_debt_june_30_2025": -2999,
+      "current_portion_of_long_term_debt_june_30_2024": -2249,
+      "total_debt_june_30_2025": 43151,
+      "total_debt_june_30_2024": 44937,
+      "unamortized_discount_and_issuance_costs_june_30_2025": -1155,
+      "unamortized_discount_and_issuance_costs_june_30_2024": -1227,
+      "hedge_fair_value_adjustments_june_30_2025": -36,
+      "hedge_fair_value_adjustments_june_30_2024": -81,
+      "premium_on_debt_exchange_june_30_2025": -4864,
+      "premium_on_debt_exchange_june_30_2024": -4976,
+      "long_term_debt_fair_value_june_30_2025": 40400,
+      "long_term_debt_fair_value_june_30_2024": 42300,
+      "cash_paid_for_interest_fiscal_years_2025": 1600,
+      "cash_paid_for_interest_fiscal_years_2024": 1700,
+      "cash_paid_for_interest_fiscal_years_2023": 1700,
+      "debt_maturities_2026": 3000,
+      "debt_maturities_2027": 9250,
+      "debt_maturities_2028": 0,
+      "debt_maturities_2029": 2054,
+      "debt_maturities_2030": 0,
+      "debt_maturities_thereafter": 34902,
+      "debt_maturities_total": 49206,
+      "commercial_paper_june_30_2025": 0,
+      "commercial_paper_june_30_2024": 6700,
+      "commercial_paper_weighted_average_interest_rate_june_30_2024": 5.4,
+      "intangible_amortization_expense_2025": 6000,
+      "intangible_amortization_expense_2024": 4800,
+      "intangible_amortization_expense_2023": 2500,
+      "intangible_future_amortization_total_june_30_2025": 22604,
+      "amortization_2026_future": 4594,
+      "amortization_2027_future": 2901,
+      "amortization_2028_future": 2034,
+      "amortization_2029_future": 1851,
+      "amortization_2030_future": 1382,
+      "amortization_thereafter_future": 9842
     },
     "chunk_id": 26
   },
   {
-    "info": "In fiscal year 2025, income before taxes totaled 123.6 billion, with U.S. pre-tax income of 69.2 billion and foreign pre-tax income of 54.4 billion. The effective tax rate declined to 17.6% in 2025, driven by foreign earnings taxed at lower rates (notably Ireland) and various credits/deductions. Unearned revenue rose to 67.265 billion across segments, and total remaining performance obligations were 375.0 billion, with about 40% expected to be recognized in the next 12 months. Deferred tax assets and liabilities remained sizable, with net deferred tax assets of 26.273 billion (2025) and aggregate net operating loss carryforwards of 390 million federal, 836 million state, and 2.6 billion foreign. Tax uncertainties persist, including IRS ongoing audits and NOPAs for years 2004–2013 seeking 28.9 billion; 28.7 billion of income taxes were paid in 2025, with no near-term resolution expected.",
+    "info": "The decrease in our effective tax rate for fiscal year 2025 compared to fiscal year 2024 was due to changes in the mix of our earnings and tax expenses between the U.S. and foreign countries.",
     "data": {
-      "rev_us_2025": 69212000000,
-      "rev_us_2024": 62886000000,
-      "rev_us_2023": 52917000000,
-      "rev_foreign_2025": 54415000000,
-      "rev_foreign_2024": 44901000000,
-      "rev_foreign_2023": 36394000000,
-      "income_before_tax_2025": 123627000000,
-      "income_before_tax_2024": 107787000000,
-      "income_before_tax_2023": 89311000000,
-      "federal_statutory_rate_2025": 21.0,
-      "federal_statutory_rate_2024": 21.0,
-      "federal_statutory_rate_2023": 21.0,
-      "foreign_earnings_tax_lower_rate_2025": -1.5,
-      "foreign_earnings_tax_lower_rate_2024": -1.4,
-      "foreign_earnings_tax_lower_rate_2023": -1.8,
-      "foreign_derived_int_income_deduction_2025": -1.0,
-      "foreign_derived_int_income_deduction_2024": -1.1,
-      "foreign_derived_int_income_deduction_2023": -1.3,
-      "state_income_taxes_net_of_federal_benefit_2025": 1.5,
-      "state_income_taxes_net_of_federal_benefit_2024": 1.5,
-      "state_income_taxes_net_of_federal_benefit_2023": 1.6,
-      "rnd_credit_2025": -1.1,
-      "rnd_credit_2024": -1.1,
-      "rnd_credit_2023": -1.1,
-      "excess_tax_benefits_stock_based_2025": -0.9,
-      "excess_tax_benefits_stock_based_2024": -1.1,
-      "excess_tax_benefits_stock_based_2023": -0.7,
-      "interest_net_2025": 1.0,
-      "interest_net_2024": 1.1,
-      "interest_net_2023": 0.8,
-      "other_reconciling_items_net_2025": -1.4,
-      "other_reconciling_items_net_2024": -0.7,
-      "other_reconciling_items_net_2023": 0.5,
-      "effective_rate_2025": 17.6,
-      "effective_rate_2024": 18.2,
-      "effective_rate_2023": 19.0,
-      "ireland_foreign_income_before_tax_share_2025": 81,
-      "ireland_foreign_income_before_tax_share_2024": 83,
-      "ireland_foreign_income_before_tax_share_2023": 81,
-      "deferred_income_tax_assets_total_2025": 47112000000,
-      "deferred_income_tax_assets_total_2024": 33144000000,
-      "valuation_allowance_deferred_assets_2025": -1169000000,
-      "valuation_allowance_deferred_assets_2024": -1045000000,
-      "deferred_income_tax_assets_net_2025": 45943000000,
-      "deferred_income_tax_assets_net_2024": 32099000000,
-      "deferred_income_tax_liabilities_total_2025": -19670000000,
-      "deferred_income_tax_liabilities_total_2024": -12447000000,
-      "net_deferred_income_tax_assets_2025": 26273000000,
-      "net_deferred_income_tax_assets_2024": 19652000000,
-      "reported_as_other_long_term_assets_2025": 29108000000,
-      "reported_as_other_long_term_assets_2024": 22270000000,
-      "long_term_deferred_income_tax_liabilities_2025": -2835000000,
-      " long_term_deferred_income_tax_liabilities_2024": -2618000000,
-      "federal_nol_2025": 390000000,
-      "state_nol_2025": 836000000,
-      "foreign_nol_2025": 2600000000,
-      "federal_capital_loss_carryforwards_2025": 816000000,
-      "income_taxes_paid_net_of_refunds_2025": 28700000000,
-      "income_taxes_paid_net_of_refunds_2024": 23400000000,
-      "income_taxes_paid_net_of_refunds_2023": 23100000000,
-      "gross_unrecognized_tax_benefits_2025": 24700000000,
-      "gross_unrecognized_tax_benefits_2024": 22800000000,
-      "gross_unrecognized_tax_benefits_2023": 17100000000,
-      "benefit_to_et_rate_if_recognized_2025": 21200000000,
-      "benefit_to_et_rate_if_recognized_2024": 19600000000,
-      "benefit_to_et_rate_if_recognized_2023": 14400000000,
-      "accrued_interest_expense_uncert_tax_2025": 8200000000,
-      "accrued_interest_expense_uncert_tax_2024": 6800000000,
-      "accrued_interest_expense_uncert_tax_2023": 5200000000,
-      "provision_interest_expense_uncert_tax_2025": 1300000000,
-      "provision_interest_expense_uncert_tax_2024": 1500000000,
-      "provision_interest_expense_uncert_tax_2023": 918000000,
-      "beginning_unrecognized_tax_benefits_2025": 22760000000,
-      "beginning_unrecognized_tax_benefits_2024": 17120000000,
-      "beginning_unrecognized_tax_benefits_2023": 15593000000,
-      "ending_unrecognized_tax_benefits_2025": 24729000000,
-      "ending_unrecognized_tax_benefits_2024": 22760000000,
-      "ending_unrecognized_tax_benefits_2023": 17120000000,
-      "balance_begin_unearned_revenue_2025": 60184000000,
-      "deferral_of_revenue_2025": 186957000000,
-      "recognition_of_unearned_revenue_2025": -179876000000,
-      "balance_end_unearned_revenue_2025": 67265000000,
-      "remaining_performance_obligations_total_2025": 375000000000,
-      "remaining_performance_obligations_commercial_2025": 368000000000,
-      "remaining_performance_obligations_next12m_pct": 40,
-      "unearned_revenue_by_segment_2025": {
-        "Productivity_and_Business_Processes": 50567000000,
-        "Intelligent_Cloud": 14022000000,
-        "More_Personal_Computing": 2676000000,
-        "Total": 67265000000
-      },
-      "unearned_revenue_by_segment_2024": {
-        "Productivity_and_Business_Processes": 43599000000,
-        "Intelligent_Cloud": 13683000000,
-        "More_Personal_Computing": 2902000000,
-        "Total": 60184000000
-      },
-      "lease_note": {
-        "note": "Note 13 — Leases",
-        "description": "We have operating and finance leases with terms ranging from less than 1 year to 20 years."
-      }
+      "income_before_income_taxes_2025": 123627000000,
+      "income_before_income_taxes_2024": 107787000000,
+      "income_before_income_taxes_2023": 89311000000,
+      "income_before_income_taxes_us_2025": 69212000000,
+      "income_before_income_taxes_us_2024": 62886000000,
+      "income_before_income_taxes_us_2023": 52917000000,
+      "income_before_income_taxes_foreign_2025": 54415000000,
+      "income_before_income_taxes_foreign_2024": 44901000000,
+      "income_before_income_taxes_foreign_2023": 36394000000,
+      "effective_tax_rate_2025": 17.6,
+      "effective_tax_rate_2024": 18.2,
+      "effective_tax_rate_2023": 19.0,
+      "unearned_revenue_total_2025": 67265000000,
+      "unearned_revenue_total_2024": 60184000000,
+      "unearned_revenue_by_segment_2025_productivity_and_business_processes": 50567000000,
+      "unearned_revenue_by_segment_2025_intelligent_cloud": 14022000000,
+      "unearned_revenue_by_segment_2025_more_personal_computing": 2676000000,
+      "unearned_revenue_by_segment_2024_productivity_and_business_processes": 43599000000,
+      "unearned_revenue_by_segment_2024_intelligent_cloud": 13683000000,
+      "unearned_revenue_by_segment_2024_more_personal_computing": 2902000000,
+      "remaining_performance_obligations_total": 375000000000,
+      "remaining_performance_obligations_commercial": 368000000000,
+      "remaining_performance_obligations_recognized_next_12_months_percent": 40
     },
     "chunk_id": 27
   },
   {
-    "info": "Note highlights: changes in unearned revenue and remaining performance obligations; large lease portfolio with operating vs finance leases; extended lease maturities and not-yet-commenced leases totaling about $92.7B; GDPR contingency with possible adverse outcomes up to $600M beyond $541M accrued as of 6/30/2025; stockholders’ equity and repurchase activity including up to $60B authorization, $57.3B remaining as of 6/30/2025, and significant quarterly/annual repurchases totaling $13.0B (31M shares) in 2025, $11.96B (32M) in 2024, and $18.40B (69M) in 2023, with additional tax-withholding repurchases of $5.4B, $5.3B and $3.8B in 2025, 2024 and 2023.",
+    "info": "We have operating and finance leases for datacenters, corporate offices, research and development facilities, Microsoft Experience Centers, and certain equipment. Revenue allocated to remaining performance obligations, which includes unearned revenue and amounts that will be invoiced and recognized as revenue in future periods, was $375 billion as of June 30, 2025, of which $368 billion is related to the commercial portion of revenue. We expect to recognize approximately 40% of our total company remaining performance obligation revenue over the next 12 months and the remainder thereafter. NOTE 14 — CONTINGENCIES Irish Data Protection Commission Matter In 2018, the Irish Data Protection Commission (\"IDPC\") began investigating a complaint against LinkedIn as to whether LinkedIn’s targeted advertising practices violated the recently implemented European Union General Data Protection Regulation (\"GDPR\"). Microsoft cooperated throughout the period of inquiry. In October 2024, the IDPC provided LinkedIn with a final decision alleging GDPR violations and assessing a fine. In November 2024, LinkedIn appealed the final decision to the Irish courts, and the next hearing is scheduled for December 2025. Other Contingencies We also are subject to a variety of other claims and suits that arise from time to time in the ordinary course of our business. Although management currently believes that resolving claims against us, individually or in aggregate, will not have a material adverse impact in our consolidated financial statements, these matters are subject to inherent uncertainties and management’s view of these matters may change in the future. As of June 30, 2025, we accrued aggregate legal liabilities of $541 million. While we intend to defend these matters vigorously, adverse outcomes that we estimate could reach approximately $600 million in aggregate beyond recorded amounts are reasonably possible. Were unfavorable final outcomes to occur, there exists the possibility of a material adverse impact in our consolidated financial statements for the period in which the effects become reasonably estimable. NOTE 15 — STOCKHOLDERS’ EQUITY Shares Outstanding Shares of common stock outstanding were as follows: On September 14, 2021, our Board of Directors approved a share repurchase program authorizing up to $60.0 billion in share repurchases. This share repurchase program commenced in November 2021 and was completed in April 2025. On September 16, 2024, our Board of Directors approved a share repurchase program authorizing up to $60.0 billion in share repurchases. This share repurchase program commenced in April 2025, following completion of the program approved on September 14, 2021, has no expiration date, and may be terminated at any time. As of June 30, 2025, $57.3 billion remained of this $60.0 billion share repurchase program. We repurchased the following shares of common stock under the share repurchase programs: All repurchases were made using cash resources. Shares repurchased during the fourth quarter of fiscal year 2025 were under the share repurchase programs approved on September 14, 2021 and September 16, 2024. All other shares repurchased were under the share repurchase program approved on September 14, 2021. The above table excludes shares repurchased to settle employee tax withholding related to the vesting of stock awards of $5.4 billion, $5.3 billion, and $3.8 billion for fiscal years 2025, 2024, and 2023, respectively.",
     "data": {
-      "unearned_revenue_balance_begin_2025": 60184000000,
-      "deferral_of_revenue_2025": 186957000000,
-      "recognition_of_unearned_revenue_2025": -179876000000,
-      "balance_end_of_period_2025": 67265000000,
+      "unearned_revenue_beginning_of_period": 60184000000,
+      "unearned_revenue_deferral": 186957000000,
+      "unearned_revenue_recognition": -179876000000,
+      "unearned_revenue_end_of_period": 67265000000,
       "remaining_performance_obligations_total": 375000000000,
       "remaining_performance_obligations_commercial_portion": 368000000000,
-      "remaining_performance_next_12_months_percent": 40,
-      "operating_lease_cost_2025": 5524,
-      "operating_lease_cost_2024": 3555,
-      "operating_lease_cost_2023": 2875,
-      "amortization_right_of_use_assets_2025": 3408,
-      "amortization_right_of_use_assets_2024": 1800,
-      "amortization_right_of_use_assets_2023": 1352,
-      "interest_on_lease_liabilities_2025": 1417,
-      "interest_on_lease_liabilities_2024": 734,
-      "interest_on_lease_liabilities_2023": 501,
-      "total_finance_lease_cost_2025": 4825,
-      "total_finance_lease_cost_2024": 2534,
-      "total_finance_lease_cost_2023": 1853,
-      "cash_paid_operating_leases_2025": 4931,
-      "cash_paid_operating_leases_2024": 3550,
-      "cash_paid_operating_leases_2023": 2706,
-      "cash_paid_finance_leases_2025": 1372,
-      "cash_paid_finance_leases_2024": 734,
-      "cash_paid_finance_leases_2023": 501,
-      "financing_cash_flows_from_finance_leases_2025": 2283,
-      "financing_cash_flows_from_finance_leases_2024": 1286,
-      "financing_cash_flows_from_finance_leases_2023": 1056,
-      "right_of_use_assets_obtained_operating_leases_2025": 7826,
-      "right_of_use_assets_obtained_operating_leases_2024": 6703,
-      "right_of_use_assets_obtained_operating_leases_2023": 3514,
-      "right_of_use_assets_obtained_finance_leases_2025": 20511,
-      "right_of_use_assets_obtained_finance_leases_2024": 11633,
-      "right_of_use_assets_obtained_finance_leases_2023": 3128,
-      "operating_lease_right_of_use_assets_june30_2025": 24823,
-      "operating_lease_right_of_use_assets_june30_2024": 18961,
-      "other_current_liabilities_operating_2025": 5424,
-      "other_current_liabilities_operating_2024": 3580,
-      "operating_lease_liabilities_2025": 17437,
-      "operating_lease_liabilities_2024": 15497,
-      "total_operating_lease_liabilities_2025": 22861,
-      "total_operating_lease_liabilities_2024": 19077,
-      "total_finance_lease_liabilities_2025": 46172,
-      "total_finance_lease_liabilities_2024": 27145,
-      "weighted_avg_remaining_lease_term_operating_2025_years": 6,
-      "weighted_avg_remaining_lease_term_operating_2024_years": 7,
-      "weighted_avg_remaining_lease_term_finance_2025_years": 13,
-      "weighted_avg_remaining_lease_term_finance_2024_years": 12,
-      "weighted_avg_discount_rate_operating_2025_pct": 3.5,
-      "weighted_avg_discount_rate_operating_2024_pct": 3.3,
-      "weighted_avg_discount_rate_finance_2025_pct": 4.2,
-      "weighted_avg_discount_rate_finance_2024_pct": 3.9,
-      "lease_maturities_operating_2026": 6111,
-      "lease_maturities_finance_2026": 5008,
-      "lease_maturities_operating_2027": 5237,
-      "lease_maturities_finance_2027": 5157,
-      "lease_maturities_operating_2028": 3495,
-      "lease_maturities_finance_2028": 5187,
-      "lease_maturities_operating_2029": 2419,
-      "lease_maturities_finance_2029": 4521,
-      "lease_maturities_operating_2030": 2017,
-      "lease_maturities_finance_2030": 4382,
-      "lease_maturities_operating_after_2030": 6202,
-      "lease_maturities_finance_after_2030": 36251,
-      "total_undiscounted_lease_payments_operating": 25481,
-      "total_undiscounted_lease_payments_finance": 60506,
-      "imputed_interest_2025": 2620,
-      "imputed_interest_2024": 14334,
-      "total_lease_payments_discounted_operating": 22861,
-      "total_lease_payments_discounted_finance": 46172,
-      "not_yet_commenced_leases_total": 92700,
-      "accrued_legal_liabilities_2025": 541,
-      "estimated_additional_outcomes_potential": 600,
-      "board_repurchase_authorization_2021_program": 60000,
-      "board_repurchase_authorization_2024_program": 60000,
-      "remaining_of_program_2025_06_30": 57300,
-      "repurchases_shares_2025": 31,
-      "repurchases_amount_2025": 13000,
-      "repurchases_shares_2024": 32,
-      "repurchases_amount_2024": 11960,
-      "repurchases_shares_2023": 69,
-      "repurchases_amount_2023": 18400,
-      "shares_outstanding_begin_2025": 7434,
-      "shares_outstanding_end_2025": 7434,
-      "shares_outstanding_end_2024": 7434,
-      "shares_outstanding_end_2023": 7432
+      "remaining_performance_obligations_next_12_months_percent": 40,
+      "operating_lease_cost_2025": 5524000000,
+      "operating_lease_cost_2024": 3555000000,
+      "operating_lease_cost_2023": 2875000000,
+      "amortization_of_right_of_use_assets_2025": 3408000000,
+      "amortization_of_right_of_use_assets_2024": 1800000000,
+      "amortization_of_right_of_use_assets_2023": 1352000000,
+      "interest_on_lease_liabilities_2025": 1417000000,
+      "interest_on_lease_liabilities_2024": 734000000,
+      "interest_on_lease_liabilities_2023": 501000000,
+      "total_finance_lease_cost_2025": 4825000000,
+      "total_finance_lease_cost_2024": 2534000000,
+      "total_finance_lease_cost_2023": 1853000000,
+      "operating_cash_flows_from_operating_leases_2025": 4931000000,
+      "operating_cash_flows_from_operating_leases_2024": 3550000000,
+      "operating_cash_flows_from_operating_leases_2023": 2706000000,
+      "operating_cash_flows_from_finance_leases_2025": 1372000000,
+      "operating_cash_flows_from_finance_leases_2024": 734000000,
+      "operating_cash_flows_from_finance_leases_2023": 501000000,
+      "financing_cash_flows_from_finance_leases_2025": 2283000000,
+      "financing_cash_flows_from_finance_leases_2024": 1286000000,
+      "financing_cash_flows_from_finance_leases_2023": 1056000000,
+      "right_of_use_assets_obtained_in_exchange_for_lease_obligations_operating_leases_2025": 7826000000,
+      "right_of_use_assets_obtained_in_exchange_for_lease_obligations_operating_leases_2024": 6703000000,
+      "right_of_use_assets_obtained_in_exchange_for_lease_obligations_operating_leases_2023": 3514000000,
+      "right_of_use_assets_obtained_in_exchange_for_lease_obligations_finance_leases_2025": 20511000000,
+      "right_of_use_assets_obtained_in_exchange_for_lease_obligations_finance_leases_2024": 11633000000,
+      "right_of_use_assets_obtained_in_exchange_for_lease_obligations_finance_leases_2023": 3128000000,
+      "operating_lease_right_of_use_assets": 24823000000,
+      "operating_lease_right_of_use_assets_2024": 18961000000,
+      "other_current_liabilities_operating_leases_2025": 5424000000,
+      "other_current_liabilities_operating_leases_2024": 3580000000,
+      "operating_lease_liabilities_2025": 17437000000,
+      "operating_lease_liabilities_2024": 15497000000,
+      "total_operating_lease_liabilities_2025": 22861000000,
+      "total_operating_lease_liabilities_2024": 19077000000,
+      "finance_lease_liabilities_2025": 46172000000,
+      "finance_lease_liabilities_2024": 27145000000,
+      "weighted_avg_remaining_lease_term_operating_leases_2025": 6,
+      "weighted_avg_remaining_lease_term_operating_leases_2024": 7,
+      "weighted_avg_remaining_lease_term_finance_leases_2025": 13,
+      "weighted_avg_remaining_lease_term_finance_leases_2024": 12,
+      "weighted_avg_discount_rate_operating_leases_2025": 3.5,
+      "weighted_avg_discount_rate_operating_leases_2024": 3.3,
+      "weighted_avg_discount_rate_finance_leases_2025": 4.2,
+      "weighted_avg_discount_rate_finance_leases_2024": 3.9,
+      "maturities_operating_leases_2026": 6111000000,
+      "maturities_finance_leases_2026": 5008000000,
+      "maturities_operating_leases_2027": 5237000000,
+      "maturities_finance_leases_2027": 5157000000,
+      "maturities_operating_leases_2028": 3495000000,
+      "maturities_finance_leases_2028": 5187000000,
+      "maturities_operating_leases_2029": 2419000000,
+      "maturities_finance_leases_2029": 4521000000,
+      "maturities_operating_leases_2030": 2017000000,
+      "maturities_finance_leases_2030": 4382000000,
+      "maturities_operating_leases_thereafter": 6202000000,
+      "maturities_finance_leases_thereafter": 36251000000,
+      "total_lease_payments_operating": 25481000000,
+      "total_lease_payments_finance": 60506000000,
+      "imputed_interest_operating": 2620000000,
+      "imputed_interest_finance": 14334000000,
+      "additional_leases_not_commenced": 92700000000,
+      "property_and_equipment_cost_2025": 53876000000,
+      "accumulated_depreciation_2025": -9861000000,
+      "property_and_equipment_net_2025": 44015000000,
+      "other_current_liabilities_finance_2025": 3172000000,
+      "other_long_term_liabilities_2025": 43000000000,
+      "total_finance_lease_liabilities_2025": 46172000000,
+      "total_finance_lease_liabilities_2024": 27145000000,
+      "shares_outstanding_end_of_year_2025_millions": 7434,
+      "shares_issued_2025": 31,
+      "shares_reissued_2025": 0,
+      "shares_repurchase_2025": -31,
+      "shares_issued_2024": 34,
+      "shares_repurchase_2024": -32,
+      "shares_issued_2023": 37,
+      "shares_repurchase_2023": -69,
+      "repurchase_program_2021_approved_total": 60000000000,
+      "repurchase_program_2024_approved_total": 60000000000,
+      "as_of_june_30_2025_repurchase_remaining": 57300000000,
+      "repurchase_table_total_2025_shares": 31,
+      "repurchase_table_total_2025_amount": 13000000000,
+      "repurchase_table_total_2024_shares": 32,
+      "repurchase_table_total_2024_amount": 11960000000,
+      "repurchase_table_total_2023_shares": 69,
+      "repurchase_table_total_2023_amount": 18400000000,
+      "note_employee_tax_withholding_exclusion_2025": 5400000000,
+      "note_employee_tax_withholding_exclusion_2024": 5300000000,
+      "note_employee_tax_withholding_exclusion_2023": 3800000000
     },
     "chunk_id": 28
   },
   {
-    "info": "Company repurchases were funded with cash; Q4 FY2025 repurchases were under programs approved on Sep 14, 2021 and Sep 16, 2024. The table excludes shares repurchased to settle employee tax withholdings of 5.4B, 5.3B, and 3.8B for FY2025, FY2024, and FY2023. Dividends declared for FY2025 and FY2024 totaled $24.678B and $22.295B, with per-share totals of $3.32 and $3.00, respectively. The June 10, 2025 dividend was noted as included in other current liabilities. Stock-based compensation expense was $11.974B (2025), $10.734B (2024), and $9.611B (2023), with related income tax benefits of $2.027B, $1.826B, and $1.651B. Unrecognized compensation costs related to stock awards were $21.6B as of June 30, 2025. Grant-date fair value of stock awards granted was $413.90 (2025), $339.46 (2024), and $252.59 (2023); vested stock awards totaled $16.2B, $16.0B, and $11.9B. 98M shares are authorized for future grant; 62M shares reserved for ESPP. ESPP purchases were 6M (2025), 6M (2024), and 7M (2023) at average prices of $385.10, $339.46, and $245.59. As of 6/30/2025, 62M ESPP shares remain reserved. Stock plan activity in FY2025: nonvested balance beginning 88M, granted 39M, vested 38M, forfeited 7M, end 82M. Accumulated Other Comprehensive Income (Loss) remains negative, with end-of-period balances for derivatives (-8), investments (-1,051), translation (-2,288), and total AOCI (-3,347) (all in millions); for 2024: derivatives (-3), investments (-2,625), translation (-2,962), AOCI (-5,590); for 2023: derivatives (-27), investments (-3,582), translation (-2,734), AOCI (-6,343).",
-    "data": {
-      "tax_withholding_stock_awards_2025_2024_2023_millions": [
-        5400000000,
-        5300000000,
-        3800000000
-      ],
-      "dividends_per_share_fy2025_total": 3.32,
-      "dividends_amount_fy2025_millions": 24678,
-      "dividends_per_share_fy2024_total": 3.0,
-      "dividends_amount_fy2024_millions": 22295,
-      "stock_comp_expense_millions_2025": 11974,
-      "stock_comp_expense_millions_2024": 10734,
-      "stock_comp_expense_millions_2023": 9611,
-      "income_tax_benefits_stock_comp_millions_2025": 2027,
-      "income_tax_benefits_stock_comp_millions_2024": 1826,
-      "income_tax_benefits_stock_comp_millions_2023": 1651,
-      "unrecognized_comp_cost_stock_awards_millions": 21600000000,
-      "grant_date_fair_value_stock_awards_fy2025": 413.9,
-      "grant_date_fair_value_stock_awards_fy2024": 339.46,
-      "grant_date_fair_value_stock_awards_fy2023": 252.59,
-      "vested_stock_awards_value_millions_fy2025": 16200000000,
-      "vested_stock_awards_value_millions_fy2024": 16000000000,
-      "vested_stock_awards_value_millions_fy2023": 11900000000,
-      "future_grants_authorized_shares_millions": 98000000,
-      "espp_shares_reserved_millions": 62000000,
-      "espp_shares_purchased_2025_millions": 6,
-      "espp_shares_purchased_2024_millions": 6,
-      "espp_shares_purchased_2023_millions": 7,
-      "espp_average_price_per_share_2025": 385.1,
-      "espp_average_price_per_share_2024": 339.46,
-      "espp_average_price_per_share_2023": 245.59,
-      "stock_plan_nonvested_begin_2025_millions": 88,
-      "stock_plan_granted_2025_millions": 39,
-      "stock_plan_vested_2025_millions": 38,
-      "stock_plan_forfeited_2025_millions": 7,
-      "stock_plan_end_2025_millions": 82,
-      "aoci_end_derivatives_2025_millions": -8,
-      "aoci_end_investments_2025_millions": -1051,
-      "aoci_end_translation_2025_millions": -2288,
-      "aoci_end_overall_2025_millions": -3347,
-      "aoci_end_derivatives_2024_millions": -3,
-      "aoci_end_investments_2024_millions": -2625,
-      "aoci_end_translation_2024_millions": -2962,
-      "aoci_end_overall_2024_millions": -5590,
-      "aoci_end_derivatives_2023_millions": -27,
-      "aoci_end_investments_2023_millions": -3582,
-      "aoci_end_translation_2023_millions": -2734,
-      "aoci_end_overall_2023_millions": -6343
-    },
+    "info": "All repurchases were made using cash resources. Shares repurchased during the fourth quarter of fiscal year 2025 were under the share repurchase programs approved on September 14, 2021 and September 16, 2024. All other shares repurchased were under the share repurchase program approved on September 14, 2021. The above table excludes shares repurchased to settle employee tax withholding related to the vesting of stock awards of 5.4 billion, 5.3 billion, and 3.8 billion for fiscal years 2025, 2024, and 2023, respectively. The dividend declared on June 10, 2025 was included in other current liabilities as of June 30, 2025. As of June 30, 2025, total unrecognized compensation costs related to stock awards were 21.6 billion. As of June 30, 2025, an aggregate of 98 million shares were authorized for future grant under our stock plans. The weighted average grant-date fair value of stock awards granted was 413.90, 339.46, and 252.59 for fiscal years 2025, 2024, and 2023, respectively. The fair value of stock awards vested was 16.2 billion, 16.0 billion, and 11.9 billion, for fiscal years 2025, 2024, and 2023, respectively. During fiscal year 2025, the following activity occurred under our stock plans. We have an ESPP for all eligible employees. Shares of our common stock may be purchased by employees at three-month intervals at 90% of the fair market value on the last trading day of each three-month period. Employees may purchase shares having a value not exceeding 15% of their gross compensation during an offering period. As of June 30, 2025, 62 million shares of our common stock were reserved for future issuance through the ESPP.",
+    "data": {},
     "chunk_id": 29
   },
   {
-    "info": "Microsoft reports FY2025 total revenue of $281.724B across three segments, with Intelligent Cloud revenue $106.265B and operating income $44.589B, Productivity and Business Processes revenue $120.810B and operating income $69.773B, and More Personal Computing revenue $54.649B and operating income $14.166B. Microsoft Cloud revenue was $168.9B in FY2025. Geographically, US revenue was $144.546B and other countries $137.178B in FY2025. Long-lived assets totaled $371.902B, with US assets of $230.069B and other countries $141.833B. The ESPP reserved 62M shares as of 6/30/2025; employees purchased 6M shares in 2025 at an average price of $385.10, 6M in 2024 at $339.46, and 7M in 2023 at $245.59. Employer-funded retirement benefits were $1.8B in 2025, $1.7B in 2024, and $1.6B in 2023. The independent auditor issued an unqualified opinion on the financial statements.",
+    "info": "Our Microsoft Cloud revenue, which includes Microsoft 365 Commercial cloud, Azure and other cloud services, the commercial portion of LinkedIn, and Dynamics 365, was $168.9 billion, $137.7 billion, and $111.6 billion in fiscal years 2025, 2024, and 2023, respectively.",
     "data": {
-      "espp": {
-        "shares_purchased_2025_millions": 6,
-        "shares_purchased_2024_millions": 6,
-        "shares_purchased_2023_millions": 7,
-        "average_price_per_share_2025": 385.1,
-        "average_price_per_share_2024": 339.46,
-        "average_price_per_share_2023": 245.59,
-        "reserved_shares_june_30_2025_millions": 62
-      },
-      "savings_plans_employer_funded_benefits_by_year": {
-        "2025": 1800000000,
-        "2024": 1700000000,
-        "2023": 1600000000
-      },
-      "cloud_revenue_by_year": {
-        "2025": 168900000000,
-        "2024": 137700000000,
-        "2023": 111600000000
-      },
-      "segments": [
-        {
-          "name": "Productivity and Business Processes",
-          "revenue_by_year": {
-            "2025": 120810000000,
-            "2024": 106820000000,
-            "2023": 94151000000
-          },
-          "cost_of_revenue_by_year": {
-            "2025": 22422000000,
-            "2024": 19611000000,
-            "2023": 17202000000
-          },
-          "operating_expenses_by_year": {
-            "2025": 28615000000,
-            "2024": 27548000000,
-            "2023": 26875000000
-          },
-          "operating_income_by_year": {
-            "2025": 69773000000,
-            "2024": 59661000000,
-            "2023": 50074000000
-          }
-        },
-        {
-          "name": "Intelligent Cloud",
-          "revenue_by_year": {
-            "2025": 106265000000,
-            "2024": 87464000000,
-            "2023": 72944000000
-          },
-          "cost_of_revenue_by_year": {
-            "2025": 40171000000,
-            "2024": 29611000000,
-            "2023": 24109000000
-          },
-          "operating_expenses_by_year": {
-            "2025": 21505000000,
-            "2024": 20040000000,
-            "2023": 20424000000
-          },
-          "operating_income_by_year": {
-            "2025": 44589000000,
-            "2024": 37813000000,
-            "2023": 28411000000
-          }
-        },
-        {
-          "name": "More Personal Computing",
-          "revenue_by_year": {
-            "2025": 54649000000,
-            "2024": 50838000000,
-            "2023": 44820000000
-          },
-          "cost_of_revenue_by_year": {
-            "2025": 25238000000,
-            "2024": 24892000000,
-            "2023": 24552000000
-          },
-          "operating_expenses_by_year": {
-            "2025": 15245000000,
-            "2024": 13987000000,
-            "2023": 10230000000
-          },
-          "operating_income_by_year": {
-            "2025": 14166000000,
-            "2024": 11959000000,
-            "2023": 10038000000
-          }
-        }
-      ],
-      "geographic_revenue_by_region": {
-        "USA": {
-          "2025": 144546000000,
-          "2024": 124704000000,
-          "2023": 106744000000
-        },
-        "Other_Countries": {
-          "2025": 137178000000,
-          "2024": 120418000000,
-          "2023": 105171000000
-        }
-      },
-      "long_lived_assets": {
-        "by_region": [
-          {
-            "region": "United States",
-            "2025": 230069000000,
-            "2024": 186106000000,
-            "2023": 114380000000
-          },
-          {
-            "region": "Other countries",
-            "2025": 141833000000,
-            "2024": 115263000000,
-            "2023": 72859000000
-          }
-        ],
-        "totals_by_year": {
-          "2025": 371902000000,
-          "2024": 301369000000,
-          "2023": 187239000000
-        }
-      },
-      "total_revenue_by_segment": {
-        "2025": 281724000000,
-        "2024": 245122000000,
-        "2023": 211915000000
-      },
-      "cost_of_revenue_by_segment_total": {
-        "2025": 87831000000,
-        "2024": 74114000000,
-        "2023": 65863000000
-      },
-      "operating_expenses_by_segment_total": {
-        "2025": 65365000000,
-        "2024": 61575000000,
-        "2023": 57529000000
-      },
-      "operating_income_by_segment_total": {
-        "2025": 128528000000,
-        "2024": 109433000000,
-        "2023": 88523000000
-      },
-      "notes": "No sales to an individual customer or country other than the United States accounted for more than 10% of revenue."
+      "revenue_2025": 281724000000,
+      "revenue_2024": 245122000000,
+      "revenue_2023": 211915000000,
+      "operating_income_total_2025": 128528000000,
+      "operating_income_total_2024": 109433000000,
+      "operating_income_total_2023": 88523000000,
+      "operating_income_pbp_2025": 69773000000,
+      "operating_income_pbp_2024": 59661000000,
+      "operating_income_pbp_2023": 50074000000,
+      "operating_income_intelligent_cloud_2025": 44589000000,
+      "operating_income_intelligent_cloud_2024": 37813000000,
+      "operating_income_intelligent_cloud_2023": 28411000000,
+      "operating_income_more_personal_computing_2025": 14166000000,
+      "operating_income_more_personal_computing_2024": 11959000000,
+      "operating_income_more_personal_computing_2023": 10038000000,
+      "revenue_server_products_and_cloud_services_2025": 98435000000,
+      "revenue_microsoft_365_commercial_2025": 87767000000,
+      "revenue_gaming_2025": 23455000000,
+      "revenue_linkedIn_2025": 17812000000,
+      "revenue_windows_and_devices_2025": 17314000000,
+      "revenue_search_and_news_advertising_2025": 13878000000,
+      "revenue_dynamics_2025": 7827000000,
+      "revenue_enterprise_and_partner_services_2025": 7760000000,
+      "revenue_microsoft_365_consumer_2025": 7404000000,
+      "revenue_other_2025": 72000000,
+      "microsoft_cloud_revenue_2025": 168900000000,
+      "microsoft_cloud_revenue_2024": 137700000000,
+      "microsoft_cloud_revenue_2023": 111600000000,
+      "long_lived_assets_us_2025": 230069000000,
+      "long_lived_assets_us_2024": 186106000000,
+      "long_lived_assets_us_2023": 114380000000,
+      "long_lived_assets_other_2025": 141833000000,
+      "long_lived_assets_other_2024": 115263000000,
+      "long_lived_assets_other_2023": 72859000000,
+      "long_lived_assets_total_2025": 371902000000,
+      "long_lived_assets_total_2024": 301369000000,
+      "long_lived_assets_total_2023": 187239000000,
+      "espp_reserved_shares_2025": 62000000,
+      "employer_funded_retirement_benefits_2025": 1800000000,
+      "employer_funded_retirement_benefits_2024": 1700000000,
+      "employer_funded_retirement_benefits_2023": 1600000000
     },
     "chunk_id": 30
   },
   {
-    "info": "Auditors issued an unqualified opinion on Microsoft's consolidated financial statements as of June 30, 2025 and 2024 and on internal control over financial reporting. The report highlights two Critical Audit Matters: Revenue recognition for certain customer agreements (volume licensing with cloud services) requiring significant judgment on distinct performance obligations, timing, variable consideration, and stand-alone selling prices; and Uncertain tax positions related to IRS transfer pricing with NOPAs for 2004–2013. Management's estimates and tax positions involve complex judgments. Deloitte & Touche LLP has served as auditor since 1983; the report date is July 30, 2025.",
-    "data": {
-      "audit_report_year": 2025,
-      "auditor_tenure_start_year": 1983,
-      "coso_framework_year": 2013,
-      "irs_audit_start_year": 2003,
-      "nopas_year_start": 2004,
-      "nopas_year_end": 2013,
-      "audit_covered_years": [
-        2025,
-        2024
-      ]
-    },
+    "info": "We have audited the accompanying consolidated balance sheets of Microsoft Corporation and subsidiaries (the \"Company\") as of June 30, 2025 and 2024, the related consolidated statements of income, comprehensive income, cash flows, and stockholders' equity, for each of the three years in the period ended June 30, 2025, and the related notes (collectively referred to as the \"financial statements\"). In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company as of June 30, 2025 and 2024, and the results of its operations and its cash flows for each of the three years in the period ended June 30, 2025, in conformity with accounting principles generally accepted in the United States of America.",
+    "data": {},
     "chunk_id": 31
-  },
-  {
-    "info": "List of supplemental indentures and related notes for Microsoft debt from 2011–2023, reflecting multiple series, maturities, and coupon rates across numerous tranches and indicating ongoing refinancing/indenture activity.",
-    "data": {
-      "indentures": [
-        {
-          "exhibit_no": 4.6,
-          "rates": [
-            {
-              "rate": 2.5,
-              "due_year": 2016
-            },
-            {
-              "rate": 4.0,
-              "due_year": 2021
-            },
-            {
-              "rate": 5.3,
-              "due_year": 2041
-            }
-          ],
-          "dated_as_of": "2011-02-08"
-        },
-        {
-          "exhibit_no": 4.7,
-          "rates": [
-            {
-              "rate": 0.875,
-              "due_year": 2017
-            },
-            {
-              "rate": 2.125,
-              "due_year": 2022
-            },
-            {
-              "rate": 3.5,
-              "due_year": 2042
-            }
-          ],
-          "dated_as_of": "2012-11-07"
-        },
-        {
-          "exhibit_no": 4.8,
-          "rates": [
-            {
-              "rate": 2.625,
-              "due_year": 2033
-            }
-          ],
-          "dated_as_of": "2013-05-02"
-        },
-        {
-          "exhibit_no": 4.9,
-          "rates": [
-            {
-              "rate": 1.0,
-              "due_year": 2018
-            },
-            {
-              "rate": 2.375,
-              "due_year": 2023
-            },
-            {
-              "rate": 3.75,
-              "due_year": 2043
-            }
-          ],
-          "dated_as_of": "2013-05-01"
-        },
-        {
-          "exhibit_no": 4.1,
-          "rates": [
-            {
-              "rate": 2.125,
-              "due_year": 2021
-            },
-            {
-              "rate": 3.125,
-              "due_year": 2028
-            }
-          ],
-          "dated_as_of": "2013-12-06"
-        },
-        {
-          "exhibit_no": 4.11,
-          "rates": [
-            {
-              "rate": 1.625,
-              "due_year": 2018
-            },
-            {
-              "rate": 3.625,
-              "due_year": 2023
-            },
-            {
-              "rate": 4.875,
-              "due_year": 2043
-            }
-          ],
-          "dated_as_of": "2013-12-06"
-        },
-        {
-          "exhibit_no": 4.12,
-          "rates": [
-            {
-              "rate": 1.85,
-              "due_year": 2020
-            },
-            {
-              "rate": 2.375,
-              "due_year": 2022
-            },
-            {
-              "rate": 2.7,
-              "due_year": 2025
-            },
-            {
-              "rate": 3.5,
-              "due_year": 2035
-            },
-            {
-              "rate": 3.75,
-              "due_year": 2045
-            },
-            {
-              "rate": 4.0,
-              "due_year": 2055
-            }
-          ],
-          "dated_as_of": "2015-02-12"
-        },
-        {
-          "exhibit_no": 4.13,
-          "rates": [
-            {
-              "rate": 1.3,
-              "due_year": 2018
-            },
-            {
-              "rate": 2.0,
-              "due_year": 2020
-            },
-            {
-              "rate": 2.65,
-              "due_year": 2022
-            },
-            {
-              "rate": 3.125,
-              "due_year": 2025
-            },
-            {
-              "rate": 4.2,
-              "due_year": 2035
-            },
-            {
-              "rate": 4.45,
-              "due_year": 2045
-            },
-            {
-              "rate": 4.75,
-              "due_year": 2055
-            }
-          ],
-          "dated_as_of": "2015-11-03"
-        },
-        {
-          "exhibit_no": 4.14,
-          "rates": [
-            {
-              "rate": 1.1,
-              "due_year": 2019
-            },
-            {
-              "rate": 1.55,
-              "due_year": 2021
-            },
-            {
-              "rate": 2.0,
-              "due_year": 2023
-            },
-            {
-              "rate": 2.4,
-              "due_year": 2026
-            },
-            {
-              "rate": 3.45,
-              "due_year": 2036
-            },
-            {
-              "rate": 3.7,
-              "due_year": 2046
-            },
-            {
-              "rate": 3.95,
-              "due_year": 2056
-            }
-          ],
-          "dated_as_of": "2016-08-08"
-        },
-        {
-          "exhibit_no": 4.15,
-          "rates": [
-            {
-              "rate": 1.85,
-              "due_year": 2020
-            },
-            {
-              "rate": 2.4,
-              "due_year": 2022
-            },
-            {
-              "rate": 2.875,
-              "due_year": 2024
-            },
-            {
-              "rate": 3.3,
-              "due_year": 2027
-            },
-            {
-              "rate": 4.1,
-              "due_year": 2037
-            },
-            {
-              "rate": 4.25,
-              "due_year": 2047
-            },
-            {
-              "rate": 4.5,
-              "due_year": 2057
-            }
-          ],
-          "dated_as_of": "2017-02-03"
-        },
-        {
-          "exhibit_no": 4.16,
-          "rates": [
-            {
-              "rate": 2.525,
-              "due_year": 2050
-            },
-            {
-              "rate": 2.675,
-              "due_year": 2060
-            }
-          ],
-          "dated_as_of": "2020-06-01"
-        },
-        {
-          "exhibit_no": 4.17,
-          "rates": [
-            {
-              "rate": 2.921,
-              "due_year": 2052
-            },
-            {
-              "rate": 3.041,
-              "due_year": 2062
-            }
-          ],
-          "dated_as_of": "2021-03-17"
-        },
-        {
-          "exhibit_no": 4.18,
-          "exhibit_reference": 4.2,
-          "dated_as_of": "2023-11-06"
-        },
-        {
-          "exhibit_no": 4.19,
-          "rates": [
-            {
-              "rate": 3.4,
-              "due_year": 2026
-            }
-          ],
-          "dated_as_of": "2023-11-06"
-        },
-        {
-          "exhibit_no": 4.2,
-          "rates": [
-            {
-              "rate": 3.4,
-              "due_year": 2027
-            }
-          ],
-          "dated_as_of": "2023-11-06"
-        }
-      ]
-    },
-    "chunk_id": 32
-  },
-  {
-    "info": "Exhibits table highlights debt securities indentures, security descriptions, stock plans, and governance/indemnification arrangements filed or referenced; includes multiple supplemental indentures for notes due 2027/2047, 2030/2050, and 2026, plus descriptions of securities and several Microsoft stock plan documents; several items incorporated by reference or filed herewith.",
-    "data": {
-      "exhibits": [
-        {
-          "exhibit_no": "4.21",
-          "description": "First Supplemental Indenture, dated as of May 26, 2017, by and between Activision Blizzard, Inc. and Wells Fargo Bank, National Association, as Trustee, with respect to Activision Blizzard, Inc.’s 3.400% Senior Notes due 2027 and 4.500% Senior Notes due 2047",
-          "form": "8-K",
-          "exhibit": "4.11",
-          "filing_date": 20231106
-        },
-        {
-          "exhibit_no": "4.22",
-          "description": "Second Supplemental Indenture, dated as of August 10, 2020, by and between Activision Blizzard, Inc. and Wells Fargo Bank, National Association, as Trustee, with respect to Activision Blizzard, Inc.’s 1.350% Senior Notes due 2030 and 2.500% Senior Notes due 2050",
-          "form": "8-K",
-          "exhibit": "4.12",
-          "filing_date": 20231106
-        },
-        {
-          "exhibit_no": "4.23",
-          "description": "First Supplemental Indenture, dated as of October 27, 2023, by and between Activision Blizzard, Inc. and Computershare Trust Company, N.A., with respect to Activision Blizzard, Inc.’s 3.400% Senior Notes due 2026",
-          "form": "8-K",
-          "exhibit": "4.13",
-          "filing_date": 20231106
-        },
-        {
-          "exhibit_no": "4.24",
-          "description": "Third Supplemental Indenture, dated as of October 27, 2023, by and between Activision Blizzard, Inc. and Computershare Trust Company, N.A., with respect to Activision Blizzard, Inc.’s 3.400% Senior Notes due 2027 and 4.500% Senior Notes due 2047",
-          "form": "8-K",
-          "exhibit": "4.14",
-          "filing_date": 20231106
-        },
-        {
-          "exhibit_no": "4.25",
-          "description": "Fourth Supplemental Indenture, dated as of October 27, 2023, by and between Activision Blizzard, Inc. and Computershare Trust Company, N.A., with respect to Activision Blizzard, Inc.’s 1.350% Senior Notes due 2030 and 2.500% Senior Notes due 2050",
-          "form": "8-K",
-          "exhibit": "4.15",
-          "filing_date": 20231106
-        },
-        {
-          "exhibit_no": "4.26",
-          "description": "Description of Securities",
-          "form": "10-K",
-          "period_ending": 20240630,
-          "filing_date": 20240730,
-          "exhibit": "4.26"
-        },
-        {
-          "exhibit_no": "10.1*",
-          "description": "Microsoft Corporation 2001 Stock Plan",
-          "form": "10-Q",
-          "period_ending": 20160930,
-          "filing_date": 20161020,
-          "exhibit": "10.1"
-        },
-        {
-          "exhibit_no": "10.2*",
-          "description": "Microsoft Corporation Employee Stock Purchase Plan",
-          "form": "DEF14A",
-          "exhibit": "Annex A",
-          "filing_date": 20211014
-        },
-        {
-          "exhibit_no": "10.3*",
-          "description": "Microsoft Deferred Compensation Plan",
-          "form": "10-K",
-          "period_ending": 20240630,
-          "filing_date": 20240730,
-          "exhibit": "10.5"
-        },
-        {
-          "exhibit_no": "10.4*",
-          "description": "Microsoft Corporation 2017 Stock Plan",
-          "form": "DEF14A",
-          "exhibit": "Annex C",
-          "filing_date": 20171016
-        },
-        {
-          "exhibit_no": "10.5*",
-          "description": "Form of Stock Award Agreement Under the Microsoft Corporation 2017 Stock Plan",
-          "form": "10-Q",
-          "period_ending": 20180331,
-          "exhibit": "10.26",
-          "filing_date": 20180426
-        },
-        {
-          "exhibit_no": "10.6*",
-          "description": "Form of Performance Stock Award Agreement Under the Microsoft Corporation 2017 Stock Plan",
-          "form": "10-Q",
-          "period_ending": 20180331,
-          "exhibit": "10.27",
-          "filing_date": 20180426
-        },
-        {
-          "exhibit_no": "97.1",
-          "description": "Microsoft Corporation Executive Compensation Recovery Policy",
-          "form": "10-K",
-          "period_ending": 20240630,
-          "filing_date": 20240730,
-          "exhibit": "97.1"
-        }
-      ]
-    },
-    "chunk_id": 33
-  },
-  {
-    "info": "",
-    "data": {
-      "page_numbers": [
-        99,
-        100,
-        101
-      ],
-      "signing_day": 30,
-      "signing_year": 2025
-    },
-    "chunk_id": 34
   }
 ]

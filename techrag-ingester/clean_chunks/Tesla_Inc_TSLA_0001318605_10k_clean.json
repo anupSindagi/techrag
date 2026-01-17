@@ -1,2997 +1,559 @@
 [
   {
-    "info": "",
-    "data": {
-      "year_2024": 2024,
-      "period_202308": 202308,
-      "date_20241231": 20241231
-    },
-    "chunk_id": 1
-  },
-  {
-    "info": "",
-    "data": {
-      "restructuring_and_other_expenses": 179
-    },
-    "chunk_id": 2
-  },
-  {
-    "info": "",
-    "data": {
-      "entity_id": 1318605,
-      "years_present": [
-        2024,
-        2023,
-        2022,
-        2025
-      ],
-      "dates_found": [
-        "2024-12-31",
-        "2024-01-01",
-        "2023-12-31",
-        "2022-12-31",
-        "2025-01-01",
-        "2024-03-31",
-        "2024-06-30",
-        "2024-09-30",
-        "2024-04-01",
-        "2024-07-01",
-        "2023-01-01",
-        "2022-01-01"
-      ],
-      "min_max_values": {
-        "assets_leased_to_others_min": 1,
-        "assets_leased_to_others_max": 1,
-        "machinery_equipment_vehicles_and_office_furniture_min": 1,
-        "machinery_equipment_vehicles_and_office_furniture_max": 1,
-        "tooling_min": 1,
-        "tooling_max": 1,
-        "building_and_building_improvements_min": 1,
-        "building_and_building_improvements_max": 1,
-        "computer_equipment_and_software_min": 1,
-        "computer_equipment_and_software_max": 1,
-        "technology_equipment_min": 1,
-        "technology_equipment_max": 1,
-        "software_and_software_development_costs_min": 1,
-        "software_and_software_development_costs_max": 1,
-        "gigafactory_texas_with_travis_min": 1,
-        "gigafactory_texas_with_travis_max": 1,
-        "gigafactory_texas_with_travis_members_min": 1,
-        "gigafactory_texas_with_travis_members_max": 1
-      }
-    },
-    "chunk_id": 3
-  },
-  {
-    "info": "",
-    "data": {
-      "dates_present": [
-        20231231,
-        20240101,
-        20240331,
-        20240401,
-        20240630,
-        20240701,
-        20240930,
-        20241001,
-        20241231
-      ]
-    },
-    "chunk_id": 4
-  },
-  {
-    "info": "Overview of debt and financing arrangements across multiple instruments including revolving credit facility, senior notes, asset-backed notes and working capital facilities, with multiple date references from 2023-01-01 to 2024-12-31, indicating a diversified funding structure; no explicit monetary amounts provided in the chunk.",
-    "data": {
-      "date_2024_12_31": 20241231,
-      "date_2023_12_31": 20231231,
-      "date_2024_04_30": 20240430,
-      "date_2024_04_01": 20240401,
-      "date_2023_01_01": 20230101,
-      "date_2023_01_31": 20230131,
-      "date_2016_12_31": 20161231,
-      "date_2024_01_01": 20240101
-    },
-    "chunk_id": 6
-  },
-  {
-    "info": "",
-    "data": {
-      "cik": 1318605
-    },
-    "chunk_id": 7
-  },
-  {
-    "info": "Governance and market presence updates show multiple membership records for Tesla, including US and DE country memberships with end dates in 2023 and 2024, Automotive and Energy Generation and Storage segment memberships for 2023 and 2024, a 2022 period for OtherCountriesMember, and Ira Ehrenpreis joining as a member with periods in 2024 (Jan 1–Dec 31 and Oct 1–Dec 31) plus a year-end 2024 endpoint.",
-    "data": {
-      "membership": [
-        {
-          "category": "rcountries_member",
-          "start": 20230101,
-          "end": 20231231
-        },
-        {
-          "category": "tsla_other_countries_member",
-          "start": 20220101,
-          "end": 20221231
-        },
-        {
-          "category": "country_member",
-          "country": "US",
-          "end": 20241231
-        },
-        {
-          "category": "country_member",
-          "country": "US",
-          "end": 20231231
-        },
-        {
-          "category": "country_member",
-          "country": "DE",
-          "end": 20241231
-        },
-        {
-          "category": "country_member",
-          "country": "DE",
-          "end": 20231231
-        },
-        {
-          "category": "tsla_other_countries_member",
-          "end": 20241231
-        },
-        {
-          "category": "tsla_other_countries_member",
-          "end": 20231231
-        },
-        {
-          "category": "segment_member",
-          "segment": "AutomotiveSegment",
-          "end": 20241231
-        },
-        {
-          "category": "segment_member",
-          "segment": "AutomotiveSegment",
-          "end": 20231231
-        },
-        {
-          "category": "segment_member",
-          "segment": "EnergyGenerationAndStorageSegment",
-          "end": 20241231
-        },
-        {
-          "category": "segment_member",
-          "segment": "EnergyGenerationAndStorageSegment",
-          "end": 20231231
-        },
-        {
-          "category": "period",
-          "start": 20220401,
-          "end": 20220630,
-          "entity": "tsla_OtherCountriesMember"
-        },
-        {
-          "category": "member",
-          "person": "IraEhrenpreis",
-          "start": 20240101,
-          "end": 20241231
-        },
-        {
-          "category": "member",
-          "person": "IraEhrenpreis",
-          "start": 20241001,
-          "end": 20241231
-        },
-        {
-          "category": "member",
-          "person": "IraEhrenpreis",
-          "end": 20241231
-        }
-      ]
-    },
-    "chunk_id": 8
-  },
-  {
-    "info": "Tesla, Inc.'s 2024 Form 10-K includes forward-looking statements with risks described in Risk Factors and provides corporate details: principal offices in Austin, TX (1 Tesla Road, 78725); IRS EIN 91-2197729; phone 512-516-8177; common stock trades as TSLA on The Nasdaq Global Select Market. The filing notes that, as of June 28, 2024, the aggregate market value of voting stock held by non-affiliates was 550.17 billion and that as of January 22, 2025 there were 3,216,517,037 shares outstanding.",
-    "data": {
-      "fiscal_year_end_date": 20241231,
-      "non_affiliates_market_value": 550170000000,
-      "shares_outstanding": 3216517037,
-      "shares_outstanding_date": 20250122,
-      "commission_file_number": 34756,
-      "ein": 912197729,
-      "principal_office_zip": 78725,
-      "company_phone": 5125168177
-    },
+    "info": "The aggregate market value of voting stock held by non-affiliates of the registrant, as of June 28, 2024, the last business day of the registrant’s most recently completed second fiscal quarter, was $550.17 billion (based on the closing price for shares of the registrant’s Common Stock as reported by the NASDAQ Global Select Market on June 28, 2024). As of January 22, 2025, there were 3,216,517,037 shares of the registrant’s common stock outstanding.",
+    "data": {},
     "chunk_id": 9
   },
   {
-    "info": "Tesla operates two reportable segments (automotive and energy generation/storage) with a five-vehicle lineup (Model 3, Y, S, X and Cybertruck), Model Y seating up to seven, Cybertruck deliveries starting in 2023, and Semi production since 2022. Planned Robotaxi launch in 2025 and ongoing AI/self-driving/Optimus initiatives are complemented by expanded manufacturing footprint (4 US facilities: CA, NY, TX, NV; 2 international facilities in China and Germany) and a Monterrey Gigafactory announced in 2023. Supercharger/NACS rollout includes adoption by other automakers beginning in 2024 and NACS vehicle production by no later than 2025. IRA incentives include federal EV tax credits up to 7500 for vehicles and 6-50% credits for standalone energy storage, with insurance offered in 12 states and a tax-credit phaseout around 2032.",
-    "data": {
-      "segments": 2,
-      "vehicle_models_count": 5,
-      "model_y_seating_capacity": 7,
-      "model3_doors": 4,
-      "cybertruck_first_deliveries_year": 2023,
-      "semi_production_start_year": 2022,
-      "robotaxi_launch_year": 2025,
-      "nacs_adoption_start_year": 2024,
-      "nacs_vehicle_production_by_year": 2025,
-      "us_manufacturing_facilities_count": 4,
-      "intl_manufacturing_facilities_count": 2,
-      "gigafactory_mexico_announcement_year": 2023,
-      "insurance_states_count": 12,
-      "ira_vehicle_credit_max": 7500,
-      "ira_energy_storage_credit_min": 6,
-      "ira_energy_storage_credit_max": 50,
-      "ira_enactment_year": 2022,
-      "ira_enactment_month": 8,
-      "ira_enactment_day": 16,
-      "ira_credit_phaseout_year": 2032,
-      "non_tesla_supercharger_launch_year": 2021
-    },
+    "info": "We operate as two reportable segments: (i) automotive and (ii) energy generation and storage. In November 2023, we entered the consumer pickup truck market with first deliveries of the Cybertruck, a full-size electric pickup truck with a stainless steel exterior that has the utility and strength of a truck while featuring the speed of a sports car. In 2022, we also began early production and deliveries of a commercial electric vehicle, the Tesla Semi. On August 16, 2022, the Inflation Reduction Act of 2022 (“IRA”) was enacted into law and is effective for taxable years beginning after December 31, 2022, and remains subject to future guidance releases. The IRA includes multiple incentives to promote clean energy, electric vehicles, battery and energy storage manufacture or purchase, including through providing tax credits to consumers. For example, under current legislation, qualifying Tesla customers may receive up to $7,500 in federal tax credits for the purchase of qualified electric vehicles in the U.S. through 2032. Following this, all major automotive companies announced their adoption of NACS in certain markets, with their access to the Supercharger network beginning in phases in 2024 and their production of NACS vehicles beginning no later than 2025.",
+    "data": {},
     "chunk_id": 10
   },
   {
-    "info": "Regulatory credits and incentives relevant to investors include credits for zero-emission vehicle operations and energy storage, with energy storage credits (6-50%) and solar credits (6-70%) under IRA/IRC, phasing out starting in 2032 or later. The company highlights federal and state programs affecting energy storage revenue, including FERC participation in wholesale markets and procurement targets/net metering. Regulation of vehicle safety, testing, and evolving self-driving rules add regulatory complexity across the U.S. and international markets. Competitive dynamics in automotive and energy generation/storage persist. ESG and human capital initiatives emphasize responsible sourcing, workforce development, and retention. As of 12/31/2024 Tesla employed 125,665 worldwide; 92% of employees have stock ownership participation; 68% of managers were promoted internally; 45% of management has been with Tesla for more than five years. US veterans are 2.3%, individuals with disabilities are 3.3%, and veterans with disabilities are 1.2%. Internships/Fellowships total ~4,000 annually; START program expanded to 14 campuses with over 400 technicians hired; Education Assistance program has supported 5,436 actively enrolled learners and 1,338 graduates in 2024.",
-    "data": {
-      "storage_credit_min": 6,
-      "storage_credit_max": 50,
-      "solar_credit_min": 6,
-      "solar_credit_max": 70,
-      "credit_phaseout_start_year_min": 2032,
-      "employee_headcount_2024": 125665,
-      "stock_ownership_participants_pct": 92,
-      "internal_promotion_pct": 68,
-      "management_tenure_gt5_pct": 45,
-      "veterans_pct_us": 2.3,
-      "disabled_pct_us": 3.3,
-      "veterans_with_disabilities_pct": 1.2,
-      "internships_per_year": 4000,
-      "start_campuses": 14,
-      "start_technicians_hired_min": 400,
-      "education_assistance_learners_active": 5436,
-      "education_assistance_graduates": 1338,
-      "employees_advancement_2024": 13000
-    },
-    "chunk_id": 11
-  },
-  {
-    "info": "Tesla highlights significant production ramp risks and supplier dependencies as it scales across multiple factories worldwide, including battery cell sourcing from Panasonic and CATL with plans for in-house cells; notes potential delays in new products, AI services, and energy products amid regulatory, supply chain, and cost volatility risks, plus intense automotive and energy storage competition; management cites employee engagement via the Pulse survey with 86% participation to inform future goals.",
-    "data": {
-      "pulse_participation_percent": 86
-    },
+    "info": "We may experience delays in launching and ramping the production of our products and features, or we may be unable to control our manufacturing costs.",
+    "data": {},
     "chunk_id": 12
   },
   {
-    "info": "Product quality and safety risks, liability exposure, and regulatory/compliance challenges could affect Tesla's ability to develop, market, and sell products; potential recalls, warranty costs and self-insurance exposure; financing and residual value risks in vehicle leasing; SUNY Gigafactory New York obligations; dependence on Elon Musk and potential labor/union risks; cybersecurity and data/privacy risks; debt covenants and funding constraints.",
+    "info": "As of December 31, 2024, we and our subsidiaries had outstanding $7.91 billion in aggregate principal amount of indebtedness (see Note 10, Debt, to the consolidated financial statements included elsewhere in this Annual Report on Form 10-K). If we cannot raise additional funds when we need them, our financial condition, results of operations, business and prospects could be materially and adversely affected.",
     "data": {
-      "gigafactory_ny_total_obligations_usd": 5000000000,
-      "gigafactory_ny_initial_term_years": 10,
-      "gigafactory_ny_start_year": 2018,
-      "suny_gigafactory_ny_as_of_year": 2024
-    },
-    "chunk_id": 13
-  },
-  {
-    "info": "Investor-relevant risks: warranty reserves are uncertain and may materially impact results; insurance coverage may be insufficient; debt covenants could restrict operations and liquidity; potential lack of funds for additional financing; obsolescence of manufacturing equipment could accelerate depreciation; indebtedness totaling about 7910000000 as of year-end 2024 increases vulnerability; currency fluctuations may affect margins; intellectual property infringement and licensing costs; ESG scrutiny could raise costs; exposure to natural disasters, geopolitical events and regulatory changes; reliance on government incentives for EVs and solar could be reduced; data privacy/cybersecurity compliance costs; regulatory risks to direct-to-consumer sales and Autopilot/FSD; ongoing government investigations could entail penalties or costs; stock price volatility is expected.",
-    "data": {
-      "debt_2024_total": 7910000000
+      "debt_2024": 7910000000
     },
     "chunk_id": 14
   },
   {
-    "info": "Regulatory and legislative risk to direct-to-consumer vehicle sales domestically and internationally, including state dealer licensing constraints and evolving franchise laws; stock price volatility and litigation risk; 2024 highlights include 1,773,000 vehicles produced, 1,789,000 delivered, 31.4 GWh energy storage deployed, revenue of 97.69B, net income 7.09B, and robust cash generation with 36.56B in cash/investments and 14.92B operating cash flow; large capex of 11.34B; ongoing AI/software and expansion investments; 50-year land rights; convertible notes at 2 percent; warrants exercised for 2,894,424 shares; IPO price around 1.13; 52-week range 488.54 to 138.80; 9,512 holders of record as of 1/22/2025.",
+    "info": "In 2024, we recognized total revenues of 97.69 billion, representing an increase of 917 million compared to the prior year.",
     "data": {
       "revenue_2024": 97690000000,
       "net_income_2024": 7090000000,
-      "cash_and_equivalents_end_2024": 36560000000,
+      "cash_and_equivalents_and_investments_2024": 36560000000,
       "operating_cash_flow_2024": 14920000000,
-      "operating_cash_flow_2023": 13260000000,
-      "capital_expenditures_2024": 11340000000,
-      "capital_expenditures_2023": 8900000000,
-      "revenue_increase_vs_2023": 917000000,
-      "production_vehicles_2024": 1773000,
-      "deliveries_vehicles_2024": 1789000,
-      "energy_storage_GWh_2024": 31.4,
-      "increase_in_cash_2024_vs_2023": 7470000000,
-      "stock_52week_high": 488.54,
-      "stock_52week_low": 138.8,
-      "holders_of_record_2025_01_22": 9512,
-      "ipo_price_per_share_adjusted_2010": 1.13,
-      "stock_split_three_to_one": 3,
-      "stock_split_five_to_one": 5,
-      "land_use_rights_initial_term_years": 50,
-      "convertible_notes_rate_percent": 2.0,
-      "warrants_exercised_shares_2019": 2894424,
-      "deferred_tax_asset_valuation_allowance_released_2023": 6540000000
+      "capex_2024": 11340000000
     },
     "chunk_id": 15
   },
   {
-    "info": "Tesla's 2025 outlook centers on expanding manufacturing capacity (including Cybertruck, Semi and next-gen platform vehicles), increasing Gigafactory ramp capacity to installed levels, and advancing battery-cell self-manufacturing; the company notes risks from supply, labor, macroeconomic and geopolitical factors that could cause production volatility during multi-continent ramps. Notable items include the 2024 Powerwall 3 launch, Megafactory ramps in Shanghai and Lathrop, and the 2025 New Model Y worldwide launch in Q1 2025. Capital expenditures are expected to exceed $11 billion in 2025 and in each of the following two fiscal years (2026 and 2027). The company anticipates production ramps across three continents and mentions potential near-term declines during ramp stages, such as the first quarter of 2024 due to Model 3 ramp and Berlin factory shutdowns.",
-    "data": {
-      "capex_2025": 11000000000,
-      "capex_2026": 11000000000,
-      "capex_2027": 11000000000,
-      "powerwall3_launch_year": 2024,
-      "new_model_y_launch_year": 2025,
-      "new_model_y_launch_quarter": 1,
-      "continents_with_ramps_for_new_model_y": 3,
-      "q1_2024_production_decline_quarter": 1
-    },
+    "info": "Owing and subject to the foregoing as well as the pipeline of announced projects under development, all other continuing infrastructure growth and varying levels of inflation, we currently expect our capital expenditures to exceed $11.00 billion in 2025 and in each of the following two fiscal years.",
+    "data": {},
     "chunk_id": 16
   },
   {
-    "info": "Tax positions require significant judgement; open audits may affect income tax expense and final outcomes may differ from expectations. 2024 revenue mix shows automotive revenue down 8% YoY due to pricing and deliveries, offset by Cybertruck ramp and $596 million of FSD revenue; automotive regulatory credits rose to $2.763 billion; leasing declined; services and other grew; energy generation and storage revenue rose; total revenues increased about 1% to 97,690 (mm). Gross margins shifted: automotive 18.4% in 2024 vs 19.4% in 2023; total gross margin 17.9% in 2024.",
+    "info": "Automotive regulatory credits revenue increased $973 million, or 54%, in the year ended December 31, 2024 as compared to the year ended December 31, 2023, driven by demand for credits in North America as other automobile manufacturers scale back on their battery electric vehicle plans. Automotive leasing revenue decreased $293 million, or 14%, in the year ended December 31, 2024 as compared to the year ended December 31, 2023, primarily due to lower direct sales-type leasing deliveries as we have shifted towards providing leasing options through commercial banking partner programs that allow for us to recognize upfront revenue in automotive sales and a decrease in lease buyouts. Services and other revenue increased $2.22 billion, or 27%, in the year ended December 31, 2024 as compared to the year ended December 31, 2023, primarily due to increases in sales of used vehicles, non-warranty maintenance services and collision revenue, paid Supercharging revenue, insurance services revenue and part sales revenue. Energy generation and storage revenue increased $4.05 billion, or 67%, in the year ended December 31, 2024 as compared to the year ended December 31, 2023, primarily due to a 16.7 GWh increase in Megapack and Powerwall deployments compared to the prior year. Cost of automotive sales revenue decreased $3.25 billion, or 5%, in the year ended December 31, 2024 as compared to the year ended December 31, 2023 due to a decrease in the average combined cost per unit of our vehicles primarily from lower raw material costs, freight and duties as well as mix, in addition to the volume changes in deliveries year over year as discussed above. Cost of automotive leasing revenue decreased $265 million, or 21%, in the year ended December 31, 2024 as compared to the year ended December 31, 2023, primarily due to a decrease in direct sales-type leasing cost of revenue driven by lower deliveries and a decrease in our direct operating lease cost of revenue driven by lower lease buyouts compared to the prior periods. Cost of services and other revenue increased $2.09 billion, or 27%, in the year ended December 31, 2024 as compared to the year ended December 31, 2023, primarily due to volume increases in used vehicle sales at lower average vehicle acquisition cost, insurance services, paid Supercharging, part sales and non-warranty maintenance services and collision. Gross margin for total automotive decreased from 19.4% to 18.4% in the year ended December 31, 2024 as compared to the year ended December 31, 2023 due to lower average selling price on our vehicles and Cybertruck ramp, partially offset by lower average combined cost per unit of our vehicles and increases in regulatory credit and FSD (Supervised) revenue, as discussed above. Gross margin for total automotive & services and other segment decreased from 18.2% to 16.9% in the year ended December 31, 2024 as compared to the year ended December 31, 2023.",
     "data": {
-      "revenue_automotive_sales_2024": 72480,
-      "revenue_automotive_sales_2023": 78509,
-      "revenue_automotive_sales_2022": 67210,
-      "change_revenue_automotive_sales_2024_vs_2023": -6029,
-      "revenue_automotive_credits_2024": 2763,
-      "revenue_automotive_credits_2023": 1790,
-      "revenue_automotive_credits_2022": 1776,
-      "change_revenue_automotive_credits_2024_vs_2023": 973,
-      "revenue_automotive_leasing_2024": 1827,
-      "revenue_automotive_leasing_2023": 2120,
-      "revenue_automotive_leasing_2022": 2476,
-      "change_revenue_automotive_leasing_2024_vs_2023": -293,
-      "revenue_total_automotive_2024": 77070,
-      "revenue_total_automotive_2023": 82419,
-      "revenue_total_automotive_2022": 71462,
-      "change_revenue_total_automotive_2024_vs_2023": -5349,
-      "revenue_services_and_other_2024": 10534,
-      "revenue_services_and_other_2023": 8319,
-      "revenue_services_and_other_2022": 6091,
-      "change_revenue_services_and_other_2024_vs_2023": 2215,
-      "revenue_total_automotive_and_services_and_other_2024": 87604,
-      "revenue_total_automotive_and_services_and_other_2023": 90738,
-      "revenue_total_automotive_and_services_and_other_2022": 77553,
-      "change_revenue_total_automotive_and_services_and_other_2024_vs_2023": -3134,
-      "revenue_energy_generation_and_storage_2024": 10086,
-      "revenue_energy_generation_and_storage_2023": 6035,
-      "revenue_energy_generation_and_storage_2022": 3909,
-      "change_revenue_energy_generation_and_storage_2024_vs_2023": 4051,
-      "total_revenues_2024": 97690,
-      "total_revenues_2023": 96773,
-      "total_revenues_2022": 81462,
-      "change_total_revenues_2024_vs_2023": 917,
-      "cost_of_revenues_automotive_sales_2024": 61870,
-      "cost_of_revenues_automotive_sales_2023": 65121,
-      "cost_of_revenues_automotive_sales_2022": 49599,
-      "change_cost_of_revenues_automotive_sales_2024_vs_2023": -3251,
-      "cost_of_revenues_automotive_leasing_2024": 1003,
-      "cost_of_revenues_automotive_leasing_2023": 1268,
-      "cost_of_revenues_automotive_leasing_2022": 1509,
-      "change_cost_of_revenues_automotive_leasing_2024_vs_2023": -265,
-      "cost_of_revenues_total_automotive_2024": 62873,
-      "cost_of_revenues_total_automotive_2023": 66389,
-      "cost_of_revenues_total_automotive_2022": 51108,
-      "change_cost_of_revenues_total_automotive_2024_vs_2023": -3516,
-      "cost_of_revenues_services_and_other_2024": 9921,
-      "cost_of_revenues_services_and_other_2023": 7830,
-      "cost_of_revenues_services_and_other_2022": 5880,
-      "change_cost_of_revenues_services_and_other_2024_vs_2023": 2091,
-      "cost_of_revenues_total_automotive_and_services_and_other_2024": 72794,
-      "cost_of_revenues_total_automotive_and_services_and_other_2023": 74219,
-      "cost_of_revenues_total_automotive_and_services_and_other_2022": 56988,
-      "change_cost_of_revenues_total_automotive_and_services_and_other_2024_vs_2023": -1425,
-      "cost_of_revenues_energy_generation_and_storage_2024": 7446,
-      "cost_of_revenues_energy_generation_and_storage_2023": 4894,
-      "cost_of_revenues_energy_generation_and_storage_2022": 3621,
-      "change_cost_of_revenues_energy_generation_and_storage_2024_vs_2023": 2552,
-      "total_costs_of_revenues_2024": 80240,
-      "total_costs_of_revenues_2023": 79113,
-      "total_costs_of_revenues_2022": 60609,
-      "change_total_costs_of_revenues_2024_vs_2023": 1127,
-      "gross_profit_automotive_2024": 14197,
-      "gross_profit_automotive_2023": 16030,
-      "gross_profit_automotive_2022": 20354,
+      "revenue_2024": 97690000000,
+      "revenue_2023": 96773000000,
+      "revenue_2022": 81462000000,
+      "revenue_automotive_and_services_and_other_2024": 87604000000,
+      "revenue_energy_generation_and_storage_2024": 10086000000,
+      "revenue_energy_generation_and_storage_2023": 6035000000,
+      "revenue_energy_generation_and_storage_2022": 3909000000,
+      "cost_of_revenues_total_2024": 80240000000,
+      "cost_of_revenues_total_2023": 79113000000,
+      "cost_of_revenues_total_2022": 60609000000,
+      "cost_of_revenues_automotive_2024": 62873000000,
+      "cost_of_revenues_automotive_2023": 66389000000,
+      "cost_of_revenues_automotive_2022": 51108000000,
+      "cost_of_revenues_energy_2024": 7446000000,
+      "cost_of_revenues_energy_2023": 4894000000,
+      "cost_of_revenues_energy_2022": 3621000000,
+      "gross_profit_total_2024": 17450000000,
+      "gross_profit_total_2023": 17660000000,
+      "gross_profit_total_2022": 20853000000,
+      "gross_margin_total_2024": 17.9,
+      "gross_margin_total_2023": 18.2,
+      "gross_margin_total_2022": 25.6,
+      "gross_profit_automotive_2024": 14197000000,
+      "gross_profit_automotive_2023": 16030000000,
+      "gross_profit_automotive_2022": 20354000000,
       "gross_margin_automotive_2024": 18.4,
       "gross_margin_automotive_2023": 19.4,
       "gross_margin_automotive_2022": 28.5,
-      "gross_profit_automotive_and_services_and_other_2024": 14810,
-      "gross_profit_automotive_and_services_and_other_2023": 16519,
-      "gross_profit_automotive_and_services_and_other_2022": 20565,
+      "gross_profit_automotive_and_services_and_other_2024": 14810000000,
+      "gross_profit_automotive_and_services_and_other_2023": 16519000000,
+      "gross_profit_automotive_and_services_and_other_2022": 20565000000,
       "gross_margin_automotive_and_services_and_other_2024": 16.9,
       "gross_margin_automotive_and_services_and_other_2023": 18.2,
       "gross_margin_automotive_and_services_and_other_2022": 26.5,
-      "gross_profit_total_2024": 17450,
-      "gross_profit_total_2023": 17660,
-      "gross_profit_total_2022": 20853,
-      "gross_margin_total_2024": 17.9,
-      "gross_margin_total_2023": 18.2,
-      "gross_margin_total_2022": 25.6
+      "gross_profit_energy_and_storage_2024": 2640000000,
+      "gross_profit_energy_and_storage_2023": 1141000000,
+      "gross_profit_energy_and_storage_2022": 288000000,
+      "gross_margin_energy_and_storage_2024": 26.2,
+      "gross_margin_energy_and_storage_2023": 18.9,
+      "gross_margin_energy_and_storage_2022": 7.4
     },
     "chunk_id": 17
   },
   {
-    "info": "Tesla 2024 results show automotive margin compression (total automotive 18.4% in 2024 vs 19.4% in 2023) and automotive & services margin decline (16.9% in 2024 vs 18.2% in 2023) driven by lower selling prices and Cybertruck ramp, while Energy Generation and Storage margin expanded to 26.2% (from 18.9%). Energy revenue costs rose 2.55B (52%) due to Megapack/Powerwall deployments but benefited from IRA credits and a higher‑margin storage mix. R&D rose 571M (+14%) with a higher R&D as a % of revenue (5% in 2024 vs 4% in 2023). SG&A rose 350M (+7%), aided by facilities (+171M), personnel/labor (+115M) and marketing (+57M). In Q2 2024, restructuring actions drove 583M of employee termination expenses. Interest income rose to 1.569B (up 503M, +47%), and Other income (expense), net improved by 523M, led by bitcoin fair value remeasurement and foreign‑currency effects. Provision for income taxes swung to 1.837B in 2024 (vs a 5.001B benefit in 2023), with an effective tax rate of 20% in 2024 versus (50)% in 2023; valuation allowance related to US deferred tax assets was released in 2023 (~6.54B). These items underscore a mix of margin dynamics across segments, aggressive cost initiatives, and tax assets/churn impacting reported profitability.",
+    "info": "Cost of automotive leasing revenue decreased $265 million, or 21%, in the year ended December 31, 2024 as compared to the year ended December 31, 2023, primarily due to a decrease in direct sales-type leasing cost of revenue driven by lower deliveries and a decrease in our direct operating lease cost of revenue driven by lower lease buyouts compared to the prior periods.",
     "data": {
-      "cost_automotive_leasing_change": -265000000,
-      "cost_automotive_leasing_change_percent": -21,
-      "cost_services_and_other_revenue_change": 2090000000,
-      "cost_services_and_other_revenue_change_percent": 27,
+      "cost_of_automotive_leasing_revenue_change_2024_vs_2023": -265000000,
+      "cost_of_services_and_other_revenue_change_2024_vs_2023": 2090000000,
       "gross_margin_total_automotive_2024": 18.4,
       "gross_margin_total_automotive_2023": 19.4,
-      "gross_margin_total_automotive_services_2024": 16.9,
-      "gross_margin_total_automotive_services_2023": 18.2,
-      "cost_energy_generation_and_storage_revenue_change": 2550000000,
-      "cost_energy_generation_and_storage_revenue_change_percent": 52,
+      "gross_margin_total_automotive_and_services_and_other_2024": 16.9,
+      "gross_margin_total_automotive_and_services_and_other_2023": 18.2,
+      "cost_of_energy_generation_and_storage_revenue_change_2024_vs_2023": 2550000000,
       "gross_margin_energy_generation_and_storage_2024": 26.2,
       "gross_margin_energy_generation_and_storage_2023": 18.9,
-      "rd_expenses_change": 571000000,
-      "rd_expenses_change_percent": 14,
-      "rd_as_percent_of_revenue_2024": 5,
-      "rd_as_percent_of_revenue_2023": 4,
-      "sgna_expenses_change": 350000000,
-      "sgna_expenses_change_percent": 7,
-      "sgna_facilities_increase_2024_vs_2023": 171000000,
-      "sgna_employee_and_labor_increase_2024_vs_2023": 115000000,
-      "sgna_marketing_increase_2024_vs_2023": 57000000,
-      "restructuring_employee_termination_expenses_2024": 583000000,
-      "interest_income_2024": 1569000000,
-      "interest_income_2023": 1066000000,
-      "interest_income_change_2024_vs_2023": 503000000,
-      "other_income_expense_2024": 695000000,
-      "other_income_expense_2023": 172000000,
-      "other_income_expense_change_2024_vs_2023": 523000000,
-      "other_income_expense_2022": -43000000,
-      "other_income_expense_2021": 523000000,
-      "provision_for_income_taxes_2024": 1837000000,
-      "provision_for_income_taxes_2023": -5001000000,
-      "provision_for_income_taxes_2022": 1132000000,
-      "provision_for_income_taxes_2021": 6838000000,
-      "effective_tax_rate_2024_percent": 20,
-      "effective_tax_rate_2023_percent": -50,
-      "valuation_allowance_released_2023": 6540000000
+      "rd_expenses_2024": 4540,
+      "rd_expenses_2023": 3969,
+      "rd_expenses_2022": 3075,
+      "rd_expenses_change_2024_vs_2023": 571,
+      "sg&a_expense_2024": 5150,
+      "sg&a_expense_2023": 4800,
+      "sg&a_expense_2022": 3946,
+      "sg&a_expense_change_2024_vs_2023": 350,
+      "restructuring_and_other_2024": 684,
+      "restructuring_and_other_2022": 176,
+      "employee_termination_expenses_restructuring_2024": 583,
+      "interest_income_2024": 1569,
+      "interest_income_2023": 1066,
+      "interest_income_2022": 297,
+      "interest_income_change_2024_vs_2023": 503,
+      "other_income_expense_net_2024": 695,
+      "other_income_expense_net_2023": 172,
+      "other_income_expense_net_2022": -43,
+      "other_income_expense_net_change_2024_vs_2023": 523,
+      "provision_for_income_taxes_2024": 1837,
+      "provision_for_income_taxes_2023": -5001,
+      "provision_for_income_taxes_2022": 1132,
+      "effective_tax_rate_2024": 20,
+      "effective_tax_rate_2023": -50,
+      "effective_tax_rate_2022": 8,
+      "valuation_allowance_released_2023": 6540
     },
     "chunk_id": 18
   },
   {
-    "info": "Tesla's 2024 tax notes show a 6.84B increase in current tax provision as the tax rate shifted to a 20% expense in 2024 from a 50% benefit in 2023, driven largely by releasing the valuation allowance on U.S. deferred tax assets in 4Q 2023. The company notes ongoing consideration of deferred tax asset realizability, with exceptions for California assets, U.S. foreign tax credits and certain foreign losses. Liquidity remains strong with cash and short-term investments totaling about 37.8B, plus $5.0B of unused committed credit. In 2024, debt outstanding was 7.91B (current 2.35B) and lease liabilities were 7.05B (current 1.19B). Management reiterates capex to exceed 11.0B in 2025 and the next two fiscal years. Cash flow highlights for 2024: operating 14.92B, investing (18.79)B, financing 3.85B. Capital expenditures in 2024 were 11.34B with 7.45B of investments purchased; 2023 figures were 8.90B capex and 6.62B investments. FX risk could affect net income by about 1.15B in 2024 and 1.01B in 2023 with 10% adverse moves. Debt issuance proceeds rose by 1.81B in 2024 and debt repayments rose by 1.15B. Warranties are noted as a critical audit matter.",
+    "info": "As of December 31, 2024, we had $16.14 billion and $20.42 billion of cash and cash equivalents and short-term investments, respectively.",
     "data": {
-      "tax_provision_change_2024_2023": 6840000000,
-      "tax_rate_2024_expense": 20,
-      "tax_rate_2023_benefit": 50,
-      "valuation_allowance_released_4q2023": 6540000000,
-      "debt_outstanding_aggregate_principal_2024": 7910000000,
+      "cash_and_cash_equivalents_2024": 16140000000,
+      "short_term_investments_2024": 20420000000,
+      "unused_committed_credit_amounts_2024": 5000000000,
+      "aggregate_principal_indebtedness_2024": 7910000000,
       "debt_current_portion_2024": 2350000000,
-      "lease_minimum_payments_2024": 7050000000,
+      "total_minimum_lease_payments_2024": 7050000000,
       "lease_payments_due_within_12_months_2024": 1190000000,
       "capital_expenditures_2024": 11340000000,
       "capital_expenditures_2023": 8900000000,
       "investments_purchased_2024": 7450000000,
       "investments_purchased_2023": 6620000000,
-      "net_cash_operating_activities_2024": 14923000000,
-      "net_cash_operating_activities_2023": 13256000000,
-      "net_cash_operating_activities_2022": 14724000000,
-      "net_cash_investing_activities_2024": -18787000000,
-      "net_cash_investing_activities_2023": -15584000000,
-      "net_cash_investing_activities_2022": -11973000000,
-      "net_cash_financing_activities_2024": 3853000000,
-      "net_cash_financing_activities_2023": 2589000000,
-      "net_cash_financing_activities_2022": -3527000000,
-      "cash_and_cash_equivalents_2024": 16140000000,
-      "short_term_investments_2024": 20420000000,
-      "foreign_currency_balance_usd_2024": 2900000000,
-      "unused_credit_facilities_2024": 5000000000,
-      "capex_outlook_2025_and_beyond": 11000000000,
-      "debt_issuance_proceeds_2024": 1810000000,
-      "debt_repayments_2024": 1150000000
+      "net_cash_provided_by_operating_activities_2024": 14920000000,
+      "net_cash_used_in_investing_activities_2024": -18787000000,
+      "net_cash_provided_by_financing_activities_2024": 3853000000,
+      "operating_cash_2023": 13256000000,
+      "investing_cash_2023": -15584000000,
+      "financing_cash_2023": 2589000000,
+      "capital_expenditures_forecast_2025_to_2027": 11000000000
     },
     "chunk_id": 19
   },
   {
-    "info": "Total automotive warranty reserve of 6,716 million as of 12/31/2024; reserve reflects management’s best estimate of future repair, replacement costs and recalls; noted as a critical audit matter with procedures including controls testing, historical claims review, and the involvement of professionals to develop an independent estimate for certain Tesla vehicle models.",
+    "info": "As described in Note 2 to the consolidated financial statements, total accrued warranty, which primarily relates to the automotive segment, was $6,716 million as of December 31, 2024.",
     "data": {
-      "warranty_reserve_2024": 6716000000,
-      "cash_and_cash_equivalents_2024": 16139000000,
-      "short_term_investments_2024": 20424000000,
-      "accounts_receivable_net_2024": 4418000000,
-      "inventory_2024": 12017000000,
-      "prepaid_expenses_and_other_current_assets_2024": 5362000000,
-      "total_current_assets_2024": 58360000000,
-      "operating_lease_vehicles_net_2024": 5581000000,
-      "solar_energy_systems_net_2024": 4924000000,
-      "property_plant_and_equipment_net_2024": 35836000000,
-      "operating_lease_right_of_use_assets_2024": 5160000000,
-      "digital_assets_net_2024": 1076000000,
-      "intangible_assets_net_2024": 150000000,
-      "goodwill_2024": 244000000,
-      "deferred_tax_assets_2024": 6524000000,
-      "other_non_current_assets_2024": 4215000000,
-      "total_assets_2024": 122070000000,
-      "accounts_payable_2024": 12474000000,
-      "accrued_liabilities_and_other_2024": 10723000000,
-      "deferred_revenue_2024": 3168000000,
-      "current_portion_of_debt_and_finance_leases_2024": 2456000000,
-      "total_current_liabilities_2024": 28821000000,
-      "debt_and_finance_leases_net_of_current_portion_2024": 5757000000,
-      "deferred_revenue_net_of_current_portion_2024": 3317000000,
-      "other_long_term_liabilities_2024": 10495000000,
-      "total_liabilities_2024": 48390000000,
-      "redeemable_noncotrolling_interests_in_subsidiaries_2024": 63000000,
-      "total_stockholders_equity_2024": 72913000000,
-      "additional_paid_in_capital_2024": 38371000000,
-      "accumulated_other_comprehensive_loss_2024": -670000000,
-      "retained_earnings_2024": 35209000000,
-      "noncontrolling_interests_in_subsidiaries_2024": 704000000,
-      "total_liabilities_and_equity_2024": 122070000000,
-      "revenues_2024_total": 97690000000,
-      "automotive_sales_2024": 72480000000,
-      "automotive_regulatory_credits_2024": 2763000000,
-      "automotive_leasing_2024": 1827000000,
-      "total_automotive_revenues_2024": 77070000000,
-      "energy_generation_and_storage_2024": 10086000000,
-      "services_and_other_2024": 10534000000,
-      "cost_of_revenues_total_2024": 80240000000,
-      "automotive_cost_of_revenues_2024": 62873000000,
-      "automotive_leasing_cost_of_revenues_2024": 1003000000,
-      "energy_generation_and_storage_cost_2024": 7446000000,
-      "services_and_other_costs_2024": 9921000000,
-      "gross_profit_2024": 17450000000,
-      "research_and_development_2024": 4540000000,
-      "selling_general_and_administrative_2024": 5150000000,
-      "restructuring_and_other_2024": 684000000,
-      "total_operating_expenses_2024": 10374000000,
-      "income_from_operations_2024": 7076000000,
-      "interest_income_2024": 1569000000,
-      "interest_expense_2024": -350000000,
-      "other_income_expense_net_2024": 695000000,
-      "income_before_income_taxes_2024": 8990000000,
-      "provision_for_benefit_from_income_taxes_2024": 1837000000,
-      "net_income_2024": 7153000000,
-      "net_income_attributable_to_common_stockholders_2024": 7091000000,
+      "cash_and_cash_equivalents_2024": 16139,
+      "cash_and_cash_equivalents_2023": 16398,
+      "short_term_investments_2024": 20424,
+      "short_term_investments_2023": 12696,
+      "accounts_receivable_net_2024": 4418,
+      "accounts_receivable_net_2023": 3508,
+      "inventory_2024": 12017,
+      "inventory_2023": 13626,
+      "prepaid_expenses_and_other_current_assets_2024": 5362,
+      "prepaid_expenses_and_other_current_assets_2023": 3388,
+      "total_current_assets_2024": 58360,
+      "total_current_assets_2023": 49616,
+      "operating_lease_vehicles_net_2024": 5581,
+      "operating_lease_vehicles_net_2023": 5989,
+      "solar_energy_systems_net_2024": 4924,
+      "solar_energy_systems_net_2023": 5229,
+      "property_plant_and_equipment_net_2024": 35836,
+      "property_plant_and_equipment_net_2023": 29725,
+      "operating_lease_right_of_use_assets_2024": 5160,
+      "operating_lease_right_of_use_assets_2023": 4180,
+      "digital_assets_net_2024": 1076,
+      "digital_assets_net_2023": 184,
+      "intangible_assets_net_2024": 150,
+      "intangible_assets_net_2023": 178,
+      "goodwill_2024": 244,
+      "goodwill_2023": 253,
+      "deferred_tax_assets_2024": 6524,
+      "deferred_tax_assets_2023": 6733,
+      "other_non_current_assets_2024": 4215,
+      "other_non_current_assets_2023": 4531,
+      "total_assets_2024": 122070,
+      "total_assets_2023": 106618,
+      "accounts_payable_2024": 12474,
+      "accounts_payable_2023": 14431,
+      "accrued_liabilities_and_other_2024": 10723,
+      "accrued_liabilities_and_other_2023": 9080,
+      "deferred_revenue_2024": 3168,
+      "deferred_revenue_2023": 2864,
+      "current_portion_of_debt_and_finance_leases_2024": 2456,
+      "current_portion_of_debt_and_finance_leases_2023": 2373,
+      "total_current_liabilities_2024": 28821,
+      "total_current_liabilities_2023": 28748,
+      "debt_and_finance_leases_net_of_current_portion_2024": 5757,
+      "debt_and_finance_leases_net_of_current_portion_2023": 2857,
+      "deferred_revenue_net_of_current_portion_2024": 3317,
+      "deferred_revenue_net_of_current_portion_2023": 3251,
+      "other_long_term_liabilities_2024": 10495,
+      "other_long_term_liabilities_2023": 8153,
+      "total_liabilities_2024": 48390,
+      "total_liabilities_2023": 43009,
+      "total_stockholders_equity_2024": 72913,
+      "total_stockholders_equity_2023": 62634,
+      "redeemable_noncontrolling_interests_in_subsidiaries_2024": 63,
+      "redeemable_noncontrolling_interests_in_subsidiaries_2023": 242,
+      "noncontrolling_interests_in_subsidiaries_2024": 704,
+      "noncontrolling_interests_in_subsidiaries_2023": 733,
+      "common_stock_2024": 3,
+      "common_stock_2023": 3,
+      "additional_paid_in_capital_2024": 38371,
+      "additional_paid_in_capital_2023": 34892,
+      "accumulated_other_comprehensive_loss_2024": -670,
+      "accumulated_other_comprehensive_loss_2023": -143,
+      "retained_earnings_2024": 35209,
+      "retained_earnings_2023": 27882,
+      "net_income_2024": 7153,
+      "net_income_2023": 14974,
+      "net_income_attributable_to_common_stockholders_2024": 7091,
+      "net_income_attributable_to_common_stockholders_2023": 14997,
       "basic_eps_2024": 2.23,
-      "diluted_eps_2024": 2.04,
-      "weighted_average_basic_shares_2024": 3197,
-      "weighted_average_diluted_shares_2024": 3498,
-      "net_income_per_share_basic_2024": 2.23,
-      "net_income_per_share_diluted_2024": 2.04,
-      "comprehensive_income_2024": 6626000000,
-      "foreign_currency_translation_adjustment_2024": -539000000,
-      "unrealized_net_gain_investments_2024": 12000000,
-      "comprehensive_income_attributable_to_common_stockholders_2024": 6564000000,
-      "comprehensive_income_2023": 15192000000,
-      "foreign_currency_translation_adjustment_2023": 198000000,
-      "unrealized_net_gain_investments_2023": 16000000,
-      "comprehensive_income_attributable_to_common_stockholders_2023": 15215000000,
-      "net_income_2023": 14974000000,
-      "net_income_per_share_basic_2023": 4.73,
-      "net_income_per_share_diluted_2023": 4.3,
-      "weighted_average_basic_shares_2023": 3174,
-      "weighted_average_diluted_shares_2023": 3485,
-      "revenues_2023_total": 96773000000,
-      "automotive_sales_2023": 78509000000,
-      "automotive_regulatory_credits_2023": 1790000000,
-      "automotive_leasing_2023": 2120000000,
-      "total_automotive_revenues_2023": 82419000000,
-      "energy_generation_and_storage_2023": 6035000000,
-      "services_and_other_2023": 8319000000,
-      "cost_of_revenues_2023_total": 79113000000,
-      "automotive_cost_of_revenues_2023": 66389000000,
-      "automotive_leasing_cost_of_revenues_2023": 1268000000,
-      "energy_generation_and_storage_cost_2023": 4894000000,
-      "services_and_other_costs_2023": 7830000000,
-      "gross_profit_2023": 17660000000,
-      "research_and_development_2023": 3969000000,
-      "selling_general_and_administrative_2023": 4800000000,
-      "operating_expenses_2023_total": 8769000000,
-      "income_from_operations_2023": 8891000000,
-      "interest_income_2023": 1066000000,
-      "interest_expense_2023": -156000000,
-      "other_income_expense_net_2023": 172000000,
-      "income_before_income_taxes_2023": 9973000000,
-      "provision_for_income_taxes_2023": -5001000000,
-      "net_income_attributable_to_common_stockholders_2023": 14997000000,
       "basic_eps_2023": 4.73,
+      "diluted_eps_2024": 2.04,
       "diluted_eps_2023": 4.3,
-      "total_assets_2023": 106618000000,
-      "total_current_assets_2023": 49616000000,
-      "total_current_liabilities_2023": 28748000000,
-      "total_liabilities_2023": 43009000000,
-      "total_stockholders_equity_2023": 62634000000,
-      "redeemable_noncotrolling_interests_in_subsidiaries_2023": 242000000,
-      "noncontrolling_interests_in_subsidiaries_2023": 733000000,
-      "weighted_average_shares_2023": 0
+      "total_revenues_2024": 97690,
+      "total_revenues_2023": 96773,
+      "cost_of_revenues_total_2024": 80240,
+      "cost_of_revenues_total_2023": 79113,
+      "gross_profit_2024": 17450,
+      "gross_profit_2023": 17660,
+      "operating_expenses_r_and_d_2024": 4540,
+      "operating_expenses_r_and_d_2023": 3969,
+      "operating_expenses_sga_2024": 5150,
+      "operating_expenses_sga_2023": 4800,
+      "operating_expenses_total_2024": 10374,
+      "operating_expenses_total_2023": 8769,
+      "income_from_operations_2024": 7076,
+      "income_from_operations_2023": 8891,
+      "interest_income_2024": 1569,
+      "interest_income_2023": 1066,
+      "interest_expense_2024": -350,
+      "interest_expense_2023": -156,
+      "other_income_expense_net_2024": 695,
+      "other_income_expense_net_2023": 172,
+      "income_before_income_taxes_2024": 8990,
+      "income_before_income_taxes_2023": 9973,
+      "provision_for_income_taxes_2024": 1837,
+      "provision_for_income_taxes_2023": -5001,
+      "net_income_2024_after_taxes": 7153
     },
     "chunk_id": 20
   },
   {
-    "info": "",
+    "info": "The total recorded guarantee liabilities on vehicles sold under these programs were immaterial as of December 31, 2024 and 2023. Our maximum exposure on the guarantees we provide if they are unable to sell the vehicle at or above the vehicle’s contractual residual value at the end of the lease term was $1.45 billion and $166 million as of December 31, 2024 and 2023, respectively.",
     "data": {
-      "equity_balances_by_year": [
-        {
-          "year": 2021,
-          "redeemable_nci": 568,
-          "common_stock_shares": 3100,
-          "additional_paid_in_capital": 29803,
-          "accumulated_other_comprehensive_income_loss": 54,
-          "retained_earnings": 329,
-          "total_stockholders_equity": 30189,
-          "noncontrolling_interests_in_subsidiaries": 826,
-          "total_equity": 31015
-        },
-        {
-          "year": 2022,
-          "redeemable_nci": 409,
-          "common_stock_shares": 3164,
-          "additional_paid_in_capital": 32177,
-          "accumulated_other_comprehensive_income_loss": -361,
-          "retained_earnings": 12885,
-          "total_stockholders_equity": 44704,
-          "noncontrolling_interests_in_subsidiaries": 785,
-          "total_equity": 45489
-        },
-        {
-          "year": 2023,
-          "redeemable_nci": 242,
-          "common_stock_shares": 3185,
-          "additional_paid_in_capital": 34892,
-          "accumulated_other_comprehensive_income_loss": -143,
-          "retained_earnings": 27882,
-          "total_stockholders_equity": 62634,
-          "noncontrolling_interests_in_subsidiaries": 733,
-          "total_equity": 63367
-        },
-        {
-          "year": 2024,
-          "redeemable_nci": 63,
-          "common_stock_shares": 3216,
-          "additional_paid_in_capital": 38371,
-          "accumulated_other_comprehensive_income_loss": -670,
-          "retained_earnings": 35209,
-          "total_stockholders_equity": 72913,
-          "noncontrolling_interests_in_subsidiaries": 704,
-          "total_equity": 73617
-        }
-      ]
-    },
-    "chunk_id": 21
-  },
-  {
-    "info": "Tesla 2024 results show total revenues of 97,690 million with net income of 7,153 million. Revenue mix: Automotive sales 72,480; regulatory credits 2,763; energy generation and storage sales 9,564; services and other 10,534; leasing contributions 1,827 (auto) and 522 (energy). Operating cash flow 14,923 million; investing cash flow -18,787; financing cash flow 3,853; year-end cash and equivalents 17,037. Deferred revenue for automotive services ended at 3,599 with 1,343 additions and 840 million expected to be recognized in the next 12 months. The notes discuss GAAP consolidation of VIEs, estimates, and resale value guarantees.",
-    "data": {
-      "total_revenues_from_sales_and_services_by_year": [
-        {
-          "year": 2024,
-          "value": 95341
-        },
-        {
-          "year": 2023,
-          "value": 94133
-        },
-        {
-          "year": 2022,
-          "value": 78453
-        }
-      ],
-      "total_revenues_by_year": [
-        {
-          "year": 2024,
-          "value": 97690
-        },
-        {
-          "year": 2023,
-          "value": 96773
-        },
-        {
-          "year": 2022,
-          "value": 81462
-        }
-      ],
-      "revenue_by_source": [
-        {
-          "source": "Automotive_sales",
-          "2024": 72480,
-          "2023": 78509,
-          "2022": 67210
-        },
-        {
-          "source": "Automotive_regulatory_credits",
-          "2024": 2763,
-          "2023": 1790,
-          "2022": 1776
-        },
-        {
-          "source": "Energy_generation_and_storage_sales",
-          "2024": 9564,
-          "2023": 5515,
-          "2022": 3376
-        },
-        {
-          "source": "Services_and_other",
-          "2024": 10534,
-          "2023": 8319,
-          "2022": 6091
-        }
-      ],
-      "leasing_by_year": [
-        {
-          "source": "Automotive_leasing",
-          "2024": 1827,
-          "2023": 2120,
-          "2022": 2476
-        },
-        {
-          "source": "Energy_generation_and_storage_leasing",
-          "2024": 522,
-          "2023": 520,
-          "2022": 533
-        }
-      ],
-      "net_income_by_year": [
-        {
-          "year": 2024,
-          "value": 7153
-        },
-        {
-          "year": 2023,
-          "value": 14974
-        },
-        {
-          "year": 2022,
-          "value": 12587
-        }
-      ],
-      "cash_flows_by_category_and_year": {
-        "operating": [
-          {
-            "year": 2024,
-            "value": 14923
-          },
-          {
-            "year": 2023,
-            "value": 13256
-          },
-          {
-            "year": 2022,
-            "value": 14724
-          }
-        ],
-        "investing": [
-          {
-            "year": 2024,
-            "value": -18787
-          },
-          {
-            "year": 2023,
-            "value": -15584
-          },
-          {
-            "year": 2022,
-            "value": -11973
-          }
-        ],
-        "financing": [
-          {
-            "year": 2024,
-            "value": 3853
-          },
-          {
-            "year": 2023,
-            "value": 2589
-          },
-          {
-            "year": 2022,
-            "value": -3527
-          }
-        ]
-      },
-      "cash_balance_by_year": {
-        "beginning_of_period": [
-          {
-            "year": 2024,
-            "value": 17189
-          },
-          {
-            "year": 2023,
-            "value": 16924
-          },
-          {
-            "year": 2022,
-            "value": 18144
-          }
-        ],
-        "end_of_period": [
-          {
-            "year": 2024,
-            "value": 17037
-          },
-          {
-            "year": 2023,
-            "value": 17189
-          },
-          {
-            "year": 2022,
-            "value": 16924
-          }
-        ]
-      },
-      "deferred_revenue_by_year": [
-        {
-          "year": 2024,
-          "beginning_of_period": 3536,
-          "additions": 1343,
-          "net_changes": -92,
-          "revenue_recognized": -1188,
-          "end_of_period": 3599
-        },
-        {
-          "year": 2023,
-          "beginning_of_period": 2913,
-          "additions": 1201,
-          "net_changes": 17,
-          "revenue_recognized": -595,
-          "end_of_period": 3536
-        }
-      ],
-      "deferred_revenue_next_12_months_2024": 840,
-      "accounts_receivable_changes_by_year": [
-        {
-          "year": 2024,
-          "change": -1083
-        },
-        {
-          "year": 2023,
-          "change": -586
-        },
-        {
-          "year": 2022,
-          "change": -1124
-        }
-      ],
-      "inventory_changes_by_year": [
-        {
-          "year": 2024,
-          "change": 937
-        },
-        {
-          "year": 2023,
-          "change": -1195
-        },
-        {
-          "year": 2022,
-          "change": -6465
-        }
-      ],
-      "operating_lease_vehicles_changes_by_year": [
-        {
-          "year": 2024,
-          "change": -590
-        },
-        {
-          "year": 2023,
-          "change": -1952
-        },
-        {
-          "year": 2022,
-          "change": -1570
-        }
-      ],
-      "prepaid_expenses_and_other_assets_changes_by_year": [
-        {
-          "year": 2024,
-          "change": -3273
-        },
-        {
-          "year": 2023,
-          "change": -2652
-        },
-        {
-          "year": 2022,
-          "change": -3713
-        }
-      ],
-      "accounts_payable_and_accrued_and_other_liabilities_changes_by_year": [
-        {
-          "year": 2024,
-          "change": 3588
-        },
-        {
-          "year": 2023,
-          "change": 2605
-        },
-        {
-          "year": 2022,
-          "change": 8029
-        }
-      ],
-      "deferred_revenue_changes_by_year": [
-        {
-          "year": 2024,
-          "change": 502
-        },
-        {
-          "year": 2023,
-          "change": 1532
-        },
-        {
-          "year": 2022,
-          "change": 1131
-        }
-      ],
-      "non_cash_items": [
-        {
-          "item": "Depreciation_amortization_and_impairment",
-          "2024": 5368,
-          "2023": 4667,
-          "2022": 3747
-        },
-        {
-          "item": "Stock_based_compensation",
-          "2024": 1999,
-          "2023": 1812,
-          "2022": 1560
-        },
-        {
-          "item": "Foreign_currency_transaction_net_unrealized_gain_loss",
-          "2024": -73,
-          "2023": -144,
-          "2022": 81
-        },
-        {
-          "item": "Digital_assets_gain_loss_net",
-          "2024": -589,
-          "2023": 0,
-          "2022": 140
-        }
-      ],
-      "supplemental_non_cash_investing_and_financing": [
-        {
-          "year": 2024,
-          "acquisitions_of_property_and_equipment_included_in_liabilities": 1410
-        },
-        {
-          "year": 2023,
-          "acquisitions_of_property_and_equipment_included_in_liabilities": 2272
-        },
-        {
-          "year": 2022,
-          "acquisitions_of_property_and_equipment_included_in_liabilities": 2148
-        }
-      ],
-      "supplemental_disclosures": [
-        {
-          "item": "cash_paid_during_period_for_interest",
-          "2024": 277,
-          "2023": 126,
-          "2022": 152
-        },
-        {
-          "item": "cash_paid_during_period_for_income_taxes_net_of_refunds",
-          "2024": 1331,
-          "2023": 1119,
-          "2022": 1203
-        }
-      ],
-      "investments": [
-        {
-          "type": "purchases_of_investments",
-          "2024": -35955,
-          "2023": -19112,
-          "2022": -5835
-        },
-        {
-          "type": "proceeds_from_maturities_of_investments",
-          "2024": 28310,
-          "2023": 12353,
-          "2022": 22
-        },
-        {
-          "type": "proceeds_from_sales_of_investments",
-          "2024": 200,
-          "2023": 138,
-          "2022": 0
-        },
-        {
-          "type": "government_grants_received",
-          "2024": 0,
-          "2023": 0,
-          "2022": 76
-        }
-      ],
-      "debt_issuance_and_financing": [
-        {
-          "type": "proceeds_from_issuances_of_debt",
-          "2024": 5744,
-          "2023": 3931,
-          "2022": 0
-        },
-        {
-          "type": "repayments_of_debt",
-          "2024": -2500,
-          "2023": -1351,
-          "2022": -3364
-        },
-        {
-          "type": "distributions_to_noncontrolling_interests",
-          "2024": -104,
-          "2023": -144,
-          "2022": -157
-        },
-        {
-          "type": "payments_for_buy-outs_of_noncontrolling_interests",
-          "2024": -133,
-          "2023": -54,
-          "2022": -45
-        },
-        {
-          "type": "debt_issuance_costs",
-          "2024": -14,
-          "2023": -29,
-          "2022": 0
-        }
-      ],
-      "net_cash_from_operations_total": [
-        {
-          "year": 2024,
-          "value": 14923
-        },
-        {
-          "year": 2023,
-          "value": 13256
-        },
-        {
-          "year": 2022,
-          "value": 14724
-        }
-      ]
+      "net_income_2024": 7153,
+      "net_income_2023": 14974,
+      "net_income_2022": 12587,
+      "net_cash_provided_by_operating_activities_2024": 14923,
+      "net_cash_provided_by_operating_activities_2023": 13256,
+      "net_cash_provided_by_operating_activities_2022": 14724,
+      "net_cash_used_in_investing_activities_2024": -18787,
+      "net_cash_used_in_investing_activities_2023": -15584,
+      "net_cash_used_in_investing_activities_2022": -11973,
+      "net_cash_provided_by_financing_activities_2024": 3853,
+      "net_cash_provided_by_financing_activities_2023": 2589,
+      "net_cash_provided_by_financing_activities_2022": -3527,
+      "cash_and_cash_equivalents_end_of_period_2024": 17037,
+      "cash_and_cash_equivalents_end_of_period_2023": 17189,
+      "cash_and_cash_equivalents_end_of_period_2022": 16924,
+      "total_revenues_2024": 97690,
+      "total_revenues_2023": 96773,
+      "total_revenues_2022": 81462,
+      "depreciation_amortization_and_impairment_2024": 5368,
+      "depreciation_amortization_and_impairment_2023": 4667,
+      "depreciation_amortization_and_impairment_2022": 3747,
+      "stock_based_compensation_2024": 1999,
+      "stock_based_compensation_2023": 1812,
+      "stock_based_compensation_2022": 1560,
+      "inventory_write_downs_2024": 335,
+      "inventory_write_downs_2023": 463,
+      "inventory_write_downs_2022": 177,
+      "foreign_currency_transaction_gain_loss_2024": -73,
+      "foreign_currency_transaction_gain_loss_2023": -144,
+      "foreign_currency_transaction_gain_loss_2022": 81,
+      "deferred_income_taxes_2024": 477,
+      "deferred_income_taxes_2023": -6349,
+      "deferred_income_taxes_2022": -196,
+      "non_cash_interest_and_other_operating_activities_2024": 172,
+      "non_cash_interest_and_other_operating_activities_2023": 81,
+      "non_cash_interest_and_other_operating_activities_2022": 340
     },
     "chunk_id": 22
   },
   {
-    "info": "Significant deferred revenue and financing data across Automotive and Energy segments. As of 12/31/2024, large unsatisfied performance obligations exist: automotive regulatory credits total $4.68B (>1 year) with $0.863B to be recognized in the next 12 months; energy generation and storage contracts total $7.18B (>1 year) with $4.51B to be recognized in the next 12 months. Revenue recognized from deferred revenue in 2024 was $0.872B for automotive and $1.27B for energy generation/storage (2023: $0.469B and $0.571B). Energy storage deferred revenue balances for customer payments total $1.77B (2023: $1.60B), with related deferred revenue from leases $164M (2023: $181M). The company holds financing receivables: automotive current $247M vs $242M prior year, long-term $821M vs $1.04B; energy financing current $34M vs $31M, long-term $658M vs $578M. Leasing revenues: direct vehicle operating leasing $1.78B in 2024, $1.86B in 2023, $1.75B in 2022, with upfront lease payments deferred $394M (2024) and $458M (2023). Manufacturing credits: automotive $625M (2024) vs $359M (2023); energy generation/storage credits $756M (2024) vs $115M (2023). Qualifying vehicle leases can run up to 48 months.",
+    "info": "Of this amount, we expect to recognize $863 million in the next 12 months and the rest over the remaining performance obligation period.",
     "data": {
-      "deferred_revenue_dec_31_2024_next_12_months": 840000000,
-      "automotive_reg_credits_unsatisfied_contracts_total_more_than_one_year_2024": 4680000000,
-      "automotive_reg_credits_next_12_months": 863000000,
-      "energy_storage_credits_unsatisfied_contracts_total_more_than_one_year_2024": 7180000000,
-      "energy_storage_credits_next_12_months": 4510000000,
-      "automotive_revenue_recognized_from_deferred_revenue_2024": 872000000,
-      "automotive_revenue_recognized_from_deferred_revenue_2023": 469000000,
-      "energy_generation_storage_deferred_revenue_balance_dec_31_2024": 1770000000,
-      "energy_generation_storage_deferred_revenue_balance_dec_31_2023": 1600000000,
-      "energy_generation_storage_revenue_recognized_from_deferred_revenue_2024": 1270000000,
-      "energy_generation_storage_revenue_recognized_from_deferred_revenue_2023": 571000000,
-      "current_net_financing_receivables_accounts_receivable_net_2024": 247000000,
-      "current_net_financing_receivables_accounts_receivable_net_2023": 242000000,
-      "long_term_financing_receivables_other_non_current_assets_2024": 821000000,
-      "long_term_financing_receivables_other_non_current_assets_2023": 1040000000,
-      "energy_products_financing_current_net_receivables_2024": 34000000,
-      "energy_products_financing_current_net_receivables_2023": 31000000,
-      "energy_products_financing_long_term_other_non_current_assets_2024": 658000000,
-      "energy_products_financing_long_term_other_non_current_assets_2023": 578000000,
+      "total_transaction_price_performance_obligations_more_than_one_year_2024": 4680000000,
+      "deferred_revenue_balance_next_12_months_2024": 840000000,
+      "next_12_months_recognition_of_performance_obligations_2024": 863000000,
       "direct_vehicle_operating_leasing_revenue_2024": 1780000000,
       "direct_vehicle_operating_leasing_revenue_2023": 1860000000,
       "direct_vehicle_operating_leasing_revenue_2022": 1750000000,
-      "lease_upfront_payments_deferred_2024": 394000000,
-      "lease_upfront_payments_deferred_2023": 458000000,
-      "automotive_manufacturing_credits_2024": 625000000,
-      "automotive_manufacturing_credits_2023": 359000000,
-      "energy_generation_storage_credits_2024": 756000000,
-      "energy_generation_storage_credits_2023": 115000000,
-      "energy_lease_customer_payment_deferred_balance_2024": 164000000,
-      "energy_lease_customer_payment_deferred_balance_2023": 181000000,
-      "net_income_attributable_common_stockholders_2024": 7091,
-      "net_income_attributable_common_stockholders_2023": 14997,
-      "net_income_attributable_common_stockholders_2022": 12556,
-      "noncontrolling_interest_buyouts_2024": -39,
-      "leasing_term_qualifying_customers_months": 48
+      "deferred_upfront_lease_payments_2024": 394000000,
+      "deferred_upfront_lease_payments_2023": 458000000,
+      "sales_type_leasing_revenue_2024": 12000000,
+      "sales_type_leasing_revenue_2023": 215000000,
+      "sales_type_leasing_revenue_2022": 683000000,
+      "sales_type_leasing_cost_of_revenue_2024": 7000000,
+      "sales_type_leasing_cost_of_revenue_2023": 164000000,
+      "sales_type_leasing_cost_of_revenue_2022": 427000000,
+      "automotive_regulatory_credits_2024": 625000000,
+      "automotive_regulatory_credits_2023": 359000000,
+      "energy_generation_and_storage_credits_2024": 756000000,
+      "energy_generation_and_storage_credits_2023": 115000000,
+      "revenue_recognized_from_energy_generation_deferred_revenue_balance_2024": 1270000000,
+      "revenue_recognized_from_energy_generation_deferred_revenue_balance_2023": 571000000,
+      "deferred_revenue_related_to_energy_generation_and_storage_payments_2024": 1770000000,
+      "deferred_revenue_related_to_energy_generation_and_storage_payments_2023": 1600000000,
+      "current_net_financing_receivables_accounts_receivable_net_2024": 247000000,
+      "current_net_financing_receivables_accounts_receivable_net_2023": 242000000,
+      "long_term_financing_receivables_accounts_and_other_2024": 821000000,
+      "long_term_financing_receivables_accounts_and_other_2023": 1040000000,
+      "current_net_financing_receivables_energy_generation_and_storage_2024": 34000000,
+      "current_net_financing_receivables_energy_generation_and_storage_2023": 31000000,
+      "long_term_financing_receivables_energy_generation_and_storage_2024": 658000000,
+      "long_term_financing_receivables_energy_generation_and_storage_2023": 578000000,
+      "net_income_attributable_to_common_stockholders_2024": 7091000000,
+      "net_income_attributable_to_common_stockholders_2023": 14997000000,
+      "net_income_attributable_to_common_stockholders_2022": 12556000000,
+      "buyouts_of_noncontrolling_interests_2024": -39000000,
+      "buyouts_of_noncontrolling_interests_2023": -20000000,
+      "buyouts_of_noncontrolling_interests_2022": -27000000
     },
     "chunk_id": 23
   },
   {
-    "info": "Liquidity remains strong with total cash and restricted cash of 17,037 million at 12/31/2024; interest income on short-term investments was 763 million in 2024 and 388 million in 2023. Net income attributable to common stockholders: 7,091 (2024) vs 14,997 (2023) and 12,556 (2022); basic net income: 7,130 (2024) and 14,999 (2023) and 12,583 (2022); diluted net income: 7,130 (2024) 14,999 (2023) 12,584 (2022). Dilution arises from stock-based awards (292/298/310), convertible notes (1/2/3) and warrants (8/11/32); potentially dilutive shares excluded: 15 (2024), 12 (2023), 4 (2022). At year-end 2024, solar energy systems gross cost 6,790; accumulated depreciation 1,860; operating lease vehicles gross cost 7,030; accumulated depreciation 1,450. Foreign currency gains: 57 (2024), 122 (2023), -89 (2022). Government rebates receivable current portion: 315 (2024) and 378 (2023); long-term portion 207 for both. MyPower notes receivable total: 248 (2024) and 266 (2023); 4 and 5 due within 12 months. No entity represented 10% or more of total receivables.",
+    "info": "The gross cost of operating lease vehicles as of December 31, 2024 and 2023 was $7.03 billion and $7.36 billion, respectively.",
     "data": {
-      "per_share_reconciliation": [
-        {
-          "year": 2024,
-          "net_income_attributable_common_stockholders": 7091,
-          "buyouts_of_noncontrolling_interests": -39,
-          "net_income_basic": 7130,
-          "net_income_diluted": 7130
-        },
-        {
-          "year": 2023,
-          "net_income_attributable_common_stockholders": 14997,
-          "buyouts_of_noncontrolling_interests": -2,
-          "net_income_basic": 14999,
-          "net_income_diluted": 14999
-        },
-        {
-          "year": 2022,
-          "net_income_attributable_common_stockholders": 12556,
-          "buyouts_of_noncontrolling_interests": -27,
-          "net_income_basic": 12583,
-          "net_income_diluted": 12584
-        }
-      ],
-      "weighted_average_shares_basic": [
-        {
-          "year": 2024,
-          "value": 3197
-        },
-        {
-          "year": 2023,
-          "value": 3174
-        },
-        {
-          "year": 2022,
-          "value": 3130
-        }
-      ],
-      "stock_based_awards": [
-        {
-          "year": 2024,
-          "value": 292
-        },
-        {
-          "year": 2023,
-          "value": 298
-        },
-        {
-          "year": 2022,
-          "value": 310
-        }
-      ],
-      "convertible_senior_notes": [
-        {
-          "year": 2024,
-          "value": 1
-        },
-        {
-          "year": 2023,
-          "value": 2
-        },
-        {
-          "year": 2022,
-          "value": 3
-        }
-      ],
-      "warrants": [
-        {
-          "year": 2024,
-          "value": 8
-        },
-        {
-          "year": 2023,
-          "value": 11
-        },
-        {
-          "year": 2022,
-          "value": 32
-        }
-      ],
-      "weighted_average_shares_diluted": [
-        {
-          "year": 2024,
-          "value": 3498
-        },
-        {
-          "year": 2023,
-          "value": 3485
-        },
-        {
-          "year": 2022,
-          "value": 3475
-        }
-      ],
-      "potentially_dilutive_shares_excluded": [
-        {
-          "year": 2024,
-          "value": 15
-        },
-        {
-          "year": 2023,
-          "value": 12
-        },
-        {
-          "year": 2022,
-          "value": 4
-        }
-      ],
-      "investment_interest_income_short_term": [
-        {
-          "year": 2024,
-          "value": 763
-        },
-        {
-          "year": 2023,
-          "value": 388
-        }
-      ],
-      "cash_and_cash_equivalents_and_restricted_cash": [
-        {
-          "year": 2024,
-          "total": 17037,
-          "cash_and_cash_equivalents": 16139,
-          "restricted_cash_prepay_expenses": 494,
-          "restricted_cash_other_non_current_assets": 404
-        },
-        {
-          "year": 2023,
-          "total": 17189,
-          "cash_and_cash_equivalents": 16398,
-          "restricted_cash_prepay_expenses": 543,
-          "restricted_cash_other_non_current_assets": 248
-        },
-        {
-          "year": 2022,
-          "total": 16924,
-          "cash_and_cash_equivalents": 16253,
-          "restricted_cash_prepay_expenses": 294,
-          "restricted_cash_other_non_current_assets": 377
-        }
-      ],
-      "solar_energy_systems_gross_cost": [
-        {
-          "year": 2024,
-          "value": 6790
-        },
-        {
-          "year": 2023,
-          "value": 6870
-        }
-      ],
-      "solar_energy_systems_accum_depreciation": [
-        {
-          "year": 2024,
-          "value": 1860
-        },
-        {
-          "year": 2023,
-          "value": 1640
-        }
-      ],
-      "operating_lease_vehicles_gross_cost": [
-        {
-          "year": 2024,
-          "value": 7030
-        },
-        {
-          "year": 2023,
-          "value": 7360
-        }
-      ],
-      "operating_lease_vehicles_accum_depreciation": [
-        {
-          "year": 2024,
-          "value": 1450
-        },
-        {
-          "year": 2023,
-          "value": 1380
-        }
-      ],
-      "foreign_currency_gains": [
-        {
-          "year": 2024,
-          "value": 57
-        },
-        {
-          "year": 2023,
-          "value": 122
-        },
-        {
-          "year": 2022,
-          "value": -89
-        }
-      ],
-      "government_rebates_current_accounts_receivable": [
-        {
-          "year": 2024,
-          "value": 315
-        },
-        {
-          "year": 2023,
-          "value": 378
-        }
-      ],
-      "government_rebates_long_term_other_non_current_assets": [
-        {
-          "year": 2024,
-          "value": 207
-        },
-        {
-          "year": 2023,
-          "value": 207
-        }
-      ],
-      "myPower_notes_receivable_total": [
-        {
-          "year": 2024,
-          "value": 248
-        },
-        {
-          "year": 2023,
-          "value": 266
-        }
-      ],
-      "myPower_notes_due_in_12_months": [
-        {
-          "year": 2024,
-          "value": 4
-        },
-        {
-          "year": 2023,
-          "value": 5
-        }
-      ],
-      "myPower_allowance_for_expected_credit_losses": [
-        {
-          "year": 2024,
-          "value": 33
-        },
-        {
-          "year": 2023,
-          "value": 36
-        }
-      ],
-      "receivables_concentration_max_percent": 10,
-      "cash_flow_total": [
-        {
-          "year": 2024,
-          "value": 17037
-        },
-        {
-          "year": 2023,
-          "value": 17189
-        },
-        {
-          "year": 2022,
-          "value": 16924
-        }
-      ]
+      "net_income_2024": 7091,
+      "net_income_2023": 14997,
+      "net_income_2022": 12556,
+      "net_income_basic_2024": 7130,
+      "net_income_basic_2023": 14999,
+      "net_income_basic_2022": 12583,
+      "net_income_diluted_2024": 7130,
+      "net_income_diluted_2023": 14999,
+      "net_income_diluted_2022": 12584,
+      "basic_weighted_avg_shares_2024": 3197,
+      "basic_weighted_avg_shares_2023": 3174,
+      "basic_weighted_avg_shares_2022": 3130,
+      "diluted_weighted_avg_shares_2024": 3498,
+      "diluted_weighted_avg_shares_2023": 3485,
+      "diluted_weighted_avg_shares_2022": 3475,
+      "stock_based_awards_2024": 292,
+      "stock_based_awards_2023": 298,
+      "stock_based_awards_2022": 310,
+      "convertible_senior_notes_2024": 1,
+      "convertible_senior_notes_2023": 2,
+      "convertible_senior_notes_2022": 3,
+      "warrants_2024": 8,
+      "warrants_2023": 11,
+      "warrants_2022": 32,
+      "anti_dilutive_stock_based_awards_2024": 15,
+      "anti_dilutive_stock_based_awards_2023": 12,
+      "anti_dilutive_stock_based_awards_2022": 4,
+      "cash_and_cash_equivalents_2024": 16139,
+      "cash_and_cash_equivalents_2023": 16398,
+      "cash_and_cash_equivalents_2022": 16253,
+      "total_cash_and_restricted_cash_2024": 17037,
+      "total_cash_and_restricted_cash_2023": 17189,
+      "total_cash_and_restricted_cash_2022": 16924,
+      "restricted_cash_prepaid_expenses_and_other_current_assets_2024": 494,
+      "restricted_cash_prepaid_expenses_and_other_current_assets_2023": 543,
+      "restricted_cash_prepaid_expenses_and_other_current_assets_2022": 294,
+      "restricted_cash_other_non_current_assets_2024": 404,
+      "restricted_cash_other_non_current_assets_2023": 248,
+      "restricted_cash_other_non_current_assets_2022": 377,
+      "interest_income_short_term_investments_2024": 763000000,
+      "interest_income_short_term_investments_2023": 388000000,
+      "mypower_notes_receivable_outstanding_2024": 248000000,
+      "mypower_notes_receivable_outstanding_2023": 266000000,
+      "allowance_for_credit_losses_elo_2024": 33000000,
+      "allowance_for_credit_losses_elo_2023": 36000000,
+      "mypower_notes_due_in_12_months_2024": 4,
+      "mypower_notes_due_in_12_months_2023": 5,
+      "gross_cost_operating_lease_vehicles_2024": 7030000000,
+      "gross_cost_operating_lease_vehicles_2023": 7360000000,
+      "accum_depreciation_operating_lease_vehicles_2024": 1450000000,
+      "accum_depreciation_operating_lease_vehicles_2023": 1380000000,
+      "gross_cost_solar_energy_systems_2024": 6790000000,
+      "gross_cost_solar_energy_systems_2023": 6870000000,
+      "accum_depreciation_solar_energy_systems_2024": 1860000000,
+      "accum_depreciation_solar_energy_systems_2023": 1640000000
     },
     "chunk_id": 24
   },
   {
-    "info": "Currency fluctuations produced net gains of $57 million in 2024, $122 million in 2023, and a $89 million loss in 2022. Warranty reserves are substantial and rising, with end-of-period accrued warranty of $6,716 million in 2024 and related costs/provisions disclosed for 2024–2022, reflecting ongoing automotive warranty exposure. Government incentives include IRA-related cost reductions, Nevada tax incentives up to $195 million, and Texas property tax grant funding (70–80% of property taxes), with 401(k) employer contributions of $107 million, $99 million and $91 million in 2024–2022. The company adopted the new crypto assets accounting standard in 2024, holding Bitcoin at 11,509 units (cost basis $386 million; fair value $1,074 million) and total digital assets fair value of $1,076 million, including $204 million of impairment in 2022 and $589 million of unrealized gains in 2024; ending digital assets fair value was $1,076 million.",
+    "info": "For the years ended December 31, 2024, 2023 and 2022, we recorded a net foreign currency transaction gain of $57 million, gain of $122 million and loss of $89 million, respectively.",
     "data": {
-      "foreign_currency_gain_2024": 57000000,
-      "foreign_currency_gain_2023": 122000000,
-      "foreign_currency_loss_2022": -89000000,
-      "accrued_warranty_beginning_2024": 5152000000,
-      "accrued_warranty_beginning_2023": 3505000000,
-      "accrued_warranty_beginning_2022": 2101000000,
-      "warranty_costs_incurred_2024": -1453000000,
-      "warranty_costs_incurred_2023": -1225000000,
-      "warranty_costs_incurred_2022": -803000000,
-      "net_changes_warranty_preexisting_2024": 287000000,
-      "net_changes_warranty_preexisting_2023": 539000000,
-      "net_changes_warranty_preexisting_2022": 522000000,
-      "provision_warranty_2024": 2730000000,
-      "provision_warranty_2023": 2333000000,
-      "provision_warranty_2022": 1685000000,
-      "accrued_warranty_end_of_period_2024": 6716000000,
-      "accrued_warranty_end_of_period_2023": 5152000000,
-      "accrued_warranty_end_of_period_2022": 3505000000,
-      "ira_incentives_impact_2024_2023_cost_reduction": 1,
-      "grant_funding_texas_min_percent_property_taxes": 70,
-      "grant_funding_texas_max_percent_property_taxes": 80,
-      "nevada_tax_incentives_up_to_dollars": 195000000,
-      "gigafactory_texas_incentive_duration_years": 20,
-      "k401_expenses_2024": 107000000,
-      "k401_expenses_2023": 99000000,
-      "k401_expenses_2022": 91000000,
-      "k401_match_rate_percent": 50,
-      "k401_match_cap_percent": 6,
-      "k401_match_cap_dollars": 3000,
-      "impairment_digital_assets_2022": 204000000,
-      "digital_assets": [
-        {
-          "type": "Bitcoin",
-          "units": 11509,
-          "cost_basis_dollars": 386000000,
-          "fair_value_dollars": 1074000000
-        },
-        {
-          "type": "Other",
-          "units": 1,
-          "cost_basis_dollars": 1000000,
-          "fair_value_dollars": 2000000
-        }
-      ],
-      "digital_assets_beginning_fair_value_dollars": 487000000,
-      "digital_assets_unrealized_gains_dollars_2024": 589000000,
-      "digital_assets_ending_fair_value_dollars": 1076000000
+      "accrued_warranty_end_of_period_2024": 6716,
+      "accrued_warranty_end_of_period_2023": 5152,
+      "accrued_warranty_end_of_period_2022": 3505,
+      "warranty_costs_incurred_2024": -1453,
+      "warranty_costs_incurred_2023": -1225,
+      "warranty_costs_incurred_2022": -803,
+      "net_changes_in_liability_for_pre_existing_warranties_2024": 287,
+      "net_changes_in_liability_for_pre_existing_warranties_2023": 539,
+      "net_changes_in_liability_for_pre_existing_warranties_2022": 522,
+      "provision_for_warranty_2024": 2730,
+      "provision_for_warranty_2023": 2333,
+      "provision_for_warranty_2022": 1685
     },
     "chunk_id": 25
   },
   {
-    "info": "Unaudited adoption of the crypto assets standard increased Digital assets, net by 347 million with a 77 million tax impact and a 270 million contribution to net income attributable to common stockholders for the three months ended December 31, 2024, and resulted in an 0.08 per-share impact on both basic and diluted EPS. No impairment losses were recorded in 2024. Goodwill in the automotive segment declined to 244 million from 253 million (down 9 million) while intangible assets declined to 150 million from 178 million (down 28 million). Inventory write-downs were 190 million in 2024, 233 million in 2023 and 144 million in 2022. As of December 31, 2024, cash and cash equivalents were 14,386 million; certificates of deposit and time deposits were 12,767 million; U.S. government securities 3,620 million; commercial paper 3,919 million; corporate debt securities 118 million; money market funds 1,753 million; digital assets 1,076 million; total cash, cash equivalents and short-term investments were 36,563 million; and most short-term investments mature within one year.",
+    "info": "The unaudited impact of adoption for the three months ended December 31, 2024 was to increase Digital assets, net by $347 million, with a corresponding increase in Other income (expense), net and decrease our Deferred tax assets by $77 million with a corresponding increase in our Provision for (benefit from) income taxes, thus contributing $270 million to Net income attributable to common stockholders. These amounts contributed $0.08 to both basic and diluted net income attributable to common stockholders per share of common stock for the three months ended December 31, 2024.",
     "data": {
-      "adoption_digital_assets_increase_2024": 347000000,
-      "tax_effect_deferred_tax_assets_reduction_2024": 77000000,
-      "net_income_contribution_from_adoption_2024": 270000000,
-      "eps_adjusted_basic_2024": 0.08,
-      "eps_adjusted_diluted_2024": 0.08,
-      "goodwill_automotive_end_2024": 244000000,
-      "goodwill_automotive_end_2023": 253000000,
-      "goodwill_decrease_automotive_2024": 9000000,
-      "intangible_assets_end_2024": 150000000,
-      "intangible_assets_end_2023": 178000000,
-      "intangible_assets_decrease_2024": 28000000,
-      "inventory_write_downs_2024": 190000000,
-      "inventory_write_downs_2023": 233000000,
-      "inventory_write_downs_2022": 144000000,
-      "inventory_raw_materials_2024": 5242000000,
-      "inventory_raw_materials_2023": 5390000000,
-      "inventory_work_in_process_2024": 1532000000,
-      "inventory_work_in_process_2023": 2016000000,
-      "inventory_finished_goods_2024": 3940000000,
-      "inventory_finished_goods_2023": 5049000000,
-      "inventory_service_parts_2024": 1303000000,
-      "inventory_service_parts_2023": 1171000000,
-      "inventory_total_2024": 12017000000,
-      "inventory_total_2023": 13626000000,
-      "cash_2024": 14386000000,
-      "cash_2023": 15903000000,
-      "cd_time_deposits_2024": 12767000000,
-      "cd_time_deposits_2023": 6996000000,
-      "commercial_paper_2024": 3919000000,
-      "commercial_paper_2023": 470000000,
-      "us_government_securities_2024": 3620000000,
-      "us_government_securities_2023": 5136000000,
-      "corporate_debt_securities_2024": 118000000,
-      "corporate_debt_securities_2023": 480000000,
-      "money_market_funds_2024": 1753000000,
-      "money_market_funds_2023": 109000000,
-      "digital_assets_2024": 1076000000,
-      "total_cash_cash_equiv_short_term_investments_2024": 36563000000,
-      "total_cash_cash_equiv_short_term_investments_2023": 29094000000
+      "digital_assets_net_increase_adoption_dec_31_2024": 347000000,
+      "deferred_tax_assets_reduction_adoption_dec_31_2024": 77000000,
+      "net_income_attributable_to_common_stockholders_increase_adoption_dec_31_2024": 270000000,
+      "eps_increase_adoption_dec_31_2024": 0.08,
+      "cash_dec_31_2024": 14386,
+      "cash_dec_31_2023": 15903,
+      "total_cash_cash_equivalents_short_term_investments_dec_31_2024": 36563,
+      "total_cash_cash_equivalents_short_term_investments_dec_31_2023": 29094,
+      "inventory_write_downs_dec_31_2024": 190,
+      "inventory_write_downs_dec_31_2023": 233,
+      "inventory_write_downs_dec_31_2022": 144,
+      "goodwill_end_of_period_automotive_dec_31_2024": 244,
+      "goodwill_end_of_period_automotive_dec_31_2023": 253,
+      "goodwill_decrease_amount_dec_31_2024": 9,
+      "intangible_assets_net_book_value_dec_31_2024": 150,
+      "intangible_assets_net_book_value_dec_31_2023": 178,
+      "net_income_attributable_to_common_stockholders_as_adjusted_dec_31_2024": 2173,
+      "basic_eps_dec_31_2024_as_adjusted": 0.68,
+      "diluted_eps_dec_31_2024_as_adjusted": 0.62
     },
     "chunk_id": 26
   },
   {
-    "info": "As of December 31, 2024, most short-term investments mature within one year; carrying values of financial instruments not re-measured at fair value approximate fair value. Inventory totaled 12017 million in 2024 (13626 million in 2023) with write-downs of 190 million in 2024, 233 million in 2023, and 144 million in 2022. Depreciation expense was 4.12 billion in 2024. PPE totaled 51424 million in 2024 (41782 million in 2023) with accumulated depreciation 15588 million in 2024 and 12057 million in 2023. Accrued liabilities and other current liabilities totaled 10723 million in 2024 and 9080 million in 2023; other long-term liabilities totaled 10495 million in 2024 and 8153 million in 2023. Debt as of 12/31/2024 includes a revolver with up to 5000 million commitment expiring in 2028, with two optional extensions; recourse debt total 7 million, non-recourse debt total 7900 million, total debt 7907 million, and total debt and finance leases 8213 million. Automotive Asset-backed Notes outstanding 4329 million in 2024; Energy Asset-backed Notes 493 million; Cash Equity Debt 338 million. China Working Capital Facility outstanding 2740 million; 2024 Automotive Asset-backed Notes issued principal 2450 million with net proceeds 2440 million; 2024 notes matured and warrants settled with 11.4 million shares issued.",
+    "info": "As of December 31, 2024, the vast majority of our short-term investments had contractual maturity dates within one year. Our financial instruments that are not re-measured at fair value include accounts receivable, financing receivables, other receivables, accounts payable, accrued liabilities, customer deposits and debt. The carrying values of these financial instruments materially approximate their fair values.",
     "data": {
-      "inventory": [
-        {
-          "category": "Raw materials",
-          "2024": 5242,
-          "2023": 5390
-        },
-        {
-          "category": "Work in process",
-          "2024": 1532,
-          "2023": 2016
-        },
-        {
-          "category": "Finished goods (1)",
-          "2024": 3940,
-          "2023": 5049
-        },
-        {
-          "category": "Service parts",
-          "2024": 1303,
-          "2023": 1171
-        },
-        {
-          "category": "Total",
-          "2024": 12017,
-          "2023": 13626
-        }
-      ],
-      "inventory_write_downs_millions": {
-        "2024": 190,
-        "2023": 233,
-        "2022": 144
-      },
-      "ppe": [
-        {
-          "category": "Machinery, equipment, vehicles and office furniture",
-          "2024": 18339,
-          "2023": 16309
-        },
-        {
-          "category": "Land and buildings",
-          "2024": 10677,
-          "2023": 9498
-        },
-        {
-          "category": "AI infrastructure",
-          "2024": 5152,
-          "2023": 1510
-        },
-        {
-          "category": "Tooling",
-          "2024": 3883,
-          "2023": 3129
-        },
-        {
-          "category": "Leasehold improvements",
-          "2024": 3688,
-          "2023": 3136
-        },
-        {
-          "category": "Computer equipment, hardware and software",
-          "2024": 2902,
-          "2023": 2409
-        },
-        {
-          "category": "Construction in progress",
-          "2024": 6783,
-          "2023": 5791
-        },
-        {
-          "category": "Total",
-          "2024": 51424,
-          "2023": 41782
-        },
-        {
-          "category": "Less: Accumulated depreciation",
-          "2024": -15588,
-          "2023": -12057
-        },
-        {
-          "category": "Net total",
-          "2024": 35836,
-          "2023": 29725
-        }
-      ],
-      "depreciation_expense_2024": 4.12,
-      "depreciation_expense_2023": 3.33,
-      "depreciation_expense_2022": 2.42,
-      "accrued_liabilities_current": [
-        {
-          "name": "Accrued purchases",
-          "2024": 2253,
-          "2023": 2721
-        },
-        {
-          "name": "Accrued warranty reserve, current portion",
-          "2024": 1917,
-          "2023": 1546
-        },
-        {
-          "name": "Payroll and related costs",
-          "2024": 1532,
-          "2023": 1325
-        },
-        {
-          "name": "Taxes payable",
-          "2024": 1367,
-          "2023": 1204
-        },
-        {
-          "name": "Customer deposits",
-          "2024": 993,
-          "2023": 876
-        },
-        {
-          "name": "Operating lease liabilities, current portion",
-          "2024": 807,
-          "2023": 672
-        },
-        {
-          "name": "Sales return reserve, current portion",
-          "2024": 305,
-          "2023": 219
-        },
-        {
-          "name": "Other current liabilities",
-          "2024": 1549,
-          "2023": 517
-        }
-      ],
-      "accrued_liabilities_total_2024": 10723,
-      "accrued_liabilities_total_2023": 9080,
-      "accrued_liabilities_long_term": [
-        {
-          "name": "Operating lease liabilities",
-          "2024": 4603
-        },
-        {
-          "name": "Accrued warranty reserve",
-          "2024": 4799
-        },
-        {
-          "name": "Other non-current liabilities",
-          "2024": 1093
-        }
-      ],
-      "accrued_liabilities_long_term_total_2024": 10495,
-      "accrued_liabilities_long_term_total_2023": 8153,
-      "debt": {
-        "recourse": {
-          "current": 4,
-          "long_term": 3,
-          "total": 7
-        },
-        "non_recourse": {
-          "current": 2339,
-          "long_term": 5532,
-          "total": 7900
-        },
-        "total_debt": {
-          "current": 2343,
-          "long_term": 5535,
-          "total": 7907
-        },
-        "finance_leases": {
-          "current": 113,
-          "long_term": 222,
-          "total": 335
-        },
-        "total_debt_and_finance_leases": {
-          "current": 2456,
-          "long_term": 5757,
-          "total": 8213
-        },
-        "rcf_commitment_usd_millions": 5000,
-        "rcf_extensions_available": true
-      },
-      "china_working_capital_facility_outstanding_2024": 2740,
-      "china_working_capital_facility_outstanding_2023": 2740,
-      "china_working_capital_facility_maturity_note": "April 2025, renewable until March 2026; refinanced long-term",
-      "automotive_asset_backed_notes_2024": {
-        "current": 2255,
-        "long_term": 2059,
-        "total": 4329
-      },
-      "energy_asset_backed_notes_2024": {
-        "current": 54,
-        "long_term": 434,
-        "total": 493
-      },
-      "cash_equity_debt_2024": {
-        "current": 30,
-        "long_term": 299,
-        "total": 338
-      },
-      "automotive_asset_backed_notes_issued_principal_millions_2024": 2450,
-      "automotive_asset_backed_notes_net_proceeds_millions_2024": 2440,
-      "warrant_settlement_2024": {
-        "notes_matured": true,
-        "warrants_settled": true,
-        "shares_issued_millions": 11.4
-      }
+      "inventory_2024": 12017000000,
+      "inventory_2023": 13626000000,
+      "write_downs_2024": 190000000,
+      "write_downs_2023": 233000000,
+      "write_downs_2022": 144000000,
+      "depreciation_expense_2024": 4120000000,
+      "depreciation_expense_2023": 3330000000,
+      "depreciation_expense_2022": 2420000000,
+      "automotive_asset_backed_notes_issued_2024": 2450000000,
+      "automotive_asset_backed_notes_proceeds_net_of_costs_2024": 2440000000,
+      "rcf_commitment_2023": 5000000000,
+      "rcf_commitment_increase_capability": 7000000000,
+      "china_working_capital_facility_outstanding_2024": 2740000000
     },
     "chunk_id": 27
   },
   {
-    "info": "2024 securitization activity included Automotive Asset-backed Notes totaling $2.45B principal (net proceeds $2.44B) and Energy Asset-backed Notes totaling $499M principal (net proceeds $494M); SPEs are consolidated with no recourse to corporate assets. A China Working Capital Facility was established: unsecured revolving facility up to RMB 20.0B with interest at LPR minus 1.18%. Pledged assets at 12/31/2024 were $5.16B, up from $4.64B at 12/31/2023. Leases reflect significant operating and finance lease assets and liabilities, with 2024 total lease expense of $1.93B and weighted-average remaining terms of 7.9 years (operating) and 4.4 years (finance). The company also has $502M aggregate principal debt issued in 2016 as cash equity debt and 113.0M shares reserved under the 2019 Equity Incentive Plan.",
+    "info": "From time to time, we transfer receivables and/or beneficial interests related to certain vehicles (either leased or financed) into special purpose entities (“SPEs”) and issue Automotive Asset-backed Notes, backed by these automotive assets to investors. The SPEs are consolidated in the financial statements. The cash flows generated by these automotive assets are used to service the principal and interest payments on the Automotive Asset-backed Notes and satisfy the SPEs’ expenses, and any remaining cash is distributed to the owners of the SPEs. We recognize revenue earned from the associated customer lease or financing contracts in accordance with our revenue recognition policy. The SPEs’ assets and cash flows are not available to our other creditors, and the creditors of the SPEs, including the Automotive Asset-backed Note holders, have no recourse to our other assets. In 2024, we transferred beneficial interests related to certain leased vehicles and/or financing receivables into SPEs and issued $2.45 billion in aggregate principal amount of Automotive Asset-backed Notes, with terms similar to our other previously issued Automotive Asset-backed Notes. The proceeds from the issuance, net of debt issuance costs, were $2.44 billion. Energy Asset-backed Notes In 2024, we transferred certain financing receivables into an SPE and issued $499 million in aggregate principal amount of Energy Asset-backed Notes, backed by these financing receivables. The proceeds from issuance, net of debt issuance costs, were $494 million. The SPE is wholly owned by us and is consolidated in the financial statements. The cash flows generated by these financing receivables are used to service the principal and interest payments on the Energy Asset-backed Notes and satisfy the SPE’s expenses, and any remaining cash is distributed to us. The SPE’s assets and cash flows are not available to our other creditors, and the creditors of the SPE, including the Energy Asset-backed Notes holders, have no recourse to our other assets. Cash Equity Debt In connection with the cash equity financing deals closed in 2016, our subsidiaries issued $502 million in aggregate principal amount of debt that bears interest at fixed rates. This debt is secured by, among other things, our interests in certain financing funds and is non-recourse to our other assets. China Working Capital Facility In April 2024, one of our subsidiaries entered into a loan agreement (the “China Working Capital Facility”) with lenders in China for an unsecured revolving facility of up to RMB 20.00 billion to be used for certain production expenditures as well as repayment of certain finance facilities. Borrowed funds bear interest at a rate equal to the Loan Prime Rate published by the People’s Bank of China minus 1.18%. The China Working Capital Facility is non-recourse to our assets. Pledged Assets As of December 31, 2024 and 2023, we had pledged or restricted $5.16 billion and $4.64 billion of our assets (consisting principally of operating lease vehicles, financing receivables, restricted cash, and equity interests in certain SPEs) as collateral for our outstanding debt.",
     "data": {
-      "automotive_asset_backed_notes_aggregate_principal_issued_2024": 2450000000,
-      "automotive_asset_backed_notes_proceeds_net_issuance_2024": 2440000000,
-      "energy_asset_backed_notes_aggregate_principal_issued_2024": 499000000,
-      "energy_asset_backed_notes_proceeds_net_issuance_2024": 494000000,
-      "cash_equity_debt_aggregate_principal_issued_2016": 502000000,
-      "china_working_capital_facility_max_borrowings_rmb": 20000000000,
-      "china_working_capital_facility_lpr_minus_percent": 1.18,
-      "pledged_assets_dec31_2024": 5160000000,
-      "pledged_assets_dec31_2023": 4640000000,
-      "operating_lease_right_of_use_assets_dec31_2024": 5160,
-      "operating_lease_right_of_use_assets_dec31_2023": 4180,
-      "accrued_liabilities_and_other_dec31_2024": 807,
-      "other_long_term_liabilities_dec31_2024": 4603,
-      "total_operating_lease_liabilities_dec31_2024": 5410,
-      "total_operating_lease_liabilities_dec31_2023": 4343,
-      "solar_energy_finance_lease_assets_dec31_2024": 21,
-      "solar_energy_finance_lease_assets_dec31_2023": 23,
-      "property_plant_equipment_net_finance_lease_assets_dec31_2024": 350,
-      "property_plant_equipment_net_finance_lease_assets_dec31_2023": 601,
-      "total_finance_lease_assets_dec31_2024": 371,
-      "total_finance_lease_assets_dec31_2023": 624,
-      "current_portion_long_term_debt_and_finance_leases_dec31_2024": 113,
-      "current_portion_long_term_debt_and_finance_leases_dec31_2023": 398,
-      "long_term_debt_and_finance_leases_net_dec31_2024": 222,
-      "long_term_debt_and_finance_leases_net_dec31_2023": 175,
-      "total_finance_lease_liabilities_dec31_2024": 335,
-      "total_finance_lease_liabilities_dec31_2023": 573,
-      "operating_lease_expense_2024": 1500,
-      "operating_lease_expense_2023": 1153,
-      "operating_lease_expense_2022": 798,
-      "amortization_leased_assets_2024": 409,
-      "amortization_leased_assets_2023": 506,
-      "amortization_leased_assets_2022": 493,
-      "interest_on_lease_liabilities_2024": 21,
-      "interest_on_lease_liabilities_2023": 45,
-      "interest_on_lease_liabilities_2022": 72,
-      "total_finance_lease_expense_2024": 430,
-      "total_finance_lease_expense_2023": 551,
-      "total_finance_lease_expense_2022": 565,
-      "total_lease_expense_2024": 1930,
-      "total_lease_expense_2023": 1704,
-      "total_lease_expense_2022": 1363,
-      "weighted_average_remaining_lease_term_operating_year2024": 7.9,
-      "weighted_average_remaining_lease_term_finance_year2024": 4.4,
-      "weighted_average_discount_rate_operating_year2024": 5.3,
-      "weighted_average_discount_rate_operating_year2023": 5.6,
-      "weighted_average_discount_rate_finance_year2024": 4.7,
-      "weighted_average_discount_rate_finance_year2023": 5.5,
-      "cash_outflows_operating_leases_2024": 1450,
-      "cash_outflows_operating_leases_2023": 1084,
-      "leased_assets_obtained_in_exchange_finance_lease_2024": 144,
-      "leased_assets_obtained_in_exchange_operating_lease_2024": 1808,
-      "leased_assets_obtained_in_exchange_operating_lease_2023": 2170,
-      "leased_assets_obtained_in_exchange_operating_lease_2022": 1059,
-      "maturities_operating_leases_2025": 1066,
-      "maturities_operating_leases_2026": 958,
-      "maturities_operating_leases_2027": 843,
-      "maturities_operating_leases_2028": 742,
-      "maturities_operating_leases_2029": 642,
-      "maturities_operating_leases_thereafter": 2428,
-      "total_minimum_lease_payments_operating": 6679,
-      "present_value_lease_obligations_operating": 5410,
-      "current_portion_operating_lease_obligations": 807,
-      "long_term_lease_obligations_operating": 4603,
-      "present_value_lease_obligations_finance": 335,
-      "current_portion_finance_lease_obligations": 113,
-      "long_term_lease_obligations_finance": 222,
-      "gross_lease_receivables_operating_leases": 4226,
-      "gross_lease_receivables_sales_type_leases": 484,
-      "net_investment_sales_type_leases_dec31_2024": 440,
-      "net_investment_sales_type_leases_dec31_2023": 696,
-      "equity_plan_reserved_shares_dec31_2024": 113000000
+      "automotive_asset_backed_notes_principal_issued_2024": 2450000000,
+      "automotive_asset_backed_notes_proceeds_net_of_costs_2024": 2440000000,
+      "energy_asset_backed_notes_principal_issued_2024": 499000000,
+      "energy_asset_backed_notes_proceeds_net_of_costs_2024": 494000000,
+      "cash_equity_debt_principal_issued_2016": 502000000,
+      "china_working_capital_facility_capacity_rmb": 20000000000,
+      "pledged_assets_dec_31_2024": 5160000000,
+      "pledged_assets_dec_31_2023": 4640000000
     },
     "chunk_id": 28
   },
   {
-    "info": "Overview of the 2019 Equity Incentive Plan and ESPP: 113.0 million shares reserved/available for issuance under the 2019 Plan as of 12/31/2024; ESPP has 95.5 million shares available for issuance; 2024 ESPP issued 2.2M shares (2.1M in 2023, 1.4M in 2022); stock options and RSUs vest over four years with a 10-year exercise period; notable SBC activity and tax impacts in 2024 include total SBC expense of $1.999B, with pre-tax tax benefits from SBC of $371M, and unrecognized SBC expense of $5.79B related to non-performance awards expected to vest over ~3.0 years. Grant-date fair values and intrinsic values for stock options and RSUs are disclosed, along with risk/valuation assumptions (Black-Scholes) and ESPP specifics (15% payroll deduction, 85% purchase price).",
-    "data": {
-      "plan_reserved_shares_dec_31_2024": 113000000,
-      "esp_shares_available_dec_31_2024": 95500000,
-      "esp_shares_issued_2024": 2200000,
-      "esp_shares_issued_2023": 2100000,
-      "esp_shares_issued_2022": 1400000,
-      "stock_options_begin_period_thousand": 344021,
-      "stock_options_end_period_thousand": 344535,
-      "stock_options_granted_thousand": 14979,
-      "stock_options_exercised_or_released_thousand": -10469,
-      "stock_options_cancelled_thousand": -3996,
-      "stock_options_end_period_weighted_average_exercise_price": 40.41,
-      "stock_options_end_period_weighted_average_remaining_life_years": 3.51,
-      "stock_options_end_period_aggregate_intrinsic_value_billion": 125.22,
-      "stock_options_begin_period_grant_date_fair_value_per_share": 225.01,
-      "stock_options_grant_date_fair_value_per_share_2024": 114.29,
-      "stock_options_grant_date_fair_value_per_share_2023": 121.62,
-      "stock_options_grant_date_fair_value_per_share_2022": 114.51,
-      "rsu_begin_period_thousand": 19088,
-      "rsu_end_period_thousand": 18661,
-      "rsu_grant_date_fair_value_per_share_2024": 223.98,
-      "rsu_grant_date_fair_value_per_share_2023": 228.33,
-      "rsu_grant_date_fair_value_per_share_2022": 239.85,
-      "rsu_aggregate_release_date_fair_value_2024_billion": 1.75,
-      "rsu_aggregate_release_date_fair_value_2023_billion": 2.5,
-      "rsu_aggregate_release_date_fair_value_2022_billion": 4.32,
-      "option_aggregate_intrinsic_value_exercised_2024_billion": 1.77,
-      "option_aggregate_intrinsic_value_exercised_2023_billion": 1.33,
-      "option_aggregate_intrinsic_value_exercised_2022_billion": 1.9,
-      "risk_free_rate_percent_2024": 3.92,
-      "risk_free_rate_percent_2023": 3.9,
-      "risk_free_rate_percent_2022": 3.11,
-      "expected_term_years_2024": 4.3,
-      "expected_term_years_2023": 4.5,
-      "expected_term_years_2022": 4.1,
-      "expected_volatility_percent_2024": 59,
-      "expected_volatility_percent_2023": 63,
-      "expected_volatility_percent_2022": 63,
-      "dividend_yield_percent_2024": 0.0,
-      "dividend_yield_percent_2023": 0.0,
-      "dividend_yield_percent_2022": 0.0,
-      "sbc_total_expense_2024_million": 1999,
-      "sbc_total_expense_2023_million": 1812,
-      "sbc_total_expense_2022_million": 1560,
-      "sbc_cost_of_revenues_2024_million": 776,
-      "sbc_cost_of_revenues_2023_million": 741,
-      "sbc_cost_of_revenues_2022_million": 594,
-      "sbc_r_and_d_2024_million": 832,
-      "sbc_r_and_d_2023_million": 689,
-      "sbc_r_and_d_2022_million": 536,
-      "sbc_sga_2024_million": 389,
-      "sbc_sga_2023_million": 382,
-      "sbc_sga_2022_million": 430,
-      "sbc_restructuring_and_other_2024_million": 2,
-      "sbc_income_tax_benefit_2024_million": 371,
-      "sbc_income_tax_benefit_2023_million": 326,
-      "sbc_expense_capitalized_2024_million": 198,
-      "sbc_expense_capitalized_2023_million": 199,
-      "sbc_expense_capitalized_2022_million": 245,
-      "sbc_unrecognized_expense_non_performance_total_billion": 5.79,
-      "sbc_unrecognized_expense_non_performance_shares_million": 5.0,
-      "sbc_unrecognized_expense_non_performance_recognition_period_years": 3.0,
-      "rsu_grant_date_fair_value_per_share_summary_2024_2023_2022": [
-        223.98,
-        228.33,
-        239.85
-      ],
-      "rsu_aggregate_release_date_fair_value_summary_2024_2023_2022_billion": [
-        1.75,
-        2.5,
-        4.32
-      ],
-      "option_aggregate_intrinsic_value_exercised_summary_2024_2023_2022_billion": [
-        1.77,
-        1.33,
-        1.9
-      ]
-    },
+    "info": "As of December 31, 2024, 113.0 million shares were reserved and available for issuance under the 2019 Plan.",
+    "data": {},
     "chunk_id": 29
   },
   {
-    "info": "Deferred tax position shows a net deferred tax asset of $6.422B as of 12/31/2024 (net of a $1.22B valuation allowance), driven by federal/state NOL carryforwards, R&D and other tax credits, and lease/GILTI-related assets, with total deferred tax assets of $11.962B and liabilities of $4.316B. Valuation allowance increased by $332M in 2024 due mainly to California assets, U.S. credits and foreign losses; federal/state NOLs total $4.34B and $8.59B respectively; federal RD credits total $1.48B, federal renewable energy credits $1.01B, and state RD credits $1.06B. The company has a $309M unrecognized withholding tax liability tied to indefinitely reinvested foreign earnings, ongoing IRS/state examinations, and sizable lease commitments (US NY: $5.0B over 10 years; Shanghai: RMB14.08B spend with RMB2.23B annual tax revenue). A gross unrecognized tax benefit balance is $1.417B as of 12/31/2024, with year-by-year changes noted from 2021 through 2024.",
-    "data": {
-      "deferred_tax_assets_by_category": [
-        {
-          "category": "net_operating_loss_carry_forwards",
-          "2024": 1295,
-          "2023": 2826
-        },
-        {
-          "category": "research_and_development_credits",
-          "2024": 1735,
-          "2023": 1358
-        },
-        {
-          "category": "other_tax_credits_and_attributes",
-          "2024": 1325,
-          "2023": 827
-        },
-        {
-          "category": "deferred_revenue",
-          "2024": 1101,
-          "2023": 1035
-        },
-        {
-          "category": "inventory_and_warranty_reserves",
-          "2024": 1769,
-          "2023": 1258
-        },
-        {
-          "category": "operating_lease_right_of_use_liabilities",
-          "2024": 1186,
-          "2023": 930
-        },
-        {
-          "category": "capitalized_research_and_development_costs",
-          "2024": 2448,
-          "2023": 1344
-        },
-        {
-          "category": "deferred_gilti_tax_assets",
-          "2024": 691,
-          "2023": 760
-        },
-        {
-          "category": "other",
-          "2024": 412,
-          "2023": 436
-        }
-      ],
-      "total_deferred_tax_assets_2024": 11962,
-      "total_deferred_tax_assets_2023": 10774,
-      "valuation_allowance_2024": -1224,
-      "valuation_allowance_2023": -892,
-      "deferred_tax_assets_net_of_valuation_allowance_2024": 10738,
-      "deferred_tax_assets_net_of_valuation_allowance_2023": 9882,
-      "deferred_tax_liabilities_by_category": [
-        {
-          "category": "depreciation_and_amortization",
-          "2024": -2658,
-          "2023": -2122
-        },
-        {
-          "category": "operating_lease_right_of_use_assets",
-          "2024": -1097,
-          "2023": -859
-        },
-        {
-          "category": "other",
-          "2024": -561,
-          "2023": -249
-        }
-      ],
-      "total_deferred_tax_liabilities_2024": -4316,
-      "total_deferred_tax_liabilities_2023": -3230,
-      "net_of_valuation_allowance_2024": 6422,
-      "net_of_valuation_allowance_2023": 6652,
-      "valuation_allowance_balance_12_31_2024": 1220,
-      "valuation_allowance_balance_12_31_2023": -892,
-      "federal_and_state_nol_carry_forwards_available_to_offset_future_income_millions": {
-        "federal": 4340,
-        "state": 8590
-      },
-      "federal_rd_credits_millions": 1480,
-      "federal_renewable_energy_credits_millions": 1010,
-      "state_rd_credits_millions": 1060,
-      "unrecognized_foreign_earnings_withheld_tax_liability_millions": 309,
-      "gross_unrecognized_tax_benefits_by_year": [
-        {
-          "year": 2021,
-          "balance": 531
-        },
-        {
-          "year": 2022,
-          "balance": 870
-        },
-        {
-          "year": 2023,
-          "balance": 1174
-        },
-        {
-          "year": 2024,
-          "balance": 1417
-        }
-      ],
-      "unrecognized_tax_benefits_interest_and_penalties_by_year": {
-        "2024": 23,
-        "2023": 17,
-        "2022": 27
-      },
-      "accrued_interest_and_penalties_12_31_2024": 69,
-      "accrued_interest_and_penalties_12_31_2023": 47,
-      "irs_and_state_examinations": {
-        "current_exams_by_years": "2015-2018",
-        "additional_years": "2004-2014, 2019-2023"
-      },
-      "foreign_earnings_reinvested_unrecognized_liability_millions": 309,
-      "lease_and_commitments": [
-        {
-          "type": "ny_operating_lease_commitments",
-          "spend_required_billion": 5.0,
-          "period": "10-year starting 2018",
-          "amendment_to_2029": true
-        },
-        {
-          "type": "shanghai_lease_spend",
-          "rmb_spend_by_end_2023_billion": 14.08,
-          "annual_rmb_tax_revenue_billion_start_2023": 2.23
-        }
-      ]
-    },
+    "info": "As of December 31, 2024, we maintained valuation allowances of $1.22 billion for deferred tax assets that are not more likely than not to be realized, which primarily included our California deferred tax assets, U.S. foreign tax credits and certain foreign operating losses.",
+    "data": {},
     "chunk_id": 30
   },
   {
-    "info": "Tesla faces multiple ongoing lawsuits and investigations related to discrimination, harassment, and consumer and securities claims, including a CRD suit filed February 9, 2022 and an EEOC matter filed September 28, 2023, plus stockholder derivative actions filed June 16, 2022 and several proposed class actions concerning Autopilot/FSD and repairs. The company intends to vigorously defend these matters; outcomes and potential losses are not currently estimable. Also notes regulatory inquiries and that unused letters of credit totaled $448 million as of December 31, 2024, with Note 15 describing VIE arrangements.",
+    "info": "On February 9, 2022, the California Civil Rights Department (“CRD,” formerly “DFEH”) filed a civil complaint against Tesla in Alameda County, California Superior Court, alleging systemic race discrimination, hostile work environment and pay equity claims, among others. CRD’s amended complaint seeks monetary damages and injunctive relief. The case is currently in discovery. Trial is scheduled for September 15, 2025. Additionally, on June 1, 2022 the Equal Employment Opportunity Commission (“EEOC”) issued a cause finding against Tesla that closely parallels the CRD’s allegations. On September 28, 2023, the EEOC filed a civil complaint against Tesla in the United States District Court for the Northern District of California asserting claims for race harassment and retaliation and seeking, among other things, monetary and injunctive relief. On June 16, 2022, two Tesla stockholders filed separate derivative actions in the U.S. District Court for the Western District of Texas, purportedly on behalf of Tesla, against certain of Tesla’s current and former directors. Both suits assert claims for breach of fiduciary duty, unjust enrichment, and violation of the federal securities laws in connection with alleged race and gender discrimination and sexual harassment. Among other things, plaintiffs seek declaratory and injunctive relief, unspecified damages payable to Tesla, and attorneys’ fees. On July 22, 2022, the Court consolidated the two cases and on September 6, 2022, plaintiffs filed a consolidated complaint. On November 7, 2022, the defendants filed a motion to dismiss the case and on September 15, 2023, the Court dismissed the action but granted plaintiffs leave to file an amended complaint. On November 2, 2023, plaintiff filed an amended complaint purportedly on behalf of Tesla, against Elon Musk. On December 19, 2023, the defendants moved to dismiss the amended complaint, which the Court granted on April 12, 2024, with leave for plaintiffs to amend. On May 15, 2024, plaintiffs filed a second amended consolidated complaint purportedly on behalf of Tesla, against Mr. Musk. On July 1, 2024, the defendants moved to dismiss the second amended consolidated complaint. The Company intends to vigorously defend itself in these matters; however, we cannot predict the outcome or impact. We are unable to reasonably estimate the possible loss or range of loss, if any, associated with these claims, unless noted. As of December 31, 2024, we had $448 million of unused letters of credit outstanding. We have entered into various arrangements with investors to facilitate the funding and monetization of our solar energy systems and vehicles. In particular, our wholly owned subsidiaries and fund investors have formed and contributed cash and assets into various financing funds and entered into related agreements. We have determined that the funds are VIEs and we are the primary beneficiary of these VIEs by reference to the power and benefits criterion under ASC 810. We have considered the provisions within the agreements, which grant us the power to manage and make decisions that affect the operation of these VIEs, including determining the solar energy systems and the associated customer contracts to be sold or contributed to these VIEs, redeploying solar energy systems and managing customer receivables. We consider that the rights granted to the fund investors under the agreements are more protective in nature rather than participating. As the primary beneficiary of these VIEs, we consolidate in the financial statements the financial position, results of operations and cash flows of these VIEs, and all intercompany balances and transactions between us and these VIEs are eliminated in the consolidated financial statements. Cash distributions of income and other receipts by a fund, net of agreed upon expenses, estimated expenses, tax benefits and detriments of income and loss and tax credits, are allocated to the fund investor and our subsidiary as specified in the agreements. Generally, our subsidiary has the option to acquire the fund investor’s interest in the fund for an amount based on the market value of the fund or the formula specified in the agreements. Upon the sale or liquidation of a fund, distributions would occur in the order and priority specified in the agreements. Pursuant to management services, maintenance and warranty arrangements, we have been contracted to provide services to the funds, such as operations and maintenance support, accounting, lease servicing and performance reporting. In some instances, we have guaranteed payments to the fund investors as specified in the agreements. A fund’s creditors have no recourse to our general credit or to that of other funds. Certain assets of the funds have been pledged as collateral for their obligations. The aggregate carrying values of the VIEs’ assets and liabilities, after elimination of any intercompany transactions and balances, in the consolidated balance sheets were as follows (in millions): Note 16 – Related Party Transactions Tesla periodically does business with certain entities with which its CEO and directors are affiliated, such as x.AI, SpaceX, The Boring Company, X Corp. and Redwood Materials, in accordance with our Related Person Transactions Policy. Such transactions have not had to date, and are not currently expected to have, a material impact on our consolidated financial statements. As of December 31, 2024, we had $448 million of unused letters of credit outstanding. Note 17 – Segment Reporting and Information about Geographic Areas Our Chief Executive Officer, as the CODM, organizes our company, manages resource allocations and measures performance among two operating and reportable segments: (i) automotive and (ii) energy generation and storage. The automotive segment includes the design, development, manufacturing, sales and leasing of electric vehicles as well as sales of automotive regulatory credits. Additionally, the automotive segment is also comprised of services and other, which includes sales of used vehicles, non-warranty maintenance services and collision, part sales, paid Supercharging, insurance services revenue and retail merchandise sales. The energy generation and storage segment includes the design, manufacture, installation, sales and leasing of solar energy generation and energy storage products and related services and sales of solar energy systems incentives. Our CODM does not evaluate operating segments using asset or liability information. The CODM uses gross profit to allocate operating and capital resources and assesses performance of each segment by comparing actual gross profit results to historical results and previously forecasted financial information. The following table presents revenues, cost of revenues and gross profit by reportable segment (in millions):",
     "data": {
-      "trial_date_ymd": 20250915,
-      "crd_filing_date_ymd": 20220209,
-      "eeoc_filing_date_ymd": 20220601,
-      "eeoc_complaint_filing_date_ymd": 20230928,
-      "derivative_actions_filing_dates": [
-        20220616
-      ],
-      "consolidation_dates": [
-        20220722,
-        20220906
-      ],
-      "amended_complaint_filing_dates": [
-        20221107,
-        20231219,
-        20240515
-      ],
-      "letters_of_credit_unused": 448000000,
-      "vie_assets_liabilities": [
-        {
-          "row": "Cash and cash equivalents",
-          "2024": 49000000,
-          "2023": 66000000
-        },
-        {
-          "row": "Accounts receivable, net",
-          "2024": 18000000,
-          "2023": 13000000
-        },
-        {
-          "row": "Prepaid expenses and other current assets",
-          "2024": 276000000,
-          "2023": 361000000
-        },
-        {
-          "row": "Total current assets",
-          "2024": 343000000,
-          "2023": 440000000
-        },
-        {
-          "row": "Operating lease vehicles, net",
-          "2024": 392000000
-        },
-        {
-          "row": "Solar energy systems, net",
-          "2024": 2310000000,
-          "2023": 3278000000
-        },
-        {
-          "row": "Other non-current assets",
-          "2024": 183000000,
-          "2023": 369000000
-        },
-        {
-          "row": "Total assets",
-          "2024": 3228000000,
-          "2023": 4087000000
-        },
-        {
-          "row": "Accrued liabilities and other",
-          "2024": 32000000,
-          "2023": 67000000
-        },
-        {
-          "row": "Deferred revenue",
-          "2024": 6000000,
-          "2023": 6000000
-        },
-        {
-          "row": "Current portion of debt and finance leases",
-          "2024": 2114000000,
-          "2023": 1564000000
-        },
-        {
-          "row": "Total current liabilities",
-          "2024": 2152000000,
-          "2023": 1637000000
-        },
-        {
-          "row": "Deferred revenue, net of current portion",
-          "2024": 71000000,
-          "2023": 99000000
-        },
-        {
-          "row": "Debt and finance leases, net of current portion",
-          "2024": 1834000000,
-          "2023": 2041000000
-        },
-        {
-          "row": "Total liabilities",
-          "2024": 4057000000,
-          "2023": 3777000000
-        }
-      ],
-      "segment_financials": [
-        {
-          "segment": "Automotive",
-          "year_end": [
-            {
-              "year": 2024,
-              "revenues": 87604000000,
-              "cost_of_revenues": 72794000000,
-              "gross_profit": 14810000000
-            },
-            {
-              "year": 2023,
-              "revenues": 90738000000,
-              "cost_of_revenues": 74219000000,
-              "gross_profit": 16519000000
-            },
-            {
-              "year": 2022,
-              "revenues": 77553000000,
-              "cost_of_revenues": 56988000000,
-              "gross_profit": 20565000000
-            }
-          ]
-        },
-        {
-          "segment": "Energy generation and storage",
-          "year_end": [
-            {
-              "year": 2024,
-              "revenues": 10086000000,
-              "cost_of_revenues": 7446000000,
-              "gross_profit": 2640000000
-            },
-            {
-              "year": 2023,
-              "revenues": 6035000000,
-              "cost_of_revenues": 4894000000,
-              "gross_profit": 1141000000
-            },
-            {
-              "year": 2022,
-              "revenues": 3909000000,
-              "cost_of_revenues": 3621000000,
-              "gross_profit": 288000000
-            }
-          ]
-        }
-      ],
-      "geographic_revenues_by_region": [
-        {
-          "region": "United States",
-          "2024": 47725000000,
-          "2023": 45235000000,
-          "2022": 40553000000
-        },
-        {
-          "region": "China",
-          "2024": 20944000000,
-          "2023": 21745000000,
-          "2022": 18145000000
-        },
-        {
-          "region": "Other international",
-          "2024": 29021000000,
-          "2023": 29793000000,
-          "2022": 22764000000
-        }
-      ],
-      "total_revenue_by_region": {
-        "2024": 97690000000,
-        "2023": 96773000000,
-        "2022": 81462000000
-      },
-      "long_lived_assets_by_region": [
-        {
-          "region": "United States",
-          "2024": 32461000000,
-          "2023": 26629000000
-        },
-        {
-          "region": "Germany",
-          "2024": 4175000000,
-          "2023": 4258000000
-        },
-        {
-          "region": "Other international",
-          "2024": 4124000000,
-          "2023": 4067000000
-        },
-        {
-          "region": "Total",
-          "2024": 40760000000,
-          "2023": 34954000000
-        }
-      ],
-      "inventory_by_segment": [
-        {
-          "segment": "Automotive",
-          "2024": 9988000000,
-          "2023": 11139000000
-        },
-        {
-          "segment": "Energy generation and storage",
-          "2024": 2029000000,
-          "2023": 2487000000
-        },
-        {
-          "segment": "Total",
-          "2024": 12017000000,
-          "2023": 13626000000
-        }
-      ]
+      "automotive_revenues_2024": 87604000000,
+      "automotive_revenues_2023": 90738000000,
+      "automotive_revenues_2022": 77553000000,
+      "automotive_cost_of_revenues_2024": 72794000000,
+      "automotive_cost_of_revenues_2023": 74219000000,
+      "automotive_cost_of_revenues_2022": 56988000000,
+      "automotive_gross_profit_2024": 14810000000,
+      "automotive_gross_profit_2023": 16519000000,
+      "automotive_gross_profit_2022": 20565000000,
+      "energy_revenues_2024": 10086000000,
+      "energy_revenues_2023": 6035000000,
+      "energy_revenues_2022": 3909000000,
+      "energy_cost_of_revenues_2024": 7446000000,
+      "energy_cost_of_revenues_2023": 4894000000,
+      "energy_cost_of_revenues_2022": 3621000000,
+      "energy_gross_profit_2024": 2640000000,
+      "energy_gross_profit_2023": 1141000000,
+      "energy_gross_profit_2022": 288000000,
+      "total_revenues_2024": 97690000000,
+      "total_revenues_2023": 96773000000,
+      "total_revenues_2022": 81462000000,
+      "total_assets_2024": 3228000000,
+      "total_assets_2023": 4087000000,
+      "total_liabilities_2024": 4057000000,
+      "total_liabilities_2023": 3777000000,
+      "cash_and_cash_equivalents_2024": 49000000,
+      "cash_and_cash_equivalents_2023": 66000000,
+      "accounts_receivable_net_2024": 18000000,
+      "accounts_receivable_net_2023": 13000000,
+      "prepaid_expenses_and_other_current_assets_2024": 276000000,
+      "prepaid_expenses_and_other_current_assets_2023": 361000000,
+      "total_current_assets_2024": 343000000,
+      "total_current_assets_2023": 440000000,
+      "operating_lease_vehicles_net_2024": 392000000,
+      "operating_lease_vehicles_net_2023": 0,
+      "solar_energy_systems_net_2024": 2310000000,
+      "solar_energy_systems_net_2023": 3278000000,
+      "other_non_current_assets_2024": 183000000,
+      "other_non_current_assets_2023": 369000000,
+      "current_portion_of_debt_and_finance_leases_2024": 2114000000,
+      "current_portion_of_debt_and_finance_leases_2023": 1564000000,
+      "debt_and_finance_leases_net_of_current_portion_2024": 1834000000,
+      "debt_and_finance_leases_net_of_current_portion_2023": 2041000000,
+      "total_current_liabilities_2024": 2152000000,
+      "total_current_liabilities_2023": 1637000000,
+      "deferred_revenue_current_portion_2024": 6000000,
+      "deferred_revenue_current_portion_2023": 67000000,
+      "deferred_revenue_net_of_current_portion_2024": 71000000,
+      "deferred_revenue_net_of_current_portion_2023": 99000000,
+      "long_lived_assets_US_2024": 32461000000,
+      "long_lived_assets_Germany_2024": 4175000000,
+      "long_lived_assets_other_international_2024": 4124000000,
+      "long_lived_assets_total_2024": 40760000000,
+      "long_lived_assets_US_2023": 26629000000,
+      "long_lived_assets_Germany_2023": 4258000000,
+      "long_lived_assets_other_international_2023": 4067000000,
+      "long_lived_assets_total_2023": 34954000000,
+      "inventory_automotive_2024": 9988000000,
+      "inventory_automotive_2023": 11139000000,
+      "inventory_energy_2024": 2029000000,
+      "inventory_energy_2023": 2487000000,
+      "inventory_total_2024": 12017000000,
+      "inventory_total_2023": 13626000000
     },
     "chunk_id": 31
   },
   {
-    "info": "Long-lived assets by geography show total 40760 million in 2024, with US 32461; Germany 4175; and other international 4124; compared with total 34954 million in 2023 (US 26629; Germany 4258; other international 4067). Inventory by reportable segment totaled 12017 million in 2024 (Automotive 9988; Energy generation and storage 2029) vs 13626 million in 2023 (Automotive 11139; Energy generation and storage 2487). In 2024 a restructuring action led to 583000000 of employee termination expenses, largely paid from an immaterial year-end accrual. In 2022 there were impairment losses of 204000000 and gains of 64000000 from converting digital assets to fiat, plus 36000000 of other termination expenses. Internal controls over financial reporting were evaluated as effective as of 2024. A director adopted a Rule 10b5-1 trading plan on December 6, 2024, generating 15000000 in net proceeds from exercising 761961 shares, with an expiration of 2025-06-03.",
-    "data": {
-      "assets_usa_2024": 32461,
-      "assets_usa_2023": 26629,
-      "assets_germany_2024": 4175,
-      "assets_germany_2023": 4258,
-      "assets_other_international_2024": 4124,
-      "assets_other_international_2023": 4067,
-      "assets_total_2024": 40760,
-      "assets_total_2023": 34954,
-      "inventory_automotive_2024": 9988,
-      "inventory_automotive_2023": 11139,
-      "inventory_energy_generation_and_storage_2024": 2029,
-      "inventory_energy_generation_and_storage_2023": 2487,
-      "inventory_total_2024": 12017,
-      "inventory_total_2023": 13626,
-      "restructuring_termination_expenses_2024": 583000000,
-      "impairment_loss_2022": 204000000,
-      "digital_asset_conversions_gains_2022": 64000000,
-      "other_termination_expenses_2022_q2": 36000000,
-      "director_trading_plan_shares_2024": 761961,
-      "director_trading_plan_net_proceeds_2024": 15000000,
-      "director_trading_plan_expiration_2025_06_03": "2025-06-03"
-    },
+    "info": "In the second quarter of 2024, we initiated and substantially completed certain restructuring actions to reduce costs and improve efficiency. As a result, we recognized $583 million of employee termination expenses in Restructuring and other in our consolidated income statement. These expenses were substantially paid with an immaterial accrual remaining in Accrued liabilities and other in our consolidated balance sheet as of December 31, 2024.",
+    "data": {},
     "chunk_id": 32
-  },
-  {
-    "info": "",
-    "data": {
-      "exhibit_4_8_year": 2011,
-      "exhibit_4_9_year": 2013,
-      "exhibit_4_10_year": 2013,
-      "exhibit_4_11_year": 2015,
-      "exhibit_4_12_year": 2016,
-      "exhibit_4_13_year": 2017,
-      "exhibit_4_14_year": 2019,
-      "exhibit_4_15_year": 2013,
-      "exhibit_4_16_year": 2014,
-      "exhibit_4_17_year": 2015,
-      "exhibit_4_18_year": 2015,
-      "exhibit_4_19_year": 2015,
-      "exhibit_4_20_year": 2015,
-      "exhibit_4_21_year": 2015,
-      "exhibit_4_22_year": 2015,
-      "exhibit_4_23_year": 2015,
-      "exhibit_4_24_year": 2015,
-      "exhibit_4_25_year": 2015,
-      "exhibit_4_26_year": 2015,
-      "exhibit_4_27_year": 2015,
-      "files": {
-        "file_no_4_12": 34756,
-        "file_no_4_16": 333199321
-      },
-      "common_file_no": 35758
-    },
-    "chunk_id": 33
-  },
-  {
-    "info": "SolarCity filed a series of supplemental indentures in 2015 related to its 4.70%–5.75% Solar Bonds, across multiple Series (2015/C27-10 through 2015/C72-15). The filings span April 21, 2015 to July 21, 2015, indicating debt documentation activity rather than operational updates.",
-    "data": {
-      "indentures": [
-        {
-          "exhibit": 4.28,
-          "bond_series": "Series 2015/C27-10",
-          "rate_percent": 4.7,
-          "date": "2015-04-21"
-        },
-        {
-          "exhibit": 4.29,
-          "bond_series": "Series 2015/C28-15",
-          "rate_percent": 5.45,
-          "date": "2015-04-21"
-        },
-        {
-          "exhibit": 4.3,
-          "bond_series": "Series 2015/C32-10",
-          "rate_percent": 4.7,
-          "date": "2015-04-27"
-        },
-        {
-          "exhibit": 4.31,
-          "bond_series": "Series 2015/C33-15",
-          "rate_percent": 5.45,
-          "date": "2015-04-27"
-        },
-        {
-          "exhibit": 4.32,
-          "bond_series": "Series 2015/12-10",
-          "rate_percent": 5.0,
-          "date": "2015-05-01"
-        },
-        {
-          "exhibit": 4.33,
-          "bond_series": "Series 2015/C37-15",
-          "rate_percent": 5.75,
-          "date": "2015-05-01"
-        },
-        {
-          "exhibit": 4.34,
-          "bond_series": "Series 2015/C36-10",
-          "rate_percent": 4.7,
-          "date": "2015-05-11"
-        },
-        {
-          "exhibit": 4.35,
-          "bond_series": "Series 2015/C37-15",
-          "rate_percent": 5.45,
-          "date": "2015-05-11"
-        },
-        {
-          "exhibit": 4.36,
-          "bond_series": "Series 2015/C40-10",
-          "rate_percent": 4.7,
-          "date": "2015-05-18"
-        },
-        {
-          "exhibit": 4.37,
-          "bond_series": "Series 2015/C41-15",
-          "rate_percent": 5.45,
-          "date": "2015-05-18"
-        },
-        {
-          "exhibit": 4.38,
-          "bond_series": "Series 2015/C44-10",
-          "rate_percent": 4.7,
-          "date": "2015-05-26"
-        },
-        {
-          "exhibit": 4.39,
-          "bond_series": "Series 2015/C45-15",
-          "rate_percent": 5.45,
-          "date": "2015-05-26"
-        },
-        {
-          "exhibit": 4.4,
-          "bond_series": "Series 2015/C52-10",
-          "rate_percent": 4.7,
-          "date": "2015-06-16"
-        },
-        {
-          "exhibit": 4.41,
-          "bond_series": "Series 2015/C53-15",
-          "rate_percent": 5.45,
-          "date": "2015-06-16"
-        },
-        {
-          "exhibit": 4.42,
-          "bond_series": "Series 2015/C56-10",
-          "rate_percent": 4.7,
-          "date": "2015-06-22"
-        },
-        {
-          "exhibit": 4.43,
-          "bond_series": "Series 2015/C57-15",
-          "rate_percent": 5.45,
-          "date": "2015-06-23"
-        },
-        {
-          "exhibit": 4.44,
-          "bond_series": "Series 2015/C61-10",
-          "rate_percent": 4.7,
-          "date": "2015-06-29"
-        },
-        {
-          "exhibit": 4.45,
-          "bond_series": "Series 2015/C62-15",
-          "rate_percent": 5.45,
-          "date": "2015-06-29"
-        },
-        {
-          "exhibit": 4.46,
-          "bond_series": "Series 2015/C71-10",
-          "rate_percent": 4.7,
-          "date": "2015-07-21"
-        },
-        {
-          "exhibit": 4.47,
-          "bond_series": "Series 2015/C72-15",
-          "rate_percent": 5.45,
-          "date": "2015-07-21"
-        }
-      ]
-    },
-    "chunk_id": 34
-  },
-  {
-    "info": "Exhibits show 18 supplemental indentures for SolarCity’s 2015 bond series, with coupon rates ranging 4.70% to 5.75% and dates from July 31 to November 30, 2015, reflecting ongoing debt-financing activity and filings.",
-    "data": {
-      "bond_entries": [
-        {
-          "exhibit": 448,
-          "rate": 5.0,
-          "date": "2015-07-31",
-          "series": "2015/20-10",
-          "notes": "Ninety-Fifth Supplemental Indenture, dated as of July 31, 2015, related to SolarCity’s 5.00% Solar Bonds, Series 2015/20-10"
-        },
-        {
-          "exhibit": 449,
-          "rate": 5.75,
-          "date": "2015-07-31",
-          "series": "2015/21-15",
-          "notes": "Ninety-Sixth Supplemental Indenture, dated as of July 31, 2015, related to SolarCity’s 5.75% Solar Bonds, Series 2015/21-15"
-        },
-        {
-          "exhibit": 450,
-          "rate": 4.7,
-          "date": "2015-08-10",
-          "series": "2015/C81-10",
-          "notes": "One Hundred-and-Fifth Supplemental Indenture, dated as of August 10, 2015, related to SolarCity’s 4.70% Solar Bonds, Series 2015/C81-10"
-        },
-        {
-          "exhibit": 451,
-          "rate": 5.45,
-          "date": "2015-08-17",
-          "series": "2015/C87-15",
-          "notes": "One Hundred-and-Eleventh Supplemental Indenture, dated as of August 17, 2015, related to SolarCity’s 5.45% Solar Bonds, Series 2015/C87-15"
-        },
-        {
-          "exhibit": 452,
-          "rate": 5.45,
-          "date": "2015-08-24",
-          "series": "2015/C92-15",
-          "notes": "One Hundred-and-Sixteenth Supplemental Indenture, dated as of August 24, 2015, related to SolarCity’s 5.45% Solar Bonds, Series 2015/C92-15"
-        },
-        {
-          "exhibit": 453,
-          "rate": 5.45,
-          "date": "2015-08-31",
-          "series": "2015/C97-15",
-          "notes": "One Hundred-and-Twentieth Supplemental Indenture, dated as of August 31, 2015, related to SolarCity’s 5.45% Solar Bonds, Series 2015/C97-15"
-        },
-        {
-          "exhibit": 454,
-          "rate": 4.7,
-          "date": "2015-09-14",
-          "series": "2015/C101-10",
-          "notes": "One Hundred-and-Twenty-Eighth Supplemental Indenture, dated as of September 14, 2015, related to SolarCity’s 4.70% Solar Bonds, Series 2015/C101-10"
-        },
-        {
-          "exhibit": 455,
-          "rate": 5.45,
-          "date": "2015-09-14",
-          "series": "2015/C102-15",
-          "notes": "One Hundred-and-Twenty-Ninth Supplemental Indenture, dated as of September 14, 2015, related to SolarCity’s 5.45% Solar Bonds, Series 2015/C102-15"
-        },
-        {
-          "exhibit": 456,
-          "rate": 4.7,
-          "date": "2015-09-28",
-          "series": "2015/C106-10",
-          "notes": "One Hundred-and-Thirty-Third Supplemental Indenture, dated as of September 28, 2015, related to SolarCity’s 4.70% Solar Bonds, Series 2015/C106-10"
-        },
-        {
-          "exhibit": 457,
-          "rate": 5.45,
-          "date": "2015-09-28",
-          "series": "2015/C107-15",
-          "notes": "One Hundred-and-Thirty-Fourth Supplemental Indenture, dated as of September 28, 2015, related to SolarCity’s 5.45% Solar Bonds, Series 2015/C107-15"
-        },
-        {
-          "exhibit": 458,
-          "rate": 4.7,
-          "date": "2015-10-13",
-          "series": "2015/C111-10",
-          "notes": "One Hundred-and-Thirty-Eighth Supplemental Indenture, dated as of October 13, 2015, related to SolarCity’s 4.70% Solar Bonds, Series 2015/C111-10"
-        },
-        {
-          "exhibit": 459,
-          "rate": 5.0,
-          "date": "2015-10-30",
-          "series": "2015/25-10",
-          "notes": "One Hundred-and-Forty-Third Supplemental Indenture, dated as of October 30, 2015, related to SolarCity’s 5.00% Solar Bonds, Series 2015/25-10"
-        },
-        {
-          "exhibit": 460,
-          "rate": 5.75,
-          "date": "2015-10-30",
-          "series": "2015/26-15",
-          "notes": "One Hundred-and-Forty-Fourth Supplemental Indenture, dated as of October 30, 2015, related to SolarCity’s 5.75% Solar Bonds, Series 2015/26-15"
-        },
-        {
-          "exhibit": 461,
-          "rate": 4.7,
-          "date": "2015-11-04",
-          "series": "2015/C116-10",
-          "notes": "One Hundred-and-Forty-Eighth Supplemental Indenture, dated as of November 4, 2015, related to SolarCity’s 4.70% Solar Bonds, Series 2015/C116-10"
-        },
-        {
-          "exhibit": 462,
-          "rate": 4.7,
-          "date": "2015-11-16",
-          "series": "2015/C121-10",
-          "notes": "One Hundred-and-Fiftieth Supplemental Indenture, dated as of November 16, 2015, related to SolarCity’s 4.70% Solar Bonds, Series 2015/C121-10"
-        },
-        {
-          "exhibit": 463,
-          "rate": 5.45,
-          "date": "2015-11-16",
-          "series": "2015/C122-15",
-          "notes": "One Hundred-and-Fifty-Fourth Supplemental Indenture, dated as of November 16, 2015, related to SolarCity’s 5.45% Solar Bonds, Series 2015/C122-15"
-        },
-        {
-          "exhibit": 464,
-          "rate": 4.7,
-          "date": "2015-11-30",
-          "series": "2015/C126-10",
-          "notes": "One Hundred-and-Fifty-Eighth Supplemental Indenture, dated as of November 30, 2015, related to SolarCity’s 4.70% Solar Bonds, Series 2015/C126-10"
-        },
-        {
-          "exhibit": 465,
-          "rate": 5.45,
-          "date": "2015-11-30",
-          "series": "2015/C127-15",
-          "notes": "One Hundred-and-Fifty-Ninth Supplemental Indenture, dated as of November 30, 2015, related to SolarCity’s 5.45% Solar Bonds, Series 2015/C127-15"
-        }
-      ]
-    },
-    "chunk_id": 35
-  },
-  {
-    "info": "Exhibits table lists supplemental indentures related to SolarCity’s bonds (4.66–4.71) with different coupon rates and issue series, plus the exhibit describing registrant’s securities, and standard equity-incentive and indemnification exhibits (10.1–10.7) with filing references.",
-    "data": [
-      {
-        "exhibit": 4.66,
-        "bond_rate_percent": 4.7,
-        "bond_series": "2015/C131-10",
-        "date": "2015-12-14"
-      },
-      {
-        "exhibit": 4.67,
-        "bond_rate_percent": 5.45,
-        "bond_series": "2015/C132-15",
-        "date": "2015-12-14"
-      },
-      {
-        "exhibit": 4.68,
-        "bond_rate_percent": 4.7,
-        "bond_series": "2015/C136-10",
-        "date": "2015-12-28"
-      },
-      {
-        "exhibit": 4.69,
-        "bond_rate_percent": 5.45,
-        "bond_series": "2015/C137-15",
-        "date": "2015-12-28"
-      },
-      {
-        "exhibit": 4.7,
-        "bond_rate_percent": 5.0,
-        "bond_series": "2016/4-10",
-        "date": "2016-01-29"
-      },
-      {
-        "exhibit": 4.71,
-        "bond_rate_percent": 5.75,
-        "bond_series": "2016/5-15",
-        "date": "2016-01-29"
-      },
-      {
-        "exhibit": 4.72,
-        "desc": "Description of Registrant’s Securities"
-      },
-      {
-        "exhibit": 10.1,
-        "file_no": 333164593,
-        "desc": "Form of Indemnification Agreement between the Registrant and its directors and officers."
-      },
-      {
-        "exhibit": 10.2,
-        "file_no": 333164593,
-        "desc": "2003 Equity Incentive Plan."
-      },
-      {
-        "exhibit": 10.3,
-        "desc": "Form of Stock Option Agreement under 2003 Equity Incentive Plan."
-      },
-      {
-        "exhibit": 10.4,
-        "desc": "Amended and Restated 2010 Equity Incentive Plan."
-      },
-      {
-        "exhibit": 10.5,
-        "desc": "Form of Stock Option Agreement under 2010 Equity Incentive Plan."
-      },
-      {
-        "exhibit": 10.6,
-        "desc": "Form of Restricted Stock Unit Award Agreement under 2010 Equity Incentive Plan."
-      },
-      {
-        "exhibit": 10.7,
-        "desc": ""
-      }
-    ],
-    "chunk_id": 36
-  },
-  {
-    "info": "",
-    "data": {
-      "exhibits": [
-        {
-          "exhibit_num": 10.7,
-          "description": "Amended and Restated 2010 Employee Stock Purchase Plan, effective as of February 1, 2017.",
-          "file_no": 34756,
-          "filing_year": 2017,
-          "form": "10-K"
-        },
-        {
-          "exhibit_num": 10.8,
-          "description": "2019 Equity Incentive Plan.",
-          "file_no": 232079,
-          "filing_year": 2019,
-          "form": "S-8"
-        },
-        {
-          "exhibit_num": 10.9,
-          "description": "Form of Stock Option Agreement under 2019 Equity Incentive Plan.",
-          "file_no": 232079,
-          "filing_year": 2019,
-          "form": "S-8"
-        },
-        {
-          "exhibit_num": 10.1,
-          "description": "Form of Restricted Stock Unit Award Agreement under 2019 Equity Incentive Plan.",
-          "file_no": 232079,
-          "filing_year": 2019,
-          "form": "S-8"
-        },
-        {
-          "exhibit_num": 10.11,
-          "description": "Employee Stock Purchase Plan, effective as of June 12, 2019.",
-          "file_no": 232079,
-          "filing_year": 2019,
-          "form": "S-8"
-        },
-        {
-          "exhibit_num": 10.12,
-          "description": "2012 SolarCity Equity Incentive Plan and form of agreements used thereunder.",
-          "file_no": 184317,
-          "filing_year": 2012,
-          "form": "S-1(1)"
-        },
-        {
-          "exhibit_num": 10.13,
-          "description": "Offer Letter between the Registrant and Elon Musk dated October 13, 2008.",
-          "file_no": 164593,
-          "filing_year": 2010,
-          "form": "S-1"
-        },
-        {
-          "exhibit_num": 10.14,
-          "description": "Performance Stock Option Agreement between the Registrant and Elon Musk dated January 21, 2018.",
-          "file_no": 34756,
-          "filing_year": 2018,
-          "form": "DEF 14A"
-        },
-        {
-          "exhibit_num": 10.15,
-          "description": "Indemnification Agreement, effective as of June 23, 2020, between Registrant and Elon R. Musk.",
-          "file_no": 34756,
-          "filing_year": 2020,
-          "form": "10-Q"
-        },
-        {
-          "exhibit_num": 10.16,
-          "description": "Form of Call Option Confirmation relating to 1.25% Convertible Senior Notes Due March 1, 2021.",
-          "file_no": 34756,
-          "filing_year": 2014,
-          "form": "8-K"
-        },
-        {
-          "exhibit_num": 10.17,
-          "description": "Supply Agreement between Panasonic Corporation and the Registrant dated October 5, 2011.",
-          "file_no": 34756,
-          "filing_year": 2012,
-          "form": "10-K"
-        },
-        {
-          "exhibit_num": 10.18,
-          "description": "Amendment No. 1 to Supply Agreement between Panasonic Corporation and the Registrant dated October 29, 2013.",
-          "file_no": 34756,
-          "filing_year": 2014,
-          "form": "10-K"
-        },
-        {
-          "exhibit_num": 10.19,
-          "description": "Agreement between Panasonic Corporation and the Registrant dated July 31, 2014.",
-          "file_no": 34756,
-          "filing_year": 2014,
-          "form": "10-Q"
-        },
-        {
-          "exhibit_num": 10.2,
-          "description": "General Terms and Conditions between Panasonic Corporation and the Registrant dated October 1, 2014.",
-          "file_no": 34756,
-          "filing_year": 2016,
-          "form": "8-K"
-        },
-        {
-          "exhibit_num": 10.21,
-          "description": "Letter Agreement, dated as of February 24, 2015, regarding addition of co-party to General Terms and Conditions, Production Pricing Agreement and Investment Letter Agreement between Panasonic Corporation and the Registrant.",
-          "file_no": 34756,
-          "filing_year": 2015
-        }
-      ]
-    },
-    "chunk_id": 37
-  },
-  {
-    "info": "Exhibits table referencing various Panasonic-related agreements, pricing arrangements, leases, and R&D alliances with SUNY/Silevo, across 2014-2021, including amendments and tax incentives. Contains filing form types and dates for each exhibit.",
-    "data": {
-      "exhibits": [
-        {
-          "exhibit_no": "10.22",
-          "description": "Investment Letter Agreement between Panasonic Corporation and the Registrant dated October 1, 2014.",
-          "form": "10-Q",
-          "file_no": "001-34756",
-          "filing_date": 20141107,
-          "exhibit_refs": [
-            "10.4"
-          ]
-        },
-        {
-          "exhibit_no": "10.23",
-          "description": "Amendment to Gigafactory Documents, dated April 5, 2016, by and among the Registrant, Panasonic Corporation, Panasonic Corporation of North America and Panasonic Energy Corporation of North America.",
-          "form": "10-Q",
-          "file_no": "001-34756",
-          "filing_date": 20160510,
-          "exhibit_refs": [
-            "10.2"
-          ]
-        },
-        {
-          "exhibit_no": "10.24",
-          "description": "2019 Pricing Agreement (Japan Cells) with respect to 2011 Supply Agreement, executed September 20, 2019, by and among the Registrant, Tesla Motors Netherlands B.V., Panasonic Corporation and SANYO Electric Co., Ltd.",
-          "form": "10-Q",
-          "file_no": "001-34756",
-          "filing_date": 20191029,
-          "exhibit_refs": [
-            "10.6"
-          ]
-        },
-        {
-          "exhibit_no": "10.25",
-          "description": "2020 Pricing Agreement (Gigafactory 2170 Cells), entered into on June 9, 2020, by and among Registrant, Tesla Motors Netherlands B.V., Panasonic Corporation and Panasonic Corporation of North America.",
-          "form": "10-Q",
-          "file_no": "001-34756",
-          "filing_date": 20200728,
-          "exhibit_refs": [
-            "10.3"
-          ]
-        },
-        {
-          "exhibit_no": "10.26",
-          "description": "2021 Pricing Agreement (Japan Cells) with respect to 2011 Supply Agreement, executed December 29, 2020, by and among the Registrant, Tesla Motors Netherlands B.V., Panasonic Corporation of North America and SANYO Electric Co., Ltd.",
-          "form": "10-K",
-          "file_no": "001-34756",
-          "filing_date": 20210208,
-          "exhibit_refs": [
-            "10.39"
-          ]
-        },
-        {
-          "exhibit_no": "10.27",
-          "description": "Amended and Restated Factory Lease, executed as of March 26, 2019, by and between the Registrant and Panasonic Energy North America, a division of Panasonic Corporation of North America, as tenant.",
-          "form": "10-Q",
-          "file_no": "001-34756",
-          "filing_date": 20190729,
-          "exhibit_refs": [
-            "10.3"
-          ]
-        },
-        {
-          "exhibit_no": "10.28",
-          "description": "Lease Amendment, executed September 20, 2019, by and among the Registrant, Panasonic Corporation of North America, on behalf of its division Panasonic Energy of North America, with respect to the Amended and Restated Factory Lease, executed as of March 26, 2019.",
-          "form": "10-Q",
-          "file_no": "001-34756",
-          "filing_date": 20191029,
-          "exhibit_refs": [
-            "10.7"
-          ]
-        },
-        {
-          "exhibit_no": "10.29",
-          "description": "Second Lease Amendment, entered into on June 9, 2020, by and between the Registrant and Panasonic Energy of North America, a division of Panasonic Corporation of North America, with respect to the Amended and Restated Factory Lease dated January 1, 2017.",
-          "form": "10-Q",
-          "file_no": "001-34756",
-          "filing_date": 20200728,
-          "exhibit_refs": [
-            "10.1"
-          ]
-        },
-        {
-          "exhibit_no": "10.30",
-          "description": "Agreement for Tax Abatement and Incentives, dated as of May 7, 2015, by between Tesla Motors, Inc. and the State of Nevada, acting by and through the Nevada Governor’s Office of Economic Development.",
-          "form": "10-Q",
-          "file_no": "001-34756",
-          "filing_date": 20150807,
-          "exhibit_refs": [
-            "10.1"
-          ]
-        },
-        {
-          "exhibit_no": "10.31",
-          "description": "Amended and Restated Agreement For Research & Development Alliance on Triex Module Technology, effective as of September 2, 2014, by and between The Research Foundation For The State University of New York, on behalf of the College of Nanoscale Science and Engineering of the State University of New York, and Silevo, Inc.",
-          "form": "10-Q(1)",
-          "file_no": "001-35758",
-          "filing_date": 20141106,
-          "exhibit_refs": [
-            "10.16"
-          ]
-        },
-        {
-          "exhibit_no": "10.32",
-          "description": "First Amendment to Amended and Restated Agreement For Research & Development Alliance on Triex Module Technology, effective as of October 31, 2014, by and between The Research Foundation For The State University of New York, on behalf of the College of Nanoscale Science and Engineering of the State University of New York, and Silevo, Inc.",
-          "form": "10-K(1)",
-          "file_no": "001-35758",
-          "filing_date": 20150224,
-          "exhibit_refs": [
-            "10.16a"
-          ]
-        },
-        {
-          "exhibit_no": "10.33",
-          "description": "Second Amendment to Amended and Restated Agreement For Research & Development Alliance on Triex Module Technology, effective as of December 15, 2014, by and between The Research Foundation For The State University of New York, on behalf of the College of Nanoscale Science and Engineering of the State University of New York, and Silevo, Inc.",
-          "form": "10-K(1)",
-          "file_no": "001-35758",
-          "filing_date": 20150224,
-          "exhibit_refs": [
-            "10.16b"
-          ]
-        },
-        {
-          "exhibit_no": "10.34",
-          "description": "Third Amendment to Amended and Restated Agreement For Research & Development Alliance on Triex Module Technology, effective as of February 12, 2015, by and between The Research Foundation For The State University of New York, on behalf of the College of Nanoscale Science and Engineering of the State University of New York, and Silevo, Inc.",
-          "form": "10-Q(1)",
-          "file_no": "001-35758",
-          "filing_date": 20150506,
-          "exhibit_refs": [
-            "10.16c"
-          ]
-        },
-        {
-          "exhibit_no": "10.35",
-          "description": "Fourth Amendment to Amended and Restated Agreement For Research & Development Alliance on Triex Module Technology, effective as of March 30, 2015, by and between The Research Foundation For The State University of New York, on behalf of the College of Nanoscale Science and Engineering of the State University of New York, and Silevo, Inc.",
-          "form": "10-Q(1)",
-          "file_no": "001-35758",
-          "filing_date": 20150506,
-          "exhibit_refs": [
-            "10.16d"
-          ]
-        },
-        {
-          "exhibit_no": "10.36",
-          "description": "Fifth Amendment to Amended and Restated Agreement For Research & Development Alliance on Triex Module Technology, effective as of June 30, 2015, by and between The Research Foundation For The State University of New York, on behalf of the College of Nanoscale Science and Engineering of the State University of New York, and Silevo, LLC.",
-          "form": "10-Q(1)",
-          "file_no": "001-35758",
-          "filing_date": 20150730,
-          "exhibit_refs": [
-            "10.16e"
-          ]
-        }
-      ]
-    },
-    "chunk_id": 38
-  },
-  {
-    "info": "",
-    "data": {
-      "exhibits": [
-        {
-          "exhibit_no": "10.37",
-          "description": "Sixth Amendment to Amended and Restated Agreement For Research & Development Alliance on Triex Module Technology, effective as of September 1, 2015, by and between The Research Foundation For The State University of New York, on behalf of the College of Nanoscale Science and Engineering of the State University of New York, and Silevo, LLC.",
-          "form": "10-Q(1)",
-          "file_no": 35758,
-          "filing_date": "2015-10-30"
-        },
-        {
-          "exhibit_no": "10.38",
-          "description": "Seventh Amendment to Amended and Restated Agreement For Research & Development Alliance on Triex Module Technology, effective as of October 9, 2015, by and between The Research Foundation For The State University of New York, on behalf of the College of Nanoscale Science and Engineering of the State University of New York, and Silevo, LLC.",
-          "form": "10-Q(1)",
-          "file_no": 35758,
-          "filing_date": "2015-10-30"
-        },
-        {
-          "exhibit_no": "10.39",
-          "description": "Eighth Amendment to Amended and Restated Agreement For Research & Development Alliance on Triex Module Technology, effective as of October 26, 2015, by and between The Research Foundation For The State University of New York, on behalf of the College of Nanoscale Science and Engineering of the State University of New York, and Silevo, LLC.",
-          "form": "10-Q(1)",
-          "file_no": 35758,
-          "filing_date": "2015-10-30"
-        },
-        {
-          "exhibit_no": "10.40",
-          "description": "Ninth Amendment to Amended and Restated Agreement For Research & Development Alliance on Triex Module Technology, effective as of December 9, 2015, by and between The Research Foundation For The State University of New York, on behalf of the College of Nanoscale Science and Engineering of the State University of New York, and Silevo, LLC.",
-          "form": "10-Q(1)",
-          "file_no": 35758,
-          "filing_date": "2015-10-30"
-        },
-        {
-          "exhibit_no": "10.41",
-          "description": "Tenth Amendment to Amended and Restated Agreement For Research & Development Alliance on Triex Module Technology, effective as of March 31, 2017, by and between The Research Foundation For The State University of New York, on behalf of the Colleges of Nanoscale Science and Engineering of the State University of New York, and Silevo, LLC.",
-          "form": "10-Q",
-          "file_no": 35758,
-          "filing_date": "2017-05-10"
-        },
-        {
-          "exhibit_no": "10.42",
-          "description": "Eleventh Amendment to Amended and Restated Agreement for Research & Development Alliance on Triex Module Technology, effective as of July 22, 2020, among the Research Foundation for the State University of New York, Silevo, LLC and Tesla Energy Operations, Inc",
-          "form": "10-Q",
-          "file_no": 34756,
-          "filing_date": "2020-07-28"
-        },
-        {
-          "exhibit_no": "10.43",
-          "description": "Twelfth Amendment to Amended and Restated Agreement for Research & Development Alliance on Triex Module Technology, effective as of May 1, 2021, among the Research Foundation for the State University of New York, Silevo, LLC and Tesla Energy Operations, Inc",
-          "form": "10-Q",
-          "file_no": 34756,
-          "filing_date": "2021-10-25"
-        },
-        {
-          "exhibit_no": "10.44",
-          "description": "Grant Contract for State-Owned Construction Land Use Right, dated as of October 17, 2018, by and between Shanghai Planning and Land Resource Administration Bureau, as grantor, and Tesla (Shanghai) Co., Ltd., as grantee (English translation).",
-          "form": "10-Q",
-          "file_no": 34756,
-          "filing_date": "2019-07-29"
-        },
-        {
-          "exhibit_no": "10.45",
-          "description": "Credit Agreement, dated as of January 20, 2023, among Tesla, Inc., the Lenders and Issuing Banks from time to time party thereto, Citibank, N.A., as Administrative Agent and Deutsche Bank Securities, Inc., as Syndication Agent",
-          "form": "10-K",
-          "file_no": 34756,
-          "filing_date": "2023-01-31"
-        },
-        {
-          "exhibit_no": "19",
-          "description": "Insider Trading Policy",
-          "form": null,
-          "filing_date": null,
-          "link": "tsla-2024x12x31xex19.htm"
-        },
-        {
-          "exhibit_no": "21.1",
-          "description": "List of Subsidiaries of the Registrant",
-          "form": null,
-          "filing_date": null,
-          "link": "tsla-2024x12x31xex211.htm"
-        },
-        {
-          "exhibit_no": "23.1",
-          "description": "Consent of PricewaterhouseCoopers LLP, Independent Registered Public Accounting Firm",
-          "form": null,
-          "filing_date": null,
-          "link": "tsla-2024x12x31xex231.htm"
-        },
-        {
-          "exhibit_no": "31.1",
-          "description": "Rule 13a-14(a) / 15(d)-14(a) Certification of Principal Executive Officer",
-          "form": null,
-          "filing_date": null,
-          "link": "tsla-2024x12x31xex311.htm"
-        },
-        {
-          "exhibit_no": "31.2",
-          "description": "Rule 13a-14(a) / 15(d)-14(a) Certification of Principal Financial Officer",
-          "form": null,
-          "filing_date": null,
-          "link": "tsla-2024x12x31xex312.htm"
-        },
-        {
-          "exhibit_no": "32.1*",
-          "description": "Section 1350 Certifications",
-          "form": null,
-          "filing_date": null,
-          "link": "tsla-2024x12x31xex321.htm"
-        },
-        {
-          "exhibit_no": "97",
-          "description": "Tesla, Inc. Clawback Policy",
-          "form": "10-K",
-          "file_no": 34756,
-          "filing_date": "2024-01-29",
-          "link": "tsla-2023x12x31xex97.htm"
-        },
-        {
-          "exhibit_no": "101.INS",
-          "description": "Inline XBRL Instance Document",
-          "form": null,
-          "filing_date": null,
-          "link": "tsla-2024x12x31xex101.INS.htm"
-        },
-        {
-          "exhibit_no": "101.SCH",
-          "description": "Inline XBRL Taxonomy Extension Schema Document",
-          "form": null,
-          "filing_date": null,
-          "link": "tsla-2024x12x31xex101.SCH.htm"
-        },
-        {
-          "exhibit_no": "101.CAL",
-          "description": "Inline XBRL Taxonomy Extension Calculation Linkbase Document",
-          "form": null,
-          "filing_date": null,
-          "link": "tsla-2024x12x31xex101.CAL.htm"
-        },
-        {
-          "exhibit_no": "101.DEF",
-          "description": "Inline XBRL Taxonomy Extension Definition Linkbase Document",
-          "form": null,
-          "filing_date": null,
-          "link": "tsla-2024x12x31xex101.DEF.htm"
-        },
-        {
-          "exhibit_no": "101.LAB",
-          "description": "Inline XBRL Taxonomy Extension Label Linkbase Document",
-          "form": null,
-          "filing_date": null,
-          "link": "tsla-2024x12x31xex101.LAB.htm"
-        },
-        {
-          "exhibit_no": "104",
-          "description": "Cover Page Interactive Data File (formatted as inline XBRL with applicable taxonomy extension information contained in Exhibits 101)",
-          "form": null,
-          "filing_date": null,
-          "link": null
-        }
-      ]
-    },
-    "chunk_id": 39
-  },
-  {
-    "info": "",
-    "data": {
-      "date_day": 29,
-      "date_year": 2025,
-      "page_107": 107,
-      "page_108": 108
-    },
-    "chunk_id": 40
   }
 ]

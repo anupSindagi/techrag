@@ -1,1512 +1,393 @@
 [
   {
-    "info": "Enumeration of NVDA and us-gaap taxonomy items related to employee stock awards, performance shares, market-based PSUs, scenario forecasts, fair value inputs and investments, and segment/instrument identifiers (compute/networking, graphics, intangible assets from business combinations, patents, corporate debt securities, money market funds, government and foreign debt securities).",
-    "data": {
-      "instrument_code": 1045810,
-      "dates_present": [
-        20230130,
-        20240128,
-        20220131,
-        20230129,
-        20250331,
-        20250126,
-        20241028,
-        20240129
-      ]
-    },
-    "chunk_id": 2
-  },
-  {
-    "info": "Nvidia's note disclosures cover a broad, multi-year set of assets, liabilities and segment information, including fair value inputs Level 2, customer concentration risk, accounts receivable, land, buildings and leasehold improvements, equipment, construction in progress, inventory purchase obligations, expense nature of customer advances, foreign exchange hedging (designated and nondesignated), and various A2024 through A2060 notes, with operating segments Compute & Networking and Graphics and a corporate/non-segment structure. The chunk reflects extensive footnote coverage and topics relevant to liquidity, hedging strategies and concentration risk, but contains no explicit monetary figures.",
+    "info": "The aggregate market value of the voting stock held by non-affiliates of the registrant as of July 26, 2024 was approximately $2.7 trillion (based on the closing sales price of the registrant's common stock as reported by the Nasdaq Global Select Market on July 26, 2024).",
     "data": {},
-    "chunk_id": 3
-  },
-  {
-    "info": "NVIDIA positions itself as a full-stack accelerated computing company with data-center-scale offerings, including CUDA and a broad software stack of libraries, SDKs, and APIs that accelerate AI model training/inference, data analytics, scientific computing, and 3D graphics, with vertical-specific optimizations across healthcare, telecom, automotive, and manufacturing.",
-    "data": {
-      "fiscal_year_end": 20250126,
-      "market_value_voting_stock_non_affiliates_usd": 2700000000000,
-      "market_value_date": 20240726,
-      "shares_outstanding_feb_2025": 24400000000,
-      "shares_excluded_directors_exec_officers": 1000000000,
-      "ein_us": 943177549,
-      "corporate_telephone": 4084862000,
-      "copyright_year": 2025
-    },
     "chunk_id": 6
   },
   {
-    "info": "NVIDIA presents a continued transition to a full-stack, data-center-scale AI platform, emphasizing AI software leadership, platform-wide innovation, and expansion across four markets (Data Center, Gaming, Professional Visualization, Automotive). Key milestones include DPUs added FY2022, Grace data-center CPU introduced FY2023 with CPU platform expansion FY2024, and the Blackwell data-center architecture launched FY2025, along with the RTX 50 Series. The company reports substantial R&D investment (over $58.2B since inception) and a large developer base (over 5.9M CUDA developers). It highlights DGX Cloud and NVIDIA AI Enterprise as core software offerings, a broad ecosystem with top HPC market positioning (over 75% of TOP500 and 38 of the top 50 Green500), and 4 primary target markets and 4,400+ supported applications.",
-    "data": {
-      "rd_spend_inception_usd": 58200000000,
-      "dpu_intro_fy": 2022,
-      "grace_cpu_intro_fy": 2023,
-      "cpu_platform_expansion_fy": 2024,
-      "blackwell_launched_fy": 2025,
-      "rtx50_series_launch_fy": 2025,
-      "developers_cuda_worldwide": 5900000,
-      "top500_share_percent": 75,
-      "applications_supported": 4400,
-      "gpu_invention_year": 1999,
-      "alexnet_year": 2012,
-      "cuda_year": 2006,
-      "tensor_core_year": 2017,
-      "av_soc_intro_year": 2018,
-      "mellanox_acquisition_year": 2020,
-      "markets_count": 4,
-      "green500_top50_systems_with_nv": 38,
-      "green500_top50_total_systems": 50,
-      "ai_enterprise_token_throughput_improvement_x": 2.5
-    },
+    "info": "In fiscal year 2025, we launched the NVIDIA Blackwell architecture, a full set of data center scale infrastructure that includes GPUs, CPUs, DPUs, interconnects, switch chips and systems, and networking adapters.",
+    "data": {},
     "chunk_id": 7
   },
   {
-    "info": "NVIDIA outlines a strategy centered on autonomous driving and AI-accelerated computing via the DRIVE platform, licensing IP and end-to-end hardware/software solutions built to automotive safety standards, supported by a global partner network with OEMs, tier-1s, CSPs, ODMs and system integrators; manufacturing remains fabless with APAC concentration and external foundries (TSMC, Samsung) and subcontractors; competitive landscape is highly active across GPUs, CPUs, DPUs, SoCs and interconnects, with regulatory risk from export controls that could expand under US government licensing rules to restrict sales to China and other regions; sustainability initiatives include a 76% renewable-energy match for FY2024, a plan to reach 100% in FY2025, and to engage at least 67% of Scope 3 Category 1 emissions from manufacturing suppliers by FY2026, plus leadership in energy efficiency (Green500 Top-10: 8 of 10 systems); organizational updates include ~36,000 employees at end of FY2025 across 38 countries (27,100 in R&D and 8,900 in sales/marketing/operations/admin), a 2.5% turnover rate in FY2025, and a workforce that is 82% technical with 51% holding advanced degrees; additional programs include two days of rest per quarter and Earth-2 climate initiatives.",
-    "data": {
-      "employees_ending_fy2025": 36000,
-      "countries_fy2025": 38,
-      "employees_rd_fy2025": 27100,
-      "employees_sales_ops_fy2025": 8900,
-      "turnover_rate_fy2025_percent": 2.5,
-      "percent_technical_workforce": 82,
-      "percent_advanced_degree_holders": 51,
-      "days_off_per_quarter": 2,
-      "renewable_energy_matched_fy2024_percent": 76,
-      "renewable_energy_match_target_fy2025_percent": 100,
-      "supplier_scope3_category1_emissions_engaged_by_fy2026_percent": 67,
-      "patent_expiration_min_year": 2025,
-      "patent_expiration_max_year": 2045,
-      "green500_top10_powered_entries": 8
-    },
+    "info": "On January 15, 2025, the USG published the “AI Diffusion” IFR in the Federal Register.",
+    "data": {},
     "chunk_id": 8
   },
   {
-    "info": "NVIDIA describes broad diversity, inclusion and belonging initiatives to broaden the talent pipeline for underrepresented groups, with leadership development programs and equity tracking. As of fiscal year 2025, the company reports a workforce composition of 78% male, 21% female, and 1% not declared; 6% of the US workforce is Black or African American or Hispanic or Latino. NVIDIA supports a flexible work environment and provides 2 days off per quarter. Executive officers are listed with ages as of February 21, 2025.",
-    "data": {
-      "exec_officers": [
-        {
-          "name": "Jen-Hsun Huang",
-          "age": 62,
-          "title": "President and Chief Executive Officer"
-        },
-        {
-          "name": "Colette M. Kress",
-          "age": 57,
-          "title": "Executive Vice President and Chief Financial Officer"
-        },
-        {
-          "name": "Ajay K. Puri",
-          "age": 70,
-          "title": "Executive Vice President, Worldwide Field Operations"
-        },
-        {
-          "name": "Debora Shoquist",
-          "age": 70,
-          "title": "Executive Vice President, Operations"
-        },
-        {
-          "name": " Timothy S. Teter",
-          "age": 58,
-          "title": "Executive Vice President and General Counsel"
-        }
-      ],
-      "fiscal_year_end": 2025,
-      "as_of_date": "2025-02-21",
-      "workforce_male_percent": 78,
-      "workforce_female_percent": 21,
-      "workforce_not_declared_percent": 1,
-      "us_underrepresented_percent": 6,
-      "pto_days_per_quarter": 2
-    },
+    "info": "Failure to meet the evolving needs of our industry and markets may adversely impact our financial results.",
+    "data": {},
     "chunk_id": 9
   },
   {
-    "info": "The company flags rising supply chain complexity from multiple suppliers and prepaid manufacturing, ongoing architecture transitions across Data Center, Gaming, Professional Visualization and Automotive, and potential inventory provisions. Demand and revenue may be volatile due to faster AI compute platform launches and product transitions, with channel dynamics and potential impairment costs. It also highlights cybersecurity/data‑privacy risks and substantial international exposure (53% of FY2025 revenue outside the U.S.). Dependence on foundries and contract manufacturers raises risks of supply shortages, lead-time extensions, and disruptions from natural disasters or other events.",
-    "data": {
-      "revenue_outside_us_pct": 53
-    },
+    "info": "generated 53% of our revenue in fiscal year 2025 from sales outside the United States.",
+    "data": {},
     "chunk_id": 10
   },
   {
-    "info": "Security and geopolitical risk factors could affect operations and financial results: potential data breaches and mandatory disclosures, regulatory scrutiny, and litigation risks; disruptions from natural disasters, climate change, and dependence on third-party data centers and CSPs; revenue concentration with a few partners/customers (direct shares 12%, 11%, and 11% in fiscal year 2025) and indirect revenue via system integrators representing at least 10%; regional exposure in Israel with about 4,700 employees; conflicts or outages could impair product development and revenue; ongoing cross-border regulatory and compliance burdens across multiple jurisdictions.",
-    "data": {
-      "employees_israel_region_approx": 4700,
-      "direct_customer_share_2025_A": 12,
-      "direct_customer_share_2025_B": 11,
-      "direct_customer_share_2025_C": 11,
-      "indirect_customer_share_2025_min": 10
-    },
+    "info": "We are monitoring the impact of the geopolitical conflict in and around Israel on our operations, including the health and safety of our approximately 4,700 employees in the region who primarily support the research and development, operations, and sales and marketing of our networking products. Sales to direct Customers A, B and C represented 12%, 11% and 11% of total revenue, respectively, for fiscal year 2025, all of which were primarily attributable to the Compute & Networking segment. For fiscal year 2025, an indirect customer which primarily purchases our products through system integrators and distributors, including through Customer B, is estimated to represent 10% or more of total revenue, attributable to the Compute & Networking segment.",
+    "data": {},
     "chunk_id": 11
   },
   {
-    "info": "Regulatory landscape for frontier AI and exports remains elevated: the EU AI Act became effective 2024-08-01 with a two-year transition; various jurisdictions are considering or imposing AI-related restrictions, which could raise compliance costs, delay deployments, and affect market access; the AI Diffusion IFR (published 2025-01-15) would impose a worldwide licensing framework with a 120-day compliance period and divide countries into three tiers, including many (over 150) designated Tier 2 countries, potentially impacting our revenue and competitiveness; export controls have intensified over the past three years, including actions affecting China and Russia, and ongoing geopolitical dynamics could require license approvals, constrain shipments, and shift customer choices. Our 2023 actions include halting direct Russia sales; we may face higher costs and operational burdens as rules evolve.",
-    "data": {
-      "eu_act_effective_date": 20240801,
-      "eu_act_transition_years": 2,
-      "fiscal_yr_2023_russia_sales_ban": 2023,
-      "usa_export_controls_oct2023_effective_date": 20231023,
-      "ai_diffusion_ifr_publication_date": 20250115,
-      "ai_diffusion_ifr_three_tiers": 3,
-      "ai_diffusion_ifr_tier2_designated_countries": 150,
-      "ai_diffusion_ifr_120_day_compliance": 120,
-      "past_three_years_export_controls": 3,
-      "fiscal_q2_2024_export_controls_mention": 2,
-      "fiscal_q3_2023_export_controls_reference": 3
-    },
+    "info": "After a 120-day delayed compliance period, the IFR will, unless modified, impose a worldwide licensing requirement on all products classified under Export Control Classification Numbers, or ECCNs, 3A090.a, 4A090.a, or corresponding .z ECCNs, including all related software and technology.",
+    "data": {},
     "chunk_id": 12
   },
   {
-    "info": "Reliance on overseas supply (Taiwan/South Korea) and potential supply restrictions could negatively impact results; rising sustainability scrutiny and regulations may increase costs and affect customer/supplier relationships; AI-related regulatory and liability risks, data privacy/cross-border transfer obligations with meaningful penalties, and ongoing IP/litigation exposure; tax uncertainty under FDII and OECD Pillar One/Two; governance protections including Microsoft Xbox rights; and cybersecurity governance with a diversified global asset footprint.",
-    "data": {
-      "xbox_rights_threshold_percent": 30,
-      "eu_gdpr_penalty_cap_euros": 20000000,
-      "eu_gdpr_penalty_cap_percent_of_revenue": 4,
-      "nis2_fines_cap_euros": 10000000,
-      "nis2_fines_cap_percent_of_revenue": 2,
-      "chief_security_officer_years_experience": 17,
-      "office_space_approx_sqft": 3000000
-    },
+    "info": "Any new restrictions that negatively impact our ability to receive supply of components, parts, or services from Taiwan and South Korea, would negatively impact our business and financial results.",
+    "data": {},
     "chunk_id": 13
   },
   {
-    "info": "NVIDIA reports strong fiscal 2025 growth driven by data center compute and AI platforms, with continued product transitions (Hopper to Blackwell) and Data Center expansion. The company expands supply with multiple suppliers and prepaid manufacturing, while warning of inventory and supply-chain risks amid regulatory/export controls. Significant capital returns include a May 2024 10-for-1 stock split, an increase in authorized common stock from 8B to 80B, $34.0B in FY2025 share purchases (plus $3.7B Jan–Feb 2025), $834M in dividends, and an ongoing $38.7B repurchase authorization. The company emphasizes cross-functional security governance led by a Chief Security Officer with 17+ years of experience and notes regulatory and geopolitical risks, including export controls and the AI Diffusion IFR impacts, plus the Israel regional conflict's potential effects on operations.",
+    "info": "In fiscal year 2025, we paid cash dividends to our shareholders of 834 million.",
     "data": {
-      "headquarters_square_feet_approx": 3000000,
-      "data_center_space_locations": 0,
-      "employees_region_israel": 4700,
-      "chief_security_experience_years": 17,
-      "stock_split_factor": 10,
-      "authorized_shares_before_split": 8000000000,
-      "authorized_shares_after_split": 80000000000,
-      "additional_shares_per_share_from_split": 9,
-      "registered_shareholders_feb_21_2025": 842,
-      "fiscal_year_2025_dividends_cash": 834000000,
-      "fiscal_year_2025_share_repurchase_total_shares_millions": 310,
-      "fiscal_year_2025_share_repurchase_total_value_billion": 34.0,
-      "repurchase_authorization_remaining_as_of_jan_26_2025": 38.7,
-      "jan_27_2025_to_feb_21_2025_repurchase_shares_millions": 29,
-      "jan_27_2025_to_feb_21_2025_repurchase_value_billion": 3.7,
-      "rsu_withholding_shares_millions": 59,
-      "rsu_withholding_value_billion": 6.9,
-      "dec_6_2024_issuance_shares": 94560,
-      "dec_6_2024_issuance_value_million": 13.5,
-      "dec_29_2024_issuance_shares": 205110,
-      "dec_29_2024_issuance_value_million": 28.1,
-      "q4_2025_period1_shares_millions": 25.4,
-      "q4_2025_period1_avg_price_per_share": 142.67,
-      "q4_2025_period1_value_billion": 42.8,
-      "q4_2025_period2_shares_millions": 10.6,
-      "q4_2025_period2_avg_price_per_share": 136.86,
-      "q4_2025_period2_value_billion": 41.4,
-      "q4_2025_period3_shares_millions": 19.3,
-      "q4_2025_period3_avg_price_per_share": 139.3,
-      "q4_2025_period3_value_billion": 38.7,
-      "periods_total_shares_purchased_millions": 55.3
+      "dividends_2025": 834000000,
+      "share_repurchase_cash_2025": 34000000000,
+      "repurchase_authorized_remaining_2025": 38700000000,
+      "repurchase_recent_cash_2025": 3700000000,
+      "rsu_withholding_value_2025": 6900000000,
+      "stock_issuance_value_dec6_2024": 13500000,
+      "stock_issuance_value_dec29_2024": 28100000,
+      "authorized_common_stock_before_split_2024": 8000000000,
+      "authorized_common_stock_after_split_2024": 80000000000
     },
     "chunk_id": 14
   },
   {
-    "info": "Export controls and regulatory/legal risk could limit alternative manufacturing locations; macroeconomic factors and geopolitical developments may affect demand, supply chain costs, and inflation/interest rate dynamics; Israel-region conflict monitoring with ~4,700 employees; NVIDIA reported strong fiscal 2025 results across Data Center, Gaming, Professional Visualization, and Automotive, with total revenue about $130.5B, gross margin around 75%, operating income about $81.5B, and net income about $72.9B. Data Center growth led by Hopper/Blackwell AI platforms, with Data Center revenue up 142% YoY; Gaming revenue up 9%, Professional Visualization up 21%, Automotive up 55%. Revenue concentration risk noted with direct customers representing 10% or more of revenue; inventory and tax considerations discussed in critical accounting estimates.",
+    "info": "Revenue for fiscal year 2025 was 130.5 billion, up 114% from a year ago. Data Center revenue for fiscal year 2025 was up 142% from a year ago. The strong year-on-year growth was driven by demand for our Hopper architecture accelerated computing platform used for large language models, recommendation engines, and generative AI applications. We began shipping production systems of the Blackwell architecture in the fourth quarter of fiscal year 2025. Gaming revenue for fiscal year 2025 was up 9% from a year ago, driven by sales of our GeForce RTX 40 Series GPUs. Professional Visualization revenue for fiscal year 2025 was up 21% from a year ago, driven by the continued ramp of Ada RTX GPU workstations for use cases such as generative AI-powered design, simulation, and engineering. Automotive revenue for fiscal year 2025 was up 55% from a year ago, driven by sales of our self-driving platforms. Gross margin increased in fiscal year 2025 driven by a higher mix of Data Center revenue. Operating expenses for fiscal year 2025 were up 45% from a year ago, driven by higher compensation and benefits expenses due to employee growth and compensation increases, and engineering development, compute and infrastructure costs for new product introductions.",
     "data": {
       "revenue_2025": 130497000000,
       "revenue_2024": 60922000000,
-      "gross_margin_2025_pct": 75.0,
-      "gross_margin_2024_pct": 72.7,
-      "operating_expenses_2025": 16405000000,
-      "operating_income_2025": 81453000000,
-      "net_income_2025": 72880000000,
+      "gross_margin_2025": 75.0,
+      "gross_margin_2024": 72.7,
+      "operating_expenses_2025": 16405,
+      "operating_expenses_2024": 11329,
+      "operating_income_2025": 81453,
+      "operating_income_2024": 32972,
+      "net_income_2025": 72880,
+      "net_income_2024": 29760,
       "net_income_per_diluted_share_2025": 2.94,
-      "revenue_by_segment_2025_total": 130497000000,
-      "revenue_by_segment_2025_compute_networking": 116193000000,
-      "revenue_by_segment_2025_graphics": 14304000000,
-      "revenue_by_segment_2025_all_other": -6507000000,
-      "revenue_by_segment_2024_total": 60922000000,
-      "revenue_by_segment_2024_compute_networking": 47405000000,
-      "revenue_by_segment_2024_graphics": 13517000000,
-      "revenue_by_segment_2024_all_other": -4890000000,
-      "oi_segment_compute_networking_2025": 82875,
-      "oi_segment_graphics_2025": 5085,
-      "oi_segment_all_other_2025": -6507,
-      "oi_total_2025": 48481,
-      "oi_segment_compute_networking_2024": 32016,
-      "oi_segment_graphics_2024": 5846,
-      "oi_segment_all_other_2024": -4890,
-      "oi_total_2024": 32972,
-      "data_center_revenue_growth_2025_pct": 142,
-      "gaming_revenue_growth_2025_pct": 9,
-      "professional_visualization_growth_2025_pct": 21,
-      "automotive_revenue_growth_2025_pct": 55,
-      "revenue_growth_2025_vs_2024_pct": 114,
-      "gross_margin_change_pts_2025_vs_2024": 2.3,
-      "direct_customer_A_pct_2025": 12,
-      "direct_customer_B_pct_2025": 11,
-      "direct_customer_C_pct_2025": 11,
-      "indirect_customer_pct_2025": 10,
-      "israel_region_employees": 4700
+      "net_income_per_diluted_share_2024": 1.19,
+      "revenue_by_segment_2025": {
+        "Compute_and_Networking": 116193,
+        "Graphics": 14304,
+        "Total": 130497
+      },
+      "revenue_by_segment_2024": {
+        "Compute_and_Networking": 47405,
+        "Graphics": 13517,
+        "Total": 60922
+      },
+      "operating_income_by_segment_2025": {
+        "Compute_and_Networking": 82875,
+        "Graphics": 5085,
+        "All_Other": -6507,
+        "Total": 81453
+      },
+      "operating_income_by_segment_2024": {
+        "Compute_and_Networking": 32016,
+        "Graphics": 5846,
+        "All_Other": -4890,
+        "Total": 32972
+      }
     },
     "chunk_id": 15
   },
   {
-    "info": "Direct customer concentration in 2025 included three named customers at 12%, 11%, and 11% of total revenue; no direct customer represented 10% or more of revenue in fiscal 2023. Indirect revenue is estimated to be 10%+ of total revenue in 2025. Revenue outside the U.S. accounted for 53% in 2025 and 56% in 2024. Gross margin rose to 75.0% in 2025 from 72.7% in 2024, with an unfavorable gross-margin impact from inventory provisions of 2.3% in 2025 and 2.7% in 2024. R&D expense was 12,914 million in 2025 (9.9% of net revenue) and 8,675 million in 2024 (14.2% of net revenue). SG&A was 3,491 million in 2025 (2.7% of net revenue) and 2,654 million in 2024 (4.4% of net revenue). Total operating expenses were 16,405 million in 2025 (12.6% of net revenue) vs 11,329 million in 2024 (18.6%). The company reports robust cash flow and liquidity, with operating cash flow of 64.089 billion and total liquidity of 43.210 billion (cash, cash equivalents, and marketable securities). Significant capital-return activity includes repurchasing 310 million shares for 34.0 billion in 2025, with authorization to repurchase up to 38.7 billion remaining; 29 million shares were repurchased for 3.7 billion in early 2025. Dividends paid in 2025 totaled 0.834 billion. The company maintains a 575 million commercial paper program with no outstanding commercial paper as of Jan 26, 2025. Capital expenditures were 3.4 billion in 2025 and 1.1 billion in 2024. Unrecognized tax benefits were 2.2 billion with related interest and penalties of 0.251 billion. Foreign exchange risk is managed with modest exposure; a 10% USD appreciation/depreciation scenario would impact AOCI by 0.136/0.116 billion and pretax income by 0.129/0.060 billion respectively. The U.S. federal statutory tax rate is 21%.",
+    "info": "Gross margins increased to 75.0% in fiscal year 2025 from 72.7% in fiscal year 2024. The year over year increase was primarily driven by a higher mix of Data Center revenue. Revenue from sales to customers outside of the United States accounted for 53% and 56% of total revenue for fiscal years 2025 and 2024, respectively. Provisions for inventory and excess inventory purchase obligations totaled $3.7 billion and $2.2 billion for fiscal years 2025 and 2024, respectively. Sales of previously reserved inventory and settlements of excess inventory purchase obligations resulted in a provision release of $689 million and $540 million for fiscal years 2025 and 2024, respectively. The net effect on our gross margin was an unfavorable impact of 2.3% and 2.7% in fiscal years 2025 and 2024, respectively. The increases in research and development expenses for fiscal year 2025 were driven by a 32% increase in compensation and benefits, including stock-based compensation, reflecting employee growth and compensation increases, a 100% increase in compute and infrastructure, and a 234% increase in engineering development costs for new product introductions. The increases in sales, general and administrative expenses for fiscal year 2025 were primarily driven by compensation and benefits, including stock-based compensation, reflecting employee growth and compensation increases. Our investment policy requires the purchase of highly-rated fixed income securities, the diversification of investment types and credit exposures, and certain maturity limits on our portfolio. As of the end of fiscal year 2025, we had $8.5 billion of senior Notes outstanding. We carry the Notes at face value less unamortized discount on our Consolidated Balance Sheets. On August 26, 2024, our Board of Directors approved an additional $50 billion to our share repurchase authorization, without expiration. In fiscal year 2025, we repurchased 310 million shares of our common stock for $34.0 billion. As of January 26, 2025, we were authorized, subject to certain specifications, to repurchase up to $38.7 billion of our common stock. From January 27, 2025 through February 21, 2025, we repurchased 29 million shares for $3.7 billion pursuant to a pre-established trading plan. In fiscal year 2025, we paid cash dividends to our shareholders of $834 million. The U.S. Inflation Reduction Act of 2022 requires a 1% excise tax on certain share repurchases in excess of shares issued for employee compensation made after December 31, 2022. The excise tax is included in our share repurchase cost and was not material for fiscal years 2025 and 2024. During fiscal year 2025 and fiscal year 2024, we spent $3.4 billion and $1.1 billion on capital expenditures, respectively. We expect to increase capital expenditures in fiscal year 2026 relative to fiscal year 2025 to support the future growth of our business. Unrecognized tax benefits of $2.2 billion, which includes related interest and penalties of $251 million, were recorded in non-current income tax payable at the end of fiscal year 2025. We are unable to estimate the timing of any potential tax liability, interest payments, or penalties in individual years due to uncertainties in the underlying income tax positions and the timing of the effective settlement of such tax positions. Gains or losses from foreign currency remeasurement are included in other income or expenses. The impact of foreign currency transaction gain or loss included in determining net income was not significant for fiscal years 2025 and 2024. Sales and arrangements with third-party manufacturers provide for pricing and payment in United States dollars, and, therefore, are not subject to exchange rate fluctuations. Increases in the value of the United States’ dollar relative to other currencies would make our products more expensive, which could negatively impact our ability to compete. Conversely, decreases in the value of the United States’ dollar relative to other currencies could result in our suppliers raising their manufacturing costs. If the U.S. dollar strengthened by 10% as of January 26, 2025 and January 28, 2024, the amount recorded in accumulated other comprehensive income (loss) related to our foreign exchange contracts before tax effect would have been $136 million and $116 million lower, respectively. If an adverse 10% foreign exchange rate change was applied to our balance sheet hedging contracts, it would have resulted in an adverse impact on income before taxes of $129 million and $60 million as of January 26, 2025 and January 28, 2024, respectively.",
     "data": {
-      "direct_customer_pct_2025_A": 12,
-      "direct_customer_pct_2025_B": 11,
-      "direct_customer_pct_2025_C": 11,
-      "direct_customer_pct_2024_B": 13,
-      "direct_customer_minimum_pct": 10,
-      "indirect_customer_revenue_pct_2025_estimate": 10,
-      "outside_us_revenue_pct_2025": 53,
-      "outside_us_revenue_pct_2024": 56,
-      "gross_margin_pct_2025": 75.0,
-      "gross_margin_pct_2024": 72.7,
-      "inventory_provision_2025_usd": 3700000000,
-      "inventory_provision_2024_usd": 2200000000,
-      "inventory_provision_release_2025_usd": 689000000,
-      "inventory_provision_release_2024_usd": 540000000,
-      "gross_margin_impact_provisions_2025_pct": -2.3,
-      "gross_margin_impact_provisions_2024_pct": -2.7,
-      "rnd_expenses_usd_2025": 12914000000,
-      "rnd_expenses_usd_2024": 8675000000,
-      "rnd_expenses_pct_net_rev_2025": 9.9,
-      "rnd_expenses_pct_net_rev_2024": 14.2,
-      "sga_expenses_usd_2025": 3491000000,
-      "sga_expenses_usd_2024": 2654000000,
-      "sga_expenses_pct_net_rev_2025": 2.7,
-      "sga_expenses_pct_net_rev_2024": 4.4,
-      "total_operating_expenses_usd_2025": 16405000000,
-      "total_operating_expenses_usd_2024": 11329000000,
-      "total_operating_expenses_pct_net_rev_2025": 12.6,
-      "total_operating_expenses_pct_net_rev_2024": 18.6,
-      "interest_income_usd_2025": 1786000000,
-      "interest_income_usd_2024": 866000000,
-      "interest_expense_usd_2025": -247000000,
-      "interest_expense_usd_2024": -257000000,
-      "other_income_expense_net_usd_2025": 2573000000,
-      "other_income_expense_net_usd_2024": 846000000,
-      "income_tax_expense_usd_2025": 11100000000,
-      "income_tax_expense_usd_2024": 4100000000,
-      "income_tax_rate_pct_2025": 13.3,
-      "income_tax_rate_pct_2024": 12.0,
-      "cash_and_cash_equivalents_usd_2025": 8589000000,
-      "cash_and_cash_equivalents_usd_2024": 7280000000,
-      "marketable_securities_usd_2025": 34621000000,
-      "marketable_securities_usd_2024": 18704000000,
-      "cash_equiv_marketable_total_usd_2025": 43210000000,
-      "cash_equiv_marketable_total_usd_2024": 25984000000,
-      "net_cash_from_operating_activities_usd_2025": 64089000000,
-      "net_cash_from_operating_activities_usd_2024": 28090000000,
-      "net_cash_used_in_investing_activities_usd_2025": -20421000000,
-      "net_cash_used_in_investing_activities_usd_2024": -10566000000,
-      "net_cash_used_in_financing_activities_usd_2025": -42359000000,
-      "net_cash_used_in_financing_activities_usd_2024": -13633000000,
-      "investments_outside_us_cash_approx_2025_usd": 1700000000,
-      "board_repurchases_augmentation_2024_usd": 50000000000,
-      "shares_repurchased_2025_count": 310000000,
-      "shares_repurchased_2025_amount_usd": 34000000000,
-      "shares_repurchased_period_to_date_count": 29000000,
-      "shares_repurchased_period_to_date_amount_usd": 3700000000,
-      "repurchase_authorization_remaining_usd": 38700000000,
-      "dividends_paid_usd_2025": 834000000,
-      "commercial_paper_program_limit_usd": 575000000,
-      "commercial_paper_outstanding_usd": 0,
-      "capital_expenditures_usd_2025": 3400000000,
-      "capital_expenditures_usd_2024": 1100000000,
-      "unrecognized_tax_benefits_usd": 2200000000,
-      "unrecognized_tax_penalties_usd": 251000000,
-      "foreign_exchange_impact_AOCI_10pct_usd_2025": 136000000,
-      "foreign_exchange_impact_AOCI_10pct_usd_2024": 116000000,
-      "foreign_exchange_pre_tax_adverse_10pct_usd_2025": 129000000,
-      "foreign_exchange_pre_tax_adverse_10pct_usd_2024": 60000000,
-      "federal_tax_rate_pct": 21
+      "gross_margin_2025": 75.0,
+      "gross_margin_2024": 72.7,
+      "revenue_outside_us_2025_pct": 53,
+      "revenue_outside_us_2024_pct": 56,
+      "cash_and_cash_equivalents_2025": 8589,
+      "marketable_securities_2025": 34621,
+      "cash_and_cash_equivalents_and_marketable_securities_2025": 43210,
+      "cash_and_cash_equivalents_2024": 7280,
+      "marketable_securities_2024": 18704,
+      "cash_and_cash_equivalents_and_marketable_securities_2024": 25984,
+      "net_cash_provided_by_operating_activities_2025": 64089,
+      "net_cash_used_in_investing_activities_2025": -20421,
+      "net_cash_used_in_financing_activities_2025": -42359,
+      "senior_notes_outstanding_2025": 8500000000,
+      "commercial_paper_outstanding_2025": 0,
+      "commercial_paper_program_cap_2025": 575000000,
+      "capital_expenditures_2025": 3400000000,
+      "capital_expenditures_2024": 1100000000,
+      "unrecognized_tax_benefits_2025": 2200000000,
+      "dividends_paid_2025": 834000000,
+      "due_in_one_year_2025": 0,
+      "due_in_one_to_five_years_2025": 2250,
+      "due_in_five_to_ten_years_2025": 2750,
+      "due_in_greater_than_ten_years_2025": 3500,
+      "unamortized_debt_discount_and_issuance_costs_2025": -37,
+      "net_long_term_carrying_amount_debt_2025": 8463
     },
     "chunk_id": 16
   },
   {
-    "info": "Senior notes outstanding fixed-rate debt of $8.5B as of fiscal year-end 2025; FX exposure is considered minimal due to USD-denominated sales and hedging; hypothetical 10% USD move would impact accumulated other comprehensive income before tax by $136M (2025) and $116M (2024), and would reduce pretax income by $129M (2025) and $60M (2024), with offsets in other income/expense if hedges fully cover FX exposures.",
+    "info": "As of the end of fiscal year 2025, we had 8.5 billion of senior Notes outstanding. We carry the Notes at face value less unamortized discount on our Consolidated Balance Sheets. As the Notes bear interest at a fixed rate, we have no financial statement risk associated with changes in interest rates.",
     "data": {
       "notes_outstanding_2025": 8500000000,
-      "aoci_impact_10pct_strengthening_2025": 136000000,
-      "aoci_impact_10pct_strengthening_2024": 116000000,
-      "pretax_income_adverse_fx_impact_2025": 129000000,
-      "pretax_income_adverse_fx_impact_2024": 60000000
+      "aoci_impact_10pct_2025_lower": 136000000,
+      "aoci_impact_10pct_2024_lower": 116000000,
+      "income_before_taxes_adverse_10pct_2025": 129000000,
+      "income_before_taxes_adverse_10pct_2024": 60000000
     },
     "chunk_id": 17
   },
   {
-    "info": "Auditors report conducting the audit in accordance with PCAOB standards, assessing internal control over financial reporting and identifying a critical audit matter on inventory provisions due to significant management judgments about future demand and market conditions. As of Jan 26, 2025, the company’s inventories balance was $10.1B and outstanding inventory purchase and long-term supply/capacity obligations were $30.8B. PwC has served as the company’s auditor since 2004.",
+    "info": "As of January 26, 2025, the Company’s consolidated inventories balance was $10.1 billion and the Company’s consolidated outstanding inventory purchase and long-term supply and capacity obligations balance was $30.8 billion, of which a significant portion relates to inventory purchase obligations.",
     "data": {
       "revenue_2025": 130497000000,
       "revenue_2024": 60922000000,
       "revenue_2023": 26974000000,
-      "cost_of_revenue_2025": 32639000000,
-      "cost_of_revenue_2024": 16621000000,
-      "cost_of_revenue_2023": 11618000000,
-      "gross_profit_2025": 97858000000,
-      "gross_profit_2024": 44301000000,
-      "gross_profit_2023": 15356000000,
-      "operating_expenses_total_2025": 16405000000,
-      "operating_expenses_total_2024": 11329000000,
-      "operating_expenses_total_2023": 11132000000,
-      "research_and_development_2025": 12914000000,
-      "research_and_development_2024": 8675000000,
-      "research_and_development_2023": 7339000000,
-      "selling_general_and_administrative_2025": 3491000000,
-      "selling_general_and_administrative_2024": 2654000000,
-      "selling_general_and_administrative_2023": 2440000000,
-      "acquisition_termination_cost_2023": 1353000000,
-      "operating_income_2025": 81453000000,
-      "operating_income_2024": 32972000000,
-      "operating_income_2023": 4224000000,
-      "interest_income_2025": 1786000000,
-      "interest_income_2024": 866000000,
-      "interest_income_2023": 267000000,
-      "interest_expense_2025": -247000000,
-      "interest_expense_2024": -257000000,
-      "interest_expense_2023": -262000000,
-      "other_net_2025": 1034000000,
-      "other_net_2024": 237000000,
-      "other_net_2023": -48000000,
-      "other_income_expense_net_2025": 2573000000,
-      "other_income_expense_net_2024": 846000000,
-      "other_income_expense_net_2023": -43000000,
-      "income_before_income_tax_2025": 84026000000,
-      "income_before_income_tax_2024": 33818000000,
-      "income_before_income_tax_2023": 4181000000,
-      "income_tax_expense_2025": 11146000000,
-      "income_tax_expense_2024": 4058000000,
-      "income_tax_expense_2023": -187000000,
       "net_income_2025": 72880000000,
       "net_income_2024": 29760000000,
       "net_income_2023": 4368000000,
-      "net_income_per_share_basic_2025": 2.97,
-      "net_income_per_share_basic_2024": 1.21,
-      "net_income_per_share_basic_2023": 0.18,
-      "net_income_per_share_diluted_2025": 2.94,
-      "net_income_per_share_diluted_2024": 1.19,
-      "net_income_per_share_diluted_2023": 0.17,
-      "weighted_average_shares_basic_2025": 24555,
-      "weighted_average_shares_basic_2024": 24690,
-      "weighted_average_shares_basic_2023": 24870,
-      "weighted_average_shares_diluted_2025": 24804,
-      "weighted_average_shares_diluted_2024": 24940,
-      "weighted_average_shares_diluted_2023": 25070,
+      "operating_income_2025": 81453000000,
+      "operating_income_2024": 32972000000,
+      "operating_income_2023": 4224000000,
+      "eps_basic_2025": 2.97,
+      "eps_basic_2024": 1.21,
+      "eps_basic_2023": 0.18,
+      "eps_diluted_2025": 2.94,
+      "eps_diluted_2024": 1.19,
+      "eps_diluted_2023": 0.17,
       "total_assets_2025": 111601000000,
       "total_assets_2024": 65728000000,
       "total_liabilities_2025": 32274000000,
       "total_liabilities_2024": 22750000000,
       "total_shareholders_equity_2025": 79327000000,
       "total_shareholders_equity_2024": 42978000000,
-      "inventories_balance_2025": 10100000000,
-      "inventory_purchase_obligations_balance_2025": 30800000000,
-      "auditor_since": 2004
+      "cash_and_cash_equivalents_2025": 8589000000,
+      "cash_and_cash_equivalents_2024": 7280000000,
+      "marketable_securities_2025": 34621000000,
+      "marketable_securities_2024": 18704000000,
+      "accounts_receivable_net_2025": 23065000000,
+      "accounts_receivable_net_2024": 9999000000,
+      "inventories_2025": 10080000000,
+      "inventories_2024": 5282000000,
+      "prepaid_expenses_and_other_current_assets_2025": 3771000000,
+      "prepaid_expenses_and_other_current_assets_2024": 3080000000,
+      "long_term_debt_2025": 8463000000,
+      "long_term_debt_2024": 8459000000,
+      "short_term_debt_2025": 0,
+      "short_term_debt_2024": 1250000000,
+      "common_stock_2025": 24,
+      "common_stock_2024": 25,
+      "additional_paid_in_capital_2025": 11237000000,
+      "additional_paid_in_capital_2024": 13109000000,
+      "retained_earnings_2025": 68038000000,
+      "retained_earnings_2024": 29817000000
     },
     "chunk_id": 18
   },
   {
-    "info": "Stock split in June 2024; fiscal years 2023–2025 are 52-week years. NVIDIA shows strong 2025 net income driven by operating cash flow, with substantial growth in shareholders' equity from 2022 to 2025. Notable activities include large stock repurchases, stock-based compensation, and significant investing/financing flows.",
+    "info": "In June 2024, we executed a ten-for-one stock split of our common stock. All share, equity award, and per share amounts and related shareholders' equity balances presented herein have been retroactively adjusted to reflect the Stock Split. We operate on a 52- or 53-week year, ending on the last Sunday in January. Fiscal years 2025, 2024 and 2023 were all 52-week years.",
     "data": {
-      "equity_balances": [
-        {
-          "date": "2022-01-30",
-          "common_stock_outstanding_shares": 25064,
-          "common_stock_amount": 26000000,
-          "additional_paid_in_capital": 10362000000,
-          "accumulated_other_comprehensive_income_loss": -11000000,
-          "retained_earnings": 16235000000,
-          "total_shareholders_equity": 26612000000
-        },
-        {
-          "date": "2023-01-29",
-          "common_stock_outstanding_shares": 24661,
-          "common_stock_amount": 25000000,
-          "additional_paid_in_capital": 11948000000,
-          "accumulated_other_comprehensive_income_loss": -4300000,
-          "retained_earnings": 10171000000,
-          "total_shareholders_equity": 22101000000
-        },
-        {
-          "date": "2024-01-28",
-          "common_stock_outstanding_shares": 24643,
-          "common_stock_amount": 25000000,
-          "additional_paid_in_capital": 13109000000,
-          "accumulated_other_comprehensive_income_loss": 27000000,
-          "retained_earnings": 29817000000,
-          "total_shareholders_equity": 42978000000
-        },
-        {
-          "date": "2025-01-26",
-          "common_stock_outstanding_shares": 24477,
-          "common_stock_amount": 25000000,
-          "additional_paid_in_capital": 11237000000,
-          "accumulated_other_comprehensive_income_loss": 28000000,
-          "retained_earnings": 68038000000,
-          "total_shareholders_equity": 79327000000
-        }
-      ],
-      "net_income_years": [
-        {
-          "year_end": "2023-01-29",
-          "net_income": 4368
-        },
-        {
-          "year_end": "2024-01-28",
-          "net_income": 29760
-        },
-        {
-          "year_end": "2025-01-26",
-          "net_income": 72880
-        }
-      ],
-      "cash_flows_operating": [
-        {
-          "year_end": "2023-01-29",
-          "amount": 5641
-        },
-        {
-          "year_end": "2024-01-28",
-          "amount": 28090
-        },
-        {
-          "year_end": "2025-01-26",
-          "amount": 64089
-        }
-      ],
-      "cash_flows_investing": [
-        {
-          "year_end": "2023-01-29",
-          "amount": 7375
-        },
-        {
-          "year_end": "2024-01-28",
-          "amount": -10566
-        },
-        {
-          "year_end": "2025-01-26",
-          "amount": -20421
-        }
-      ],
-      "cash_flows_financing": [
-        {
-          "year_end": "2023-01-29",
-          "amount": -11617
-        },
-        {
-          "year_end": "2024-01-28",
-          "amount": -13633
-        },
-        {
-          "year_end": "2025-01-26",
-          "amount": -42359
-        }
-      ],
-      "change_in_cash_and_cash_equivalents": [
-        {
-          "year_end": "2023-01-29",
-          "change": 1399
-        },
-        {
-          "year_end": "2024-01-28",
-          "change": 3891
-        },
-        {
-          "year_end": "2025-01-26",
-          "change": 1309
-        }
-      ],
-      "cash_beginning_of_period": [
-        {
-          "year": "2023",
-          "amount": 1990
-        },
-        {
-          "year": "2024",
-          "amount": 3389
-        },
-        {
-          "year": "2025",
-          "amount": 7280
-        }
-      ],
-      "cash_end_of_period": [
-        {
-          "year": "2023",
-          "amount": 3389
-        },
-        {
-          "year": "2024",
-          "amount": 7280
-        },
-        {
-          "year": "2025",
-          "amount": 8589
-        }
-      ],
-      "supplemental_cash_disclosures": [
-        {
-          "year": "2023",
-          "income_taxes_paid": 1404,
-          "interest_paid": 254
-        },
-        {
-          "year": "2024",
-          "income_taxes_paid": 6549,
-          "interest_paid": 252
-        },
-        {
-          "year": "2025",
-          "income_taxes_paid": 15118,
-          "interest_paid": 246
-        }
-      ],
-      "stock_split_events": [
-        {
-          "note": "Stock split June 2024",
-          "split_factor": 10
-        }
-      ],
-      "fiscal_weeks": [
-        {
-          "year_end": "2023",
-          "weeks": 52
-        },
-        {
-          "year_end": "2024",
-          "weeks": 52
-        },
-        {
-          "year_end": "2025",
-          "weeks": 52
-        }
-      ],
-      "operating_activities_stock_based_compensation": [
-        {
-          "year_end": "2023",
-          "amount": 2709
-        },
-        {
-          "year_end": "2024",
-          "amount": 3568
-        },
-        {
-          "year_end": "2025",
-          "amount": 4737
-        }
-      ],
-      "depreciation_and_amortization": [
-        {
-          "year_end": "2023",
-          "amount": 1544
-        },
-        {
-          "year_end": "2024",
-          "amount": 1508
-        },
-        {
-          "year_end": "2025",
-          "amount": 1864
-        }
-      ],
-      "deferred_income_taxes": [
-        {
-          "year_end": "2023",
-          "amount": -2164
-        },
-        {
-          "year_end": "2024",
-          "amount": -2489
-        },
-        {
-          "year_end": "2025",
-          "amount": -4477
-        }
-      ],
-      "gains_losses_non_marketable_and_equity_securities": [
-        {
-          "year_end": "2023",
-          "amount": 45
-        },
-        {
-          "year_end": "2024",
-          "amount": -238
-        },
-        {
-          "year_end": "2025",
-          "amount": -1030
-        }
-      ],
-      "acquisition_termination_cost": [
-        {
-          "year_end": "2023",
-          "amount": 1353
-        }
-      ],
-      "investing_and_financing_other_changes": [
-        {
-          "year_end": "2023",
-          "amount": -7
-        },
-        {
-          "year_end": "2024",
-          "amount": -124
-        },
-        {
-          "year_end": "2025",
-          "amount": 22
-        }
-      ],
-      "stock_based_compensation_expense": [
-        {
-          "year_end": "2023",
-          "amount": 2709
-        },
-        {
-          "year_end": "2024",
-          "amount": 3568
-        },
-        {
-          "year_end": "2025",
-          "amount": 4737
-        }
-      ],
-      "purchases_marketable_securities": [
-        {
-          "year_end": "2023",
-          "amount": -11897
-        },
-        {
-          "year_end": "2024",
-          "amount": -18211
-        },
-        {
-          "year_end": "2025",
-          "amount": -26575
-        }
-      ],
-      "proceeds_maturities_of_marketable_securities": [
-        {
-          "year_end": "2023",
-          "amount": 19425
-        },
-        {
-          "year_end": "2024",
-          "amount": 9732
-        },
-        {
-          "year_end": "2025",
-          "amount": 11195
-        }
-      ],
-      "proceeds_sales_of_marketable_securities": [
-        {
-          "year_end": "2023",
-          "amount": 1806
-        },
-        {
-          "year_end": "2024",
-          "amount": 50
-        },
-        {
-          "year_end": "2025",
-          "amount": 495
-        }
-      ],
-      "proceeds_sales_of_non_marketable_equity_securities": [
-        {
-          "year_end": "2023",
-          "amount": 8
-        },
-        {
-          "year_end": "2024",
-          "amount": 1
-        },
-        {
-          "year_end": "2025",
-          "amount": 171
-        }
-      ],
-      "acquisitions_net_of_cash_acquired": [
-        {
-          "year_end": "2023",
-          "amount": -49
-        },
-        {
-          "year_end": "2024",
-          "amount": -83
-        },
-        {
-          "year_end": "2025",
-          "amount": -1007
-        }
-      ],
-      "other_cash_flow_changes": [
-        {
-          "year_end": "2023",
-          "amount": -124
-        },
-        {
-          "year_end": "2024",
-          "amount": 0
-        },
-        {
-          "year_end": "2025",
-          "amount": 22
-        }
-      ],
-      "proceeds_related_to_employee_stock_plans": [
-        {
-          "year_end": "2023",
-          "amount": 355
-        },
-        {
-          "year_end": "2024",
-          "amount": 403
-        },
-        {
-          "year_end": "2025",
-          "amount": 490
-        }
-      ],
-      "payments_related_to_repurchase_of_common_stock": [
-        {
-          "year_end": "2023",
-          "amount": -10039
-        },
-        {
-          "year_end": "2024",
-          "amount": -9533
-        },
-        {
-          "year_end": "2025",
-          "amount": -33706
-        }
-      ],
-      "payments_tax_on_restricted_stock_units": [
-        {
-          "year_end": "2023",
-          "amount": -1475
-        },
-        {
-          "year_end": "2024",
-          "amount": -2783
-        },
-        {
-          "year_end": "2025",
-          "amount": -6930
-        }
-      ],
-      "dividends_paid": [
-        {
-          "year_end": "2023",
-          "amount": -398
-        },
-        {
-          "year_end": "2024",
-          "amount": -395
-        },
-        {
-          "year_end": "2025",
-          "amount": -834
-        }
-      ],
-      "principal_payments_on_property_and_equipment": [
-        {
-          "year_end": "2023",
-          "amount": -58
-        },
-        {
-          "year_end": "2024",
-          "amount": -74
-        },
-        {
-          "year_end": "2025",
-          "amount": -129
-        }
-      ],
-      "net_cash_related_other_items": [
-        {
-          "year_end": "2023",
-          "amount": 0
-        },
-        {
-          "year_end": "2024",
-          "amount": 0
-        },
-        {
-          "year_end": "2025",
-          "amount": 22
-        }
-      ],
-      "notes_stock_split_adjustments": [
-        {
-          "note": "Stock Split adjustments retroactively applied to all share and per share amounts."
-        }
-      ],
-      "notes_fiscal_years": [
-        {
-          "year_end": "2023",
-          "weeks": 52
-        },
-        {
-          "year_end": "2024",
-          "weeks": 52
-        },
-        {
-          "year_end": "2025",
-          "weeks": 52
-        }
-      ]
+      "net_income_2025": 72880000000,
+      "net_income_2024": 29760000000,
+      "net_income_2023": 4368000000,
+      "cash_flows_operating_activities_2025": 64089000000,
+      "cash_flows_operating_activities_2024": 28090000000,
+      "cash_flows_operating_activities_2023": 5641000000,
+      "stock_based_compensation_expense_2025": 4737000000,
+      "stock_based_compensation_expense_2024": 3549000000,
+      "stock_based_compensation_expense_2023": 2709000000,
+      "depreciation_and_amortization_2025": 1864000000,
+      "depreciation_and_amortization_2024": 1508000000,
+      "depreciation_and_amortization_2023": 1544000000,
+      "deferred_income_taxes_2025": -4477000000,
+      "deferred_income_taxes_2024": -2489000000,
+      "deferred_income_taxes_2023": -2164000000,
+      "accounts_receivable_change_2025": -13063000000,
+      "accounts_receivable_change_2024": -6172000000,
+      "accounts_receivable_change_2023": 822000000,
+      "inventories_change_2025": -4781000000,
+      "inventories_change_2024": -98000000,
+      "inventories_change_2023": -2554000000,
+      "prepaid_expenses_and_other_assets_change_2025": -395000000,
+      "prepaid_expenses_and_other_assets_change_2024": -1522000000,
+      "prepaid_expenses_and_other_assets_change_2023": -1517000000,
+      "accounts_payable_change_2025": 3357000000,
+      "accounts_payable_change_2024": 1531000000,
+      "accounts_payable_change_2023": -551000000,
+      "accrued_and_other_current_liabilities_change_2025": 4278000000,
+      "accrued_and_other_current_liabilities_change_2024": 2025000000,
+      "accrued_and_other_current_liabilities_change_2023": 1341000000,
+      "other_long_term_liabilities_change_2025": 1221000000,
+      "other_long_term_liabilities_change_2024": 514000000,
+      "other_long_term_liabilities_change_2023": 252000000,
+      "net_cash_provided_by_operating_activities_2025": 64089000000,
+      "net_cash_provided_by_operating_activities_2024": 28090000000,
+      "net_cash_provided_by_operating_activities_2023": 5641000000,
+      "net_cash_provided_by_investing_activities_2025": -20421000000,
+      "net_cash_provided_by_investing_activities_2024": -10566000000,
+      "net_cash_provided_by_investing_activities_2023": 7375000000,
+      "net_cash_used_in_financing_activities_2025": -42359000000,
+      "net_cash_used_in_financing_activities_2024": -13633000000,
+      "net_cash_used_in_financing_activities_2023": -11617000000,
+      "cash_end_of_period_2025": 8589000000,
+      "cash_end_of_period_2024": 7280000000,
+      "cash_end_of_period_2023": 3389000000,
+      "cash_paid_for_income_taxes_2025": 15118000000,
+      "cash_paid_for_income_taxes_2024": 6549000000,
+      "cash_paid_for_income_taxes_2023": 1404000000,
+      "cash_paid_for_interest_2025": 246000000,
+      "cash_paid_for_interest_2024": 252000000,
+      "cash_paid_for_interest_2023": 254000000,
+      "total_shareholders_equity_2025": 79327000000,
+      "total_shareholders_equity_2024": 42978000000,
+      "total_shareholders_equity_2023": 22101000000
     },
     "chunk_id": 19
   },
   {
-    "info": "Describes NVIDIA's revenue recognition framework across product sales, licenses/development arrangements, software licensing, and cloud services, including how multiple performance obligations are identified and allocated; recognizes revenue based on transfer of control for products, upfront recognition for software licenses, ratable recognition for warranties and maintenance, and progress-based recognition for license/development arrangements. Cloud services revenue is recognized ratably for subscriptions or as usage occurs. The notes cover returns allowances, rebates and MDFs reductions to revenue, and the use of relative standalone selling price with observable inputs for allocation. It also references impairment considerations, tax matters, and stock-based compensation accounting, plus notable items such as a $1.4B acquisition termination cost in fiscal 2023 related to Arm and a $1.6B valuation allowance for deferred tax assets as of January 26, 2025.",
+    "info": "In February 2022, NVIDIA and SoftBank Group Corp, or SoftBank, announced the termination of the Share Purchase Agreement whereby NVIDIA would have acquired Arm from SoftBank. The parties agreed to terminate it due to significant regulatory challenges preventing the completion of the transaction. We recorded an acquisition termination cost of $1.4 billion in fiscal year 2023 reflecting the write-off of the prepayment provided at signing. As of January 26, 2025, we had a valuation allowance of $1.6 billion related to capital loss carryforwards, and certain state and other deferred tax assets that management determined are not likely to be realized due, in part, to jurisdictional projections of future taxable income, including capital gains. To the extent realization of the deferred tax assets becomes more-likely-than-not, we would recognize such deferred tax assets as income tax benefits during the period.",
     "data": {
-      "valuation_allowance_2025": 1600000000,
-      "arm_termination_cost_2023": 1400000000,
-      "warranty_years_min": 1,
-      "warranty_years_max": 3,
-      "depreciation_life_years_min": 2,
-      "depreciation_life_years_max": 7,
-      "buildings_useful_life_years_max": 30,
-      "intangible_amortization_life_years_min": 1,
-      "intangible_amortization_life_years_max": 20,
-      "cash_equivalents_maturity_months": 3
+      "acquisition_termination_cost_2023": 1400000000,
+      "valuation_allowance_capital_loss_carryforwards_as_of_2025": 1600000000
     },
     "chunk_id": 20
   },
   {
-    "info": "NVIDIA reports Arm acquisition termination cost of 1.4B in FY2023; substantial stock-based compensation activity with SBC expense totaling 4.737B (2025), 3.549B (2024) and 2.710B (2023). Aggregate unearned SBC equals 11.6B as of Jan 26, 2025, expected to be recognized over ~2.2 years for RSUs/PSUs/MBPSUs and 1 year for ESPP. Equity incentive activity shows grants of 89M (2025), 140M (2024) and 250M (2023) with grant-date fair values of 7.834B, 5.316B and 4.505B respectively, and total RSU/ PSU vesting value of 15.1B (2025), 8.2B (2024) and 4.3B (2023). Goodwill carrying amount is 5.2B as of Jan 26, 2025, up from 4.4B in 2024, with 758M of goodwill added in 2025 from acquisitions and no impairment. Amortizable intangible assets show acquisition-related gross 2.900B (2025) with net 0.636B, and 2.642B (2024) with net 0.922B; patents and licensed technology net values of 0.171B (2025) and 0.190B (2024). Total intangible assets net were 0.807B (2025) and 1.112B (2024). NVIDIA also details extensive ESPP terms, including 30M shares purchased in 2025 and ongoing 2.2B shares reserved under the 2012 Plan (and 1.4B reserved for future grants under the 2007 Plan). The company signals upcoming adoption of new accounting pronouncements (not yet adopted in 2026/2028) with no material expected impact.",
+    "info": "In February 2022, NVIDIA and SoftBank Group Corp, or SoftBank, announced the termination of the Share Purchase Agreement whereby NVIDIA would have acquired Arm from SoftBank. The parties agreed to terminate it due to significant regulatory challenges preventing the completion of the transaction. We recorded an acquisition termination cost of 1.4 billion in fiscal year 2023 reflecting the write-off of the prepayment provided at signing.",
     "data": {
-      "arm_termination_cost_fy2023": 1400000000,
-      "stock_based_compensation_expense_2025": 4737000000,
-      "stock_based_compensation_expense_2024": 3549000000,
-      "stock_based_compensation_expense_2023": 2710000000,
-      "unearned_sbc_expense_jan_26_2025": 11600000000,
-      "unearned_sbc_expense_period_years_rsu_psu_market_psu": 2.2,
-      "unearned_sbc_expense_period_years_espp": 1,
-      "awards_granted_rsu_psu_2025_millions": 89000000,
-      "awards_granted_rsu_psu_2024_millions": 140000000,
-      "awards_granted_rsu_psu_2023_millions": 250000000,
-      "grant_date_fair_value_rsu_psu_2025_millions": 7834000000,
-      "grant_date_fair_value_rsu_psu_2024_millions": 5316000000,
-      "grant_date_fair_value_rsu_psu_2023_millions": 4505000000,
-      "weighted_grant_date_fair_value_per_share_rsu_psu_2025": 87.99,
-      "weighted_grant_date_fair_value_per_share_rsu_psu_2024": 37.41,
-      "weighted_grant_date_fair_value_per_share_rsu_psu_2023": 18.37,
-      "rsu_psu_outstanding_jan26_2025_millions": 274000000,
-      "rsu_psu_outstanding_jan28_2024_millions": 367000000,
-      "total_fair_value_rsu_psu_vesting_2025": 15100000000,
-      "total_fair_value_rsu_psu_vesting_2024": 8200000000,
-      "total_fair_value_rsu_psu_vesting_2023": 4300000000,
-      "espp_shares_purchased_2025_millions": 30000000,
-      "espp_shares_purchased_2024_millions": 30000000,
-      "espp_shares_purchased_2023_millions": 30000000,
-      "espp_price_per_share_2025": 17.74,
-      "espp_price_per_share_2024": 15.81,
-      "espp_price_per_share_2023": 12.25,
-      "espp_weighted_life_min_2025": 0.1,
-      "espp_weighted_life_max_2025": 2.0,
-      "espp_risk_free_rate_min_2025": 3.6,
-      "espp_risk_free_rate_max_2025": 5.4,
-      "espp_vol_min_2025": 31,
-      "espp_vol_max_2025": 75,
-      "espp_dividend_yield_2025": 0.03,
-      "espp_risk_free_rate_min_2024": 3.9,
-      "espp_risk_free_rate_max_2024": 5.5,
-      "espp_vol_min_2024": 31,
-      "espp_vol_max_2024": 67,
-      "espp_dividend_yield_2024": 0.06,
-      "espp_vol_min_2023": 43,
-      "espp_vol_max_2023": 72,
-      "espp_dividend_yield_2023": 0.09,
-      "goodwill_total_jan_26_2025": 5200000000,
-      "goodwill_allocation_compute_networking_jan_26_2025": 4800000000,
-      "goodwill_allocation_graphics_jan_26_2025": 370000000,
-      "goodwill_total_jan_28_2024": 4400000000,
-      "goodwill_allocation_compute_networking_jan_28_2024": 4100000000,
-      "goodwill_allocation_graphics_jan_28_2024": 370000000,
-      "goodwill_increase_from_acquisitions_fy2025": 758000000,
-      "amortizable_intangible_assets_2025_gross_acquisition_related": 2900,
-      "amortizable_intangible_assets_2025_accumulated_amort": 2264,
-      "amortizable_intangible_assets_2025_net": 636,
-      "amortizable_intangible_assets_2024_gross_acquisition_related": 2642,
-      "amortizable_intangible_assets_2024_accumulated_amort": 1720,
-      "amortizable_intangible_assets_2024_net": 922,
-      "patents_and_licensed_technology_2025_gross": 449,
-      "patents_and_licensed_technology_2025_accum_amort": 278,
-      "patents_and_licensed_technology_2025_net": 171,
-      "patents_and_licensed_technology_2024_gross": 449,
-      "patents_and_licensed_technology_2024_accum_amort": 259,
-      "patents_and_licensed_technology_2024_net": 190,
-      "total_intangible_assets_2025_gross": 3349,
-      "total_intangible_assets_2025_accum_amort": 2542,
-      "total_intangible_assets_2025_net": 807,
-      "total_intangible_assets_2024_gross": 3091,
-      "total_intangible_assets_2024_accum_amort": 1979,
-      "total_intangible_assets_2024_net": 1112,
-      "net_income_2025": 72880000000,
-      "net_income_2024": 29760000000,
-      "net_income_2023": 4368000000,
-      "basic_weighted_average_shares_2025_millions": 24555,
-      "diluted_weighted_average_shares_2025_millions": 24804,
-      "basic_weighted_average_shares_2024_millions": 24690,
-      "diluted_weighted_average_shares_2024_millions": 24940,
-      "basic_weighted_average_shares_2023_millions": 24870,
-      "diluted_weighted_average_shares_2023_millions": 25070,
-      "net_income_per_share_basic_2025": 2.97,
-      "net_income_per_share_diluted_2025": 2.94,
-      "net_income_per_share_basic_2024": 1.21,
-      "net_income_per_share_diluted_2024": 1.19,
-      "net_income_per_share_basic_2023": 0.18,
-      "net_income_per_share_diluted_2023": 0.17,
-      "anti_dilutive_equity_awards_excluded_from_diluted_2025_millions": 51,
-      "anti_dilutive_equity_awards_excluded_from_diluted_2024_millions": 150,
-      "anti_dilutive_equity_awards_excluded_from_diluted_2023_millions": 400,
-      "common_stock_available_future_grants_jan2025_millions": 1400000000,
-      "common_stock_available_future_grants_jan2024_millions": 1500000000,
-      "espp_shares_reserved_2012_plan_jan2024_millions": 2200000000
+      "acquisition_termination_cost_2023": 1400000000,
+      "net_income_2025": 72880,
+      "net_income_2024": 29760,
+      "net_income_2023": 4368,
+      "eps_basic_2025": 2.97,
+      "eps_diluted_2025": 2.94,
+      "eps_basic_2024": 1.21,
+      "eps_diluted_2024": 1.19,
+      "eps_basic_2023": 0.18,
+      "eps_diluted_2023": 0.17,
+      "unearned_stock_compensation_2025": 11600,
+      "rsus_psus_outstanding_2025": 274,
+      "rsus_psus_outstanding_2024": 367,
+      "goodwill_2025": 5200,
+      "goodwill_2024": 4400,
+      "acquisition_related_intangible_assets_2025_gross": 2900,
+      "acquisition_related_intangible_assets_2025_accumulated_amortization": 2264,
+      "acquisition_related_intangible_assets_2025_net": 636,
+      "acquisition_related_intangible_assets_2024_gross": 2642,
+      "acquisition_related_intangible_assets_2024_accumulated_amortization": 1720,
+      "acquisition_related_intangible_assets_2024_net": 922
     },
     "chunk_id": 21
   },
   {
-    "info": "Amortization expense for intangible assets for 2025, 2024, and 2023 totaled 593, 614, and 699 million respectively, with a future amortization schedule totaling 807 million through 2031 (354/236/84/31/10/92 for 2026–2031). The notes also show cash equivalents and marketable securities with net unrealized gains on publicly-held equity securities of 163 million in 2025 and realized gains on sale of 88 million in 2025.",
-    "data": {
-      "amortization_expense_2025": 593000000,
-      "amortization_expense_2024": 614000000,
-      "amortization_expense_2023": 699000000,
-      "future_amortization_2026": 354000000,
-      "future_amortization_2027": 236000000,
-      "future_amortization_2028": 84000000,
-      "future_amortization_2029": 31000000,
-      "future_amortization_2030": 10000000,
-      "future_amortization_2031_and_beyond": 92000000,
-      "future_amortization_total": 807000000,
-      "net_unrealized_gains_publicly_held_equity_2025": 163000000,
-      "net_realized_gains_publicly_held_equity_sold_2025": 88000000
-    },
+    "info": "Amortization expense associated with intangible assets for fiscal years 2025, 2024, and 2023 was 593 million, 614 million, and 699 million, respectively.",
+    "data": {},
     "chunk_id": 22
   },
   {
-    "info": "Fair value disclosures show a mix of Level 1 and Level 2 assets with sizable cash equivalents, debt securities (including corporate, U.S. Treasuries, and government-backed), and public equity holdings; liabilities are composed of long-term notes due through 2060; non-marketable equity securities grew to 3.387B in 2025 with cumulative unrealized gains of 1.1B and unrealized losses/impairments of 105M; a Q4 2025 private-company unrealized gain was 565M; deferred revenue and inventory balances reflect significant deferrals and cost provisions; direct customer concentration in accounts receivable was 17% and 16% of AR as of Jan 26, 2025 (vs 24% and 11% as of Jan 28, 2024).",
-    "data": {
-      "fair_value_assets": [
-        {
-          "name": "Money market funds",
-          "level": "Level 1",
-          "jan26_2025": 3760,
-          "jan28_2024": 3031
-        },
-        {
-          "name": "Publicly-held equity securities (Assets)",
-          "level": "Level 1",
-          "jan26_2025": 381
-        },
-        {
-          "name": "Corporate debt securities",
-          "level": "Level 2",
-          "jan26_2025": 18526,
-          "jan28_2024": 10152
-        },
-        {
-          "name": "Debt securities issued by the U.S. Treasury",
-          "level": "Level 2",
-          "jan26_2025": 16769,
-          "jan28_2024": 9524
-        },
-        {
-          "name": "Debt securities issued by U.S. government agencies",
-          "level": "Level 2",
-          "jan26_2025": 2777,
-          "jan28_2024": 2333
-        },
-        {
-          "name": "Foreign government bonds",
-          "level": "Level 2",
-          "jan26_2025": 177,
-          "jan28_2024": 174
-        },
-        {
-          "name": "Certificates of deposit",
-          "level": "Level 2",
-          "jan26_2025": 97,
-          "jan28_2024": 510
-        },
-        {
-          "name": "Publicly-held equity securities (Other assets)",
-          "level": "Level 1",
-          "jan28_2024": 225
-        }
-      ],
-      "fair_value_liabilities": [
-        {
-          "name": "0.584% Notes Due 2024",
-          "level": "Level 2",
-          "jan28_2024": 1228
-        },
-        {
-          "name": "3.20% Notes Due 2026",
-          "level": "Level 2",
-          "jan26_2025": 982,
-          "jan28_2024": 970
-        },
-        {
-          "name": "1.55% Notes Due 2028",
-          "level": "Level 2",
-          "jan26_2025": 1136,
-          "jan28_2024": 1115
-        },
-        {
-          "name": "2.85% Notes Due 2030",
-          "level": "Level 2",
-          "jan26_2025": 1376,
-          "jan28_2024": 1367
-        },
-        {
-          "name": "2.00% Notes Due 2031",
-          "level": "Level 2",
-          "jan26_2025": 1064,
-          "jan28_2024": 1057
-        },
-        {
-          "name": "3.50% Notes Due 2040",
-          "level": "Level 2",
-          "jan26_2025": 824,
-          "jan28_2024": 851
-        },
-        {
-          "name": "3.50% Notes Due 2050",
-          "level": "Level 2",
-          "jan26_2025": 1482,
-          "jan28_2024": 1604
-        },
-        {
-          "name": "3.70% Notes Due 2060",
-          "level": "Level 2",
-          "jan26_2025": 367,
-          "jan28_2024": 403
-        }
-      ],
-      "non_marketable_equity": {
-        "balance_begin_2025": 1321,
-        "balance_begin_2024": 288,
-        "net_additions_2025": 1309,
-        "net_additions_2024": 859,
-        "unrealized_gains_2025": 816,
-        "unrealized_gains_2024": 194,
-        "unrealized_losses_and_impairments_2025": -59,
-        "unrealized_losses_and_impairments_2024": -20,
-        "balance_end_2025": 3387,
-        "balance_end_2024": 1321,
-        "cumulative_unrealized_gains_jan26_2025": 1100000000,
-        "cumulative_unrealized_gains_jan28_2024": 270000000,
-        "cumulative_unrealized_losses_and_impairments_jan26_2025": 105000000,
-        "cumulative_unrealized_losses_and_impairments_jan28_2024": 45000000,
-        "private_company_unrealized_gain_q4_2025": 565000000
-      },
-      "inventories": {
-        "total_jan26_2025": 10080,
-        "total_jan28_2024": 5282,
-        "raw_materials_jan26_2025": 3408,
-        "raw_materials_jan28_2024": 1719,
-        "work_in_process_jan26_2025": 3399,
-        "work_in_process_jan28_2024": 1505,
-        "finished_goods_jan26_2025": 3273,
-        "finished_goods_jan28_2024": 2058,
-        "inventory_provision_cost_of_revenue_2025": 1600,
-        "inventory_provision_cost_of_revenue_2024": 774
-      },
-      "pp_e": [
-        {
-          "name": "Land",
-          "jan26_2025": 511,
-          "jan28_2024": 218
-        },
-        {
-          "name": "Buildings, leasehold improvements, and furniture",
-          "jan26_2025": 2076,
-          "jan28_2024": 1816
-        },
-        {
-          "name": "Equipment, compute hardware, and software",
-          "jan26_2025": 7568,
-          "jan28_2024": 5200
-        },
-        {
-          "name": "Construction in process",
-          "jan26_2025": 529,
-          "jan28_2024": 189
-        },
-        {
-          "name": "Total property and equipment, gross",
-          "jan26_2025": 10684,
-          "jan28_2024": 7423
-        },
-        {
-          "name": "Accumulated depreciation and amortization",
-          "jan26_2025": 4401,
-          "jan28_2024": 3509
-        },
-        {
-          "name": "Total property and equipment, net",
-          "jan26_2025": 6283,
-          "jan28_2024": 3914
-        }
-      ],
-      "other_long_term_assets": {
-        "non_marketable_equity_securities_jan26_2025": 3387,
-        "non_marketable_equity_securities_jan28_2024": 1321,
-        "prepaid_supply_and_capacity_agreements_jan26_2025": 1747,
-        "prepaid_supply_and_capacity_agreements_jan28_2024": 2458,
-        "income_tax_receivable_jan26_2025": 750,
-        "prepaid_ royalties_jan26_2025": 340,
-        "other_jan26_2025": 201,
-        "total_other_assets_jan26_2025": 6425,
-        "total_other_assets_jan28_2024": 4500
-      },
-      "deferred_revenue": {
-        "balance_begin_jan26_2025": 1337,
-        "balance_begin_jan28_2024": 572,
-        "additions_jan26_2025": 5083,
-        "additions_jan28_2024": 2038,
-        "revenue_recognized_jan26_2025": 4607,
-        "revenue_recognized_jan28_2024": 1273,
-        "balance_end_jan26_2025": 1813,
-        "balance_end_jan28_2024": 1337,
-        "additions_customer_advances_2025": 3600,
-        "additions_customer_advances_2024": 783,
-        "revenue_recognized_customer_advances_2025": 3700,
-        "revenue_recognized_customer_advances_2024": 585,
-        "revenue_from_past_end_deferred_2025": 729,
-        "revenue_from_past_end_deferred_2024": 338,
-        "contracts_gt1yr_remaining_obligations_jan26_2025": 1700,
-        "contracts_gt1yr_remaining_obligations_from_deferred_jan26_2025": 1600,
-        "contracts_gt1yr_remaining_obligations_not_billed_jan26_2025": 151,
-        "contracts_gt1yr_percent_recognize_next_12m": 39
-      },
-      "accounts_receivable_concentration_note": [
-        "Two direct customers accounted for 17% and 16% of our accounts receivable balance as of January 26, 2025",
-        "Two direct customers accounted for 24% and 11% of our accounts receivable balance as of January 28, 2024"
-      ],
-      "depreciation_expense_fiscal_years": {
-        "2025": 1300,
-        "2024": 894,
-        "2023": 844
-      },
-      "accumulated_amortization_leasehold_and_finance_leases_jan26_2025": 410,
-      "accumulated_amortization_leasehold_and_finance_leases_jan28_2024": 400,
-      "assets_acquired_by_assuming_liabilities": {
-        "2025": 525,
-        "2024": 170,
-        "2023": 374
-      },
-      "note10_derivative_financial_instruments": {}
-    },
+    "info": "The fair values of our financial assets and liabilities are determined using quoted market prices of identical assets or market prices of similar assets from active markets. We review fair value classification on a quarterly basis. Our non-marketable equity securities are recorded in long-term other assets on our Consolidated Balance Sheets and valued under the measurement alternative. Gains and losses on these investments, realized and unrealized, are recognized in Other income (expense), net on our Consolidated Statements of Income. Non-marketable equity securities had cumulative gross unrealized gains of $1.1 billion and $270 million, and cumulative gross unrealized losses and impairments of $105 million and $45 million on securities held as of January 26, 2025 and January 28, 2024, respectively. In the fourth quarter of fiscal year 2025, one of our private company investments completed a secondary equity transaction that resulted in an unrealized gain of $565 million.",
+    "data": {},
     "chunk_id": 23
   },
   {
-    "info": "Deferred revenue and revenue from customer advances show sizable activity: FY2025 additions 3.6B deferred revenue and 3.7B revenue; FY2024 additions 0.783B and 0.585B; 2025 revenue recognized from prior year-end deferred balance 0.729B; 2024 0.338B. Remaining >1-year performance obligations total 1.7B as of 1/26/2025, including 1.6B deferred and 0.151B unbilled; about 39% to be recognized in the next 12 months. FX hedging program uses designated notional 1,424M and 1,168M; non-designated 1,297M and 597M; all mature within 18 months; gains/losses not significant. Long-term debt net carrying amount 8,463M vs 9,709M; repaid the 0.584% Notes Due 2024 in 2025. Commercial paper program 575M; outstanding 0. Inventory and long-term purchase obligations 30.8B; other non-inventory obligations 14.3B including 10.9B cloud services; total future purchase commitments 45.079B. Warranty liabilities end of period 1.29B (2024 0.306B; 2023 0.082B); additions 1.203B; utilization 0.219B. Litigation: no accrued contingent liabilities as of 1/26/2025; outcomes not expected to have a material adverse effect.",
+    "info": "(1) Deferred revenue additions includes 3.6 billion and 783 million related to customer advances for fiscal years 2025 and 2024, respectively.",
     "data": {
       "deferred_revenue_additions_2025": 3600000000,
       "deferred_revenue_additions_2024": 783000000,
-      "revenue_recognized_from_customer_advances_2025": 3700000000,
-      "revenue_recognized_from_customer_advances_2024": 585000000,
-      "revenue_from_prior_year_end_deferred_2025": 729000000,
-      "revenue_from_prior_year_end_deferred_2024": 338000000,
-      "remaining_performance_oblig_gt1yr_total_2025": 1700000000,
-      "remaining_performance_oblig_gt1yr_deferred_revenue_2025": 1600000000,
-      "unbilled_not_yet_recognized_gt1yr_2025": 151000000,
-      "percent_gt1yr_revenue_recognized_next_12m": 39,
-      "fx_designated_notional_2025": 1424,
-      "fx_designated_notional_2024": 1168,
-      "fx_not_designated_notional_2025": 1297,
-      "fx_not_designated_notional_2024": 597,
-      "fx_contracts_maturity_months": 18,
-      "long_term_debt_net_carrying_amount_2025": 8463,
-      "long_term_debt_net_carrying_amount_2024": 9709,
-      "commercial_paper_program_millions": 575,
-      "commercial_paper_outstanding_2025": 0,
-      "inventory_purchase_obligations_total": 30800000000,
-      "other_non_inventory_purchase_obligations_total": 14300000000,
-      "multi_year_cloud_service_obligations": 10900000000,
+      "revenue_recognized_customer_advances_2025": 3700000000,
+      "revenue_recognized_customer_advances_2024": 585000000,
+      "revenue_recognized_in_fiscal_years_2025": 729000000,
+      "revenue_recognized_in_fiscal_years_2024": 338000000,
+      "revenue_remaining_obligations_gt1yr_total_2025": 1700000000,
+      "revenue_remaining_obligations_gt1yr_deferred_revenue_2025": 1600000000,
+      "revenue_remaining_obligations_gt1yr_not_billed_not_recognized_2025": 151000000,
+      "percent_revenue_gt1yr_recognized_next_12m": 39,
+      "foreign_currency_contracts_designated_accounting_hedges_notional_jan_26_2025": 1424,
+      "foreign_currency_contracts_designated_accounting_hedges_notional_jan_28_2024": 1168,
+      "foreign_currency_contracts_not_designated_accounting_hedges_notional_jan_26_2025": 1297,
+      "foreign_currency_contracts_not_designated_accounting_hedges_notional_jan_28_2024": 597,
+      "long_term_debt_net_carrying_amount_jan26_2025": 8463,
+      "long_term_debt_net_carrying_amount_jan28_2024": 9709,
+      "total_long_term_portion_jan26_2025": 8463,
+      "total_long_term_portion_jan28_2024": 8459,
+      "short_term_portion_of_debt_jan26_2025": -1250,
+      "commercial_paper_program_amount": 575,
+      "commercial_paper_outstanding_jan26_2025": 0,
+      "inventory_purchase_obligations_jan26_2025": 30800000000,
+      "other_non_inventory_purchase_obligations_jan26_2025": 14300000000,
+      "other_non_inventory_purchase_obligations_cloud_services_jan26_2025": 10900000000,
+      "purchase_commitments_2026": 35727,
+      "purchase_commitments_2027": 3666,
+      "purchase_commitments_2028": 2992,
+      "purchase_commitments_2029": 2054,
+      "purchase_commitments_2030": 422,
+      "purchase_commitments_2031_and_beyond": 218,
       "total_future_purchase_commitments": 45079,
-      "warranty_liabilities_balance_end_2025": 1290,
-      "warranty_liabilities_balance_end_2024": 306,
-      "warranty_liabilities_balance_end_2023": 82,
-      "warranty_liabilities_additions_2025": 1203,
-      "warranty_liabilities_utilization_2025": 219
+      "product_warranty_liabilities_jan26_2025": 1300000000,
+      "product_warranty_liabilities_jan28_2024": 306000000,
+      "product_warranty_liabilities_balance_end_of_period_jan26_2025": 1290,
+      "product_warranty_liabilities_balance_end_of_period_jan28_2024": 306,
+      "product_warranty_liabilities_balance_end_of_period_jan29_2023": 82,
+      "product_warranty_liabilities_additions_jan26_2025": 1203,
+      "product_warranty_liabilities_additions_jan28_2024": 278,
+      "product_warranty_liabilities_additions_jan29_2023": 145,
+      "product_warranty_liabilities_utilization_jan26_2025": -219,
+      "product_warranty_liabilities_utilization_jan28_2024": -54,
+      "product_warranty_liabilities_utilization_jan29_2023": -109
     },
     "chunk_id": 24
   },
   {
-    "info": "Derivative action filed Oct 30, 2023 in Delaware Court of Chancery (Horanic v. Huang, et al.) alleging breach of fiduciary duty and insider trading related to NVIDIA channel inventory and GPU demand from cryptocurrency mining; plaintiffs seek unspecified damages including disgorgement; derivative matter stayed pending final resolution of In Re NVIDIA Corporation Securities Litigation. As of Jan 26, 2025 there are no accrued contingent liabilities; while liabilities are possible, they are not probable, and any potential loss cannot be reasonably estimated. Management believes ultimate outcome will not have a material adverse effect on operating results, liquidity or financial position.",
-    "data": {
-      "derivative_action_date": 20231030,
-      "accrued_contingent_liabilities_millions": 0,
-      "as_of_date": 20250126,
-      "undistributed_earnings_reinvest_billion": 1.4,
-      "valuation_allowance_billion_2025": 1.6,
-      "nol_federal_millions": 479,
-      "nol_state_millions": 332,
-      "nol_foreign_millions": 349,
-      "federal_carryforwards_expire_by_year": 2026,
-      "state_carryforwards_expire_by_year": 2027,
-      "federal_research_tax_credit_carryforwards_millions": 46,
-      "state_research_tax_credit_carryforwards_billion": 1.5,
-      "california_tax_credit_carryforwards_billion": 1.4,
-      "other_states_tax_credit_carryforwards_millions": 98,
-      "federal_capital_loss_carryforwards_billion": 1.3,
-      "unrecognized_tax_benefits_balance_beginning_millions_2025": 1670,
-      "unrecognized_tax_benefits_balance_beginning_millions_2024": 1238,
-      "unrecognized_tax_benefits_balance_beginning_millions_2023": 1013,
-      "unrecognized_tax_benefits_balance_end_millions_2025": 2861,
-      "unrecognized_tax_benefits_balance_end_millions_2024": 1670,
-      "unrecognized_tax_benefits_balance_end_millions_2023": 1238,
-      "unrecognized_tax_benefits_increase_current_year_millions": 1268,
-      "unrecognized_tax_benefits_increase_prior_years_millions": 48,
-      "unrecognized_tax_benefits_decrease_prior_years_millions": -88,
-      "unrecognized_tax_benefits_lapse_statute_millions": -27,
-      "unrecognized_tax_benefits_settlements_millions": -10,
-      "unrecognized_tax_benefits_total_benefits_millions": 2000,
-      "tax_benefit_jurisdictions_under_examination": [
-        {
-          "jurisdiction": "Germany",
-          "fiscal_years": "2014-2024"
-        },
-        {
-          "jurisdiction": "Hong Kong",
-          "fiscal_years": "2014-2024"
-        },
-        {
-          "jurisdiction": "India",
-          "fiscal_years": "2014-2024"
-        },
-        {
-          "jurisdiction": "Israel",
-          "fiscal_years": "2014-2024"
-        },
-        {
-          "jurisdiction": "Taiwan",
-          "fiscal_years": "2014-2024"
-        },
-        {
-          "jurisdiction": "California",
-          "fiscal_years": "2020-2022"
-        }
-      ]
-    },
+    "info": "Another putative derivative action was filed on October 30, 2023 in the Court of Chancery of the State of Delaware, captioned Horanic v. Huang, et al. (Case No. 2023-1096-KSJM). This lawsuit asserts claims, purportedly on behalf of us, against certain officers and directors of the Company for breach of fiduciary duty and insider trading based on the dissemination of allegedly false and misleading statements related to channel inventory and the impact of cryptocurrency mining on GPU demand. The plaintiffs seek unspecified damages and other relief, including disgorgement of profits from the sale of NVIDIA stock and reform of unspecified corporate governance measures. This derivative matter is stayed pending the final resolution of In Re NVIDIA Corporation Securities Litigation action. As of January 26, 2025, there are no accrued contingent liabilities associated with the legal proceedings described above based on our belief that liabilities, while reasonably possible, are not probable.",
+    "data": {},
     "chunk_id": 25
   },
   {
-    "info": "Tax: recognized net tax expense for 2025/2024/2023 and accrued interest/penalties; capital return program expanded; substantial share repurchases in 2025 and 2024 and ongoing plan; dividends paid; employee retirement plan contributions; Data Center–led revenue growth with favorable geographic mix; long-lived assets concentrated in the U.S., Taiwan, and Israel; depreciation reflects Compute/Graphics segments.",
+    "info": "We recognized net interest and penalties related to unrecognized tax benefits in the income tax expense line of our consolidated statements of income of $92 million, $42 million, and $33 million during fiscal years 2025, 2024, and 2023, respectively.",
     "data": {
-      "tax_expense_2025": 92000000,
-      "tax_expense_2024": 42000000,
-      "tax_expense_2023": 33000000,
-      "accrued_interest_penalties_2025": 251000000,
-      "accrued_interest_penalties_2024": 140000000,
-      "capital_return_authorization_increase": 50000000000,
-      "shares_repurchase_2025": 310000000,
-      "amount_repaid_2025": 34000000000,
-      "shares_repurchase_2024": 210000000,
-      "amount_repaid_2024": 9700000000,
-      "additional_repurchase_2025": 29000000,
-      "additional_repurchase_amount_2025": 3700000000,
-      "dividends_paid_2025": 834000000,
-      "dividends_paid_2024": 395000000,
-      "dividends_paid_2023": 398000000,
-      "employee_contribution_expense_2025": 314000000,
-      "employee_contribution_expense_2024": 255000000,
-      "employee_contribution_expense_2023": 227000000,
-      "segment_revenue_2025": {
-        "Total": 130497,
-        "DataCenter": 115186,
-        "Compute": 102196,
-        "Networking": 12990,
-        "Gaming": 11350,
-        "ProfVisualization": 1878,
-        "Automotive": 1694,
-        "OEM_Other": 389
-      },
-      "segment_revenue_2024": {
-        "Total": 60922,
-        "DataCenter": 47525,
-        "Compute": 38950,
-        "Networking": 8575,
-        "Gaming": 10447,
-        "ProfVisualization": 1553,
-        "Automotive": 1091,
-        "OEM_Other": 306
-      },
-      "segment_revenue_2023": {
-        "Total": 26974,
-        "DataCenter": 15005,
-        "Compute": 11317,
-        "Networking": 3688,
-        "Gaming": 9067,
-        "ProfVisualization": 1544,
-        "Automotive": 903,
-        "OEM_Other": 455
-      },
-      "revenue_outside_us_percent_2025": 53,
-      "revenue_outside_us_percent_2024": 56,
-      "revenue_outside_us_percent_2023": 69,
-      "singapore_revenue_share_percent_2025": 18,
-      "depreciation_amortization_compute_2025": 732,
-      "depreciation_amortization_compute_2024": 457,
-      "depreciation_amortization_compute_2023": 377,
-      "depreciation_amortization_graphics_2025": 372,
-      "depreciation_amortization_graphics_2024": 307,
-      "depreciation_amortization_graphics_2023": 315,
-      "long_lived_assets_by_country_2025": [
-        {
-          "country": "United States",
-          "amount": 3626
-        },
-        {
-          "country": "Taiwan",
-          "amount": 1481
-        },
-        {
-          "country": "Israel",
-          "amount": 840
-        },
-        {
-          "country": "Other",
-          "amount": 336
-        }
-      ],
-      "long_lived_assets_total_2025": 6283,
-      "long_lived_assets_total_2024": 3914
+      "revenue_2025": 130497000000,
+      "revenue_2024": 60922000000,
+      "revenue_2023": 26974000000,
+      "operating_income_2025": 81453000000,
+      "operating_income_2024": 32972000000,
+      "operating_income_2023": 4224000000,
+      "dividends_2025": 834000000,
+      "dividends_2024": 395000000,
+      "dividends_2023": 398000000,
+      "authorized_repurchase_2025": 38700000000,
+      "share_repurchase_cash_2025": 34000000000,
+      "share_repurchase_cash_2024": 9700000000,
+      "repurchase_cash_for_jan27_2025_to_feb21_2025": 3700000000
     },
     "chunk_id": 26
   },
   {
-    "info": "NVIDIA's long-lived assets totaled 6.283B as of Jan 26, 2025, with US 3.626B, Taiwan 1.481B, Israel 0.840B, and Other 0.336B; 2024 long-lived assets were 3.914B (US 2.595B, Taiwan 0.773B, Israel 0.325B, Other 0.221B). Operating lease obligations have a present value of net minimum lease payments of 1.807B; long-term operating lease liabilities of 1.519B; total undiscounted operating lease obligations 2.086B; imputed interest 0.279B; short-term lease liabilities 0.288B. Weighted-average remaining lease term: 6.5 years and discount rate 4.16% as of Jan 26, 2025 (vs 6.1 years and 3.76% as of Jan 28, 2024). The company expects future lease obligations of about 7.6B from 2026–2030 for data center and office leases, with terms of 3 to 15.5 years. Operating lease expenses were 356, 269, and 193 for 2025, 2024, and 2023, respectively; supplemental cash flows show operating cash flow for leases of 313, 286, and 184 and assets obtained in exchange for lease obligations of 877, 531, and 358 for 2025, 2024, and 2023. Schedule II shows valuation accounts: doubtful accounts ending balances of 4 in 2025, 2024, and 2023; sales return allowance ending balances of 82 (2025), 109 (2024), and 26 (2023); and deferred tax valuation allowance ending balances of 1610 (2025), 1552 (2024), and 1484 (2023), with beginning balances 4, 4, and 4 for doubtful accounts; beginning balances 109, 26, 13 for sales returns; beginning balances 1552, 1484, 907 for deferred tax valuations; additions of 58, 162, 577 for the three years; and deductions of 3 in each year.",
+    "info": "Between fiscal years 2026 and 2030, we expect to commence leases with future obligations of $7.6 billion primarily of data center and office operating leases, with lease terms of 3 to 15.5 years. Operating lease expenses for fiscal years 2025, 2024, and 2023 were $356 million, $269 million, and $193 million, respectively. As of January 26, 2025, our operating leases have a weighted average remaining lease term of 6.5 years and a weighted average discount rate of 4.16%. As of January 28, 2024, our operating leases had a weighted average remaining lease term of 6.1 years and a weighted average discount rate of 3.76%.",
     "data": {
-      "lta_us_2025": 3626,
-      "lta_us_2024": 2595,
-      "lta_taiwan_2025": 1481,
-      "lta_taiwan_2024": 773,
-      "lta_israel_2025": 840,
-      "lta_israel_2024": 325,
-      "lta_other_2025": 336,
-      "lta_other_2024": 221,
-      "lta_total_2025": 6283,
-      "lta_total_2024": 3914,
-      "op_lease_present_value": 1807,
-      "op_lease_undiscounted_total": 2086,
-      "op_lease_imputed_interest": 279,
-      "op_lease_short_term_liabilities": 288,
-      "op_lease_long_term_liabilities": 1519,
-      "op_lease_wtd_term_2025": 6.5,
-      "op_lease_wtd_term_2024": 6.1,
-      "op_lease_wtd_disc_2025": 4.16,
-      "op_lease_wtd_disc_2024": 3.76,
-      "op_lease_expense_2025": 356,
-      "op_lease_expense_2024": 269,
-      "op_lease_expense_2023": 193,
-      "op_cash_flow_leases_2025": 313,
-      "op_cash_flow_leases_2024": 286,
-      "op_cash_flow_leases_2023": 184,
-      "op_assets_obtained_exchange_2025": 877,
-      "op_assets_obtained_exchange_2024": 531,
-      "op_assets_obtained_exchange_2023": 358,
       "future_lease_obligations_2026_2030": 7600000000,
-      "future_lease_term_max_years": 15.5,
-      "doubtful_begin_2025": 4,
-      "doubtful_begin_2024": 4,
-      "doubtful_begin_2023": 4,
-      "doubtful_end_2025": 4,
-      "doubtful_end_2024": 4,
-      "doubtful_end_2023": 4,
-      "sales_return_begin_2025": 109,
-      "sales_return_begin_2024": 26,
-      "sales_return_begin_2023": 13,
-      "sales_return_end_2025": 82,
-      "sales_return_end_2024": 109,
-      "sales_return_end_2023": 26,
-      "deferred_tax_begin_2025": 1552,
-      "deferred_tax_begin_2024": 1484,
-      "deferred_tax_begin_2023": 907,
-      "deferred_tax_add_2025": 58,
-      "deferred_tax_add_2024": 162,
-      "deferred_tax_add_2023": 577,
-      "deferred_tax_deduct_2025": -3,
-      "deferred_tax_deduct_2024": -3,
-      "deferred_tax_deduct_2023": -3,
-      "deferred_tax_end_2025": 1610,
-      "deferred_tax_end_2024": 1552,
-      "deferred_tax_end_2023": 1484
+      "operating_lease_expenses_2025": 356000000,
+      "operating_lease_expenses_2024": 269000000,
+      "operating_lease_expenses_2023": 193000000,
+      "weighted_avg_remaining_lease_term_2025": 6.5,
+      "weighted_avg_discount_rate_2025": 4.16,
+      "weighted_avg_remaining_lease_term_2024": 6.1,
+      "weighted_avg_discount_rate_2024": 3.76,
+      "long_lived_assets_2025_total": 6283,
+      "long_lived_assets_2025_us": 3626,
+      "long_lived_assets_2025_taiwan": 1481,
+      "long_lived_assets_2025_israel": 840,
+      "long_lived_assets_2025_other": 336,
+      "long_lived_assets_2024_total": 3914,
+      "long_lived_assets_2024_us": 2595,
+      "long_lived_assets_2024_taiwan": 773,
+      "long_lived_assets_2024_israel": 325,
+      "long_lived_assets_2024_other": 221,
+      "present_value_net_future_minimum_lease_payments_2025": 1807,
+      "total_operating_lease_obligations_2025": 2086,
+      "less_imputed_interest_2025": 279,
+      "short_term_operating_lease_liabilities_2025": 288,
+      "long_term_operating_lease_liabilities_2025": 1519
     },
     "chunk_id": 27
-  },
-  {
-    "info": "",
-    "data": {
-      "section_numbers": [
-        82,
-        83
-      ],
-      "note_refs": [
-        13
-      ],
-      "exhibit_ids": [
-        2.1,
-        3.1,
-        3.2,
-        3.3,
-        3.4,
-        4.1,
-        4.2,
-        4.3,
-        4.4,
-        4.5,
-        4.6,
-        4.7,
-        4.8,
-        4.9,
-        4.1,
-        4.11,
-        4.12,
-        4.13,
-        4.14,
-        4.15,
-        4.16,
-        10.1,
-        10.2,
-        10.3,
-        10.4,
-        10.5,
-        10.6
-      ]
-    },
-    "chunk_id": 28
-  },
-  {
-    "info": "",
-    "data": {
-      "plan_years": [
-        2007,
-        2012,
-        2017,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "dates_years_present": [
-        2024,
-        2025,
-        2023,
-        2022,
-        2021,
-        2017
-      ],
-      "exhibit_numbers": [
-        97.1
-      ]
-    },
-    "chunk_id": 29
   }
 ]

@@ -1,1788 +1,540 @@
 [
   {
-    "info": "",
-    "data": {
-      "date_yyyymmdd": 20241231
-    },
-    "chunk_id": 0
-  },
-  {
-    "info": "Geographic concentration risk and regional revenue context are referenced across multiple segments (Asia Pacific, Americas Excluding United States, United States/EMEA), including revenue-by-geography and revenue-type disclosures.",
-    "data": {
-      "entity_id": 310001652044,
-      "years_present": [
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ]
-    },
-    "chunk_id": 2
-  },
-  {
-    "info": "Investor summary: The data describes a diverse set of fair value inputs by level (Level 1 and Level 2) across asset types including government bonds, corporate debt securities, mortgage-backed and asset-backed securities, money market funds, marketable equity securities, and mutual funds, with references to both Level 1 and Level 2 valuations. It also notes hedging activities and designations such as cash flow hedging, fair value hedging, and net investment hedging, with instruments designated as hedging instruments or nondesignated, across 2023 and 2024. A Market Approach valuation technique is referenced for 2024-12-31. Overall, the information highlights the company’s structured fair value framework and hedging strategies across asset classes and time periods.",
+    "info": "As of June 28, 2024, the aggregate market value of shares held by non-affiliates of the registrant (based upon the closing sale prices of such shares on the Nasdaq Global Select Market on June 28, 2024) was approximately $2.0 trillion. As of January 28, 2025, there were 5,833 million shares of Alphabet’s Class A stock outstanding, 860 million shares of Alphabet’s Class B stock outstanding, and 5,497 million shares of the Alphabet’s Class C stock outstanding.",
     "data": {},
-    "chunk_id": 3
-  },
-  {
-    "info": "Company maintains an active foreign exchange hedging program across 2022–2024, employing cash flow hedges, net investment hedges, fair value hedges, and nondesignated FX contracts linked to sales and nonoperating income/expense, with collateral and variable interest entity considerations noted.",
-    "data": {},
-    "chunk_id": 4
-  },
-  {
-    "info": "Contains disclosures of debt instruments, collateral arrangements, and financing facilities (A2014/A2016/A2020 notes, revolving credit facility, commercial paper), along with variable interest entity primary beneficiary disclosures and related maturities. No numerical figures appear in this chunk.",
-    "data": {},
-    "chunk_id": 5
-  },
-  {
-    "info": "Hedge accounting notes (Accumulated Gain/Loss on cash flow hedges and reclassifications out of accumulated OCI) alongside Google share repurchase programs for 2022–2024 and references to unfavorable regulatory actions; no explicit financial figures are provided in this excerpt.",
-    "data": {},
-    "chunk_id": 6
-  },
-  {
-    "info": "",
-    "data": {
-      "rsu_member_2024_12_31": 20241231,
-      "rsu_member_2023_12_31": 20231231,
-      "rsu_member_2022_01_01": 20220101,
-      "rsu_member_2022_12_31": 20221231,
-      "rsu_member_2023_01_01": 20230101,
-      "rsu_member_2024_01_01": 20240101,
-      "rsu_member_2021_12_31": 20211231,
-      "rsu_member_2024_10_01": 20241001,
-      "rsu_member_2025_01_01": 20250101,
-      "allowance_credit_loss_member_2021_12_31": 20211231,
-      "allowance_credit_loss_member_2022_01_01": 20220101,
-      "allowance_credit_loss_member_2022_12_31": 20221231,
-      "allowance_credit_loss_member_2023_01_01": 20230101,
-      "allowance_credit_loss_member_2023_12_31": 20231231,
-      "allowance_credit_loss_member_2024_01_01": 20240101,
-      "allowance_credit_loss_member_2024_12_31": 20241231,
-      "goog_operating_segments_google_services_2022_01_01": 20220101,
-      "goog_operating_segments_google_services_2022_12_31": 20221231,
-      "goog_operating_segments_google_services_2023_01_01": 20230101,
-      "goog_operating_segments_google_services_2023_12_31": 20231231,
-      "goog_operating_segments_google_services_2024_01_01": 20240101,
-      "goog_operating_segments_google_cloud_2022_01_01": 20220101,
-      "goog_operating_segments_google_cloud_2023_01_01": 20230101,
-      "goog_operating_segments_google_cloud_2024_01_01": 20240101,
-      "goog_operating_segments_corporate_non_segment_2022_01_01": 20220101,
-      "goog_operating_segments_corporate_non_segment_2023_01_01": 20230101,
-      "goog_operating_segments_corporate_non_segment_2024_01_01": 20240101,
-      "country_US_2023_12_31": 20231231,
-      "country_US_2024_12_31": 20241231,
-      "us_gaap_non_us_member_2023_12_31": 20231231,
-      "us_gaap_non_us_member_2024_12_31": 20241231,
-      "subsequent_event_2025_01_01": 20250101,
-      "goog_john_hennessy_member_2024_10_01": 20241001,
-      "goog_john_hennessy_member_2024_12_31": 20241231,
-      "goog_sundar_pichai_member_2024_10_01": 20241001,
-      "goog_sundar_pichai_member_2024_12_31": 20241231,
-      "goog_john_hennessy_member_2024_01_01": 20240101,
-      "goog_sundar_pichai_member_2024_01_01": 20240101,
-      "goog_john_hennessy_trading_arrangement_class_c_capital_stock_2024_12_31": 20241231,
-      "goog_john_hennessy_trading_arrangement_class_a_common_stock_2024_12_31": 20241231
-    },
-    "chunk_id": 7
-  },
-  {
-    "info": "Alphabet flags continued growth from the online economy, rising non-advertising revenue, and substantial capex to expand AI infrastructure; it expects TAC, foreign exchange, and operating-cost pressures to affect margins and emphasizes ongoing investments in new businesses, products, services, acquisitions, and talent, with potential variability in revenue recognition and tax considerations.",
-    "data": {
-      "fiscal_year_end_2024": 2024,
-      "market_value_non_affiliates_aggregate_2024_06_28": 2000000000000,
-      "classA_shares_outstanding_2025": 5833000000,
-      "classB_shares_outstanding_2025": 860000000,
-      "classC_shares_outstanding_2025": 5497000000,
-      "ein": 611767919,
-      "principal_office_zip_code": 94043,
-      "principal_office_street_no": 1600
-    },
     "chunk_id": 8
   },
   {
-    "info": "Alphabet frames an AI-first, multi-segment strategy across Google Services, Google Cloud, and Other Bets, with Gemini/ Gemini 2.0 powering consumer experiences and enterprise AI via Vertex AI. The company cites substantial long-term investments in AI (over 150,000,000,000 in the last five years), a 2,000,000,000-user product ecosystem (7 Gemini-enabled products), and notable AI milestones including AlphaFold 3 in 2024 and Gemini 2.0 launched in 2024. Planned capital expenditure to expand AI infrastructure and support long-term initiatives, including AI products and services, remains a focus, alongside continued investments in new businesses, acquisitions, and hiring. Investor-relevant risks and considerations include potential margin effects from revenue beyond advertising, fluctuations in traffic acquisition costs and monetization, FX hedging gains/loss variability, timing and recognition of revenue from contracts, regulatory scrutiny, and the potential impact of seasonal trends; management also references the expected timing and amount of share repurchases and dividends, and ongoing commitments to sustainability goals.",
-    "data": {
-      "founding_year": 1998,
-      "ai_first_year": 2016,
-      "rd_spend_last_5_years": 150000000000,
-      "two_billion_user_products_count": 2000000000,
-      "gemini_enabled_products_count": 7,
-      "worldwide_users_using_gemini": 1000000000,
-      "pixel_9_series": 9,
-      "pixel_watch_3": 3,
-      "alphafold3_release_year": 2024,
-      "gemini_intro_year": 2023,
-      "gemini_2_0_launch_year": 2024,
-      "protein_folding_challenge_years": 50,
-      "founded_years_ago": 25
-    },
+    "info": "We are continually innovating and building new products and features to help our users, partners, customers, and communities and have invested more than $150 billion in research and development in the last five years in support of these efforts.",
+    "data": {},
     "chunk_id": 9
   },
   {
-    "info": "Alphabet emphasizes a broad AI-first strategy across Google Cloud, Vertex AI, Gemini, and other models, with strong emphasis on data/analytics, developer applications, and AI-powered security. It continues to invest in AI across Google Services, Cloud, and Other Bets amid rapid competitive shifts in cloud, advertising, and AI products. The company outlines sustainability commitments including net-zero by 2030, a 50% reduction in Scope 1-3 emissions by 2030 with 24/7 carbon-free energy by 2030 (target set in 2020) and carbon-removal initiatives begun in 2023. It notes a dominant reliance on online advertising (over 75% of 2024 revenues) and a workforce of about 183,323 employees at year-end 2024. Ongoing regulatory, privacy, and competitive risks remain as it expands AI offerings and infrastructure development.",
-    "data": {
-      "ad_rev_share_2024_pct": 75,
-      "employees_2024_end": 183323,
-      "net_zero_target_year": 2030,
-      "scope1_3_emissions_reduction_pct_by_2030": 50,
-      "scope1_3_base_year": 2019,
-      "carbon_free_energy_start_year": 2020,
-      "carbon_removals_begin_year": 2023,
-      "emissions_avoided_goal_gt_per_year": 1,
-      "net_zero_plan_start_year": 2021
-    },
+    "info": "We generated more than 75% of total revenues from online advertising in 2024.",
+    "data": {},
     "chunk_id": 10
   },
   {
-    "info": "Alphabet notes that innovations in products and services carry material risks and could divert resources or misalign incentives, while heavy investments across Google Services (devices), Google Cloud, and Other Bets face intense competition, evolving monetization and regulatory/operational uncertainties that could affect revenue trends and margins. In addition, AI-related ethical/legal risks, data privacy concerns, IP protection challenges, supply chain/manufacturing risks, and international operations (including currency exposure and regulatory costs) pose potential threats to growth and profitability; international revenues accounted for approximately 51% of consolidated revenues in 2024.",
-    "data": {
-      "intl_revenue_share_2024": 51
-    },
+    "info": "Innovations in our products and services could also result in changes to user behavior and affect our revenue trends. These endeavors involve significant risks and uncertainties, including diversion of resources and management attention from current operations, different monetization models, and the use of alternative investment, governance, or compensation structures that may fail to adequately align incentives across the company or otherwise accomplish their objectives. There can be no assurance we will be able to provide devices that compete effectively. It is hard to predict the challenges we may encounter in adapting our products and services and developing competitive new products and services. We may also experience downward pressure on our operating margins from increasing regulations, increasing competition, and increasing costs. Our international operations expose us to additional risks that could harm our business, reputation, financial condition, and operating results. Because we conduct business in currencies other than U.S. dollars but report our financial results in U.S. dollars, we have faced, and will continue to face, exposure to fluctuations in foreign currency exchange rates. We are exposed to fluctuations in the fair values of our investments and, in some instances, our financial statements incorporate inherently subjective valuation methodologies. Some of our data centers are located in areas with a high risk of major earthquakes or other natural disasters. The occurrence of a natural disaster or pandemic, closure of a facility, or other unanticipated problems affecting our data centers could result in lengthy interruptions in our service. Interruption to, interference with, or failure of our complex information technology and communications systems could hurt our ability to effectively provide our products and services. The availability of our products and services and fulfillment of our customer contracts depend on the continuing operation of our information technology and communications systems. Our international revenues accounted for approximately 51% of our consolidated revenues in 2024. Hedging programs are also inherently risky and could expose us to additional risks that could harm our financial condition and operating results. Malicious software such as viruses, software bugs, theft, misuse, defects, vulnerabilities in our products and services, as well as cyber attacks, phishing schemes, and other types of security breaches expose us to a risk of loss or improper use and disclosure of such information, which could result in litigation and other potential liabilities, including regulatory fines and penalties, as well as reputational harm. Data privacy and security concerns relating to our technology and our practices could harm our reputation, cause us to incur significant liability, and deter current and potential users or customers from using our products and services. Some uses of AI will present ethical issues and may have broad effects on society. We may not be able to identify or resolve all AI-related issues, deficiencies, and/or failures before they arise. Unintended consequences, uses, or customization of our AI tools and systems may negatively affect human rights, privacy, employment, or other social concerns, which may result in claims, lawsuits, brand or reputational harm, and increased regulatory scrutiny, any of which could harm our business, financial condition, and operating results. Concerns about, including the adequacy of, our practices with regard to the collection, use, governance, disclosure, or security of personal data or other data-privacy-related matters, even if unfounded, could harm our business, reputation, financial condition, and operating results. Our policies and practices may change over time as expectations and regulations regarding privacy and data change. Our systems are vulnerable to damage, interference, or interruption from modifications or upgrades, terrorist attacks, state-sponsored attacks, natural disasters or pandemics, geopolitical tensions or armed conflicts, export controls and sanctions, the effects of climate change (such as sea level rise, drought, flooding, heat waves, wildfires and resultant air quality effects and power shutdowns associated with wildfire prevention, and increased storm severity), power and transmission availability challenges, utility outages, telecommunications failures, computer viruses, software bugs, cyber attacks, supply-chain attacks, computer denial of service attacks, phishing schemes, or other attempts to harm or access our systems. The availability of our products and services and fulfillment of our customer contracts depend on the continuing operation of our information technology and communications systems. Our international revenues accounted for approximately 51% of our consolidated revenues in 2024. Hedging programs are also inherently risky and could expose us to additional risks that could harm our financial condition and operating results. Some of our data centers are located in areas with a high risk of major earthquakes or other natural disasters.",
+    "data": {},
     "chunk_id": 11
   },
   {
-    "info": "Persistent cybersecurity and privacy risks, regulatory complexity, and ongoing antitrust scrutiny could affect user trust, operations, and costs. The company highlights ongoing investments in safety, security, and content review, exposure to data protection and AI-related laws worldwide (EU AI Act, US Executive Order on AI), and multiple antitrust matters and remedies involving Google that could alter product models and partnerships. It emphasizes potential penalties, litigation, and enforcement actions as near-term headwinds, with trial dates in 2025 reflected in several cases.",
-    "data": {
-      "ai_act_force_year": 2024,
-      "eu_ai_act_transition_period_years": 2,
-      "us_ai_regulation_exec_order_year": 2023,
-      "epic_games_vs_google_verdict_year": 2023,
-      "epic_games_remedies_order_year": 2024,
-      "doj_antitrust_trial_set_year": 2025,
-      "doj_related_remedies_order_year": 2024,
-      "texas_antitrust_trial_year": 2025,
-      "doj_virginia_suit_year": 2023,
-      "state_ag_lawsuit_year": 2020,
-      "doj_lawsuit_year": 2023,
-      "sep_2024_doj_trial_concluded_year": 2024
-    },
+    "info": "The U.S. DOJ, various U.S. states, and other plaintiffs have filed, and may continue to file in the future, several antitrust lawsuits about various aspects of our business, including our advertising technologies and practices, the operation and distribution of Google Search, and the operation and distribution of the Android operating system and Play Store. For example, the DOJ and a number of state Attorneys General filed a lawsuit alleging that Google violated antitrust laws relating to Search and Search advertising, and in August 2024, the U.S. District Court for the District of Columbia ruled that Google violated such antitrust laws. The Court is holding a separate proceeding to determine remedies, which could include alterations to our products and services and our business models and operations, including structural remedies, and/or our distribution arrangements, among other changes. We are appealing the verdict, but if we are unsuccessful, we could face significant expenses to implement the remedies, and such costs and alterations could harm our business, reputation, financial condition, and operating results. Also, in December 2023, a California jury delivered a verdict in Epic Games v. Google finding that Google violated antitrust laws relating to Google Play's business. The presiding judge issued a remedies decision in October 2024 that ordered a variety of alterations to our business models and operations and contractual agreements for Android and Google Play. In December 2020, several State Attorneys General, led by the Texas Attorney General, filed an antitrust lawsuit in the U.S. District Court for the Eastern District of Texas alleging that Google violated antitrust and other laws relating to its advertising technology. This case is set for trial in March 2025, and we could face significant civil penalties. In January 2023, the DOJ and several Attorneys General sued in the Eastern District of Virginia alleging similar antitrust violations relating to Google’s advertising technology. Trial in the DOJ matter concluded in September 2024 with a decision expected in early 2025. If we are unsuccessful, we could face an order on remedies that could harm our business, reputation, financial condition, and operating results. In addition to these regulatory proceedings, private individual and collective actions that overlap with claims pursued by regulators are pending in the U.S. and in several other jurisdictions. Adverse results in these or similar future lawsuits may include awards of monetary damages and remedies that could harm our business, reputation, financial condition, and operating results. We face the risk of cyber attacks by nation-states and state-sponsored actors. Our ongoing investments in safety, security, and content review will likely continue to identify abuse of our platforms and misuse of user data. In addition to our efforts to prevent and mitigate cyber attacks, we are making significant investments in safety, security, and review efforts to combat misuse of our services and unauthorized access to user data by third parties, including investigation and review of platform applications that could access the information of users of our services.",
+    "data": {},
     "chunk_id": 12
   },
   {
-    "info": "Alphabet faces multiple high-stakes antitrust/regulatory actions involving Google (search and ads), Epic Games v Google remedies, and other ad-tech matters, with potential structural or contractual changes to products, services, business models, or distribution; outcomes are uncertain and could harm revenue, reputation, and operating results. The company also confronts evolving global privacy and data protection regimes and AI data usage considerations that could raise compliance costs and penalties. IP, tax, and governance risks add further exposure, including a 1% U.S. stock repurchase excise tax, a 15% global minimum tax, COPPA 2.0 passing in 2024, and OECD talks with more than 140 countries. Founders Page and Brin hold substantial control (87.4% of Class B stock, about 52.1% voting power as of 12/31/2024). Alphabet began a dividend program in April 2024 and continues stock repurchases, with Delaware anti-takeover provisions and other charter features affecting governance and potential changes of control. Key upcoming dates include Epic Games remedies in 2024, a DOJ/AG ad-tech trial concluding in 2024 with remedies expected in 2025, and a Texas ad-tech suit trial set for 2025.",
-    "data": {
-      "classB_votes_per_share": 10,
-      "classA_votes_per_share": 1,
-      "classC_votes_per_share": 0,
-      "founders_classB_ownership_percent": 87.4,
-      "founders_voting_power_percent_of_outstanding_common_stock": 52.1,
-      "stock_repurchase_excise_tax_percent": 1,
-      "global_minimum_tax_percent": 15,
-      "countries_in_oecd_tax_negotiations": 140,
-      "coppa_1998_year": 1998,
-      "coppa_2_0_passed_year": 2024,
-      "epic_games_verdict_dec_2023": 2023,
-      "epic_games_remedies_decision_year": 2024,
-      "texas_adtech_case_filed_year": 2020,
-      "texas_adtech_case_trial_scheduled_year": 2025,
-      "texas_adtech_case_trial_scheduled_month": 3,
-      "doj_adtech_case_filed_year_east_virginia": 2023,
-      "doj_adtech_trial_concluded_year": 2024,
-      "doj_adtech_remedies_decision_expected_year": 2025,
-      "dividend_program_approval_year": 2024,
-      "dividend_program_approval_month": 4,
-      "as_of_date_year": 2024,
-      "as_of_date_month": 12,
-      "as_of_date_day": 31,
-      "delaware_anti_takeover_threshold_percent": 15,
-      "delaware_anti_takeover_wait_years": 3
-    },
+    "info": "For example, the DOJ and a number of state Attorneys General filed a lawsuit alleging that Google violated antitrust laws relating to Search and Search advertising, and in August 2024, the U.S. District Court for the District of Columbia ruled that Google violated such antitrust laws. The Court is holding a separate proceeding to determine remedies, which could include alterations to our products and services and our business models and operations, including structural remedies, and/or our distribution arrangements, among other changes.",
+    "data": {},
     "chunk_id": 13
   },
   {
-    "info": "Acquisitions and strategic arrangements pose regulatory, integration, and governance risks; emphasis on retaining key personnel and managing cultural/operational integration; cybersecurity risk management and incident escalation processes; substantial shareholder value through dividends and a sizable stock repurchase program; notable Class A/Class C/Class B holder counts and international revenue exposure with FX considerations.",
-    "data": {
-      "holders_classA_2024": 7743,
-      "holders_classC_2024": 1671,
-      "holders_classB_2024": 57,
-      "dividends_classA_2024": 3500000000,
-      "dividends_classB_2024": 519000000,
-      "dividends_classC_2024": 3300000000,
-      "repurchases_classA_shares": 13676000,
-      "repurchases_classC_shares": 72102000,
-      "repurchases_total_shares": 85778000,
-      "repurchases_remaining_value_dollars": 53699000000,
-      "key_personnel_experience_years": 20
-    },
+    "info": "Our acquisitions and other strategic arrangements could also result in dilutive issuances of our equity securities, the incurrence of debt, contingent liabilities, or amortization expenses, or impairment of goodwill and/or purchased long-lived assets, and restructuring charges, any of which could harm our financial condition and operating results.",
+    "data": {},
     "chunk_id": 14
   },
   {
-    "info": "AI-driven product expansion and monetization considerations; international growth in emerging markets with FX exposure; growing non-advertising revenues (Cloud, subscriptions, platforms, and devices) with lower margins; continued heavy investment in R&D and AI infrastructure, potential acquisitions; regulatory risk; strong cash flow and capital returns in 2024.",
+    "info": "•Revenues were $350.0 billion, an increase of 14% year over year, primarily driven by an increase in Google Services revenues of $32.4 billion, or 12%, and an increase in Google Cloud revenues of $10.1 billion, or 31%.",
     "data": {
       "revenue_2023": 307394000000,
       "revenue_2024": 350018000000,
-      "revenue_change": 42624000000,
-      "revenue_cc_change_percent": 15,
-      "revenue_yoy_percent_2024": 14,
       "cost_of_revenues_2023": 133332000000,
       "cost_of_revenues_2024": 146306000000,
-      "cost_of_revenues_change": 12974000000,
-      "cost_of_revenues_change_percent": 10,
       "operating_expenses_2023": 89769000000,
       "operating_expenses_2024": 91322000000,
-      "operating_expenses_change": 1553000000,
-      "operating_expenses_change_percent": 2,
       "operating_income_2023": 84293000000,
       "operating_income_2024": 112390000000,
-      "operating_income_change": 28097000000,
-      "operating_income_change_percent": 33,
-      "operating_margin_2023_percent": 27,
-      "operating_margin_2024_percent": 32,
-      "operating_margin_change_percent": 5,
-      "other_income_expense_net_2023": 1424000000,
-      "other_income_expense_net_2024": 7425000000,
-      "other_income_expense_net_change": 6001000000,
-      "other_income_expense_net_change_percent": 421,
       "net_income_2023": 73795000000,
       "net_income_2024": 100118000000,
-      "net_income_change": 26323000000,
-      "net_income_change_percent": 36,
       "diluted_eps_2023": 5.8,
       "diluted_eps_2024": 8.04,
-      "diluted_eps_change": 2.24,
-      "diluted_eps_change_percent": 39,
-      "google_services_revenue_increase_2024": 32400000000,
-      "google_cloud_revenue_increase_2024": 10100000000,
-      "dividends_total_2024": 7400000000,
-      "dividends_classA_2024": 3500000000,
-      "dividends_classB_2024": 519000000,
-      "dividends_classC_2024": 3300000000,
-      "share_repurchases_total_2024": 62000000000,
-      "share_repurchases_classA_2024": 11900000000,
-      "share_repurchases_classC_2024": 50200000000,
-      "employee_severance_2024": 1000000000,
-      "employee_severance_2023": 2100000000,
-      "office_space_charges_2024": 796000000,
-      "office_space_charges_2023": 2096000000,
-      "office_space_charges_change": -1290000000,
+      "operating_margin_2023": 27,
+      "operating_margin_2024": 32,
+      "dividends_2024": 7400000000,
+      "repurchases_2024": 62000000000,
       "operating_cash_flow_2024": 125300000000,
       "capital_expenditures_2024": 52500000000
     },
     "chunk_id": 15
   },
   {
-    "info": "Alphabet's 2024 results show strong growth in constant currency revenues (up 15 percent year over year) with total constant currency revenues around 352.7 billion and revenues excluding hedging around 349.8 billion; GAAP total revenues around 350.0 billion. Cost of revenues rose to 146.3 billion, driven by TAC and higher other costs; operating expenses rose modestly; cash flow remained robust with operating cash flow of 125.3 billion and capex of 52.5 billion. Headcount reached 183,323. Dividends totaled 7.4 billion and share repurchases around 62.0 billion. R&D rose to 49.326 billion (14 percent of revenue in 2024, 15 percent in 2023). Geographic revenue mix shifted with US share 49 percent in 2024 (47 percent in 2023), EMEA 29 percent (30 percent in 2023), APAC 16 percent (17 percent in 2023), Other Americas 6 percent (6 percent in 2023). 2024 severance and office space charges declined to 1.0 billion and 0.796 billion, respectively.",
+    "info": "Total constant currency revenues, which exclude the effect of hedging, increased 15% year over year. Cost of revenues was $146.3 billion, an increase of 10% year over year, primarily driven by increases in content acquisition costs, TAC, and depreciation expense. Operating expenses were $91.3 billion, an increase of 2% year over year, primarily driven by increases in depreciation expense, employee compensation expenses, and third-party services fees. These increases were partially offset by reductions in charges related to legal and other matters and charges related to our office space optimization efforts. The overall increase in employee compensation expenses was partially offset by a reduction in employee severance and related charges.",
     "data": {
-      "constant_currency_revenue_change_pct_yoy": 15,
-      "constant_currency_revenues_2024": 352743000000,
-      "constant_currency_revenues_2023": 307158000000,
-      "revenues_excl_hedging_2024": 349807000000,
-      "revenues_excl_hedging_2023": 307158000000,
-      "hedging_gains_losses_2024": 211000000,
-      "hedging_gains_losses_2023": 236000000,
-      "total_revenues_2024": 350018000000,
-      "total_revenues_2023": 307394000000,
-      "cost_of_revenues_2024": 146306000000,
-      "cost_of_revenues_2023": 133332000000,
-      "tac_2024": 54900000000,
-      "tac_2023": 50886000000,
-      "other_costs_of_revenues_2024": 91406000000,
-      "other_costs_of_revenues_2023": 82446000000,
-      "total_cost_of_revenues_2024": 146306000000,
-      "total_cost_of_revenues_2023": 133332000000,
-      "operating_expenses_2024": 91300000000,
-      "operating_expenses_change_yoy_pct": 2,
+      "revenue_2023": 307394000000,
+      "revenue_2024": 350018000000,
       "operating_cash_flow_2024": 125300000000,
-      "capex_2024": 52500000000,
-      "employees_2024": 183323,
-      "dividends_total_2024": 7400000000,
-      "dividends_classA_2024": 3500000000,
-      "dividends_classB_2024": 519000000,
-      "dividends_classC_2024": 3300000000,
-      "repurchases_total_2024": 62000000000,
-      "repurchases_classA_2024": 11900000000,
-      "repurchases_classC_2024": 50200000000,
-      "severance_2024": 1000000000,
-      "office_space_charges_2024": 796000000,
-      "rd_expenses_2023": 45427000000,
-      "rd_expenses_2024": 49326000000,
-      "rd_expenses_pct_2023": 15,
-      "rd_expenses_pct_2024": 14,
-      "revenue_share_US_2023_pct": 47,
-      "revenue_share_US_2024_pct": 49,
-      "revenue_share_EMEA_2023_pct": 30,
-      "revenue_share_EMEA_2024_pct": 29,
-      "revenue_share_APAC_2023_pct": 17,
-      "revenue_share_APAC_2024_pct": 16,
-      "revenue_share_OtherAmericas_2023_pct": 6,
-      "revenue_share_OtherAmericas_2024_pct": 6,
-      "constant_currency_revenue_delta_2024_vs_2023": 45600000000
+      "capital_expenditures_2024": 52500000000
     },
     "chunk_id": 16
   },
   {
-    "info": "R&D expenses rose 3.9B in 2024 vs 2023, led by higher employee compensation (1.5B), depreciation (1.4B), and third-party services (698M), offset by 640M in office-space optimization charges and a 1.3B SBC increase; S&M declined slightly; G&A declined 2.2B; Google's operating income rose driven by higher revenues (Google Services +25.4B; Google Cloud +4.4B) while Other Bets remained loss-making; OI&E up ~6.0B on equity securities gains and FX; tax rate rose to 16.4% from 13.9% due to IRS rule changes; cash and equivalents total 95.7B; net cash from operating activities 125.3B; capex 52.5B with depreciation 15.3B; 2025 unrealized gain on non-marketable equity securities of 8.0B noted; OECD minimum tax did not materially affect 2024 tax provision.",
+    "info": "R&D expenses increased $3.9 billion from 2023 to 2024, primarily driven by increases in employee compensation expenses of $1.5 billion, depreciation expense of $1.4 billion, and third-party services fees of $698 million, partially offset by a reduction in charges related to our office space optimization efforts of $640 million.",
     "data": {
-      "r_d_expenses_2023": 45427000000,
-      "r_d_expenses_2024": 49326000000,
-      "r_d_expenses_increase_2023_2024": 3900000000,
-      "r_d_employee_compensation_increase": 1500000000,
-      "r_d_depreciation_expense_increase": 1400000000,
-      "r_d_third_party_services_fees_increase": 698000000,
-      "r_d_office_space_optimization_charges_reduction": -640000000,
-      "r_d_sbc_increase": 1300000000,
-      "r_d_valuation_liabilities_offset_decrease": -537000000,
-      "sales_marketing_expenses_2023": 27917000000,
-      "sales_marketing_expenses_2024": 27808000000,
-      "sales_marketing_expenses_pct_2023": 9,
-      "sales_marketing_expenses_pct_2024": 8,
-      "g_and_a_expenses_2023": 16425000000,
-      "g_and_a_expenses_2024": 14188000000,
-      "g_and_a_expenses_pct_2023": 5,
-      "g_and_a_expenses_pct_2024": 4,
-      "total_income_from_operating_2023": 84293000000,
-      "total_income_from_operating_2024": 112390000000,
-      "google_services_income_2023": 95858000000,
-      "google_services_income_2024": 121263000000,
-      "google_cloud_operating_income_2023": 1716000000,
-      "google_cloud_operating_income_2024": 6112000000,
-      "other_bets_operating_loss_2023": -4095000000,
-      "other_bets_operating_loss_2024": -4444000000,
-      "alphabet_level_activities_2023": -9186000000,
-      "alphabet_level_activities_2024": -10541000000,
-      "interest_income_2023": 3865000000,
-      "interest_income_2024": 4482000000,
-      "interest_expense_2023": -308000000,
-      "interest_expense_2024": -268000000,
-      "foreign_currency_gain_loss_net_2023": -1238000000,
-      "foreign_currency_gain_loss_net_2024": -409000000,
-      "debt_securities_gain_loss_net_2023": -1215000000,
-      "debt_securities_gain_loss_net_2024": -1043000000,
-      "equity_securities_gain_2023": 392000000,
-      "equity_securities_gain_2024": 3714000000,
-      "performance_fees_2023": 257000000,
-      "performance_fees_2024": 218000000,
-      "equity_method_investments_income_2023": -628000000,
-      "equity_method_investments_income_2024": -188000000,
-      "other_income_expense_2023": 299000000,
-      "other_income_expense_2024": 919000000,
-      "oi_e_net_2023": 1424000000,
-      "oi_e_net_2024": 7425000000,
-      "income_before_provision_for_income_taxes_2023": 85717000000,
-      "income_before_provision_for_income_taxes_2024": 119815000000,
-      "provision_for_income_taxes_2023": 11922000000,
-      "provision_for_income_taxes_2024": 19697000000,
-      "effective_tax_rate_2023": 13.9,
-      "effective_tax_rate_2024": 16.4,
-      "cash_and_short_term_investments_dec_31_2024": 95700000000,
-      "net_cash_provided_by_operating_activities_2023": 101746000000,
-      "net_cash_provided_by_operating_activities_2024": 125299000000,
-      "net_cash_used_in_investing_activities_2023": -27063000000,
-      "net_cash_used_in_investing_activities_2024": -45536000000,
-      "net_cash_used_in_financing_activities_2023": -72093000000,
-      "net_cash_used_in_financing_activities_2024": -79733000000,
-      "capital_expenditures_2023": 32300000000,
-      "capital_expenditures_2024": 52500000000,
-      "depreciation_on_property_and_equipment_2023": 11900000000,
-      "depreciation_on_property_and_equipment_2024": 15300000000,
-      "hedging_revenue_gains_2023": 236000000,
-      "hedging_revenue_gains_2024": 211000000,
-      "unrealized_gain_non_marketable_equity_securities_jan_2025": 8000000000
+      "operating_income_2023": 84293,
+      "operating_income_2024": 112390,
+      "google_services_operating_income_2023": 95858,
+      "google_services_operating_income_2024": 121263,
+      "google_cloud_operating_income_2023": 1716,
+      "google_cloud_operating_income_2024": 6112,
+      "other_bets_operating_loss_2023": -4095,
+      "other_bets_operating_loss_2024": -4444,
+      "alphabet_level_activities_operating_loss_2023": -9186,
+      "alphabet_level_activities_operating_loss_2024": -10541,
+      "income_before_tax_2023": 85717,
+      "income_before_tax_2024": 119815,
+      "provision_for_income_taxes_2023": 11922,
+      "provision_for_income_taxes_2024": 19697,
+      "cash_and_short_term_marketable_securities_2024": 95700000000,
+      "net_cash_provided_by_operating_activities_2023": 101746,
+      "net_cash_provided_by_operating_activities_2024": 125299,
+      "net_cash_used_in_investing_activities_2023": 27063,
+      "net_cash_used_in_investing_activities_2024": 45536,
+      "net_cash_used_in_financing_activities_2023": 72093,
+      "net_cash_used_in_financing_activities_2024": 79733
     },
     "chunk_id": 17
   },
   {
-    "info": "Alphabet states it expects existing liquidity and cash flows from operations and financing to fund operating activities and commitments for investing and financing for at least the next 12 months and the foreseeable future. Capital expenditures focus on technical infrastructure (servers and network equipment for computing, storage, AI, and data centers) and office fit-outs, with multi-year data center construction. Depreciation on property and equipment totaled $11.9B in 2023 and $15.3B in 2024. Leasing activities include operating and finance leases with substantial future lease payments and not-yet-commenced leases. Financing sources include a short-term debt program up to $10B ($2.3B outstanding as of 12/31/2024), senior unsecured notes carrying value $11.9B with short-term $197M and long-term $3.4B in interest payments, and $10B in revolving credit facilities (no borrowings). Alphabet executed a $62.0B share repurchase in 2024 (379M shares) and in April 2024 authorized up to $70B more with $44.7B remaining. In 2024, dividends were paid totaling $3.5B for Class A, $0.519B for Class B, and $3.3B for Class C. Outstanding EC fines and related payments are disclosed, with a $3.0B cash payment in Q3 2024 for the 2017 shopping fine and fines included in accrued liabilities; income taxes payable were $2.7B and long-term taxes payable were $8.8B as of 12/31/2024. Purchase commitments and other contractual obligations totaled $55.4B, with $32.5B short-term. Alphabet hedges foreign currency risk and uses interest rate derivatives; 10% adverse FX movements could impact income before taxes by about $503M (2023) and $135M (2024). AOCI and CTA effects are discussed under currency hedges. The company notes reliance on contract manufacturers for server assembly.",
+    "info": "During 2024, we repurchased and subsequently retired 379 million shares for $62.0 billion.",
     "data": {
       "capital_expenditures_2023": 32300000000,
       "capital_expenditures_2024": 52500000000,
       "depreciation_2023": 11900000000,
       "depreciation_2024": 15300000000,
-      "operating_lease_assets_2023": 2900000000,
-      "operating_lease_assets_2024": 2500000000,
-      "finance_lease_assets_2023": 564000000,
-      "finance_lease_assets_2024": 313000000,
-      "operating_lease_expense_2023": 4500000000,
-      "operating_lease_expense_2024": 4700000000,
-      "finance_lease_cost_2023": 504000000,
-      "finance_lease_cost_2024": 444000000,
+      "operating_lease_expenses_2023": 4500000000,
+      "operating_lease_expenses_2024": 4700000000,
+      "finance_lease_costs_2023": 504000000,
+      "finance_lease_costs_2024": 444000000,
       "operating_lease_payments_total_2024": 17000000000,
       "operating_lease_payments_short_term_2024": 3200000000,
       "finance_lease_payments_total_2024": 1900000000,
       "finance_lease_payments_short_term_2024": 257000000,
-      "leases_not_yet_commenced_short_term_2024": 773000000,
-      "leases_not_yet_commenced_long_term_2024": 6500000000,
-      "short_term_debt_program": 10000000000,
-      "short_term_commercial_paper_outstanding": 2300000000,
-      "senior_unsecured_notes_carrying_value": 11900000000,
-      "senior_unsecured_notes_short_term_interest": 197000000,
-      "senior_unsecured_notes_long_term_interest": 3400000000,
-      "revolving_credit_facilities_total": 10000000000,
+      "leases_not_yet_commenced_future_short_term_2024": 773000000,
+      "leases_not_yet_commenced_future_long_term_2024": 6500000000,
+      "short_term_commercial_paper_outstanding_2024": 2300000000,
+      "senior_unsecured_notes_outstanding_2024": 11900000000,
+      "revolving_credit_facilities_total_2024": 10000000000,
       "revolving_credit_facilities_expiring_2025": 4000000000,
       "revolving_credit_facilities_expiring_2028": 6000000000,
-      "purchase_commitments_and_other_contractual_obligations_total": 55400000000,
-      "purchase_commitments_and_other_contractual_obligations_short_term": 32500000000,
-      "dividends_classA_2024": 3500000000,
-      "dividends_classB_2024": 519000000,
-      "dividends_classC_2024": 3300000000,
-      "ec_fines_cash_payment_2017": 3000000000,
-      "taxes_income_payable_2024": 2700000000,
-      "taxes_long_term_payable_2024": 8800000000,
-      "total_share_repurchases_2023": 62184000000,
-      "share_repurchases": [
-        {
-          "year_end": 2023,
-          "classA_shares_millions": 78,
-          "classA_amount": 9316000000,
-          "classC_shares_millions": 450,
-          "classC_amount": 52868000000,
-          "total_shares_millions": 528,
-          "total_amount": 62184000000
-        },
-        {
-          "year_end": 2024,
-          "classA_shares_millions": 73,
-          "classA_amount": 11855000000,
-          "classC_shares_millions": 306,
-          "classC_amount": 50192000000,
-          "total_shares_millions": 379,
-          "total_amount": 62047000000
-        }
-      ],
-      "fx_adverse_income_before_tax_10pct_2023": 503000000,
-      "fx_adverse_income_before_tax_10pct_2024": 135000000,
-      "cta_lower_due_to_weakening_2023": 946000000,
-      "cta_lower_due_to_weakening_2024": 660000000,
-      "leases_remaining_term_operating_years": 7.8,
-      "leases_remaining_term_finance_years": 10.4
+      "credit_facilities_borrowed_2024": 0,
+      "income_taxes_payable_2024": 2700000000,
+      "long_term_taxes_payable_2024": 8800000000,
+      "purchase_commitments_and_obligations_2024": 55400000000,
+      "short_term_purchase_commitments_and_obligations_2024": 32500000000,
+      "ec_fine_cash_payment_2017_shopping_2024": 3000000000,
+      "short_term_commercial_paper_outstanding_2024_duplicate": 2300000000,
+      "total_purchase_commitments_and_other_contractual_obligations_2024": 55400000000,
+      "operating_lease_future_payments_total_2024": 17000000000,
+      "operating_lease_future_payments_short_term_2024": 3200000000,
+      "finance_lease_future_payments_total_2024": 1900000000,
+      "finance_lease_future_payments_short_term_2024": 257000000
     },
     "chunk_id": 18
   },
   {
-    "info": "Company uses net investment hedges (foreign exchange forward contracts) to mitigate translation risk from foreign subsidiaries. If the U.S. dollar weakens by 10%, cumulative translation adjustment (CTA) related to net investment hedges would be approximately 946,000,000 lower as of 2023 and 660,000,000 lower as of 2024, indicating hedging effectiveness. The firm highlights interest-rate risk in its investment portfolio with VaR estimates: one-day VaR of 296,000,000 (2023) and 208,000,000 (2024); 12-month average VaR of 271,000,000 (2023) and 230,000,000 (2024). Equity investments carry marketable and non-marketable risks, plus equity-method exposure: marketable equity securities carrying values of 6,000,000,000 (2023) and 5,100,000,000 (2024); non-marketable equity securities 28,800,000,000 (2023) and 35,500,000,000 (2024); equity-method investments 1,700,000,000 (2023) and 2,000,000,000 (2024). A 10% adverse change in 2024 would reduce the fair value of marketable equity securities by 508,000,000. These figures illustrate the breadth of FX hedging, interest-rate risk, and equity investment exposure across the portfolio.",
+    "info": "If the U.S. dollar weakened by 10%, the amount recorded in cumulative translation adjustment (CTA) within AOCI related to our net investment hedges before tax effect would have been approximately $946 million and $660 million lower as of December 31, 2023 and 2024, respectively. The change in value recorded in CTA would be expected to offset a corresponding foreign currency translation gain or loss from our investment in foreign subsidiaries. We record marketable equity securities not accounted for under the equity method at fair value based on readily determinable market values, of which publicly traded stocks and mutual funds are subject to market price volatility, and represent $6.0 billion and $5.1 billion of our investments as of December 31, 2023 and 2024, respectively. The carrying values of our equity method investments, which totaled approximately $1.7 billion and $2.0 billion as of December 31, 2023 and 2024, respectively, generally do not fluctuate based on market price changes. As of December 31, 2023 and 2024, the carrying value of our non-marketable equity securities, which were accounted for under the measurement alternative, was $28.8 billion and $35.5 billion, respectively. A hypothetical adverse price change of 10% on our December 31, 2024 balance would decrease the fair value of marketable equity securities by $508 million.",
     "data": {
-      "net_investment_hedges_cta_impact_2023": 946000000,
-      "net_investment_hedges_cta_impact_2024": 660000000,
-      "var_one_day_2023": 296000000,
-      "var_one_day_2024": 208000000,
-      "var_12m_average_2023": 271000000,
-      "var_12m_average_2024": 230000000,
-      "marketable_equity_2023": 6000000000,
-      "marketable_equity_2024": 5100000000,
-      "non_marketable_equity_2023": 28800000000,
-      "non_marketable_equity_2024": 35500000000,
+      "non_marketable_equity_securities_2023": 28800000000,
+      "non_marketable_equity_securities_2024": 35500000000,
       "equity_method_investments_2023": 1700000000,
       "equity_method_investments_2024": 2000000000,
-      "marketable_equity_2024_adverse_change_10pct": 508000000
+      "marketable_equity_securities_2023": 6000000000,
+      "marketable_equity_securities_2024": 5100000000
     },
     "chunk_id": 19
   },
   {
-    "info": "Alphabet Inc. shows multi-year revenue growth and a strengthening balance sheet. Revenues rose to 350,018,000,000 in 2024 from 282,836,000,000 in 2022, with net income escalating to 100,118,000,000 in 2024. Total assets increased to 450,256,000,000 and total stockholders' equity to 325,084,000,000 in 2024, while total liabilities rose to 125,172,000,000. Comprehensive income in 2024 was 99,720,000,000, close to net income, reflecting gains in other comprehensive components. Per-share metrics for 2022–2024 show strong growth (basic 4.59→8.13, diluted 4.56→8.04).",
+    "info": "Net income | | | $ | 59,972 |  |  | | | $ | 73,795 |  |  | | | $ | 100,118 |  |",
     "data": {
-      "balance_sheet": {
-        "assets": [
-          {
-            "item": "Current assets - Cash and cash equivalents",
-            "2023": 24048000000,
-            "2024": 23466000000
-          },
-          {
-            "item": "Current assets - Marketable securities",
-            "2023": 86868000000,
-            "2024": 72191000000
-          },
-          {
-            "item": "Current assets - Total cash, cash equivalents, and marketable securities",
-            "2023": 110916000000,
-            "2024": 95657000000
-          },
-          {
-            "item": "Current assets - Accounts receivable, net",
-            "2023": 47964000000,
-            "2024": 52340000000
-          },
-          {
-            "item": "Current assets - Other current assets",
-            "2023": 12650000000,
-            "2024": 15714000000
-          },
-          {
-            "item": "Current assets - Total current assets",
-            "2023": 171530000000,
-            "2024": 163711000000
-          },
-          {
-            "item": "Non-current assets - Non-marketable securities",
-            "2023": 31008000000,
-            "2024": 37982000000
-          },
-          {
-            "item": "Non-current assets - Deferred income taxes",
-            "2023": 12169000000,
-            "2024": 17180000000
-          },
-          {
-            "item": "Non-current assets - Property and equipment, net",
-            "2023": 134345000000,
-            "2024": 171036000000
-          },
-          {
-            "item": "Non-current assets - Operating lease assets",
-            "2023": 14091000000,
-            "2024": 13588000000
-          },
-          {
-            "item": "Non-current assets - Goodwill",
-            "2023": 29198000000,
-            "2024": 31885000000
-          },
-          {
-            "item": "Non-current assets - Other non-current assets",
-            "2023": 10051000000,
-            "2024": 14874000000
-          },
-          {
-            "item": "Total assets",
-            "2023": 402392000000,
-            "2024": 450256000000
-          }
-        ],
-        "liabilities_and_stockholders_equity": [
-          {
-            "item": "Current liabilities - Accounts payable",
-            "2023": 7493000000,
-            "2024": 7987000
-          },
-          {
-            "item": "Current liabilities - Accrued compensation and benefits",
-            "2023": 15140000000,
-            "2024": 15069000000
-          },
-          {
-            "item": "Current liabilities - Accrued expenses and other current liabilities",
-            "2023": 46168000000,
-            "2024": 51228000000
-          },
-          {
-            "item": "Current liabilities - Accrued revenue share",
-            "2023": 8876000000,
-            "2024": 9802000
-          },
-          {
-            "item": "Current liabilities - Deferred revenue",
-            "2023": 4137000,
-            "2024": 5036000
-          },
-          {
-            "item": "Current liabilities - Total current liabilities",
-            "2023": 81814000000,
-            "2024": 89122000000
-          },
-          {
-            "item": "Long-term liabilities - Long-term debt",
-            "2023": 11870000000,
-            "2024": 10883000000
-          },
-          {
-            "item": "Long-term liabilities - Income taxes payable, non-current",
-            "2023": 8474000000,
-            "2024": 8782000
-          },
-          {
-            "item": "Long-term liabilities - Operating lease liabilities",
-            "2023": 12460000000,
-            "2024": 11691000000
-          },
-          {
-            "item": "Long-term liabilities - Other long-term liabilities",
-            "2023": 4395000000,
-            "2024": 4694000
-          },
-          {
-            "item": "Total liabilities",
-            "2023": 119013000000,
-            "2024": 125172000000
-          },
-          {
-            "item": "Stockholders’ equity - Class A, B, C stock and additional paid-in capital",
-            "2023": 76534000000,
-            "2024": 84800000000
-          },
-          {
-            "item": "Stockholders’ equity - Accumulated other comprehensive income (loss)",
-            "2023": -4402000000,
-            "2024": -4800000
-          },
-          {
-            "item": "Stockholders’ equity - Retained earnings",
-            "2023": 211247000000,
-            "2024": 245084000000
-          },
-          {
-            "item": "Stockholders’ equity - Total stockholders’ equity",
-            "2023": 283379000000,
-            "2024": 325084000000
-          },
-          {
-            "item": "Total liabilities and stockholders’ equity",
-            "2023": 402392000000,
-            "2024": 450256000000
-          }
-        ]
-      },
-      "income_statements": {
-        "consolidated_statements_of_income": {
-          "revenues": [
-            {
-              "year": 2022,
-              "amount": 282836000000
-            },
-            {
-              "year": 2023,
-              "amount": 307394000000
-            },
-            {
-              "year": 2024,
-              "amount": 350018000000
-            }
-          ],
-          "costs_and_expenses": [
-            {
-              "year": 2022,
-              "amount": 126203000000
-            },
-            {
-              "year": 2023,
-              "amount": 133332000000
-            },
-            {
-              "year": 2024,
-              "amount": 146306000000
-            }
-          ],
-          "research_and_development": [
-            {
-              "year": 2022,
-              "amount": 39500000000
-            },
-            {
-              "year": 2023,
-              "amount": 45427000000
-            },
-            {
-              "year": 2024,
-              "amount": 49326000000
-            }
-          ],
-          "sales_and_marketing": [
-            {
-              "year": 2022,
-              "amount": 26567000000
-            },
-            {
-              "year": 2023,
-              "amount": 27917000000
-            },
-            {
-              "year": 2024,
-              "amount": 27808000000
-            }
-          ],
-          "general_and_administrative": [
-            {
-              "year": 2022,
-              "amount": 15724000000
-            },
-            {
-              "year": 2023,
-              "amount": 16425000000
-            },
-            {
-              "year": 2024,
-              "amount": 14188000000
-            }
-          ],
-          "income_from_operations": [
-            {
-              "year": 2022,
-              "amount": 74842000000
-            },
-            {
-              "year": 2023,
-              "amount": 84293000000
-            },
-            {
-              "year": 2024,
-              "amount": 112390000000
-            }
-          ],
-          "other_income_expense_net": [
-            {
-              "year": 2022,
-              "amount": -3514000000
-            },
-            {
-              "year": 2023,
-              "amount": 1424000000
-            },
-            {
-              "year": 2024,
-              "amount": 7425000000
-            }
-          ],
-          "income_before_income_taxes": [
-            {
-              "year": 2022,
-              "amount": 71328000000
-            },
-            {
-              "year": 2023,
-              "amount": 85717000000
-            },
-            {
-              "year": 2024,
-              "amount": 119815000000
-            }
-          ],
-          "provision_for_income_taxes": [
-            {
-              "year": 2022,
-              "amount": 11356000000
-            },
-            {
-              "year": 2023,
-              "amount": 11922000000
-            },
-            {
-              "year": 2024,
-              "amount": 19697000000
-            }
-          ],
-          "net_income": [
-            {
-              "year": 2022,
-              "amount": 59972000000
-            },
-            {
-              "year": 2023,
-              "amount": 73795000000
-            },
-            {
-              "year": 2024,
-              "amount": 100118000000
-            }
-          ],
-          "basic_net_income_per_share": [
-            {
-              "year": 2022,
-              "amount": 4.59
-            },
-            {
-              "year": 2023,
-              "amount": 5.84
-            },
-            {
-              "year": 2024,
-              "amount": 8.13
-            }
-          ],
-          "diluted_net_income_per_share": [
-            {
-              "year": 2022,
-              "amount": 4.56
-            },
-            {
-              "year": 2023,
-              "amount": 5.8
-            },
-            {
-              "year": 2024,
-              "amount": 8.04
-            }
-          ]
-        }
-      },
-      "comprehensive_income": [
-        {
-          "year": 2022,
-          "net_income": 59972000000,
-          "comprehensive_income": 53992000000
-        },
-        {
-          "year": 2023,
-          "net_income": 73795000000,
-          "comprehensive_income": 76996000000
-        },
-        {
-          "year": 2024,
-          "net_income": 100118000000,
-          "comprehensive_income": 99720000000
-        }
-      ]
+      "revenue_2022": 282836,
+      "revenue_2023": 307394,
+      "revenue_2024": 350018,
+      "net_income_2022": 59972,
+      "net_income_2023": 73795,
+      "net_income_2024": 100118,
+      "eps_basic_2022": 4.59,
+      "eps_basic_2023": 5.84,
+      "eps_basic_2024": 8.13,
+      "eps_diluted_2022": 4.56,
+      "eps_diluted_2023": 5.8,
+      "eps_diluted_2024": 8.04,
+      "total_assets_2023": 402392,
+      "total_assets_2024": 450256,
+      "total_liabilities_2023": 119013,
+      "total_liabilities_2024": 125172,
+      "total_stockholders_equity_2023": 283379,
+      "total_stockholders_equity_2024": 325084,
+      "cash_and_cash_equivalents_2023": 24048,
+      "cash_and_cash_equivalents_2024": 23466,
+      "marketable_securities_2023": 86868,
+      "marketable_securities_2024": 72191,
+      "total_current_assets_2023": 171530,
+      "total_current_assets_2024": 163711,
+      "non_marketable_securities_2023": 31008,
+      "non_marketable_securities_2024": 37982,
+      "deferred_income_taxes_2023": 12169,
+      "deferred_income_taxes_2024": 17180,
+      "property_and_equipment_net_2023": 134345,
+      "property_and_equipment_net_2024": 171036,
+      "operating_lease_assets_2023": 14091,
+      "operating_lease_assets_2024": 13588,
+      "goodwill_2023": 29198,
+      "goodwill_2024": 31885,
+      "other_non_current_assets_2023": 10051,
+      "other_non_current_assets_2024": 14874,
+      "long_term_debt_2023": 11870,
+      "long_term_debt_2024": 10883,
+      "income_taxes_payable_non_current_2023": 8474,
+      "income_taxes_payable_non_current_2024": 8782,
+      "operating_lease_liabilities_2023": 12460,
+      "operating_lease_liabilities_2024": 11691,
+      "other_long_term_liabilities_2023": 4395,
+      "other_long_term_liabilities_2024": 4694,
+      "current_accounts_payable_2023": 7493,
+      "current_accounts_payable_2024": 7987,
+      "accrued_compensation_and_benefits_2023": 15140,
+      "accrued_compensation_and_benefits_2024": 15069,
+      "accrued_expenses_and_other_current_liabilities_2023": 46168,
+      "accrued_expenses_and_other_current_liabilities_2024": 51228,
+      "accrued_revenue_share_2023": 8876,
+      "accrued_revenue_share_2024": 9802,
+      "deferred_revenue_2023": 4137,
+      "deferred_revenue_2024": 5036,
+      "accumulated_other_comprehensive_income_loss_2023": -4402,
+      "accumulated_other_comprehensive_income_loss_2024": -4800
     },
     "chunk_id": 20
   },
   {
-    "info": "Alphabet's notes cover significant accounting policies and revenue recognition for ads, subscriptions, platforms and devices, and Google Cloud, including gross versus net treatment for Google Network advertising and ratable revenue recognition for subscriptions. The cash-flow statement shows growing operating cash flow from 2022 through 2024, substantial investing and financing activities, and a year-end cash balance in the low tens of billions. Stockholders' equity increased across 2021 to 2024, while accumulated OCI remained negative and retained earnings rose.",
+    "info": "In 2015, we implemented a holding company reorganization, and as a result, Alphabet Inc. (\"Alphabet\") became the successor issuer to Google.",
     "data": {
-      "equity_balances": [
-        {
-          "year": 2021,
-          "shares": 13242,
-          "amount": 61774,
-          "accumulated_OCI": -1623,
-          "retained_earnings": 191484,
-          "total_equity": 251635
-        },
-        {
-          "year": 2022,
-          "shares": 12849,
-          "amount": 68184,
-          "accumulated_OCI": -7603,
-          "retained_earnings": 195563,
-          "total_equity": 256144
-        },
-        {
-          "year": 2023,
-          "shares": 12460,
-          "amount": 76534,
-          "accumulated_OCI": -4402,
-          "retained_earnings": 211247,
-          "total_equity": 283379
-        },
-        {
-          "year": 2024,
-          "shares": 12211,
-          "amount": 84800,
-          "accumulated_OCI": -4800,
-          "retained_earnings": 245084,
-          "total_equity": 325084
-        }
-      ],
-      "net_income": [
-        {
-          "year": 2022,
-          "amount": 59972
-        },
-        {
-          "year": 2023,
-          "amount": 73795
-        },
-        {
-          "year": 2024,
-          "amount": 100118
-        }
-      ],
-      "cash_flows": [
-        {
-          "year": 2022,
-          "operating_activities": 91495,
-          "investing_activities": -20298,
-          "financing_activities": -69757,
-          "net_increase_in_cash": 934,
-          "cash_beginning_of_period": 20945,
-          "cash_end_of_period": 21879
-        },
-        {
-          "year": 2023,
-          "operating_activities": 101746,
-          "investing_activities": -27063,
-          "financing_activities": -72093,
-          "net_increase_in_cash": 2169,
-          "cash_beginning_of_period": 21879,
-          "cash_end_of_period": 24048
-        },
-        {
-          "year": 2024,
-          "operating_activities": 125299,
-          "investing_activities": -45536,
-          "financing_activities": -79733,
-          "net_increase_in_cash": -582,
-          "cash_beginning_of_period": 24048,
-          "cash_end_of_period": 23466
-        }
-      ]
+      "net_income_2022": 59972,
+      "net_income_2023": 73795,
+      "net_income_2024": 100118,
+      "net_cash_from_operating_activities_2022": 91495,
+      "net_cash_from_operating_activities_2023": 101746,
+      "net_cash_from_operating_activities_2024": 125299,
+      "net_cash_used_in_investing_activities_2022": -20298,
+      "net_cash_used_in_investing_activities_2023": -27063,
+      "net_cash_used_in_investing_activities_2024": -45536,
+      "net_cash_used_in_financing_activities_2022": -69757,
+      "net_cash_used_in_financing_activities_2023": -72093,
+      "net_cash_used_in_financing_activities_2024": -79733,
+      "cash_and_cash_equivalents_end_of_period_2022": 21879,
+      "cash_and_cash_equivalents_end_of_period_2023": 24048,
+      "cash_and_cash_equivalents_end_of_period_2024": 23466,
+      "stockholders_equity_2021": 251635,
+      "stockholders_equity_2022": 256144,
+      "stockholders_equity_2023": 283379,
+      "stockholders_equity_2024": 325084
     },
     "chunk_id": 21
   },
   {
-    "info": "Alphabet outlines its revenue model across advertising, subscriptions, and cloud services, detailing performance vs brand ad revenue recognition, gross vs net reporting on Google Network, multi-obligation contracts with standalone selling price allocation, and incentives/credits as variable consideration. It notes cost of revenues components (TAC and content costs), sales commissions treatment, and significant advertising expense levels for 2022–2024. It also covers fair value measurements and the three-tier hierarchy, impairment considerations, and standard depreciation practices for property and equipment, leases, and goodwill.",
-    "data": {
-      "ad_expenses_2022": 9200000000,
-      "ad_expenses_2023": 8700000000,
-      "ad_expenses_2024": 8700000000,
-      "data_center_buildings_life_min_years": 7,
-      "data_center_buildings_life_max_years": 40,
-      "servers_network_equipment_life_years": 6,
-      "corporate_and_other_assets_life_min_years": 2,
-      "corporate_and_other_assets_life_max_years": 25,
-      "fair_value_level1": 1,
-      "fair_value_level2": 2,
-      "fair_value_level3": 3
-    },
+    "info": "For the years ended December 31, 2022, 2023, and 2024, advertising and promotional expenses totaled approximately 9.2 billion, 8.7 billion, and 8.7 billion, respectively.",
+    "data": {},
     "chunk_id": 22
   },
   {
-    "info": "Alphabet outlines impairment policies for long-lived assets, tax position guidance, and foreign currency translation; it reports multi-year revenue growth with 2022–2024 totals of 282,836, 307,394, and 350,018 million respectively, a revenue backlog of 93,200,000,000 as of 12/31/2024, and deferred revenue of 6,000,000,000 at 12/31/2024 (5,000,000,000 at 12/31/2023 with 3,900,000,000 recognized in 2024). It provides a detailed breakdown by product type and by geography, notes upcoming accounting pronouncements (ASU 2023-09 and ASU 2024-03) and recent adoption (ASU 2023-07), and confirms that no single customer accounted for more than 10% of revenue in the cited periods. ",
+    "info": "As of December 31, 2024, we had $93.2 billion of remaining performance obligations (“revenue backlog”), primarily related to Google Cloud. Revenue backlog includes related deferred revenue currently recorded as well as amounts that will be invoiced in future periods, and excludes contracts with an original expected term of one year or less and cancellable contracts. No individual customer or groups of affiliated customers represented more than 10% of our revenues in 2022, 2023, or 2024. Total deferred revenue as of December 31, 2023 was $5.0 billion, of which $3.9 billion was recognized as revenues for the year ended December 31, 2024. Total deferred revenue as of December 31, 2024 was $6.0 billion.",
     "data": {
       "revenue_2022": 282836000000,
       "revenue_2023": 307394000000,
       "revenue_2024": 350018000000,
-      "revenue_by_type": [
-        {
-          "type": "Google Search & other",
-          "2022": 162450000000,
-          "2023": 175033000000,
-          "2024": 198084000000
-        },
-        {
-          "type": "YouTube ads",
-          "2022": 29243000000,
-          "2023": 31510000000,
-          "2024": 36147000000
-        },
-        {
-          "type": "Google Network",
-          "2022": 32780000000,
-          "2023": 31312000000,
-          "2024": 30359000000
-        },
-        {
-          "type": "Google advertising",
-          "2022": 224473000000,
-          "2023": 237855000000,
-          "2024": 264590000000
-        },
-        {
-          "type": "Google subscriptions, platforms, and devices",
-          "2022": 29055000000,
-          "2023": 34688000000,
-          "2024": 40340000000
-        },
-        {
-          "type": "Google Services total",
-          "2022": 253528000000,
-          "2023": 272543000000,
-          "2024": 304930000000
-        },
-        {
-          "type": "Google Cloud",
-          "2022": 26280000000,
-          "2023": 33088000000,
-          "2024": 43229000000
-        },
-        {
-          "type": "Other Bets",
-          "2022": 1068000000,
-          "2023": 1527000000,
-          "2024": 1648000000
-        }
-      ],
-      "revenue_by_geography": [
-        {
-          "year": 2022,
-          "US": 134814000000,
-          "EMEA": 82062000000,
-          "APAC": 47024000000,
-          "OtherAmericas": 16976000000,
-          "HedgingGainsLosses": 1960000000,
-          "Total": 282836000000
-        },
-        {
-          "year": 2023,
-          "US": 146286000000,
-          "EMEA": 91038000000,
-          "APAC": 51514000000,
-          "OtherAmericas": 18320000000,
-          "HedgingGainsLosses": 236000000,
-          "Total": 307394000000
-        },
-        {
-          "year": 2024,
-          "US": 170447000000,
-          "EMEA": 102127000000,
-          "APAC": 56815000000,
-          "OtherAmericas": 20418000000,
-          "HedgingGainsLosses": 211000000,
-          "Total": 350018000000
-        }
-      ],
-      "revenue_backlog_dec_31_2024": 93200000000,
-      "deferred_revenue_dec_31_2023": 5000000000,
+      "deferred_revenue_2023": 5000000000,
+      "deferred_revenue_2024": 6000000000,
       "deferred_revenue_recognized_in_2024": 3900000000,
-      "deferred_revenue_dec_31_2024": 6000000000
+      "revenue_backlog_2024": 93200000000
     },
     "chunk_id": 23
   },
   {
-    "info": "Investments and fair-value disclosures show a large carrying value of non-marketable equity securities and a sizable long-term portion in non-current assets, a breakdown of debt-securities by maturity with total fair value of 67.378 billion, and related gains and losses recognized in OCI and in net income/oI&E, plus holdings of current marketable equity securities and mutual funds.",
-    "data": {
-      "long_term_marketable_equity_in_other_non_current_assets_dec_31_2024": 266000000,
-      "non_marketable_equity_securities_carrying_value_dec_31_2024": 35500000000,
-      "non_marketable_equity_securities_remeasured_fair_value_dec_31_2024": 19900000000,
-      "debt_securities_fair_value_maturity_less_than_1_year": 6341000000,
-      "debt_securities_fair_value_maturity_1_to_5_years": 37221000000,
-      "debt_securities_fair_value_maturity_5_to_10_years": 10920000000,
-      "debt_securities_fair_value_maturity_more_than_10_years": 12896000000,
-      "debt_securities_total_fair_value_by_maturity": 67378000000,
-      "unrealized_gain_loss_on_fair_value_option_debt_securities_2022": -557000000,
-      "unrealized_gain_on_fair_value_option_debt_securities_2023": 386000000,
-      "unrealized_gain_on_fair_value_option_debt_securities_2024": 30000000,
-      "gross_realized_gain_on_debt_securities_2022": 103000000,
-      "gross_realized_gain_on_debt_securities_2023": 182000000,
-      "gross_realized_gain_on_debt_securities_2024": 482000000,
-      "gross_realized_loss_on_debt_securities_2022": -1588000000,
-      "gross_realized_loss_on_debt_securities_2023": -1833000000,
-      "gross_realized_loss_on_debt_securities_2024": -1553000000,
-      "increase_decrease_in_allowance_for_credit_losses_2022": -22000000,
-      "increase_decrease_in_allowance_for_credit_losses_2023": 50000000,
-      "increase_decrease_in_allowance_for_credit_losses_2024": -2000000,
-      "total_gain_loss_on_debt_securities_recognized_in_oi_e_net_2022": -2064000000,
-      "total_gain_loss_on_debt_securities_recognized_in_oi_e_net_2023": -1215000000,
-      "total_gain_loss_on_debt_securities_recognized_in_oi_e_net_2024": -1043000000,
-      "current_marketable_equity_securities_level1_dec_31_2024": 4708000000,
-      "mutual_funds_level2_dec_31_2024": 105000000,
-      "total_investments_with_fair_value_change_reflected_in_net_income_2022": 21341,
-      "total_investments_with_fair_value_change_reflected_in_net_income_2023": 8928,
-      "total_investments_with_fair_value_change_reflected_in_net_income_2024": 12413
-    },
+    "info": "(1)Represents gross unrealized gains and losses for debt securities recorded to AOCI. (2)The long-term portion of marketable equity securities (subject to long-term lock-up restrictions) of $1.4 billion as of December 31, 2023 is included within other non-current assets.",
+    "data": {},
     "chunk_id": 24
   },
   {
-    "info": "Equity investments comprise marketable and non-marketable securities with total carrying value at $40.61B as of 12/31/2024 (marketable $5.08B; non-marketable $35.53B). Initial costs totaled $26.01B. Cumulative gains (losses) reflect substantial non-marketable gains; equity-method investments carry about $2.0B; convertible notes total $2.9B. Variants of derivative activity are used to manage FX risk, including cash flow hedges with net accumulated gain on FX hedges before tax of $731M expected to be reclassified to revenues within 12 months.",
+    "info": "Non-marketable equity securities cumulative net gain (loss) is comprised of 18.1 billion and 22.7 billion of gains and 6.9 billion and 8.4 billion of losses (including impairments) as of December 31, 2023 and 2024, respectively.",
     "data": {
-      "convertible_notes_investments_dec_31_2023": 921000000,
-      "convertible_notes_investments_dec_31_2024": 2900000000,
-      "equity_securities_marketable_carrying_value_2023": 5973000000,
-      "equity_securities_non_marketable_carrying_value_2023": 28766000000,
-      "equity_securities_total_carrying_value_2023": 34739000000,
-      "equity_securities_marketable_carrying_value_2024": 5079000000,
-      "equity_securities_non_marketable_carrying_value_2024": 35531000000,
-      "equity_securities_total_carrying_value_2024": 40610000000,
-      "equity_securities_initial_cost_marketable_2023": 5418000000,
-      "equity_securities_initial_cost_non_marketable_2023": 17616000000,
-      "equity_securities_initial_cost_total_2023": 23034000000,
-      "equity_securities_initial_cost_marketable_2024": 4767000000,
-      "equity_securities_initial_cost_non_marketable_2024": 21240000000,
-      "equity_securities_initial_cost_total_2024": 26007000000,
-      "cumulative_net_gain_loss_marketable_2023": 555000000,
-      "cumulative_net_gain_loss_non_marketable_2023": 11150000000,
-      "cumulative_net_gain_loss_total_2023": 11705000000,
-      "cumulative_net_gain_loss_marketable_2024": 312000000,
-      "cumulative_net_gain_loss_non_marketable_2024": 14291000000,
-      "cumulative_net_gain_loss_total_2024": 14603000000,
-      "total_sale_price_equity_securities_sold_2023": 1981000000,
-      "total_initial_cost_equity_securities_sold_2023": 1512000000,
-      "cumulative_net_gains_sold_2023": 469000000,
-      "total_sale_price_equity_securities_sold_2024": 2827000000,
-      "total_initial_cost_equity_securities_sold_2024": 2079000000,
-      "cumulative_net_gains_sold_2024": 748000000,
-      "equity_securities_accounted_for_under_equity_method_carrying_value_2023": 1700000000,
-      "equity_securities_accounted_for_under_equity_method_carrying_value_2024": 2000000000,
-      "net_accumulated_gain_foreign_currency_cash_flow_hedges_before_tax_effect_dec_31_2024": 731000000,
-      "gross_notional_derivatives_cash_flow_hedges_designated_foreign_currency_contracts_2023": 18039,
-      "gross_notional_derivatives_cash_flow_hedges_designated_foreign_currency_contracts_2024": 20315,
-      "gross_notional_derivatives_fair_value_hedges_designated_foreign_currency_contracts_2023": 2065,
-      "gross_notional_derivatives_fair_value_hedges_designated_foreign_currency_contracts_2024": 1562,
-      "gross_notional_derivatives_net_investment_hedges_designated_foreign_currency_contracts_2023": 9472,
-      "gross_notional_derivatives_net_investment_hedges_designated_foreign_currency_contracts_2024": 6986,
-      "gross_notional_derivatives_foreign_exchange_contracts_not_designated_2023": 39722,
-      "gross_notional_derivatives_foreign_exchange_contracts_not_designated_2024": 44227,
-      "gross_notional_derivatives_other_contracts_not_designated_2023": 10818,
-      "gross_notional_derivatives_other_contracts_not_designated_2024": 15082
+      "marketable_initial_cost_2023": 5418000000,
+      "marketable_initial_cost_2024": 4767000000,
+      "non_marketable_initial_cost_2023": 17616000000,
+      "non_marketable_initial_cost_2024": 21240000000,
+      "total_initial_cost_2023": 23034000000,
+      "total_initial_cost_2024": 26007000000,
+      "marketable_cumulative_net_gain_2023": 555000000,
+      "non_marketable_cumulative_net_gain_2023": 11150000000,
+      "total_cumulative_net_gain_2023": 11705000000,
+      "marketable_cumulative_net_gain_2024": 312000000,
+      "non_marketable_cumulative_net_gain_2024": 14291000000,
+      "total_cumulative_net_gain_2024": 14603000000,
+      "marketable_carrying_value_2023": 5973000000,
+      "non_marketable_carrying_value_2023": 28766000000,
+      "total_carrying_value_2023": 34739000000,
+      "marketable_carrying_value_2024": 5079000000,
+      "non_marketable_carrying_value_2024": 35531000000,
+      "total_carrying_value_2024": 40610000000,
+      "convertible_notes_2023": 921000000,
+      "convertible_notes_2024": 2900000000,
+      "equity_method_carrying_value_2023": 1700000000,
+      "equity_method_carrying_value_2024": 2000000000
     },
     "chunk_id": 25
   },
   {
-    "info": "Derivative gains/losses and hedging activity with cash flow reclassifications, plus comprehensive lease data. Derivatives show net gains of 1,961 in 2022, −63 in 2023, and 658 in 2024. Balance sheet positions improved from 2023 to 2024 with net assets of 453 (2023) and 1,728 (2024), net liabilities of 445 (2023) and 612 (2024), and collateral-related figure of 491 in 2024. Reclassified from AOCI to income: 2,046 (2022), 0 (2023), 213 (2024); amortization of amounts excluded from effectiveness: −85 (2022), 0 (2023), 24 (2024). Leases show rising total costs (2022 4246, 2023 5048, 2024 5173) with operating lease costs of 2900, 3362, 3304 and variable costs of 838, 1182, 1425; finance lease costs of 508, 504, 444, and amortization of lease assets and interest on lease liabilities. Operating lease assets around 14k and liabilities around 12k (2023) declining to about 13.6k assets and 11.7k liabilities (2024); total operating lease liabilities about 15.3k (2023) and 14.6k (2024). Finance leases show net PPE around 2.7k (2023) falling to 2.6k (2024) and total finance lease liabilities around 1.7k for both years. Supplemental cash flows reflect lease-related activities: operating lease cash outflows of 2,722 (2022) to 3,425 (2024); financing lease cash outflows of 586, 705, 405; assets obtained for operating leases 4,383, 2,877, 2,510; for finance leases 577, 564, 313.",
+    "info": "The gross amounts of derivative instruments subject to master netting arrangements with various counterparties, and cash and non-cash collateral received and pledged under such agreements were as follows (in millions):",
     "data": {
-      "revenues_2022": 282836,
-      "revenues_2023": 307394,
-      "revenues_2024": 350018,
-      "other_income_2022": -3514,
-      "other_income_2023": 1424,
-      "other_income_2024": 7425,
-      "derivatives_gains_losses": {
-        "2022": 1961,
-        "2023": -63,
-        "2024": 658
-      },
-      "derivatives_balance_sheet_2023": {
-        "assets_gross": 535,
-        "assets_net": 453,
-        "liabilities_gross": 527,
-        "liabilities_net": 445
-      },
-      "derivatives_balance_sheet_2024": {
-        "assets_gross": 1776,
-        "assets_net": 1728,
-        "liabilities_gross": 660,
-        "liabilities_net": 612,
-        "net_collateral_received_or_pledged": 491
-      },
-      "reclassified_AOCI_to_income": {
-        "2022": 2046,
-        "2023": 0,
-        "2024": 213
-      },
-      "amortization_excluded_from_effectiveness": {
-        "2022": -85,
-        "2023": 0,
-        "2024": 24
-      },
-      "operating_lease_cost": {
-        "2022": 2900,
-        "2023": 3362,
-        "2024": 3304
-      },
-      "finance_lease_cost": {
-        "2022": 508,
-        "2023": 504,
-        "2024": 444
-      },
-      "lease_amortization_assets": {
-        "2022": 474,
-        "2023": 469,
-        "2024": 413
-      },
-      "lease_interest_liabilities": {
-        "2022": 34,
-        "2023": 35,
-        "2024": 31
-      },
-      "total_lease_cost": {
-        "2022": 4246,
-        "2023": 5048,
-        "2024": 5173
-      },
-      "operating_lease_assets_2023": 14091,
-      "operating_lease_assets_2024": 13588,
-      "accrued_expenses_operating_2023": 2791,
-      "accrued_expenses_operating_2024": 2887,
-      "operating_lease_liabilities_2023": 12460,
-      "operating_lease_liabilities_2024": 11691,
-      "total_operating_lease_liabilities_2023": 15251,
-      "total_operating_lease_liabilities_2024": 14578,
-      "finance_lease_asset_cost_2023": 4403,
-      "finance_lease_asset_cost_2024": 4622,
-      "finance_lease_accum_depr_2023": -1652,
-      "finance_lease_accum_depr_2024": -2037,
-      "finance_lease_net_ppe_2023": 2751,
-      "finance_lease_net_ppe_2024": 2585,
-      "accrued_expenses_finance_2023": 283,
-      "accrued_expenses_finance_2024": 235,
-      "other_long_term_liabilities_finance_2023": 1383,
-      "other_long_term_liabilities_finance_2024": 1442,
-      "total_finance_lease_liabilities_2023": 1666,
-      "total_finance_lease_liabilities_2024": 1677,
-      "operating_cash_flows_operating_leases_2022": 2722,
-      "operating_cash_flows_operating_leases_2023": 3173,
-      "operating_cash_flows_operating_leases_2024": 3425,
-      "operating_cash_flows_finance_leases_2022": 34,
-      "operating_cash_flows_finance_leases_2023": 35,
-      "operating_cash_flows_finance_leases_2024": 31,
-      "financing_cash_flows_finance_leases_2022": 586,
-      "financing_cash_flows_finance_leases_2023": 705,
-      "financing_cash_flows_finance_leases_2024": 405,
-      "assets_obtained_exchange_operating_leases_2022": 4383,
-      "assets_obtained_exchange_operating_leases_2023": 2877,
-      "assets_obtained_exchange_operating_leases_2024": 2510,
-      "assets_obtained_exchange_finance_leases_2022": 577,
-      "assets_obtained_exchange_finance_leases_2023": 564,
-      "assets_obtained_exchange_finance_leases_2024": 313
+      "revenue_2022": 282836000000,
+      "revenue_2023": 307394000000,
+      "revenue_2024": 350018000000,
+      "operating_lease_assets_2023": 14091000000,
+      "operating_lease_assets_2024": 13588000000,
+      "accrued_expenses_and_other_liabilities_operating_leases_2023": 2791000000,
+      "accrued_expenses_and_other_liabilities_operating_leases_2024": 2887000000,
+      "operating_lease_liabilities_2023": 12460000000,
+      "operating_lease_liabilities_2024": 11691000000,
+      "total_operating_lease_liabilities_2023": 15251000000,
+      "total_operating_lease_liabilities_2024": 14578000000,
+      "finance_lease_cost_property_and_equipment_cost_2023": 4403000000,
+      "finance_lease_cost_property_and_equipment_cost_2024": 4622000000,
+      "accumulated_depreciation_2023": -1652000000,
+      "accumulated_depreciation_2024": -2037000000,
+      "property_and_equipment_net_2023": 2751000000,
+      "property_and_equipment_net_2024": 2585000000,
+      "accrued_expenses_and_other_liabilities_finance_leases_2023": 283000000,
+      "accrued_expenses_and_other_liabilities_finance_leases_2024": 235000000,
+      "other_long_term_liabilities_2023": 1383000000,
+      "other_long_term_liabilities_2024": 1442000000,
+      "total_finance_lease_liabilities_2023": 1666000000,
+      "total_finance_lease_liabilities_2024": 1677000000
     },
     "chunk_id": 26
   },
   {
-    "info": "Alphabet reports sizable lease obligations and future payments, notable VIE activity including Waymo funding, a debt maturity and liquidity profile with a $10B revolving facility and $2.3B commercial paper outstanding in 2024, rising EC fines and accrued liabilities, and increased noncontrolling interests and unconsolidated VIE funding commitments, signaling ongoing capital deployment and liquidity considerations.",
+    "info": "As of December 31, 2024, we have entered into leases that have not yet commenced with short-term and long-term future lease payments of $773 million and $6.5 billion, respectively, that are not yet recorded on our Consolidated Balance Sheets. These leases will commence between 2025 and 2028 with non-cancelable lease terms between one and 25 years.",
     "data": {
-      "operating_cash_flows_operating_leases_2022": 2722,
-      "operating_cash_flows_operating_leases_2023": 3173,
-      "operating_cash_flows_operating_leases_2024": 3425,
-      "operating_cash_flows_finance_leases_2022": 34,
-      "operating_cash_flows_finance_leases_2023": 35,
-      "operating_cash_flows_finance_leases_2024": 31,
-      "financing_cash_flows_finance_leases_2022": 586,
-      "financing_cash_flows_finance_leases_2023": 705,
-      "financing_cash_flows_finance_leases_2024": 405,
-      "assets_obtained_operating_leases_2022": 4383,
-      "assets_obtained_operating_leases_2023": 2877,
-      "assets_obtained_operating_leases_2024": 2510,
-      "assets_obtained_finance_leases_2022": 577,
-      "assets_obtained_finance_leases_2023": 564,
-      "assets_obtained_finance_leases_2024": 313,
-      "total_lease_liability_operating_2024": 14578,
-      "total_lease_liability_finance_2024": 1677,
-      "total_future_lease_payments_operating_2025": 3162,
-      "total_future_lease_payments_operating_2026": 2824,
-      "total_future_lease_payments_operating_2027": 2311,
-      "total_future_lease_payments_operating_2028": 1838,
-      "total_future_lease_payments_operating_2029": 1448,
-      "total_future_lease_payments_operating_thereafter": 5455,
-      "total_future_lease_payments": 17038,
-      "imputed_interest_operating_lease": -2460,
-      "imputed_interest_finance_lease": -211,
-      "not_yet_commenced_lease_short_term": 773,
-      "not_yet_commenced_lease_long_term": 6500,
-      "vies_assets_dec_31_2023": 4900,
-      "vies_assets_dec_31_2024": 8700,
-      "vies_liabilities_recourses_dec_31_2023": 2500,
-      "vies_liabilities_recourses_dec_31_2024": 2300,
-      "waymo_funding_2024": 5600,
-      "unconsolidated_vie_future_funding_2023": 1700,
-      "unconsolidated_vie_future_funding_2024": 1500,
-      "nci_consolidated_subsidiaries_2023": 3400,
-      "nci_consolidated_subsidiaries_2024": 4200,
-      "rnci_within_nci_2023": 1100,
-      "rnci_within_nci_2024": 1100,
-      "ec_fines_2023": 9525,
-      "ec_fines_2024": 6322,
-      "accrued_purchases_of_property_and_equipment_2023": 4679,
-      "accrued_purchases_of_property_and_equipment_2024": 7104,
-      "accrued_customer_liabilities_2023": 4140,
-      "accrued_customer_liabilities_2024": 4304,
-      "current_operating_lease_liabilities_2023": 2791,
-      "current_operating_lease_liabilities_2024": 2887,
-      "income_taxes_payable_net_2023": 2748,
-      "income_taxes_payable_net_2024": 2905,
-      "other_accrued_expenses_and_current_liabilities_2023": 22285,
-      "other_accrued_expenses_and_current_liabilities_2024": 27706,
-      "accrued_expenses_and_other_current_liabilities_total_2023": 46168,
-      "accrued_expenses_and_other_current_liabilities_total_2024": 51228,
-      "property_and_equipment_net_2023": 134345,
-      "property_and_equipment_net_2024": 171036,
-      "accounts_receivable_allowance_losses_2023": 771,
-      "accounts_receivable_allowance_losses_2024": 879,
-      "property_and_equipment_purchases_added_to_accounts_payable_2023": 2800,
-      "property_and_equipment_purchases_added_to_accounts_payable_2024": 3200,
-      "long_term_debt_face_value_2023": 12000,
-      "long_term_debt_face_value_2024": 13000,
-      "unamortized_discount_and_costs_2023": -130,
-      "unamortized_discount_and_costs_2024": -118,
-      "current_portion_of_long_term_notes_2023": -1000,
-      "current_portion_of_long_term_notes_2024": -999,
-      "total_long_term_debt_2023": 10883,
-      "total_long_term_debt_2024": 11870,
-      "notes_fair_value_2023": 10300,
-      "notes_fair_value_2024": 9000,
-      "credit_facility_total": 10000,
-      "commercial_paper_outstanding_2024": 2300,
-      "weighted_average_interest_on_commercial_paper_2024": 4.4,
-      "principal_payments_long_term_debt_2025": 1000,
-      "principal_payments_long_term_debt_2026": 2000,
-      "principal_payments_long_term_debt_2027": 1000,
-      "principal_payments_long_term_debt_thereafter": 8000
+      "operating_cash_flows_used_for_operating_leases_2022": 2722,
+      "operating_cash_flows_used_for_operating_leases_2023": 3173,
+      "operating_cash_flows_used_for_operating_leases_2024": 3425,
+      "operating_cash_flows_used_for_finance_leases_2022": 34,
+      "operating_cash_flows_used_for_finance_leases_2023": 35,
+      "operating_cash_flows_used_for_finance_leases_2024": 31,
+      "financing_cash_flows_used_for_finance_leases_2022": 586,
+      "financing_cash_flows_used_for_finance_leases_2023": 705,
+      "financing_cash_flows_used_for_finance_leases_2024": 405,
+      "assets_obtained_in_exchange_for_lease_liabilities_operating_leases_2022": 4383,
+      "assets_obtained_in_exchange_for_lease_liabilities_operating_leases_2023": 2877,
+      "assets_obtained_in_exchange_for_lease_liabilities_operating_leases_2024": 2510,
+      "assets_obtained_in_exchange_for_lease_liabilities_finance_leases_2022": 577,
+      "assets_obtained_in_exchange_for_lease_liabilities_finance_leases_2023": 564,
+      "assets_obtained_in_exchange_for_lease_liabilities_finance_leases_2024": 313,
+      "total_future_lease_payments_operating_leases_as_of_dec_31_2024": 17038,
+      "total_future_lease_payments_finance_leases_as_of_dec_31_2024": 1888,
+      "imputed_interest_operating_leases": -2460,
+      "imputed_interest_finance_leases": -211,
+      "as_of_dec_31_2023_total_lease_liability_balance": 14578,
+      "as_of_dec_31_2024_total_lease_liability_balance": 1677,
+      "leases_not_commenced_as_of_dec_31_2024_short_term": 773,
+      "leases_not_commenced_as_of_dec_31_2024_long_term": 6500,
+      "waymo_funding_2024": 5600000000,
+      "assets_of_VIEs_can_be_used_to_settle_obligations_2023": 4900000000,
+      "assets_of_VIEs_can_be_used_to_settle_obligations_2024": 8700000000,
+      "total_noncontrolling_interests_2023": 3400000000,
+      "total_noncontrolling_interests_2024": 4200000000,
+      "noncontrolling_interest_redeemable_nih_2023": 1100000000,
+      "noncontrolling_interest_redeemable_nih_2024": 1100000000,
+      "notes_outstanding_fair_value_total_2023": 10300000000,
+      "notes_outstanding_fair_value_total_2024": 9000000000,
+      "credit_facilities_total_2024": 10000000000,
+      "credit_facilities_outstanding_dec_31_2023": 0,
+      "credit_facilities_outstanding_dec_31_2024": 0,
+      "credit_facilities_expires_2025": 4000000000,
+      "credit_facilities_expires_2028": 6000000000,
+      "commercial_paper_outstanding_dec_31_2024": 2300000000,
+      "commercial_paper_outstanding_dec_31_2023": 0,
+      "total_face_value_of_long_term_debt_2023": 13000000000,
+      "total_face_value_of_long_term_debt_2024": 12000000000,
+      "unamortized_discount_and_debt_issuance_costs_2023": -130000000,
+      "unamortized_discount_and_debt_issuance_costs_2024": -118000000,
+      "total_long_term_debt_2023": 11870000000,
+      "total_long_term_debt_2024": 10883000000,
+      "current_portion_of_long_term_notes_2023": -1000000000,
+      "current_portion_of_long_term_notes_2024": -999000000,
+      "long_term_debt_principal_2025": 1000000000,
+      "long_term_debt_principal_2026": 2000000000,
+      "long_term_debt_principal_2027": 1000000000,
+      "long_term_debt_principal_2028": 0,
+      "long_term_debt_principal_2029": 0,
+      "long_term_debt_principal_Thereafter": 8000000000,
+      "long_term_debt_principal_total": 12000000000,
+      "revolving_credit_facilities_total_2024": 10000000000,
+      "revolving_credit_facilities_outstanding_dec_31_2023": 0,
+      "revolving_credit_facilities_outstanding_dec_31_2024": 0,
+      "commercial_paper_outstanding_dec_31_2024_additional": 2300000000,
+      "property_and_equipment_net_2023": 134345000000,
+      "property_and_equipment_net_2024": 171036000000,
+      "property_and_equipment_in_service_2023": 166667000000,
+      "property_and_equipment_in_service_2024": 199829000000,
+      "accumulated_depreciation_2023": -67458000000,
+      "accumulated_depreciation_2024": -79390000000,
+      "assets_not_yet_in_service_2023": 35136000000,
+      "assets_not_yet_in_service_2024": 50597000000,
+      "european_commission_fines_2023": 9525000000,
+      "european_commission_fines_2024": 6322000000,
+      "accrued_purchases_of_property_and_equipment_2023": 4679000000,
+      "accrued_purchases_of_property_and_equipment_2024": 7104000000,
+      "accrued_customer_liabilities_2023": 4140000000,
+      "accrued_customer_liabilities_2024": 4304000000,
+      "current_operating_lease_liabilities_2023": 2791000000,
+      "current_operating_lease_liabilities_2024": 2887000000,
+      "income_taxes_payable_net_2023": 2748000000,
+      "income_taxes_payable_net_2024": 2905000000,
+      "other_accrued_expenses_and_current_liabilities_2023": 22285000000,
+      "other_accrued_expenses_and_current_liabilities_2024": 27706000000,
+      "accrued_expenses_and_other_current_liabilities_2023": 46168000000,
+      "accrued_expenses_and_other_current_liabilities_2024": 51228000000
     },
     "chunk_id": 27
   },
   {
-    "info": "Material regulatory and acquisition-related developments: substantial European antitrust fines with Shopping (€2.4B) and Android (€4.3B reduced to €4.1B) and AdSense for Search (€1.5B overturned in 2024); in 2024 Alphabet paid $3.0B for the 2017 Shopping fine; content-licensing commitments totaling $8.8B; Character.ai deal recognizing $2.7B goodwill and $413M intangible assets with $2.7B cash paid; goodwill balances across Google Services/Cloud/Other Bets increased to $31.9B by 2024; and related foreign currency effects and reclassifications disclosed.",
+    "info": "In accordance with the accounting requirements under Accounting Standards Codification Topic 805, for the year ended December 31, 2024, we recorded $2.7 billion of goodwill and $413 million of intangible assets resulting from a transaction with character.ai (\"Character\"). In August 2024, we entered into a license agreement with Character pursuant to which we obtained a non-exclusive license to its then current large language model technology. We paid Character $2.7 billion in cash and canceled our convertible instruments. Commitments: We have content licensing agreements with future fixed or minimum guaranteed commitments of $8.8 billion as of December 31, 2024, of which the majority is paid quarterly through the first quarter of 2030. The amounts related to the EC fines, including any under appeal, are included in accrued expenses and other current liabilities on our Consolidated Balance Sheets. Amounts include the effects of foreign exchange and interest. In September 2024, the European Court of Justice rejected our appeal and upheld the €2.4 billion fine. In the third quarter of 2024, we made a cash payment of $3.0 billion for the fine. Android: In July 2018, the EC announced its decision that certain provisions in Google’s Android-related distribution agreements infringed European antitrust laws, imposed a €4.3 billion fine, and directed the termination of the conduct at issue. We appealed the EC decision and implemented changes to certain of our Android distribution practices. In September 2022, the General Court affirmed the EC decision but reduced the fine from €4.3 billion to €4.1 billion. We subsequently appealed the General Court's affirmation of the EC decision with the European Court of Justice, which remains pending. In 2018, we recognized a charge of $5.1 billion for the fine, which we reduced by $217 million in 2022. AdSense for Search: In March 2019, the EC announced its decision that certain provisions in Google's agreements with AdSense for Search partners infringed European antitrust laws, imposed a fine of €1.5 billion, and directed actions related to AdSense for Search partners' agreements, which we implemented prior to the decision. In 2019, we recognized a charge of $1.7 billion for the fine and appealed the EC decision. In September 2024, the General Court overturned the EC decision and annulled the €1.5 billion fine. The EC has appealed the General Court's decision with the European Court of Justice. Note 8. Business Combinations character.ai: In accordance with the accounting requirements under Accounting Standards Codification Topic 805, for the year ended December 31, 2024, we recorded $2.7 billion of goodwill and $413 million of intangible assets resulting from a transaction with character.ai (\"Character\"). In August 2024, we entered into a license agreement with Character pursuant to which we obtained a non-exclusive license to its then current large language model technology. We paid Character $2.7 billion in cash and canceled our convertible instruments.",
     "data": {
-      "ec_fines_2023": 9525,
-      "ec_fines_2024": 6322,
-      "ec_shopping_cash_payment_2024": 3000000000,
-      "accrued_ppe_2023": 4679,
-      "accrued_ppe_2024": 7104,
-      "accrued_customer_liabilities_2023": 4140,
-      "accrued_customer_liabilities_2024": 4304,
-      "current_operating_lease_liabilities_2023": 2791,
-      "current_operating_lease_liabilities_2024": 2887,
-      "income_taxes_payable_net_2023": 2748,
-      "income_taxes_payable_net_2024": 2905,
-      "other_accrued_expenses_current_liabilities_2023": 22285,
-      "other_accrued_expenses_current_liabilities_2024": 27706,
-      "accrued_expenses_and_other_current_liabilities_2023": 46168,
-      "accrued_expenses_and_other_current_liabilities_2024": 51228,
-      "character_goodwill_2024": 2700000000,
-      "character_intangible_assets_2024": 413000000,
-      "character_cash_paid_2024": 3000000000,
-      "goodwill_balance_segment_google_services_2022": 20847,
-      "goodwill_balance_segment_google_cloud_2022": 7205,
-      "goodwill_balance_segment_other_bets_2022": 908,
-      "goodwill_total_2022": 28960,
-      "goodwill_balance_segment_google_services_2023": 21118,
-      "goodwill_balance_segment_google_cloud_2023": 7199,
-      "goodwill_balance_segment_other_bets_2023": 881,
-      "goodwill_total_2023": 29198,
-      "goodwill_balance_segment_google_services_2024": 23521,
-      "goodwill_balance_segment_google_cloud_2024": 7490,
-      "goodwill_balance_segment_other_bets_2024": 874,
-      "goodwill_total_2024": 31885,
-      "goodwill_additions_2023_google_services": 240,
-      "goodwill_additions_2023_google_cloud": 3,
-      "goodwill_additions_2023_other_bets": 0,
-      "goodwill_additions_total_2023": 243,
-      "goodwill_additions_2024_google_services": 2441,
-      "goodwill_additions_2024_google_cloud": 295,
-      "goodwill_additions_2024_other_bets": 0,
-      "goodwill_additions_total_2024": 2736,
-      "goodwill_translation_impact_2023_google_services": 31,
-      "goodwill_translation_impact_2023_google_cloud": -9,
-      "goodwill_translation_impact_2023_other_bets": -27,
-      "goodwill_translation_impact_2023_total": -5,
-      "goodwill_translation_impact_2024_google_services": -38,
-      "goodwill_translation_impact_2024_google_cloud": -4,
-      "goodwill_translation_impact_2024_other_bets": -7,
-      "goodwill_translation_impact_2024_total": -49,
-      "content_licensing_commitments_2024": 8800000000,
-      "total_amount_reclassified_2022": 699,
-      "total_amount_reclassified_2023": -954,
-      "total_amount_reclassified_2024": -616,
-      "interest_income_2022": 2174,
-      "interest_income_2023": 3865,
-      "interest_income_2024": 4482,
-      "interest_expense_net_2022": -357,
-      "interest_expense_net_2023": -308,
-      "interest_expense_net_2024": -268,
-      "ec_shopping_charge_usd_2018": 5100,
-      "ec_android_fine_original_eur": 4300,
-      "ec_android_fine_reduced_eur": 4100,
-      "ec_adsense_for_search_fine_eur": 1500,
-      "adsense_search_charge_usd_2019": 1700,
-      "adsense_search_fine_overturned_2024_eur": 1500,
-      "indemnification_commitments_total": 8800000000
+      "total_assets_2022": 28960,
+      "total_assets_2023": 29198,
+      "total_assets_2024": 31885,
+      "cash_paid_ec_fine_2024": 3000000000,
+      "cash_paid_character_2024": 2700000000
     },
     "chunk_id": 28
   },
   {
-    "info": "Alphabet faces material regulatory and antitrust risks in the EU and U.S., including fines related to Shopping (€2.4B) and Android (€4.3B initially, reduced to €4.1B) with a cash payment of $3.0B in Q3 2024, and AdSense for Search (€1.5B) overturned in 2024. Ongoing remedies, appeals, and investigations are present across the EU, DOJ, Australia, and Japan, with no reliable loss estimates. Privacy and IP matters are also noted. Alphabet states it will defend vigorously and cooperate with regulators while continuing substantial stock repurchases and cash dividends.",
+    "info": "Shopping: In June 2017, the EC announced its decision that certain actions taken by Google relating to its display and ranking of shopping search results and ads infringed European antitrust laws and imposed a €2.4 billion fine. We appealed the EC decision and implemented product changes to bring shopping ads into compliance with the EC's decision. In September 2024, the European Court of Justice rejected our appeal and upheld the €2.4 billion fine. In the third quarter of 2024, we made a cash payment of $3.0 billion for the fine. Android: In July 2018, the EC announced its decision that certain provisions in Google’s Android-related distribution agreements infringed European antitrust laws, imposed a €4.3 billion fine, and directed the termination of the conduct at issue. We appealed the EC decision and implemented changes to certain of our Android distribution practices. In September 2022, the General Court affirmed the EC decision but reduced the fine from €4.3 billion to €4.1 billion. We subsequently appealed the General Court's affirmation of the EC decision with the European Court of Justice, which remains pending. In 2018, we recognized a charge of $5.1 billion for the fine, which we reduced by $217 million in 2022. AdSense for Search: In March 2019, the EC announced its decision that certain provisions in Google's agreements with AdSense for Search partners infringed European antitrust laws, imposed a fine of €1.5 billion, and directed actions related to AdSense for Search partners' agreements, which we implemented prior to the decision. In 2019, we recognized a charge of $1.7 billion for the fine and appealed the EC decision. In September 2024, the General Court overturned the EC decision and annulled the €1.5 billion fine. The EC has appealed the General Court's decision with the European Court of Justice. Search: In October 2020, the DOJ and a number of state Attorneys General filed a lawsuit in the U.S. District Court for the District of Columbia alleging that Google violated U.S. antitrust laws relating to Search and Search advertising. In August 2024, the U.S. District Court for the District of Columbia ruled that Google violated such U.S. antitrust laws. A separate proceeding is being held to determine remedies, the range of which vary widely. The DOJ has proposed a high level remedy framework, which includes alterations to our products and services and our business models and operations, including structural remedies, and/or our distribution arrangements, among other changes, some of which could have a material adverse effect on our business. We have filed our own remedies proposal ahead of a hearing on remedies in April 2025. We expect a decision likely in the second half of 2025, after which we intend to appeal. Further, in June 2022, the Australian Competition and Consumer Commission and in October 2023, the Japanese Fair Trade Commission each opened an investigation into Search distribution practices. Given the nature of these matters, we cannot estimate a possible loss. Advertising Technology: In December 2020, a number of state Attorneys General filed a lawsuit in the U.S. District Court for the Eastern District of Texas alleging that Google violated U.S. antitrust laws as well as state deceptive trade laws relating to its advertising technology, and a trial is scheduled for March 2025. Additionally, in January 2023, the DOJ, along with a number of state Attorneys General, filed a lawsuit in the U.S. District Court for the Eastern District of Virginia alleging that Google violated U.S. antitrust laws relating to its advertising technology, and a number of additional state Attorneys General subsequently joined the lawsuit. The trial ended in September 2024, and we expect a decision in early 2025. Further, in June 2023, the EC issued a Statement of Objections informing Google of its preliminary view that Google violated European antitrust laws relating to its advertising technology, to which we responded. Given the nature of these matters, we cannot estimate a possible loss. Google Play: In July 2021, a number of state Attorneys General filed a lawsuit in the U.S. District Court for the Northern District of California alleging that Google’s operation of Android and Google Play violated U.S. antitrust laws and state antitrust and consumer protection laws. In September 2023, we reached a settlement in principle with 50 state Attorneys General and three territories and recognized a charge. Final approval of the settlement remains pending before the court. In May 2024, we funded the settlement amount to an escrow agent. In December 2023, a California jury delivered a verdict in Epic Games v. Google finding that Google violated U.S. antitrust laws related to Google Play's business. Epic did not seek monetary damages. The presiding judge issued a remedies decision in October 2024, ordering a variety of alterations to our business models and operations and contractual agreements for Android and Google Play. We are appealing the verdict and the trial court judge temporarily paused the implementation of the remedies while the Court of Appeals considers our request to pause implementation of the remedies pending the duration of the appeal. Given the nature of this matter, we cannot estimate a possible loss. European Digital Markets Act: In March 2024, the EC opened two investigations regarding Google's compliance with certain provisions of EU's Digital Markets Act relating to Google Play and Search. Given the preliminary stages of this matter, we cannot estimate a possible loss. In addition to these proceedings, private individual and collective actions that overlap with claims pursued by regulatory authorities are pending in the U.S. and in several other jurisdictions. We believe we have strong arguments against these open claims and will defend ourselves vigorously. We continue to cooperate with federal and state regulators in the U.S., the EC, and other regulators around the world. Privacy Matters We are subject to a number of privacy-related laws and regulations, and we currently are party to a number of privacy investigations and lawsuits ongoing in multiple jurisdictions. For example, there are ongoing investigations and litigation in the U.S. and the EU, including those relating to our collection and use of location information, alleged violations of state biometric statutes, the choices we offer users, and advertising practices, which could result in significant fines, judgments, and product changes. Patent and Intellectual Property Claims We have had patent, copyright, trade secret, and trademark infringement lawsuits filed against us claiming that certain of our products, services, and technologies infringe others' intellectual property rights. Adverse results in these lawsuits may include awards of substantial monetary damages, costly royalty or licensing agreements, or orders preventing us from offering certain features, functionalities, products, or services. As a result, we may have to change our business practices and develop non-infringing products or technologies, which could result in a loss of revenues for us and otherwise harm our business. In addition, the U.S. International Trade Commission (ITC) has increasingly become an important forum to litigate intellectual property disputes because an ultimate loss in an ITC action can result in a prohibition on importing infringing products into the U.S. Because the U.S. is an important market, a prohibition on importation could have an adverse effect on us, including preventing us from importing many important products into the U.S. or necessitating workarounds that may limit certain features of our products. Further, our customers and partners may discontinue the use of our products, services, and technologies, as a result of injunctions or otherwise, which could result in loss of revenues and adversely affect our business. Other We are subject to claims, lawsuits, regulatory and government inquiries and investigations, other proceedings, and consent orders involving competition, intellectual property, data privacy and security, tax and related compliance, labor and employment, commercial disputes, content generated by our users, goods and services offered by advertisers or publishers using our platforms, personal injury, consumer protection, and other matters. For example, we periodically have data incidents that we report to relevant regulators as required by law. Such claims, consent orders, lawsuits, regulatory and government investigations, and other proceedings could result in substantial fines and penalties, injunctive relief, ongoing monitoring and auditing obligations, changes to our products and services, alterations to our business models and operations, and collateral related civil litigation or other adverse consequences, all of which could harm our business, reputation, financial condition, and operating results. We have ongoing legal matters relating to Russia. For example, some matters concern civil judgments that include compounding penalties imposed upon us in connection with disputes regarding the termination of accounts, including those of sanctioned parties. We do not expect these ongoing legal matters will have a material adverse effect. Non-Income Taxes We are under audit by various domestic and foreign tax authorities with regards to non-income tax matters. The subject matter of non-income tax audits primarily arises from disputes on the tax treatment and tax rate applied to the sale of our products and services in these jurisdictions and the tax treatment of certain employee benefits. We accrue non-income taxes that may result from examinations by, or any negotiated agreements with, these tax authorities when a loss is probable and reasonably estimable. If we determine that a loss is reasonably possible and the loss or range of loss can be estimated, we disclose the reasonably possible loss. Due to the inherent complexity and uncertainty of these matters and judicial process in certain jurisdictions, the final outcome may be materially different from our expectations. See Note 14 for information regarding income tax contingencies. Note 11. Stockholders' Equity",
     "data": {
-      "fine_shopping_eur_2400000000": 2400000000,
-      "cash_payment_q3_2024_usd": 3000000000,
-      "fine_android_eur_initial_4300000000": 4300000000,
-      "fine_android_eur_revised_4100000000": 4100000000,
-      "charge_android_fine_2018_usd": 5100000000,
-      "charge_reduction_android_2022_usd": 217000000,
-      "fine_adsense_eur_1500000000": 1500000000,
-      "charge_adsense_usd_2019": 1700000000,
-      "fine_adsense_overturned_eur_1500000000": 1500000000,
-      "dividends_classA_2024_usd": 3500000000,
-      "dividends_classB_2024_usd": 519000000,
-      "dividends_classC_2024_usd": 3300000000,
-      "repurchases_2022_usd": 59300000000,
-      "repurchases_2023_usd": 62200000000,
-      "repurchases_2024_usd": 62000000000,
-      "repurchase_authorization_additional_usd": 70000000000,
-      "repurchase_remaining_as_of_2024_yearend_usd": 44700000000,
-      "classA_2023_shares": 78,
-      "classA_2023_amount_usd_millions": 9316,
-      "classA_2024_shares": 73,
-      "classA_2024_amount_usd_millions": 11855,
-      "classC_2023_shares": 450,
-      "classC_2023_amount_usd_millions": 52868,
-      "classC_2024_shares": 306,
-      "classC_2024_amount_usd_millions": 50192,
-      "total_classA_C_repurchase_2023_shares": 528,
-      "total_classA_C_repurchase_2023_amount_millions": 62184,
-      "total_classA_C_repurchase_2024_shares": 379,
-      "total_classA_C_repurchase_2024_amount_millions": 62047
+      "ec_shopping_fine_2024": 2400000000,
+      "ec_shopping_cash_payment_2024_q3": 3000000000,
+      "ec_android_fine_2024": 4300000000,
+      "ec_android_fine_2022_reduction": 217000000,
+      "ec_adsense_search_fine_2019": 1500000000,
+      "ec_adsense_search_fine_2019_charge": 1700000000,
+      "ec_adsense_search_fine_annulled": 1500000000,
+      "dividends_classA_2024": 3500000000,
+      "dividends_classB_2024": 519000000,
+      "dividends_classC_2024": 3300000000,
+      "repurchases_total_2022": 59300000000,
+      "repurchases_total_2023": 62200000000,
+      "repurchases_total_2024": 62000000000,
+      "repurchases_classA_2023": 9316000000,
+      "repurchases_classA_2024": 11855000000,
+      "repurchases_classC_2023": 52868000000,
+      "repurchases_classC_2024": 50192000000,
+      "repurchases_classA_2023_shares": 78,
+      "repurchases_classA_2024_shares": 73,
+      "repurchases_classC_2023_shares": 450,
+      "repurchases_classC_2024_shares": 306,
+      "repurchase_authorized_additional_2024": 70000000000,
+      "repurchase_remaining_authorization_dec31_2024": 44700000000
     },
     "chunk_id": 29
   },
   {
-    "info": "Rights of Class A, Class B, and Class C stock are identical except for voting; amendments that adversely alter the rights must be approved by the affected class and require unanimous Board approval before stockholder vote. The chunk includes per-share data for 2022 and 2023, including basic and diluted net income per share by class, undistributed and distributed earnings, and shares used in per-share computations.",
+    "info": "The following tables set forth the computation of basic and diluted net income per share of Class A, Class B, and Class C stock (in millions, except per share amounts):",
     "data": {
-      "eps": {
-        "2022": {
-          "basic": {
-            "ClassA": 4.59,
-            "ClassB": 4.59,
-            "ClassC": 4.59,
-            "Consolidated": 4.59
-          },
-          "diluted": {
-            "ClassA": 4.56,
-            "ClassB": 4.56,
-            "ClassC": 4.56,
-            "Consolidated": 4.56
-          }
-        },
-        "2023": {
-          "basic": {
-            "ClassA": 5.84,
-            "ClassB": 5.84,
-            "ClassC": 5.84,
-            "Consolidated": 5.84
-          },
-          "diluted": {
-            "ClassA": 5.8,
-            "ClassB": 5.8,
-            "ClassC": 5.8,
-            "Consolidated": 5.8
-          }
-        }
-      },
-      "net_income_by_class": {
-        "2022": {
-          "A": 27518,
-          "B": 4072,
-          "C": 28382,
-          "Consolidated": 59972
-        },
-        "2023": {
-          "A": 39438,
-          "B": 5087,
-          "C": 34357,
-          "Consolidated": 73795
-        }
-      },
-      "undistributed_earnings": {
-        "2022": {
-          "A": 27518,
-          "B": 4072,
-          "C": 28382,
-          "Consolidated": 59972
-        },
-        "2023": {
-          "A": 34601,
-          "B": 5124,
-          "C": 34070,
-          "Consolidated": 73795
-        }
-      },
-      "distributed_earnings": {
-        "2022": {
-          "A": 0,
-          "B": 0,
-          "C": 0,
-          "Consolidated": 0
-        },
-        "2023": {
-          "A": 0,
-          "B": 0,
-          "C": 0,
-          "Consolidated": 0
-        }
-      },
-      "shares_basic": {
-        "2022": {
-          "A": 5994,
-          "B": 887,
-          "C": 6182,
-          "Consolidated": 13063
-        },
-        "2023": {
-          "A": 5922,
-          "B": 877,
-          "C": 5831,
-          "Consolidated": 12630
-        }
-      },
-      "restricted_stock_units": {
-        "2022": {
-          "A": 0,
-          "B": 0,
-          "C": 96,
-          "Consolidated": 96
-        },
-        "2023": {
-          "A": 0,
-          "B": 0,
-          "C": 92,
-          "Consolidated": 92
-        }
-      }
+      "net_income_2022_classA": 27518,
+      "net_income_2022_classB": 4072,
+      "net_income_2022_classC": 28382,
+      "net_income_2022_consolidated": 59972,
+      "basic_eps_2022_classA": 4.59,
+      "basic_eps_2022_classB": 4.59,
+      "basic_eps_2022_classC": 4.59,
+      "basic_eps_2022_consolidated": 4.59,
+      "diluted_eps_2022_classA": 4.56,
+      "diluted_eps_2022_classB": 4.56,
+      "diluted_eps_2022_classC": 4.56,
+      "diluted_eps_2022_consolidated": 4.56,
+      "net_income_2023_classA": 39438,
+      "net_income_2023_classB": 5087,
+      "net_income_2023_classC": 34357,
+      "net_income_2023_consolidated": 73795,
+      "basic_eps_2023_classA": 5.84,
+      "basic_eps_2023_classB": 5.84,
+      "basic_eps_2023_classC": 5.84,
+      "basic_eps_2023_consolidated": 5.84,
+      "diluted_eps_2023_classA": 5.8,
+      "diluted_eps_2023_classB": 5.8,
+      "diluted_eps_2023_classC": 5.8,
+      "diluted_eps_2023_consolidated": 5.8
     },
     "chunk_id": 30
   },
   {
-    "info": "Alphabet 2024 results show strong pre-tax income and net income, substantial stock-based compensation activity including RSUs, a large RSU reserve and Class C shares reserved, and an effective tax rate in the mid-teens.",
+    "info": "For the years ended December 31, 2022, 2023, and 2024, total SBC expense was $19.5 billion, $22.1 billion, and $22.8 billion, including amounts associated with awards we expect to settle in Alphabet stock of $18.8 billion, $21.7 billion, and $22.0 billion, respectively. As of December 31, 2024, there was $34.8 billion of unrecognized compensation cost related to unvested RSUs. As of December 31, 2024, there were 633 million shares of Class C stock reserved for future issuance under the Alphabet 2021 Stock Plan. The weighted-average grant-date fair value of RSUs granted during the years ended December 31, 2022 and 2023 was $127.22 and $97.59, respectively. Total fair value of RSUs, as of their respective vesting dates, during the years ended December 31, 2022, 2023, and 2024, were $23.9 billion, $26.6 billion, and $33.3 billion, respectively. For the years ended December 31, 2022, 2023, and 2024, tax benefit realized related to awards vested or exercised during the period was $4.7 billion, $5.6 billion, and $6.8 billion, respectively.",
     "data": {
-      "pre_tax_income_total_2024": 119815000000,
-      "pre_tax_income_domestic_2024": 108076000000,
-      "pre_tax_income_foreign_2024": 11739000000,
-      "net_income_2024_consolidated": 100118000000,
-      "basic_eps_2024": 8.13,
-      "diluted_eps_2024": 8.04,
-      "stock_compensation_expense_2022": 19500000000,
-      "stock_compensation_expense_2023": 22100000000,
-      "stock_compensation_expense_2024": 22800000000,
-      "awards_settle_in_stock_2022": 18800000000,
-      "awards_settle_in_stock_2023": 21700000000,
-      "awards_settle_in_stock_2024": 22000000000,
-      "classC_shares_reserved_2024": 633000000,
-      "unvested_rsus_2024": 299000000,
-      "unvested_rsus_2023": 338000000,
-      "rsu_unvested_2023_weighted_fair_value": 104.93,
-      "rsu_grants_2024_shares": 195000000,
-      "rsu_grants_2024_weighted_fair_value": 140.04,
-      "rsu_vested_2024_shares": 199000000,
-      "rsu_vested_2024_weighted_fair_value": 110.89,
-      "rsu_forfeited_2024_shares": 35000000,
-      "rsu_forfeited_2024_weighted_fair_value": 113.52,
-      "rsu_unvested_2024_weighted_fair_value": 122.77,
-      "rsu_weighted_average_fair_value_2022": 127.22,
-      "rsu_weighted_average_fair_value_2023": 97.59,
-      "rsu_total_fair_value_vested_2022": 23900000000,
-      "rsu_total_fair_value_vested_2023": 26600000000,
-      "rsu_total_fair_value_vested_2024": 33300000000,
-      "unrecognized_rsus_cost_2024": 34800000000,
-      "rsu_cost_recognition_years_2024": 2.5,
-      "current_tax_provision_2024": 24953,
-      "current_tax_federal_state_2024": 22485,
-      "current_tax_foreign_2024": 2468,
-      "deferred_tax_2024": -5256,
-      "provision_for_income_taxes_2024": 19697,
-      "effective_tax_rate_2024": 16.4,
-      "federal_statutory_tax_rate_2022": 21.0,
-      "federal_statutory_tax_rate_2023": 21.0,
-      "federal_statutory_tax_rate_2024": 21.0,
-      "foreign_income_tax_rate_2022": 3.0,
-      "foreign_income_tax_rate_2023": 0.3,
-      "foreign_income_tax_rate_2024": 0.5,
-      "foreign_derived_intangible_income_deduction_2022": -5.4,
-      "foreign_derived_intangible_income_deduction_2023": -4.6,
-      "foreign_derived_intangible_income_deduction_2024": -3.8,
-      "stock_based_compensation_expense_pct_2022": -1.2,
-      "stock_based_compensation_expense_pct_2023": -0.8,
-      "stock_based_compensation_expense_pct_2024": -1.5,
-      "federal_research_credit_pct_2022": -2.2,
-      "federal_research_credit_pct_2023": -1.8,
-      "federal_research_credit_pct_2024": -1.5,
-      "deferred_tax_asset_valuation_allowance_pct_2022": 0.9,
-      "deferred_tax_asset_valuation_allowance_pct_2023": 0.6,
-      "deferred_tax_asset_valuation_allowance_pct_2024": 0.4,
-      "state_and_local_income_taxes_pct_2022": 0.8,
-      "state_and_local_income_taxes_pct_2023": 1.0,
-      "state_and_local_income_taxes_pct_2024": 1.1,
-      "effect_of_tax_law_change_pct_2022": 0.0,
-      "effect_of_tax_law_change_pct_2023": -1.4,
-      "effect_of_tax_law_change_pct_2024": 0.0,
-      "other_tax_effect_pct_2022": -1.0,
-      "other_tax_effect_pct_2023": -0.4,
-      "other_tax_effect_pct_2024": 0.2
+      "sbc_expense_2022": 19500000000,
+      "sbc_expense_2023": 22100000000,
+      "sbc_expense_2024": 22800000000,
+      "sbc_stock_settle_amount_2022": 18800000000,
+      "sbc_stock_settle_amount_2023": 21700000000,
+      "sbc_stock_settle_amount_2024": 22000000000,
+      "unrecognized_cost_rsus_2024": 34800000000,
+      "shares_reserved_classC_stock_plan_2024": 633000000,
+      "rsu_weighted_avg_fair_value_2022": 127.22,
+      "rsu_weighted_avg_fair_value_2023": 97.59,
+      "rsu_total_fair_value_2022": 23900000000,
+      "rsu_total_fair_value_2023": 26600000000,
+      "rsu_total_fair_value_2024": 33300000000,
+      "tax_benefit_awards_2022": 4700000000,
+      "tax_benefit_awards_2023": 5600000000,
+      "tax_benefit_awards_2024": 6800000000
     },
     "chunk_id": 31
   },
   {
-    "info": "Tax-related disclosures include a 2023 cumulative one-time adjustment from IRS rule changes on foreign tax credits and R&D capitalization/amortization; substantial NOL and tax-credit carryforwards with expiration timelines; cash income taxes paid reported for 2022–2024; ongoing U.S. and Ireland tax audits; 2025 unrealized gain of $8.0B on non-marketable equity; AI initiatives and realignment of teams across Google Research and DeepMind; segment results show continued revenue growth and operating income improvements, with significant long-lived assets growth in the U.S. and internationally.",
+    "info": "As of December 31, 2024, our Federal and California research and development credit carryforwards for income tax purposes were approximately $700 million and $6.4 billion, respectively.",
     "data": {
-      "nol_federal_2024": 8400000000,
-      "nol_state_2024": 19400000000,
-      "nol_foreign_2024": 2500000000,
-      "nol_expire_federal_year": 2025,
-      "nol_expire_forign_year": 2025,
-      "nol_expire_state_year": 2033,
-      "federal_rnd_credit_carryforwards_2024": 700000000,
-      "california_rnd_credit_carryforwards_2024": 6400000000,
+      "federal_r_and_d_credit_carryforwards_2024": 700000000,
+      "california_r_and_d_credit_carryforwards_2024": 6400000000,
+      "federal_nol_carryforwards_2024": 8400000000,
+      "state_nol_carryforwards_2024": 19400000000,
+      "foreign_nol_carryforwards_2024": 2500000000,
       "investment_tax_credit_carryforwards_state_2024": 1200000000,
-      "investment_tax_credit_expire_year_state": 2030,
-      "cash_income_taxes_net_of_refunds_2022": 18900000000,
-      "cash_income_taxes_net_of_refunds_2023": 19200000000,
-      "cash_income_taxes_net_of_refunds_2024": 27400000000,
-      "total_deferred_tax_assets_2023": 37144000000,
-      "total_deferred_tax_assets_2024": 44857000000,
-      "valuation_allowance_2023": -10999000000,
-      "valuation_allowance_2024": -11493000000,
+      "cash_paid_income_taxes_net_of_refunds_2024": 27400000000,
       "total_deferred_tax_assets_net_of_valuation_allowance_2023": 26145000000,
       "total_deferred_tax_assets_net_of_valuation_allowance_2024": 33364000000,
-      "deferred_tax_liabilities_total_2023": -14461000000,
-      "deferred_tax_liabilities_total_2024": -16904000000,
+      "valuation_allowance_2023": 10999000000,
+      "valuation_allowance_2024": 11493000000,
+      "deferred_tax_liabilities_total_2023": 14461000000,
+      "deferred_tax_liabilities_total_2024": 16904000000,
       "net_deferred_tax_assets_liabilities_2023": 11684000000,
       "net_deferred_tax_assets_liabilities_2024": 16460000000,
-      "long_lived_assets_usa_2023": 110053,
-      "long_lived_assets_usa_2024": 138993,
-      "long_lived_assets_international_2023": 38383,
-      "long_lived_assets_international_2024": 45631,
-      "unrealized_gain_non_marketable_equity_securities_jan2025": 8000000000,
-      "revenues_google_services_2022": 253528000000,
-      "revenues_google_services_2023": 272543000000,
-      "revenues_google_services_2024": 304930000000,
-      "revenues_google_cloud_2022": 26280000000,
-      "revenues_google_cloud_2023": 33088000000,
-      "revenues_google_cloud_2024": 43229000000,
-      "revenues_other_bets_2022": 1068000000,
-      "revenues_other_bets_2023": 1527000000,
-      "revenues_other_bets_2024": 1648000000,
-      "total_revenues_2022": 282836000000,
-      "total_revenues_2023": 307394000000,
       "total_revenues_2024": 350018000000,
-      "operating_income_google_services_2022": 82699000000,
-      "operating_income_google_services_2023": 95858000000,
-      "operating_income_google_services_2024": 121263000000,
-      "operating_income_google_cloud_2022": -1922000000,
-      "operating_income_google_cloud_2023": 1716000000,
-      "operating_income_google_cloud_2024": 6112000000,
-      "operating_income_other_bets_2022": -4636000000,
-      "operating_income_other_bets_2023": -4095000000,
-      "operating_income_other_bets_2024": -4444000000,
-      "operating_income_alphabet_level_activities_2022": -1299000000,
-      "operating_income_alphabet_level_activities_2023": -9186000000,
-      "operating_income_alphabet_level_activities_2024": -10541000000,
-      "total_income_from_operations_2022": 74842000000,
-      "total_income_from_operations_2023": 84293000000,
+      "google_services_revenues_2024": 304930000000,
+      "google_cloud_revenues_2024": 43229000000,
+      "other_bets_revenues_2024": 1648000000,
+      "hedging_gains_losses_2024": 211000000,
       "total_income_from_operations_2024": 112390000000,
-      "google_services_employee_compensation_2022": 43529000000,
-      "google_services_employee_compensation_2023": 46224000000,
+      "google_services_operating_income_2024": 121263000000,
+      "google_cloud_operating_income_2024": 6112000000,
+      "other_bets_operating_income_2024": -4444000000,
+      "alphabet_level_activities_operating_loss_2024": -10541000000,
+      "total_google_services_costs_and_expenses_2024": 183667000000,
       "google_services_employee_compensation_2024": 44560000000,
-      "google_services_other_costs_expenses_2022": 127300000000,
-      "google_services_other_costs_expenses_2023": 130461000000,
       "google_services_other_costs_expenses_2024": 139107000000,
-      "total_google_services_costs_expenses_2022": 170829000000,
-      "total_google_services_costs_expenses_2023": 176685000000,
-      "total_google_services_costs_expenses_2024": 183667000000,
-      "google_cloud_employee_comp_2022": 16132000000,
-      "google_cloud_employee_comp_2023": 19054000000,
-      "google_cloud_employee_comp_2024": 20519000000,
-      "google_cloud_other_costs_expenses_2022": 12070000000,
-      "google_cloud_other_costs_expenses_2023": 12318000000,
+      "google_cloud_employee_compensation_2024": 20519000000,
       "google_cloud_other_costs_expenses_2024": 16598000000,
-      "total_google_cloud_costs_expenses_2022": 28202000000,
-      "total_google_cloud_costs_expenses_2023": 31372000000,
-      "total_google_cloud_costs_expenses_2024": 37117000000
+      "google_cloud_total_costs_expenses_2024": 37117000000,
+      "long_lived_assets_US_2024": 138993000000,
+      "long_lived_assets_international_2024": 45631000000,
+      "total_long_lived_assets_2024": 184624000000,
+      "long_lived_assets_US_2023": 110053000000,
+      "long_lived_assets_international_2023": 38383000000,
+      "total_long_lived_assets_2023": 148436000000
     },
     "chunk_id": 32
   },
   {
-    "info": "January 2025 unrealized gain of 8.0B on non-marketable equity securities related to a private company, reflecting a fair-value increase after an observable transaction; references to Note 3 and Note 7 for details on equity investments and OI&E. Also discloses Rule 10b5-1 trading plans for insiders: John Hennessy to sell 6,000 Class C and 1,200 Class A shares (first trade March 13, 2025; through March 13, 2026) and Sundar Pichai to sell 876,000 Class C shares (first trade April 2, 2025; through April 18, 2026).",
-    "data": {
-      "unrealized_gain_private_company_2025": 8000000000,
-      "fiscal_year_end": 2024,
-      "quarter_end_date": 20241231,
-      "hennessy_classC_to_sell": 6000,
-      "hennessy_classA_to_sell": 1200,
-      "hennessy_first_trade_date": 20250313,
-      "hennessy_plan_end_date": 20260313,
-      "pichai_classC_to_sell": 876000,
-      "pichai_first_trade_date": 20250402,
-      "pichai_plan_end_date": 20260418
-    },
+    "info": "In January 2025, we recognized an $8.0 billion unrealized gain on our non-marketable equity securities related to our investment in a private company. The unrealized gain reflects an increase in the fair value measurement of our investment following an observable transaction in January 2025. See Note 3 and Note 7 for further details on equity investments and OI&E.",
+    "data": {},
     "chunk_id": 33
-  },
-  {
-    "info": "Alphabet's exhibit list includes governance, debt and stock-plan instruments with dates from 2015 through 2024, highlighting transfer restrictions, indentures, stock-plan amendments, and a 2024 clawback policy; reflects ongoing regulatory and financing documentation rather than core business updates.",
-    "data": {
-      "exhibits": [
-        {
-          "exhibit": "4.07",
-          "date": 20151002
-        },
-        {
-          "exhibit": "4.08",
-          "date": 20151002
-        },
-        {
-          "exhibit": "4.09",
-          "date": 20160212
-        },
-        {
-          "exhibit": "4.10",
-          "date": 20160212
-        },
-        {
-          "exhibit": "4.11",
-          "date": 20160427
-        },
-        {
-          "exhibit": "4.12",
-          "date": 20160809
-        },
-        {
-          "exhibit": "4.13",
-          "date": 20200805
-        },
-        {
-          "exhibit": "4.14",
-          "date": 20200805
-        },
-        {
-          "exhibit": "4.15",
-          "date": 20200805
-        },
-        {
-          "exhibit": "4.16",
-          "date": 20200805
-        },
-        {
-          "exhibit": "4.17",
-          "date": 20200805
-        },
-        {
-          "exhibit": "4.18",
-          "date": 20200805
-        },
-        {
-          "exhibit": "4.19",
-          "date": 20230203
-        },
-        {
-          "exhibit": "10.01",
-          "date": 20151002
-        },
-        {
-          "exhibit": "10.02",
-          "date": 20240131
-        },
-        {
-          "exhibit": "10.03",
-          "date": 20240607
-        },
-        {
-          "exhibit": "10.04",
-          "date": 20151002
-        },
-        {
-          "exhibit": "10.05",
-          "date": 20151002
-        },
-        {
-          "exhibit": "10.06",
-          "date": 20151002
-        },
-        {
-          "exhibit": "10.07",
-          "date": 20200605
-        },
-        {
-          "exhibit": "10.07.1",
-          "date": 20200204
-        },
-        {
-          "exhibit": "10.08",
-          "date": 20230608
-        },
-        {
-          "exhibit": "10.08.1",
-          "date": 20210728
-        },
-        {
-          "exhibit": "10.08.2",
-          "date": 20230726
-        },
-        {
-          "exhibit": "10.08.3",
-          "date": 20240426
-        },
-        {
-          "exhibit": "10.08.4",
-          "date": 20230203
-        },
-        {
-          "exhibit": "10.08.5",
-          "date": 20240426
-        },
-        {
-          "exhibit": "10.08.6",
-          "date": 20220202
-        },
-        {
-          "exhibit": "10.08.7",
-          "date": 20230726
-        },
-        {
-          "exhibit": "10.08.8",
-          "date": 20240426
-        },
-        {
-          "exhibit": "10.09",
-          "date": 20230202
-        },
-        {
-          "exhibit": "97.01",
-          "date": 20240131
-        }
-      ]
-    },
-    "chunk_id": 34
-  },
-  {
-    "info": "",
-    "data": {
-      "signature_date_day": 4,
-      "signature_date_year": 2025
-    },
-    "chunk_id": 35
   }
 ]
