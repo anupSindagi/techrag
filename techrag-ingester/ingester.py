@@ -111,8 +111,8 @@ async def main():
         llm_client=OpenAIClient(
             config=LLMConfig(
                 api_key=os.environ.get('OPENAI_API_KEY'),
-                model="gpt-4o-mini",
-                small_model="gpt-4o-mini"
+                model="gpt-5-mini",
+                small_model="gpt-5-nano"
             )
         ),
         embedder=OpenAIEmbedder(
@@ -124,7 +124,7 @@ async def main():
         cross_encoder=OpenAIRerankerClient(
             config=LLMConfig(
                 api_key=os.environ.get('OPENAI_API_KEY'),
-                model="gpt-4o-mini"
+                model="gpt-5-nano"
             )
         )
     )
