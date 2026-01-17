@@ -18,7 +18,7 @@ from graphiti_core.utils.maintenance.graph_data_operations import clear_data
 load_dotenv()
 
 # Set semaphore limit for concurrency control
-os.environ['SEMAPHORE_LIMIT'] = '1'
+os.environ['SEMAPHORE_LIMIT'] = '3'
 
 # Configure logging
 logging.basicConfig(
@@ -66,14 +66,16 @@ def load_episodes_from_file(file_path: Path) -> list[dict]:
     return episodes
 
 
-async def ingest_episodes(graphiti: Graphiti, episodes: list[dict], delay_seconds: int = 20):
-    """Ingest episodes one at a time with delay."""
-    total = len(episodes)
-    failed_episodes = []
-    
-    for i, ep in enumerate(episodes):
-        episode_num = i + 1
-        
+async def add_episode_with_retry(
+    graphiti: Graphiti,
+    ep: dict,
+    episode_num: int,
+    total: int,
+    max_retries: int = 5,
+    base_delay: float = 2.0,
+):
+    """Add a single episode with exponential backoff retry."""
+    for attempt in range(max_retries):
         try:
             await graphiti.add_episode(
                 name=ep['name'],
@@ -83,18 +85,54 @@ async def ingest_episodes(graphiti: Graphiti, episodes: list[dict], delay_second
                 reference_time=datetime.now(timezone.utc),
             )
             logger.info(f'Ingested episode {episode_num}/{total}: {ep["name"]}')
+            return True
         except Exception as e:
-            logger.error(f'Failed episode {episode_num}/{total} ({ep["name"]}): {e}')
-            failed_episodes.append(ep['name'])
-            await asyncio.sleep(delay_seconds)
-        
-        # Wait before next episode
-        if episode_num < total:
-            logger.info(f'Waiting {delay_seconds} seconds...')
-            await asyncio.sleep(delay_seconds)
+            delay = base_delay * (2 ** attempt)  # Exponential backoff: 2, 4, 8, 16, 32 seconds
+            if attempt < max_retries - 1:
+                logger.warning(
+                    f'Episode {episode_num}/{total} ({ep["name"]}) failed (attempt {attempt + 1}/{max_retries}): {e}. '
+                    f'Retrying in {delay:.1f}s...'
+                )
+                await asyncio.sleep(delay)
+            else:
+                logger.error(
+                    f'Episode {episode_num}/{total} ({ep["name"]}) failed after {max_retries} attempts: {e}'
+                )
+                return False
+    return False
+
+
+async def ingest_episodes(
+    graphiti: Graphiti,
+    episodes: list[dict],
+    concurrency: int = 3,
+    base_delay: float = 2.0,
+    max_retries: int = 5,
+):
+    """Ingest episodes concurrently with exponential backoff retry."""
+    total = len(episodes)
+    semaphore = asyncio.Semaphore(concurrency)
+    failed_episodes = []
+    
+    async def process_episode(ep: dict, episode_num: int):
+        async with semaphore:
+            success = await add_episode_with_retry(
+                graphiti, ep, episode_num, total, max_retries, base_delay
+            )
+            if not success:
+                failed_episodes.append(ep['name'])
+    
+    # Create tasks for all episodes
+    tasks = [
+        process_episode(ep, i + 1)
+        for i, ep in enumerate(episodes)
+    ]
+    
+    # Run all tasks concurrently (limited by semaphore)
+    await asyncio.gather(*tasks)
     
     if failed_episodes:
-        logger.warning(f'Failed episodes: {len(failed_episodes)}')
+        logger.warning(f'Failed episodes ({len(failed_episodes)}): {failed_episodes}')
 
 
 async def main():
@@ -149,8 +187,14 @@ async def main():
         
         logger.info(f'Total episodes to ingest: {len(all_episodes)}')
         
-        # Ingest episodes one at a time with 20 second delay
-        await ingest_episodes(graphiti, all_episodes, delay_seconds=15)
+        # Ingest episodes concurrently with exponential backoff
+        await ingest_episodes(
+            graphiti,
+            all_episodes,
+            concurrency=3,      # Process 3 episodes at a time
+            base_delay=2.0,     # Start retry delay at 2 seconds
+            max_retries=5,      # Max 5 retries per episode
+        )
         
         logger.info('Ingestion complete!')
         
