@@ -1,6 +1,9 @@
+version: "3.9"
+
 services:
   postgres:
-    image: postgres:18
+    image: postgres:15
+    restart: always
     environment:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
@@ -9,16 +12,34 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    networks:
+      - aegra-net
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U $POSTGRES_USER -d $POSTGRES_DB"]
+      test: ["CMD-SHELL", "pg_isready -U user -d aegra"]
       interval: 5s
       timeout: 5s
       retries: 5
+
+  redis:
+    image: redis:7-alpine
+    restart: always
+    ports:
+      - "6379:6379"
+    networks:
+      - aegra-net
 
   aegra:
     build:
       context: .
       dockerfile: deployments/docker/Dockerfile
+    restart: always
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    networks:
+      - aegra-net
     ports:
       - "8000:8000"
     environment:
@@ -34,7 +55,9 @@ services:
       POSTGRES_HOST: postgres
       POSTGRES_PORT: 5432
 
+      # IMPORTANT: must NOT be localhost
       DATABASE_URL: postgresql+asyncpg://user:password@postgres:5432/aegra
+
       DATABASE_ECHO: "false"
 
       SQLALCHEMY_POOL_SIZE: 2
@@ -58,26 +81,23 @@ services:
       LANGFUSE_SECRET_KEY: ${LANGFUSE_SECRET_KEY}
       LANGFUSE_PUBLIC_KEY: ${LANGFUSE_PUBLIC_KEY}
       LANGFUSE_HOST: https://cloud.langfuse.com
-    depends_on:
-      postgres:
-        condition: service_healthy
+
     command: >
       sh -c "
+        echo 'Waiting for Postgres...';
+        sleep 2;
         alembic upgrade head &&
         uvicorn src.agent_server.main:app --host 0.0.0.0 --port 8000
       "
+
     volumes:
       - ./aegra.json:/app/aegra.json:ro
       - ./graphs:/app/graphs:ro
       - ./custom_routes_example.py:/app/custom_routes_example.py:ro
 
-  redis:
-    image: redis:7-alpine
-    ports:
-      - "6379:6379"
-    volumes:
-      - redis_data:/data
-
 volumes:
   postgres_data:
-  redis_data:
+
+networks:
+  aegra-net:
+    driver: bridge
