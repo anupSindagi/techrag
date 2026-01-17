@@ -112,7 +112,7 @@ async def main():
         llm_client=OpenAIClient(
             config=LLMConfig(
                 api_key=os.environ.get('OPENAI_API_KEY'),
-                model="gpt-5-nano",
+                model="gpt-5-mini",
                 small_model="gpt-5-nano"
             )
         ),
