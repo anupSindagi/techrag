@@ -19,7 +19,7 @@ from graphiti_core.utils.maintenance.graph_data_operations import clear_data
 load_dotenv()
 
 # Set semaphore limit for concurrency control
-os.environ['SEMAPHORE_LIMIT'] = '5'
+os.environ['SEMAPHORE_LIMIT'] = '3'
 
 
 # Configure logging
@@ -193,7 +193,7 @@ async def main():
         await ingest_episodes(
             graphiti,
             all_episodes,
-            concurrency=5,      # Process 5 episodes at a time
+            concurrency=3,      # Process 3 episodes at a time
             base_delay=2.0,     # Start retry delay at 2 seconds
             max_retries=5,      # Max 5 retries per episode
         )
