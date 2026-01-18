@@ -2,6 +2,7 @@ import asyncio
 import json
 import logging
 import os
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -18,7 +19,8 @@ from graphiti_core.utils.maintenance.graph_data_operations import clear_data
 load_dotenv()
 
 # Set semaphore limit for concurrency control
-os.environ['SEMAPHORE_LIMIT'] = '3'
+os.environ['SEMAPHORE_LIMIT'] = '5'
+
 
 # Configure logging
 logging.basicConfig(
@@ -168,7 +170,7 @@ async def main():
     )
 
     try:
-        # Clear existing data from the database
+        # Clear existing data
         logger.info('Clearing existing data...')
         await clear_data(graphiti.driver)
         
@@ -191,7 +193,7 @@ async def main():
         await ingest_episodes(
             graphiti,
             all_episodes,
-            concurrency=3,      # Process 3 episodes at a time
+            concurrency=5,      # Process 5 episodes at a time
             base_delay=2.0,     # Start retry delay at 2 seconds
             max_retries=5,      # Max 5 retries per episode
         )
@@ -201,6 +203,9 @@ async def main():
     finally:
         await graphiti.close()
         logger.info('Connection closed')
+    
+    logger.info('Exiting.')
+    sys.exit(0)
 
 
 if __name__ == '__main__':
