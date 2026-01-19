@@ -4,16 +4,5 @@
     "agent_hitl": "./graphs/react_agent_hitl/graph.py:graph",
     "subgraph_agent": "./graphs/subgraph_agent/graph.py:graph",
     "subgraph_hitl_agent": "./graphs/subgraph_hitl_agent/graph.py:graph"
-  },
-  "http": {
-    "app": "./custom_routes_example.py:app",
-    "cors": {
-      "allow_origins": ["*"],
-      "allow_methods": ["*"],
-      "allow_headers": ["*"],
-      "allow_credentials": true,
-      "expose_headers": ["Content-Location", "Location"],
-      "max_age": 600
-    }
   }
 }
