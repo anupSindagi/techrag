@@ -36,6 +36,28 @@ class Context:
         },
     )
 
+    # Neo4j connection parameters for Graphiti
+    neo4j_uri: str = field(
+        default="bolt://localhost:7687",
+        metadata={
+            "description": "The URI of the Neo4j database for Graphiti knowledge graph."
+        },
+    )
+
+    neo4j_user: str = field(
+        default="neo4j",
+        metadata={
+            "description": "The username for Neo4j database authentication."
+        },
+    )
+
+    neo4j_password: str = field(
+        default="password123",
+        metadata={
+            "description": "The password for Neo4j database authentication."
+        },
+    )
+
     def __post_init__(self) -> None:
         """Fetch env vars for attributes that were not passed as args."""
         for f in fields(self):
