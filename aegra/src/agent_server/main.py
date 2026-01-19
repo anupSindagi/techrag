@@ -202,10 +202,22 @@ if user_app:
 
     # Merge middleware - add Aegra middleware to user app
     # Note: User's middleware is already in user_app.user_middleware
+    # IMPORTANT: Middleware runs in REVERSE order of addition (last added runs first)
+    # So we add CORS LAST to ensure it runs FIRST and handles OPTIONS preflight
     app.add_middleware(StructLogMiddleware)
     app.add_middleware(CorrelationIdMiddleware)
+    app.add_middleware(DoubleEncodedJSONMiddleware)
 
-    # Apply CORS configuration
+    # Apply auth middleware to custom routes if enabled
+    enable_custom_route_auth = (
+        http_config.get("enable_custom_route_auth", False) if http_config else False
+    )
+    if enable_custom_route_auth:
+        app.add_middleware(
+            AuthenticationMiddleware, backend=get_auth_backend(), on_error=on_auth_error
+        )
+
+    # Apply CORS configuration LAST so it runs FIRST (handles OPTIONS preflight before auth)
     # Default expose_headers includes Content-Location and Location which are
     # required for LangGraph SDK stream reconnection (reconnectOnMount)
     cors_config = http_config.get("cors") if http_config else None
@@ -230,17 +242,6 @@ if user_app:
             expose_headers=default_expose_headers,
         )
 
-    app.add_middleware(DoubleEncodedJSONMiddleware)
-
-    # Apply auth middleware to custom routes if enabled
-    enable_custom_route_auth = (
-        http_config.get("enable_custom_route_auth", False) if http_config else False
-    )
-    if enable_custom_route_auth:
-        app.add_middleware(
-            AuthenticationMiddleware, backend=get_auth_backend(), on_error=on_auth_error
-        )
-
 else:
     # Standard Aegra app without custom routes
     app = FastAPI(
@@ -253,10 +254,18 @@ else:
         lifespan=lifespan,
     )
 
+    # IMPORTANT: Middleware runs in REVERSE order of addition (last added runs first)
+    # So we add CORS LAST to ensure it runs FIRST and handles OPTIONS preflight before auth
     app.add_middleware(StructLogMiddleware)
     app.add_middleware(CorrelationIdMiddleware)
+    app.add_middleware(DoubleEncodedJSONMiddleware)
 
-    # Add CORS middleware - apply config from http.cors if present
+    # Add authentication middleware
+    app.add_middleware(
+        AuthenticationMiddleware, backend=get_auth_backend(), on_error=on_auth_error
+    )
+
+    # Add CORS middleware LAST so it runs FIRST (handles OPTIONS preflight before auth)
     # Default expose_headers includes Content-Location and Location which are
     # required for LangGraph SDK stream reconnection (reconnectOnMount)
     cors_config = http_config.get("cors") if http_config else None
@@ -273,14 +282,6 @@ else:
         if cors_config
         else default_expose_headers,
         max_age=cors_config.get("max_age", 600) if cors_config else 600,
-    )
-
-    # Add middleware to handle double-encoded JSON from frontend
-    app.add_middleware(DoubleEncodedJSONMiddleware)
-
-    # Add authentication middleware (must be added after CORS)
-    app.add_middleware(
-        AuthenticationMiddleware, backend=get_auth_backend(), on_error=on_auth_error
     )
 
     # Include routers
