@@ -38,7 +38,7 @@ class Context:
 
     # Neo4j connection parameters for Graphiti
     neo4j_uri: str = field(
-        default="bolt://localhost:7687",
+        default="bolt://neo4j:7687",
         metadata={
             "description": "The URI of the Neo4j database for Graphiti knowledge graph."
         },
