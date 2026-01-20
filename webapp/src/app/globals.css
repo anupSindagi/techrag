@@ -119,8 +119,24 @@
     @apply border-border outline-ring/50;
   }
 
+  html,
   body {
     @apply bg-background text-foreground;
+    /* Fix for mobile viewport height issues */
+    height: 100%;
+    height: 100dvh;
+    overflow: hidden;
+  }
+
+  /* Ensure touch targets are accessible on mobile */
+  @media (max-width: 640px) {
+    button,
+    [role="button"],
+    input,
+    textarea,
+    select {
+      min-height: 44px;
+    }
   }
 
   :root {

@@ -275,7 +275,7 @@ export function Thread() {
   );
 
   return (
-    <div className="flex h-screen w-full overflow-hidden">
+    <div className="flex h-[100dvh] w-full overflow-hidden">
       <div className="relative hidden lg:flex">
         <motion.div
           className="absolute z-20 h-full overflow-hidden border-r bg-white"
@@ -328,18 +328,19 @@ export function Thread() {
           }
         >
           {!chatStarted && (
-            <div className="absolute top-0 left-0 z-10 flex w-full items-center justify-between gap-3 p-2 pl-4">
+            <div className="absolute top-0 left-0 z-10 flex w-full items-center justify-between gap-3 p-2 pl-2 sm:pl-4">
               <div>
                 {(!chatHistoryOpen || !isLargeScreen) && (
                   <Button
                     className="hover:bg-gray-100"
                     variant="ghost"
+                    size="sm"
                     onClick={() => setChatHistoryOpen((p) => !p)}
                   >
                     {chatHistoryOpen ? (
-                      <PanelRightOpen className="size-5" />
+                      <PanelRightOpen className="size-4 sm:size-5" />
                     ) : (
-                      <PanelRightClose className="size-5" />
+                      <PanelRightClose className="size-4 sm:size-5" />
                     )}
                   </Button>
                 )}
@@ -347,19 +348,20 @@ export function Thread() {
             </div>
           )}
           {chatStarted && (
-            <div className="relative z-10 flex items-center justify-between gap-3 p-2">
+            <div className="relative z-10 flex items-center justify-between gap-2 p-2 sm:gap-3">
               <div className="relative flex items-center justify-start gap-2">
                 <div className="absolute left-0 z-10">
                   {(!chatHistoryOpen || !isLargeScreen) && (
                     <Button
                       className="hover:bg-gray-100"
                       variant="ghost"
+                      size="sm"
                       onClick={() => setChatHistoryOpen((p) => !p)}
                     >
                       {chatHistoryOpen ? (
-                        <PanelRightOpen className="size-5" />
+                        <PanelRightOpen className="size-4 sm:size-5" />
                       ) : (
-                        <PanelRightClose className="size-5" />
+                        <PanelRightClose className="size-4 sm:size-5" />
                       )}
                     </Button>
                   )}
@@ -368,7 +370,7 @@ export function Thread() {
                   className="flex cursor-pointer items-center gap-2"
                   onClick={() => setThreadId(null)}
                   animate={{
-                    marginLeft: !chatHistoryOpen ? 48 : 0,
+                    marginLeft: !chatHistoryOpen ? 40 : 0,
                   }}
                   transition={{
                     type: "spring",
@@ -376,21 +378,21 @@ export function Thread() {
                     damping: 30,
                   }}
                 >
-                  <span className="text-xl font-semibold tracking-tight">
+                  <span className="text-lg font-semibold tracking-tight sm:text-xl">
                     Mag7 Agent
                   </span>
                 </motion.button>
               </div>
 
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-2 sm:gap-4">
                 <TooltipIconButton
-                  size="lg"
-                  className="p-4"
+                  size="default"
+                  className="p-2 sm:p-4"
                   tooltip="New thread"
                   variant="ghost"
                   onClick={() => setThreadId(null)}
                 >
-                  <SquarePen className="size-5" />
+                  <SquarePen className="size-4 sm:size-5" />
                 </TooltipIconButton>
               </div>
 
@@ -401,11 +403,11 @@ export function Thread() {
           <StickToBottom className="relative flex-1 overflow-hidden">
             <StickyToBottomContent
               className={cn(
-                "absolute inset-0 overflow-y-scroll px-4 [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-gray-300 [&::-webkit-scrollbar-track]:bg-transparent",
-                !chatStarted && "mt-[25vh] flex flex-col items-stretch",
+                "absolute inset-0 overflow-y-scroll px-2 sm:px-4 [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-gray-300 [&::-webkit-scrollbar-track]:bg-transparent",
+                !chatStarted && "mt-[10vh] flex flex-col items-stretch sm:mt-[25vh]",
                 chatStarted && "grid grid-rows-[1fr_auto]",
               )}
-              contentClassName="pt-8 pb-16 max-w-3xl mx-auto flex flex-col gap-4 w-full"
+              contentClassName="pt-4 pb-8 max-w-3xl mx-auto flex flex-col gap-4 w-full sm:pt-8 sm:pb-16"
               content={
                 <>
                   {messages
@@ -442,19 +444,19 @@ export function Thread() {
                 </>
               }
               footer={
-                <div className="sticky bottom-0 flex flex-col items-center gap-8 bg-white">
+                <div className="sticky bottom-0 flex flex-col items-center gap-4 bg-white px-2 pb-4 sm:gap-8 sm:px-4 sm:pb-0">
                   {!chatStarted && (
-                    <div className="flex w-full max-w-3xl flex-col items-center gap-6">
-                      <div className="flex flex-col items-center gap-4 text-center">
-                        <h1 className="text-2xl font-semibold tracking-tight">
+                    <div className="flex w-full max-w-3xl flex-col items-center gap-4 sm:gap-6">
+                      <div className="flex flex-col items-center gap-3 text-center sm:gap-4">
+                        <h1 className="text-xl font-semibold tracking-tight sm:text-2xl">
                           Mag7 Agent
                         </h1>
-                        <p className="text-sm text-gray-600">
+                        <p className="text-xs text-gray-600 sm:text-sm">
                           AI-powered analysis of SEC 10-K filings for the
                           Magnificent 7 companies: Apple, Microsoft, Alphabet,
                           Amazon, NVIDIA, Meta, and Tesla.
                         </p>
-                        <ul className="text-left text-xs text-gray-500 space-y-1">
+                        <ul className="hidden text-left text-xs text-gray-500 space-y-1 sm:block">
                           <li>
                             <span className="font-medium text-gray-700">Data:</span>{" "}
                             Latest SEC 10-K Annual Filings from all Mag7 companies
@@ -473,14 +475,14 @@ export function Thread() {
                       {/* Suggested Prompts */}
                       <div className="flex w-full flex-col gap-2">
                         <p className="text-xs text-gray-400 text-center">Try asking:</p>
-                        <div className="flex flex-col gap-2 sm:flex-row">
+                        <div className="flex flex-col gap-2">
                           <button
                             onClick={() =>
                               handleSuggestedPrompt(
                                 "Compare the cash on balance sheet between all the Magnificent 7 companies"
                               )
                             }
-                            className="flex-1 rounded-lg border border-gray-200 bg-white px-4 py-3 text-left text-sm text-gray-700 shadow-sm transition-all hover:border-indigo-400 hover:bg-gray-50"
+                            className="w-full rounded-lg border border-gray-200 bg-white px-3 py-2.5 text-left text-xs text-gray-700 shadow-sm transition-all hover:border-indigo-400 hover:bg-gray-50 sm:px-4 sm:py-3 sm:text-sm"
                           >
                             Compare the cash on balance sheet between all the Magnificent 7 companies
                           </button>
@@ -490,7 +492,7 @@ export function Thread() {
                                 "What are some major legal concerns faced by the Magnificent 7 companies?"
                               )
                             }
-                            className="flex-1 rounded-lg border border-gray-200 bg-white px-4 py-3 text-left text-sm text-gray-700 shadow-sm transition-all hover:border-indigo-400 hover:bg-gray-50"
+                            className="w-full rounded-lg border border-gray-200 bg-white px-3 py-2.5 text-left text-xs text-gray-700 shadow-sm transition-all hover:border-indigo-400 hover:bg-gray-50 sm:px-4 sm:py-3 sm:text-sm"
                           >
                             What are some major legal concerns faced by the Magnificent 7 companies?
                           </button>
@@ -500,10 +502,10 @@ export function Thread() {
                       {/* Play with Knowledge Graph Section */}
                       <button
                         onClick={() => setShowGraph(true)}
-                        className="group flex cursor-pointer items-center gap-2 rounded-lg border border-gray-200 bg-white px-4 py-3 shadow-sm transition-all hover:border-indigo-400 hover:bg-gray-50"
+                        className="group flex cursor-pointer items-center gap-2 rounded-lg border border-gray-200 bg-white px-3 py-2.5 shadow-sm transition-all hover:border-indigo-400 hover:bg-gray-50 sm:px-4 sm:py-3"
                       >
                         <svg
-                          className="h-5 w-5 text-indigo-500"
+                          className="h-4 w-4 text-indigo-500 sm:h-5 sm:w-5"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
@@ -515,7 +517,7 @@ export function Thread() {
                           <circle cx="20" cy="18" r="2" />
                           <path d="M12 9V6M12 15v3M9.5 10.5L6 8M14.5 10.5L18 8M9.5 13.5L6 16M14.5 13.5L18 16" />
                         </svg>
-                        <span className="text-sm font-medium text-gray-700">
+                        <span className="text-xs font-medium text-gray-700 sm:text-sm">
                           Play with the Knowledge Graph
                         </span>
                       </button>
@@ -560,7 +562,7 @@ export function Thread() {
                   <div
                     ref={dropRef}
                     className={cn(
-                      "bg-muted relative z-10 mx-auto mb-8 w-full max-w-3xl rounded-2xl shadow-xs transition-all",
+                      "bg-muted relative z-10 mx-auto mb-4 w-full max-w-3xl rounded-2xl shadow-xs transition-all sm:mb-8",
                       dragOver
                         ? "border-primary border-2 border-dotted"
                         : "border border-solid",
@@ -592,11 +594,11 @@ export function Thread() {
                           }
                         }}
                         placeholder="Type your message..."
-                        className="field-sizing-content resize-none border-none bg-transparent p-3.5 pb-0 shadow-none ring-0 outline-none focus:ring-0 focus:outline-none"
+                        className="field-sizing-content min-h-[44px] resize-none border-none bg-transparent p-3 pb-0 text-base shadow-none ring-0 outline-none focus:ring-0 focus:outline-none sm:p-3.5"
                       />
 
-                      <div className="flex items-center gap-6 p-2 pt-4">
-                        <div>
+                      <div className="flex items-center gap-2 p-2 pt-3 sm:gap-6 sm:pt-4">
+                        <div className="hidden sm:block">
                           <div className="flex items-center space-x-2">
                             <Switch
                               id="render-tool-calls"
@@ -618,7 +620,7 @@ export function Thread() {
                             className="ml-auto"
                           >
                             <LoaderCircle className="h-4 w-4 animate-spin" />
-                            Cancel
+                            <span className="hidden sm:inline">Cancel</span>
                           </Button>
                         ) : (
                           <Button
