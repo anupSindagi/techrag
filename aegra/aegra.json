@@ -7,7 +7,7 @@
   },
   "http": {
     "cors": {
-      "allow_origins": ["https://mag7.vapp.dev"],
+      "allow_origins": ["*"],
       "allow_credentials": true,
       "allow_methods": ["*"],
       "allow_headers": ["*"],
