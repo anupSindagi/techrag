@@ -33,9 +33,17 @@ function getThreadSearchMetadata(
   }
 }
 
+// Get environment variables for defaults
+const envApiUrl: string | undefined = process.env.NEXT_PUBLIC_API_URL;
+const envAssistantId: string | undefined = process.env.NEXT_PUBLIC_ASSISTANT_ID;
+
 export function ThreadProvider({ children }: { children: ReactNode }) {
-  const [apiUrl] = useQueryState("apiUrl");
-  const [assistantId] = useQueryState("assistantId");
+  const [apiUrl] = useQueryState("apiUrl", {
+    defaultValue: envApiUrl || "",
+  });
+  const [assistantId] = useQueryState("assistantId", {
+    defaultValue: envAssistantId || "",
+  });
   const [threads, setThreads] = useState<Thread[]>([]);
   const [threadsLoading, setThreadsLoading] = useState(false);
 
