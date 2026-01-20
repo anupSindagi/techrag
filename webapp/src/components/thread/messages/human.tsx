@@ -42,7 +42,8 @@ export function HumanMessage({
   isLoading: boolean;
 }) {
   const thread = useStreamContext();
-  const meta = thread.getMessagesMetadata(message);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const meta = (thread as any).getMessagesMetadata(message);
   const parentCheckpoint = meta?.firstSeenState?.parent_checkpoint;
 
   const [isEditing, setIsEditing] = useState(false);
@@ -53,6 +54,7 @@ export function HumanMessage({
     setIsEditing(false);
 
     const newMessage: Message = { type: "human", content: value };
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     thread.submit(
       { messages: [newMessage] },
       {
@@ -60,7 +62,7 @@ export function HumanMessage({
         streamMode: ["values"],
         streamSubgraphs: true,
         streamResumable: true,
-        optimisticValues: (prev) => {
+        optimisticValues: (prev: Record<string, unknown>) => {
           const values = meta?.firstSeenState?.values;
           if (!values) return prev;
 
@@ -69,7 +71,7 @@ export function HumanMessage({
             messages: [...(values.messages ?? []), newMessage],
           };
         },
-      },
+      } as any,
     );
   };
 
@@ -128,7 +130,7 @@ export function HumanMessage({
           <BranchSwitcher
             branch={meta?.branch}
             branchOptions={meta?.branchOptions}
-            onSelect={(branch) => thread.setBranch(branch)}
+            onSelect={(branch) => (thread as any).setBranch(branch)}
             isLoading={isLoading}
           />
           <CommandBar

@@ -120,7 +120,8 @@ export function AssistantMessage({
   const hasNoAIOrToolMessages = !thread.messages.find(
     (m) => m.type === "ai" || m.type === "tool",
   );
-  const meta = message ? thread.getMessagesMetadata(message) : undefined;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const meta = message ? (thread as any).getMessagesMetadata(message) : undefined;
   const threadInterrupt = thread.interrupt;
 
   const parentCheckpoint = meta?.firstSeenState?.parent_checkpoint;
@@ -199,7 +200,7 @@ export function AssistantMessage({
               <BranchSwitcher
                 branch={meta?.branch}
                 branchOptions={meta?.branchOptions}
-                onSelect={(branch) => thread.setBranch(branch)}
+                onSelect={(branch) => (thread as any).setBranch(branch)}
                 isLoading={isLoading}
               />
               <CommandBar

@@ -119,7 +119,7 @@ export function Thread() {
   const {
     contentBlocks,
     setContentBlocks,
-    handleFileUpload,
+    handleFileUpload: _handleFileUpload,
     dropRef,
     removeBlock,
     resetBlocks: _resetBlocks,
@@ -208,20 +208,21 @@ export function Thread() {
 
     stream.submit(
       { messages: [...toolMessages, newHumanMessage], context },
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       {
         streamMode: ["values"],
         streamSubgraphs: true,
         streamResumable: true,
-        optimisticValues: (prev) => ({
+        optimisticValues: (prev: Record<string, unknown>) => ({
           ...prev,
           context,
           messages: [
-            ...(prev.messages ?? []),
+            ...((prev.messages as Message[]) ?? []),
             ...toolMessages,
             newHumanMessage,
           ],
         }),
-      },
+      } as any,
     );
 
     setInput("");
@@ -240,15 +241,16 @@ export function Thread() {
 
     stream.submit(
       { messages: [newHumanMessage] },
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       {
         streamMode: ["values"],
         streamSubgraphs: true,
         streamResumable: true,
-        optimisticValues: (prev) => ({
+        optimisticValues: (prev: Record<string, unknown>) => ({
           ...prev,
-          messages: [...(prev.messages ?? []), newHumanMessage],
+          messages: [...((prev.messages as Message[]) ?? []), newHumanMessage],
         }),
-      },
+      } as any,
     );
   };
 
@@ -258,12 +260,13 @@ export function Thread() {
     // Do this so the loading state is correct
     prevMessageLength.current = prevMessageLength.current - 1;
     setFirstTokenReceived(false);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     stream.submit(undefined, {
       checkpoint: parentCheckpoint,
       streamMode: ["values"],
       streamSubgraphs: true,
       streamResumable: true,
-    });
+    } as any);
   };
 
   const chatStarted = !!threadId || !!messages.length;
