@@ -12,7 +12,6 @@ import {
   DO_NOT_RENDER_ID_PREFIX,
   ensureToolCallsHaveResponses,
 } from "@/lib/ensure-tool-responses";
-import { LangGraphLogoSVG } from "../icons/langgraph";
 import { TooltipIconButton } from "./tooltip-icon-button";
 import {
   ArrowDown,
@@ -21,7 +20,6 @@ import {
   PanelRightClose,
   SquarePen,
   XIcon,
-  Plus,
 } from "lucide-react";
 import { useQueryState, parseAsBoolean } from "nuqs";
 import { StickToBottom, useStickToBottomContext } from "use-stick-to-bottom";
@@ -30,13 +28,6 @@ import { toast } from "sonner";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
 import { Label } from "../ui/label";
 import { Switch } from "../ui/switch";
-import { GitHubSVG } from "../icons/github";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "../ui/tooltip";
 import { useFileUpload } from "@/hooks/use-file-upload";
 import { ContentBlocksPreview } from "./ContentBlocksPreview";
 import {
@@ -45,6 +36,30 @@ import {
   ArtifactTitle,
   useArtifactContext,
 } from "./artifact";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetDescription,
+} from "../ui/sheet";
+import dynamic from "next/dynamic";
+
+// Dynamically import GraphVisualization with SSR disabled (uses browser-only APIs)
+const GraphVisualization = dynamic(
+  () =>
+    import("@/components/graph/GraphVisualization").then(
+      (mod) => mod.GraphVisualization
+    ),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="flex h-[400px] items-center justify-center rounded-lg border border-gray-200 bg-gray-50">
+        <div className="text-gray-500">Loading graph...</div>
+      </div>
+    ),
+  }
+);
 
 function StickyToBottomContent(props: {
   content: ReactNode;
@@ -87,30 +102,6 @@ function ScrollToBottom(props: { className?: string }) {
   );
 }
 
-function OpenGitHubRepo() {
-  return (
-    <TooltipProvider>
-      <Tooltip>
-        <TooltipTrigger asChild>
-          <a
-            href="https://github.com/langchain-ai/agent-chat-ui"
-            target="_blank"
-            className="flex items-center justify-center"
-          >
-            <GitHubSVG
-              width="24"
-              height="24"
-            />
-          </a>
-        </TooltipTrigger>
-        <TooltipContent side="left">
-          <p>Open GitHub repo</p>
-        </TooltipContent>
-      </Tooltip>
-    </TooltipProvider>
-  );
-}
-
 export function Thread() {
   const [artifactContext, setArtifactContext] = useArtifactContext();
   const [artifactOpen, closeArtifact] = useArtifactOpen();
@@ -136,6 +127,7 @@ export function Thread() {
     handlePaste,
   } = useFileUpload();
   const [firstTokenReceived, setFirstTokenReceived] = useState(false);
+  const [showGraph, setShowGraph] = useState(false);
   const isLargeScreen = useMediaQuery("(min-width: 1024px)");
 
   const stream = useStreamContext();
@@ -236,6 +228,30 @@ export function Thread() {
     setContentBlocks([]);
   };
 
+  const handleSuggestedPrompt = (prompt: string) => {
+    if (isLoading) return;
+    setFirstTokenReceived(false);
+
+    const newHumanMessage: Message = {
+      id: uuidv4(),
+      type: "human",
+      content: [{ type: "text", text: prompt }] as Message["content"],
+    };
+
+    stream.submit(
+      { messages: [newHumanMessage] },
+      {
+        streamMode: ["values"],
+        streamSubgraphs: true,
+        streamResumable: true,
+        optimisticValues: (prev) => ({
+          ...prev,
+          messages: [...(prev.messages ?? []), newHumanMessage],
+        }),
+      },
+    );
+  };
+
   const handleRegenerate = (
     parentCheckpoint: Checkpoint | null | undefined,
   ) => {
@@ -325,9 +341,6 @@ export function Thread() {
                   </Button>
                 )}
               </div>
-              <div className="absolute top-2 right-4 flex items-center">
-                <OpenGitHubRepo />
-              </div>
             </div>
           )}
           {chatStarted && (
@@ -360,20 +373,13 @@ export function Thread() {
                     damping: 30,
                   }}
                 >
-                  <LangGraphLogoSVG
-                    width={32}
-                    height={32}
-                  />
                   <span className="text-xl font-semibold tracking-tight">
-                    Agent Chat
+                    Mag7 Agent
                   </span>
                 </motion.button>
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="flex items-center">
-                  <OpenGitHubRepo />
-                </div>
                 <TooltipIconButton
                   size="lg"
                   className="p-4"
@@ -435,11 +441,114 @@ export function Thread() {
               footer={
                 <div className="sticky bottom-0 flex flex-col items-center gap-8 bg-white">
                   {!chatStarted && (
-                    <div className="flex items-center gap-3">
-                      <LangGraphLogoSVG className="h-8 flex-shrink-0" />
-                      <h1 className="text-2xl font-semibold tracking-tight">
-                        Agent Chat
-                      </h1>
+                    <div className="flex w-full max-w-3xl flex-col items-center gap-6">
+                      <div className="flex flex-col items-center gap-4 text-center">
+                        <h1 className="text-2xl font-semibold tracking-tight">
+                          Mag7 Agent
+                        </h1>
+                        <p className="text-sm text-gray-600">
+                          AI-powered analysis of SEC 10-K filings for the
+                          Magnificent 7 companies: Apple, Microsoft, Alphabet,
+                          Amazon, NVIDIA, Meta, and Tesla.
+                        </p>
+                        <ul className="text-left text-xs text-gray-500 space-y-1">
+                          <li>
+                            <span className="font-medium text-gray-700">Data:</span>{" "}
+                            Latest SEC 10-K Annual Filings from all Mag7 companies
+                          </li>
+                          <li>
+                            <span className="font-medium text-gray-700">Knowledge Graph:</span>{" "}
+                            Neo4j-powered with ~1,500 nodes and ~10,000 relationships, ingested using Graphiti
+                          </li>
+                          <li>
+                            <span className="font-medium text-gray-700">Agent:</span>{" "}
+                            LangGraph agent with Graphiti hybrid graph search and node search tools
+                          </li>
+                        </ul>
+                      </div>
+
+                      {/* Suggested Prompts */}
+                      <div className="flex w-full flex-col gap-2">
+                        <p className="text-xs text-gray-400 text-center">Try asking:</p>
+                        <div className="flex flex-col gap-2 sm:flex-row">
+                          <button
+                            onClick={() =>
+                              handleSuggestedPrompt(
+                                "Compare the cash on balance sheet between all the Magnificent 7 companies"
+                              )
+                            }
+                            className="flex-1 rounded-lg border border-gray-200 bg-white px-4 py-3 text-left text-sm text-gray-700 shadow-sm transition-all hover:border-indigo-400 hover:bg-gray-50"
+                          >
+                            Compare the cash on balance sheet between all the Magnificent 7 companies
+                          </button>
+                          <button
+                            onClick={() =>
+                              handleSuggestedPrompt(
+                                "What are some major legal concerns faced by the Magnificent 7 companies?"
+                              )
+                            }
+                            className="flex-1 rounded-lg border border-gray-200 bg-white px-4 py-3 text-left text-sm text-gray-700 shadow-sm transition-all hover:border-indigo-400 hover:bg-gray-50"
+                          >
+                            What are some major legal concerns faced by the Magnificent 7 companies?
+                          </button>
+                        </div>
+                      </div>
+
+                      {/* Play with Knowledge Graph Section */}
+                      <button
+                        onClick={() => setShowGraph(true)}
+                        className="group flex cursor-pointer items-center gap-2 rounded-lg border border-gray-200 bg-white px-4 py-3 shadow-sm transition-all hover:border-indigo-400 hover:bg-gray-50"
+                      >
+                        <svg
+                          className="h-5 w-5 text-indigo-500"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <circle cx="12" cy="12" r="3" />
+                          <circle cx="4" cy="6" r="2" />
+                          <circle cx="20" cy="6" r="2" />
+                          <circle cx="4" cy="18" r="2" />
+                          <circle cx="20" cy="18" r="2" />
+                          <path d="M12 9V6M12 15v3M9.5 10.5L6 8M14.5 10.5L18 8M9.5 13.5L6 16M14.5 13.5L18 16" />
+                        </svg>
+                        <span className="text-sm font-medium text-gray-700">
+                          Play with the Knowledge Graph
+                        </span>
+                      </button>
+
+                      {/* Knowledge Graph Modal */}
+                      <Sheet open={showGraph} onOpenChange={setShowGraph}>
+                        <SheetContent
+                          side="bottom"
+                          className="h-[85vh] sm:max-w-full"
+                        >
+                          <SheetHeader>
+                            <SheetTitle className="flex items-center gap-2">
+                              <svg
+                                className="h-5 w-5 text-indigo-500"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <circle cx="12" cy="12" r="3" />
+                                <circle cx="4" cy="6" r="2" />
+                                <circle cx="20" cy="6" r="2" />
+                                <circle cx="4" cy="18" r="2" />
+                                <circle cx="20" cy="18" r="2" />
+                                <path d="M12 9V6M12 15v3M9.5 10.5L6 8M14.5 10.5L18 8M9.5 13.5L6 16M14.5 13.5L18 16" />
+                              </svg>
+                              Knowledge Graph Explorer
+                            </SheetTitle>
+                            <SheetDescription>
+                              Explore the entity-relationship graph extracted from SEC 10-K filings. Limited to 100 random nodes for performance. Drag nodes to interact.
+                            </SheetDescription>
+                          </SheetHeader>
+                          <div className="flex-1 overflow-hidden px-4 pb-4">
+                            <GraphVisualization />
+                          </div>
+                        </SheetContent>
+                      </Sheet>
                     </div>
                   )}
 
@@ -499,23 +608,6 @@ export function Thread() {
                             </Label>
                           </div>
                         </div>
-                        <Label
-                          htmlFor="file-input"
-                          className="flex cursor-pointer items-center gap-2"
-                        >
-                          <Plus className="size-5 text-gray-600" />
-                          <span className="text-sm text-gray-600">
-                            Upload PDF or Image
-                          </span>
-                        </Label>
-                        <input
-                          id="file-input"
-                          type="file"
-                          onChange={handleFileUpload}
-                          multiple
-                          accept="image/jpeg,image/png,image/gif,image/webp,application/pdf"
-                          className="hidden"
-                        />
                         {stream.isLoading ? (
                           <Button
                             key="stop"

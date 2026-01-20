@@ -11,8 +11,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Agent Chat",
-  description: "Agent Chat UX by LangChain",
+  title: "Mag7 Agent",
+  description:
+    "AI-powered SEC 10-K filing analysis for Magnificent 7 companies using Neo4j knowledge graph and LangGraph agents",
 };
 
 export default function RootLayout({

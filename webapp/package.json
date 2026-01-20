@@ -1,5 +1,5 @@
 {
-  "name": "agent-chat-ui",
+  "name": "mag7-agent",
   "readme": "https://github.com/langchain-ai/agent-chat-ui/blob/main/README.md",
   "homepage": "https://agentchat.vercel.app",
   "repository": {
@@ -22,6 +22,7 @@
     "@langchain/core": "^1.0.2",
     "@langchain/langgraph": "^1.0.1",
     "@langchain/langgraph-sdk": "^1.0.0",
+    "@neo4j-nvl/react": "^1.0.0",
     "@radix-ui/react-avatar": "^1.1.3",
     "@radix-ui/react-dialog": "^1.1.6",
     "@radix-ui/react-label": "^2.1.2",
